@@ -1,0 +1,45 @@
+
+# SEO settings
+title: "Markdown Guide"
+description: "A concise introduction to Markdown designed for novice and intermediate users."
+keywords: "Markdown, Markdown language, Markdown syntax, Markdown guide, Markdown cheatsheet, Markdown help, Markdown tutorial"
+url: https://markdownguide.org # site url
+baseurl: "" # apply repo name if use it under gh-pages branch
+# baseurl: null # apply null if repo name is something like username.github.io
+
+repo: http://github.com/mattcone/markdown-guide
+comments: false
+
+# Build settings
+permalink   : /:year/:title/
+markdown    : kramdown
+highlighter : rouge
+
+source: ./
+destination: ./_site
+
+# Sass configuration
+sass:
+  sass_dir: assets/scss
+  style: compressed # expanded
+
+# Author settings
+author:
+  name     : "Matt Cone"
+
+# social settings
+og_locale: "en_US"
+
+gems:
+  - bourbon
+
+kramdown:
+  auto_ids:       true
+  toc_levels:     1..3
+
+# navbar pages
+navbar:
+  - slug : about
+    title: About
+
+exclude: ["gulp", "node_modules", "bower", "bower_components", "config.rb", "src", "Gemfile", "Gemfile.lock", ".rvmrc", ".rbenv-version", "package.json", "gulpfile.js", "README.md", "Rakefile", "changelog.md"]

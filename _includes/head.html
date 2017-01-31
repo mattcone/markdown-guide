@@ -1,0 +1,112 @@
+<head>
+  <meta charset="utf-8">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  {% assign page_title = '' %}
+  {% if page.title == "Home" %}
+      {% capture page_title %}
+        {{ site.title }}{{ site.title2 }}
+        {%if paginator and paginator.page != 1 %} - Página {{ paginator.page }}{% endif %}
+      {% endcapture %}
+  {% else %}
+      {% capture page_title %}
+          {%if page.slug == 'category' %}Categoria: {% endif %}
+          {%if page.slug == 'tag' %}Tag: {% endif %} {{ page.title }} | {{ site.title }}{{ site.title2}}
+      {% endcapture %}
+  {% endif %}
+  {% capture page_title %}
+      {{ page_title | strip | rstrip | lstrip | escape | strip_newlines }}
+  {% endcapture %}
+
+  <title>{{ page_title }}</title>
+
+  {% assign page_description = '' %}
+  {% capture page_description %}
+      {% if page.description %}
+          {{ page.description | strip_html | strip | rstrip | strip_newlines | truncate: 160 }}
+      {% else %}
+          {{ site.description }}
+      {% endif %}
+      {%if paginator and paginator.page != 1 %} - Página {{ paginator.page }} {% endif %}
+      {%if page.slug == 'category' %} Categoria: {{ page.title }}{% endif %}
+      {%if page.slug == 'tag' %} Tag: {{ page.title }}{% endif %}
+  {% endcapture %}
+
+  {% capture page_description %}
+      {{ page_description | strip | rstrip | lstrip | escape | strip_newlines }}
+  {% endcapture %}
+
+  <meta name="description" content="{{ page_description }}">
+  <meta name="keywords" content="{% if page.keywords %}{{ page.keywords }}{% else %}{{ site.keywords }}{% endif %}">
+
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+
+  {% assign page_image = '' %}
+  {% capture page_image %}
+      {% if page.cover %}
+          {{ page.cover | prepend: site.baseurl | prepend: site.url }}
+      {% else %}
+          {{ site.cover | prepend: site.baseurl | prepend: site.url }}
+      {% endif %}
+  {% endcapture %}
+  {% capture page_image %}{{ page_image | strip | rstrip | lstrip | escape | strip_newlines }}{% endcapture %}
+
+  <!-- Social: Facebook / Open Graph -->
+{% if page.id %}
+  <meta property="og:type" content="article">
+  <meta property="article:author" content="{{ site.author.name }}">
+  <meta property="article:section" content="{{ page.categories | join: ', ' }}">
+  <meta property="article:tag" content="{{ page.keywords }}">
+  <meta property="article:published_time" content="{{ page.date }}">
+{% else%}
+  <meta property="og:type" content="website">
+{% endif %}
+  <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+  <meta property="og:title" content="{{ page_title }}">
+  <meta property="og:image" content="{{ page_image }}">
+  <meta property="og:description" content="{{ page_description }}">
+  <meta property="og:site_name" content="{{ site.author.name }}">
+  <meta property="og:locale" content="{{ site.og_locale }}">
+
+  <!-- Social: Twitter -->
+  <meta name="twitter:card" content="{{ site.twitter_card }}">
+  <meta name="twitter:site" content="{{ site.twitter_site }}">
+  <meta name="twitter:title" content="{{ page_title }}">
+  <meta name="twitter:description" content="{{ page_description }}">
+  <meta name="twitter:image:src" content="{{ page_image }}">
+
+  <!-- Social: Google+ / Schema.org  -->
+  <meta itemprop="name" content="{{ page_title }}">
+  <meta itemprop="description" content="{{ page_description }}">
+  <meta itemprop="image" content="{{ page_image }}">
+
+  <!-- rel prev and next -->
+  {% if paginator.previous_page %}
+    <link rel="prev" href="{{ paginator.previous_page_path | prepend: site.baseurl | prepend: site.url }}">
+  {% endif %}
+  {% if paginator.next_page %}
+    <link rel="next" href="{{ paginator.next_page_path | prepend: site.baseurl | prepend: site.url }}">
+  {% endif %}
+
+  <link rel="stylesheet" href="{{ "/assets/css/main.css" | prepend: site.baseurl }}">
+  <link rel="stylesheet" href="{{ "/assets/css/font-awesome.min.css" | prepend: site.baseurl }}">
+
+  <!-- Canonical link tag -->
+  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+  <link rel="alternate" type="application/rss+xml" title="{{ site.title }}{{ site.title2 }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
+
+  <!-- Google Analytics -->
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-91004488-1', 'auto');
+    ga('send', 'pageview');
+
+  </script>
+</head>

@@ -1,6 +1,6 @@
 # Markdown Guide
 
-[The Markdown Guide](https://markdownguide.org) is a concise introduction to Markdown designed for novice and intermediate users. It was born out of frustration with existing Markdown references that are needlessly verbose.
+[The Markdown Guide](https://www.markdownguide.org) is a concise introduction to Markdown designed for novice and intermediate users. It was born out of frustration with existing Markdown references that are needlessly verbose.
 
 ## Contributing
 

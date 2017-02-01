@@ -29,7 +29,7 @@ For instance, to denote a heading, you'd add a number sign before it (e.g., `# H
 </center>
 <br/>
 
-You can add Markdown formatting elements to a plaintext file using a text editor application. Or you can use one the many Markdown applications for macOS, Windows, Linux, iOS, and Android operating systems. There are also several web-based applications specifically designed for writing in Markdown.
+You can add Markdown formatting elements to a plaintext file using a text editor application. Or you can use one of the many Markdown applications for macOS, Windows, Linux, iOS, and Android operating systems. There are also several web-based applications specifically designed for writing in Markdown.
 
 Depending on the application you use, you won't necessarily be able to preview the formatted document in real time. But that's okay. [According to Gruber](http://daringfireball.net/projects/markdown/), Markdown syntax is designed to be readable and unobtrusive, so the text in Markdown files can be read even if it isn't rendered.
 

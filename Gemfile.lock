@@ -8,7 +8,7 @@ GEM
       tzinfo (~> 1.1)
     addressable (2.5.0)
       public_suffix (~> 2.0, >= 2.0.2)
-    bourbon (4.2.7)
+    bourbon (4.3.0)
       sass (~> 3.4)
       thor (~> 0.19)
     colorator (1.1.0)
@@ -51,16 +51,15 @@ GEM
     mercenary (0.3.6)
     mini_portile2 (2.1.0)
     minitest (5.10.1)
+    multi_json (1.12.1)
     nokogiri (1.7.0.1)
       mini_portile2 (~> 2.1.0)
     parallel (1.10.0)
     pathutil (0.14.0)
       forwardable-extended (~> 2.6)
-    posix-spawn (0.3.13)
     public_suffix (2.0.5)
-    pygments.rb (0.6.3)
-      posix-spawn (~> 0.3.6)
-      yajl-ruby (~> 1.2.0)
+    pygments.rb (1.1.1)
+      multi_json (>= 1.0.0)
     rb-fsevent (0.9.8)
     rb-inotify (0.9.8)
       ffi (>= 0.5.0)
@@ -73,17 +72,16 @@ GEM
       ethon (>= 0.8.0)
     tzinfo (1.2.2)
       thread_safe (~> 0.1)
-    yajl-ruby (1.2.1)
     yell (2.0.7)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
-  bourbon (~> 4.2, >= 4.2.6)
+  bourbon (~> 4.3.0)
   html-proofer
   jekyll (~> 3.4.0)
-  pygments.rb (~> 0.6.3)
+  pygments.rb (~> 1.1.1)
   sass (~> 3.4, >= 3.4.20)
 
 BUNDLED WITH

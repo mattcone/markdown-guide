@@ -60,6 +60,7 @@ GEM
     public_suffix (2.0.5)
     pygments.rb (1.1.1)
       multi_json (>= 1.0.0)
+    rake (12.0.0)
     rb-fsevent (0.9.8)
     rb-inotify (0.9.8)
       ffi (>= 0.5.0)
@@ -82,6 +83,7 @@ DEPENDENCIES
   html-proofer
   jekyll (~> 3.4.0)
   pygments.rb (~> 1.1.1)
+  rake
   sass (~> 3.4, >= 3.4.20)
 
 BUNDLED WITH

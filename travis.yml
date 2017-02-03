@@ -1,0 +1,8 @@
+language: ruby
+sudo: false
+rvm:
+- 2.3.1
+script: bundle exec rake test
+env:
+  global:
+  - NOKOGIRI_USE_SYSTEM_LIBRARIES=true

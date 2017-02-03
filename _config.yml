@@ -42,4 +42,4 @@ navbar:
   - slug : about
     title: About
 
-exclude: ["gulp", "node_modules", "bower", "bower_components", "config.rb", "src", "Gemfile", "Gemfile.lock", ".rvmrc", ".rbenv-version", "package.json", "gulpfile.js", "README.md", "LICENSE.txt", "Rakefile", "changelog.md"]
+exclude: ["vender", "gulp", "node_modules", "bower", "bower_components", "config.rb", "src", "Gemfile", "Gemfile.lock", ".rvmrc", ".rbenv-version", "package.json", "gulpfile.js", "README.md", "LICENSE.txt", "Rakefile", "changelog.md"]

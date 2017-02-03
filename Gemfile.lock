@@ -27,7 +27,7 @@ GEM
       parallel (~> 1.3)
       typhoeus (~> 0.7)
       yell (~> 2.0)
-    i18n (0.7.0)
+    i18n (0.8.0)
     jekyll (3.4.0)
       addressable (~> 2.4)
       colorator (~> 1.0)
@@ -82,9 +82,9 @@ PLATFORMS
 DEPENDENCIES
   bourbon (~> 4.2, >= 4.2.6)
   html-proofer
-  jekyll (~> 3.0, >= 3.0.1)
+  jekyll (~> 3.4.0)
   pygments.rb (~> 0.6.3)
   sass (~> 3.4, >= 3.4.20)
 
 BUNDLED WITH
-   1.13.6
+   1.14.3

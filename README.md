@@ -1,5 +1,7 @@
 # Markdown Guide
 
+[![Dependency Status](https://gemnasium.com/badges/github.com/mattcone/markdown-guide.svg)](https://gemnasium.com/github.com/mattcone/markdown-guide)
+
 [The Markdown Guide](https://www.markdownguide.org) is a concise introduction to Markdown designed for novice and intermediate users. It was born out of frustration with existing Markdown references that are needlessly verbose.
 
 ## Contributing

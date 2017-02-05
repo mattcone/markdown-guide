@@ -281,3 +281,95 @@ To create an unordered list, add dashes (`-`), asterisks (`*`), or plus signs (`
     </tr>
   </tbody>
 </table>
+
+#### Adding Elements in Lists
+
+To add another element in a list while preserving the continuity of the list, indent the element four spaces or one tab, as shown in the following examples.
+
+##### Paragraphs
+
+```
+*   This is the first list item.
+*   Here's the second list item.
+
+    I need to add another paragraph below the second list item.
+
+*   And here's the third list item.
+```
+
+The rendered output looks like this:
+
+*   This is the first list item.
+*   Here's the second list item.
+
+    I need to add another paragraph below the second list item.
+
+*   And here's the third list item.
+
+##### Blockquotes
+
+```
+*   This is the first list item.
+*   Here's the second list item.
+
+    > A blockquote would look great below the second list item.
+
+*   And here's the third list item.
+```
+
+The rendered output looks like this:
+
+*   This is the first list item.
+*   Here's the second list item.
+
+    > A blockquote would look great below the second list item.
+
+*   And here's the third list item.
+
+##### Code
+
+Code normally needs to be indented four spaces or one tab, so when it's in a list, it needs to be indented eight spaces or two tabs.
+
+```
+1.  Open the file.
+2.  Find the following code block on line 21:
+
+        <html>
+          <head>
+            <title>Test</title>
+          </head>
+
+3.  Update the title to match the name of your website.
+```
+
+The rendered output looks like this:
+
+1.  Open the file.
+2.  Find the following code block on line 21:
+
+        <html>
+          <head>
+            <title>Test</title>
+          </head>
+
+3.  Update the title to match the name of your website.
+
+##### Images
+
+```
+1.  Open the file containing the Linux mascot.
+2.  Marvel at its beauty.
+
+    ![Tux, the Linux mascot](/assets/images/tux.png)
+
+3.  Close the file.
+```
+
+The rendered output looks like this:
+
+1.  Open the file containing the Linux mascot.
+2.  Marvel at its beauty.
+
+    ![Tux, the Linux mascot](/assets/images/tux.png)
+
+3.  Close the file.

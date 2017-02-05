@@ -43,3 +43,29 @@ To create a heading, add number signs (`#`) in front of a word or phrase. The nu
     </tr>
   </tbody>
 </table>
+
+#### Alternate Syntax
+
+Alternatively, on the line below the text, add any number of `==` characters for heading level 1 or `--` characters for heading level 2.
+
+<table>
+  <thead>
+    <tr>
+      <th>Markdown</th>
+      <th>HTML</th>
+      <th>Rendered Output</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code class="highlighter-rouge">Heading level 1<br/>===============</code></td>
+      <td><code class="highlighter-rouge">&lt;h1&gt;Heading level 1&lt;/h1&gt;</code></td>
+      <td><h1 class="markdown">Heading level 1</h1></td>
+    </tr>
+    <tr>
+      <td><code class="highlighter-rouge">Heading level 2<br/>---------------</code></td>
+      <td><code class="highlighter-rouge">&lt;h2&gt;Heading level 2&lt;/h2&gt;</code></td>
+      <td><h2 class="markdown">Heading level 2</h2></td>
+    </tr>
+  </tbody>
+</table>

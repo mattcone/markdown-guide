@@ -13,7 +13,7 @@ To bold a word or phrase, add two asterisks or underscores before and after the 
 
 #### Italic
 
-To italicize a word or phrase, add one asterisk or underscore before and after the word or phrase:
+To italicize a word or phrase, add one asterisk or underscore before and after the word or phrase.
 
 | Markdown | HTML | Rendered Output |
 | -------- | ---- | --------------- |

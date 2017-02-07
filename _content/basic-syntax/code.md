@@ -8,7 +8,7 @@ To denote a word or phrase as code, enclose it in tick marks (`` ` ``).
 
 #### Code Blocks
 
-To create code blocks, indent every line of the block by at least four spaces or one tab:
+To create code blocks, indent every line of the block by at least four spaces or one tab.
 
 ```
     html

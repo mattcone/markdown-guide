@@ -28,7 +28,7 @@ To emphasize text with bold and italics at the same time, add three asterisks or
 
 | Markdown | HTML | Rendered Output |
 | -------- | ---- | --------------- |
-| `This text is ***really important***.` | `This text is the <strong><em>really important</em></strong>.` | This text is ***really important***. |
-| `This text is ___really important___.` | `This text is the <strong><em>really important</em></strong>.` | This text is ___really important___. |
-| `This text is __*really important*__.` | `This text is the <strong><em>really important</em></strong>.` | This text is __*really important*__. |
-| `This text is **_really important_**.` | `This text is the <strong><em>really important</em></strong>.` | This text is **_really important_**. |
+| `This text is ***really important***.` | `This text is <strong><em>really important</em></strong>.` | This text is ***really important***. |
+| `This text is ___really important___.` | `This text is <strong><em>really important</em></strong>.` | This text is ___really important___. |
+| `This text is __*really important*__.` | `This text is <strong><em>really important</em></strong>.` | This text is __*really important*__. |
+| `This text is **_really important_**.` | `This text is <strong><em>really important</em></strong>.` | This text is **_really important_**. |

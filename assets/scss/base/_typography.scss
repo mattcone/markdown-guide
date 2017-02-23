@@ -174,3 +174,19 @@ ol {
     list-style-position: outside;
     list-style-image: none;
 }
+
+.anchorjs-link {
+    &.link {
+      color: $blue-color;
+      padding-bottom: .05em;
+      border-bottom: 0px solid transparent;
+
+      @include transition(border 300ms linear);
+
+      &:hover,
+      &:focus,
+      &:active {
+        border-bottom: 0px solid $blue-color;
+      }
+    }
+}

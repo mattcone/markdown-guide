@@ -2,3 +2,5 @@
   X-Frame-Options: DENY
   X-XSS-Protection: 1; mode=block
   X-Content-Type-Options: nosniff
+  Content-Security-Policy: default-src 'none';
+                             img-src 'self'; object-src 'none'; script-src 'self' https://www.google-analytics.com https://d33wubrfki0l68.cloudfront.net; style-src 'self'

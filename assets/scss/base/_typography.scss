@@ -191,6 +191,22 @@ ol {
     }
 }
 
+.no-underline {
+    &.link {
+      color: $blue-color;
+      padding-bottom: .05em;
+      border-bottom: 0px solid transparent;
+
+      @include transition(border 300ms linear);
+
+      &:hover,
+      &:focus,
+      &:active {
+        border-bottom: 0px solid $blue-color;
+      }
+    }
+}
+
 .alert-info {
     color: #31708f;
     background-color: #d9edf7;

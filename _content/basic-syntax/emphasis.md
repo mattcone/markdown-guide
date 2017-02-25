@@ -22,7 +22,7 @@ To italicize text, add one asterisk or underscore before and after a word or phr
 | `Italicized text is the _cat's meow_.` | `Italicized text is the <em>cat's meow</em>.` | Italicized text is the _cat's meow_. |
 | `A*cat*meow` | `A<em>cat</em>meow` | A*cat*meow
 
-#### Bold and italic
+#### Bold and Italic
 
 To emphasize text with bold and italics at the same time, add three asterisks or underscores before and after a word or phrase.
 

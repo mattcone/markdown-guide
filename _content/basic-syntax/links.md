@@ -24,7 +24,7 @@ The rendered output looks like this:
 <https://www.markdownguide.org><br/>
 <fake@example.com>
 
-#### Disabling Automatic Linking
+#### Disabling Automatic URL Linking
 
 Some Markdown processors automatically turn URLs into links. That means if you type http://www.example.com, your Markdown processor might automatically turn it into a link even though you haven't used brackets. If this isn't what you want, you can remove the link by [denoting the URL as code](#code-1) with tick marks.
 

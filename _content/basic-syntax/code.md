@@ -11,15 +11,15 @@ To denote a word or phrase as code, enclose it in tick marks (`` ` ``).
 To create code blocks, indent every line of the block by at least four spaces or one tab.
 
 ```
-    html
-      head
-      /head
-    /html
+    <html>
+      <head>
+      </head>
+    </html>
 ```
 
 The rendered output looks like this:
 
-    html
-      head
-      /head
-    /html
+    <html>
+      <head>
+      </head>
+    </html>

@@ -4,7 +4,11 @@ Dillinger makes writing in Markdown easy because it hides the stuff happening be
 
 The short answer is that you need a *Markdown application* capable of processing the Markdown file. There are lots of applications available — everything from simple scripts to desktop applications that look like Microsoft Word. Despite their visual differences, all of the applications do the same thing. Like Dillinger, they all convert Markdown-formatted text to HTML so it can be displayed in web browsers.
 
-Markdown applications use something called a *Markdown parser* to take the Markdown-formatted text and output it to HTML format. At that point, your document can be viewed in a web browser or combined with a style sheet and printed. You can see a visual representation of this process below. (Note that the Markdown application and parser are actually two separate components. For the sake of brevity, we've combined them into one element in the figure below.)
+Markdown applications use something called a *Markdown parser* to take the Markdown-formatted text and output it to HTML format. At that point, your document can be viewed in a web browser or combined with a style sheet and printed. You can see a visual representation of this process below.
+
+<div class="alert alert-info">
+  <i class="fa fa-info-circle" aria-hidden="true"></i> <strong>Note:</strong> The Markdown application and parser are two separate components. For the sake of brevity, we've combined them into one element in the figure below.
+</div>
 
 <br/>
 <center>
@@ -15,7 +19,7 @@ Markdown applications use something called a *Markdown parser* to take the Markd
 To summarize, this is a four-part process:
 
 1. Create a Markdown file using a text editor or a dedicated Markdown application. The file should have an `.md` or `.markdown` extension.
-2. Open the Markdown file in a Markdown application that can process Markdown.
+2. Open the Markdown file in a Markdown application.
 3. Use the Markdown application to convert the Markdown file to an HTML document.
 4. View the HTML file in a web browser or use the Markdown application to convert it to another file format, like PDF.
 

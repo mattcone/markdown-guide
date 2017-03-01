@@ -1,6 +1,6 @@
 ### Tables
 
-To create a table, use three or more hyphens (`---`) to create each column's header, and use pipes (`|`) to separate each column. You can optionally add pipes on either end of the table.
+To add a table, use three or more hyphens (`---`) to create each column's header, and use pipes (`|`) to separate each column. You can optionally add pipes on either end of the table.
 
 ```
 | Syntax      | Description |
@@ -50,6 +50,6 @@ The rendered output looks like this:
 
 #### Formatting Text in Tables
 
-You can use some formatting syntax within tables. For example, you can add [links](#links), [code](#code-1) (words or phrases only, not [code blocks](#code-blocks)), and [emphasis](#emphasis).
+You can format the text within tables. For example, you can add [links](#links), [code](#code-1) (words or phrases only, not [code blocks](#code-blocks)), and [emphasis](#emphasis).
 
 You can't add headings, blockquotes, lists, horizontal rules, images, or HTML tags.

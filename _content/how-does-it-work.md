@@ -4,10 +4,10 @@ Dillinger makes writing in Markdown easy because it hides the stuff happening be
 
 The short answer is that you need a *Markdown application* capable of processing the Markdown file. There are lots of applications available — everything from simple scripts to desktop applications that look like Microsoft Word. Despite their visual differences, all of the applications do the same thing. Like Dillinger, they all convert Markdown-formatted text to HTML so it can be displayed in web browsers.
 
-Markdown applications use something called a *Markdown parser* to take the Markdown-formatted text and output it to HTML format. At that point, your document can be viewed in a web browser or combined with a style sheet and printed. You can see a visual representation of this process below.
+Markdown applications use something called a *Markdown processor* (also commonly referred to as a "parser" or an "implementation") to take the Markdown-formatted text and output it to HTML format. At that point, your document can be viewed in a web browser or combined with a style sheet and printed. You can see a visual representation of this process below.
 
 <div class="alert alert-info">
-  <i class="fa fa-info-circle" aria-hidden="true"></i> <strong>Note:</strong> The Markdown application and parser are two separate components. For the sake of brevity, we've combined them into one element in the figure below.
+  <i class="fa fa-info-circle" aria-hidden="true"></i> <strong>Note:</strong> The Markdown application and processor are two separate components. For the sake of brevity, we've combined them into one element ("Markdown App") in the figure below.
 </div>
 
 <br/>

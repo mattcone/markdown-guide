@@ -24,6 +24,20 @@ The rendered output looks like this:
 <https://www.markdownguide.org><br/>
 <fake@example.com>
 
+#### Formatting Links
+
+To [emphasize](#emphasis) links, add asterisks before and after the brackets and parentheses.
+
+```
+I love supporting **[EFF](https://eff.org)**.
+This is the *[Markdown Guide](https://markdownguide.org)*.
+```
+
+The rendered output looks like this:
+
+I love supporting the **[EFF](https://eff.org)**.<br/>
+This is the *[Markdown Guide](https://markdownguide.org)*.
+
 #### Reference-style Links
 
 Reference-style links are a special kind of link that make URLs easier to display and read in Markdown. Reference-style links are constructed in two parts: the part you keep inline with your text and the part you store somewhere else in the file to keep the text easy to read.
@@ -32,12 +46,12 @@ Reference-style links are a special kind of link that make URLs easier to displa
 
 The first part of a reference-style link is formatted with two sets of brackets. The first set of brackets surrounds the text that should appear linked. The second set of brackets displays a label used to point to the link you're storing elsewhere in your document.
 
-Although not required, you can include a space between the first and second set of brackets. Also, the label in the second set of brackets is not case sensitive and can include letters, numbers, spaces, or punctuation. 
+Although not required, you can include a space between the first and second set of brackets. Also, the label in the second set of brackets is not case sensitive and can include letters, numbers, spaces, or punctuation.
 
 This means the following example formats are all roughly equivalent for the first part of the link:
 
 - `[hobbit-hole][1]`
-- `[hobbit-hole] [1]` 
+- `[hobbit-hole] [1]`
 - `[hobbit-hole][a]`
 - `[hobbit-hole][A]`
 
@@ -61,21 +75,21 @@ This means the following example formats are all roughly equivalent for the seco
 
 You can place this second part of the link anywhere in your Markdown document. Some people place them immediately after the paragraph in which they appear while other people place them at the end of the document (like endnotes or footnotes).
 
-##### An Example Putting the Parts Together 
+##### An Example Putting the Parts Together
 
 Say you add a URL as a [standard URL link](#urls-and-email-addresses) to a paragraph and it looks like this in Markdown:
 
 ```
 In a hole in the ground there lived a hobbit. Not a nasty, dirty, wet hole, filled with the ends
-of worms and an oozy smell, nor yet a dry, bare, sandy hole with nothing in it to sit down on or to 
+of worms and an oozy smell, nor yet a dry, bare, sandy hole with nothing in it to sit down on or to
 eat: it was a hobbit-hole <https://en.wikipedia.org/wiki/Hobbit#Lifestyle>, and that means comfort.
 ```
 
 Though it may point to interesting additional information, the URL as displayed really doesn't add much to the existing raw text other than making it harder to read. To fix that, you could format the URL like this instead:
 
 ```
-In a hole in the ground there lived a hobbit. Not a nasty, dirty, wet hole, filled with the ends 
-of worms and an oozy smell, nor yet a dry, bare, sandy hole with nothing in it to sit down on or to 
+In a hole in the ground there lived a hobbit. Not a nasty, dirty, wet hole, filled with the ends
+of worms and an oozy smell, nor yet a dry, bare, sandy hole with nothing in it to sit down on or to
 eat: it was a [hobbit-hole][1], and that means comfort.
 
 [1]: <https://en.wikipedia.org/wiki/Hobbit#Lifestyle> "Hobbit lifestyles"

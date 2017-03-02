@@ -57,7 +57,7 @@ Blockquotes can contain other Markdown formatted elements. Not all elements can 
 
 The rendered output looks like this:
 
-> #### The quarterly results look good!
+> <h4 class="markdown">The quarterly results look good!</h4>
 >
 > - Revenue was off the chart.
 > - Profits were higher than ever.

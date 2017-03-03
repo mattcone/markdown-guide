@@ -41,4 +41,6 @@ title: Home
 
 {% include_relative _content/extended-syntax/tables.md %}
 
+{% include_relative _content/extended-syntax/automatic-url-linking.md %}
+
 {% include_relative _content/additional-resources.md %}

@@ -104,15 +104,3 @@ and the HTML for the link would be:
 ```
 <a href="https://en.wikipedia.org/wiki/Hobbit#Lifestyle" title="Hobbit lifestyles">hobbit-hole</a>
 ```
-
-#### Disabling Automatic URL Linking
-
-Some Markdown processors automatically turn URLs into links. That means if you type http://www.example.com, your Markdown processor might automatically turn it into a link even though you haven't used brackets. If this isn't what you want, you can remove the link by [denoting the URL as code](#code-1) with tick marks.
-
-```
-`http://www.example.com`
-```
-
-The rendered output looks like this:
-
-`http://www.example.com`

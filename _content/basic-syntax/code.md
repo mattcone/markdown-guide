@@ -29,3 +29,5 @@ The rendered output looks like this:
       <head>
       </head>
     </html>
+
+For a different way of creating code blocks, see [fenced code blocks](#fenced-code-blocks).

@@ -1,0 +1,70 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+  padding-top: 30px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+}
+
+.jumbotron h1 {
+  font-weight: 600;
+  font-size: 58px;
+}
+
+p, div {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.jumbotron {
+  background: #03A7DD;
+  color: #FFFFFF;
+  margin-bottom: 10px;
+}
+
+.jumbotron p {
+  padding: 5px 0 0 0;
+  font-size: 24px;
+  font-weight: 300;
+  margin-bottom: 10px;
+}
+
+.page-header {
+  font-weight: 600;
+}
+
+.list-group {
+  padding: 45px 0;
+}
+
+.page-header .anchorjs-link {
+  text-decoration: none
+}
+
+h2 .anchorjs-link {
+  text-decoration: none
+}
+
+h3 .anchorjs-link {
+  text-decoration: none
+}
+
+h4 .anchorjs-link {
+  text-decoration: none
+}
+
+.site-footer {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  margin-top: 50px;
+  color: #99979c;
+  background-color: #dbdbdb;
+}
+
+.about {
+  padding-top: 45px;
+  font-size: 21px;
+  font-weight: 300;
+  margin-bottom: 20px;
+}

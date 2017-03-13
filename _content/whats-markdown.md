@@ -1,6 +1,6 @@
-## What's Markdown?
+<h1 class="page-header">What's Markdown?</h1>
 
-Markdown is a lightweight markup language that you can use to add formatting elements to plaintext text documents. Created by [John Gruber](http://daringfireball.net/projects/markdown/) in 2004, Markdown is now one of the most popular markup languages.
+<p class="lead">Markdown is a lightweight markup language that you can use to add formatting elements to plaintext text documents. Created by John Gruber in 2004, Markdown is now one of the world's most popular markup languages.</p>
 
 Using Markdown is different than using a [WYSIWYG](https://en.wikipedia.org/wiki/WYSIWYG) editor. In an application like Microsoft Word, you click buttons to format words and phrases, and the changes are visible immediately. Markdown isn't like that. When you create a Markdown-formatted file, you add Markdown syntax to the text to indicate which words and phrases should look different.
 
@@ -8,7 +8,7 @@ For instance, to denote a heading, you add a number sign before it (e.g., `# Hea
 
 <br/>
 <center>
-  <img src="/assets/images/atom.png" alt="Markdown file in the Atom text editor">
+  <img src="/assets/images/atom.png" class="img-responsive" alt="Markdown file in the Atom text editor">
 </center>
 <br/>
 

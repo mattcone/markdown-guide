@@ -5,6 +5,13 @@
 </footer>
 <script src="/assets/javascript/anchor.js"></script>
 <script>
-  anchors.options.visible = 'always';
-  anchors.add('h2, h3, h4, h5').remove('.markdown, .no_toc');
+  anchors.options = {
+  placement: 'left',
+  };
+  anchors.add('h1, h2, h3, h4, h5').remove('.no-anchor');
 </script>
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>

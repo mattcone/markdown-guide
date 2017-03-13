@@ -1,48 +1,21 @@
 ---
-layout: page
 title: Home
 ---
+<html>
+  {% include head.html %}
+  <body>
+    {% include nav.html %}
 
-{% include_relative _content/intro.md %}
-
-{% include_relative _content/toc.md %}
-
-{% include_relative _content/whats-markdown.md %}
-
-{% include_relative _content/whats-markdown-good-for.md %}
-
-{% include_relative _content/getting-started.md %}
-
-{% include_relative _content/how-does-it-work.md %}
-
-{% include_relative _content/basic-syntax/index.md %}
-
-{% include_relative _content/basic-syntax/headings.md %}
-
-{% include_relative _content/basic-syntax/paragraphs.md %}
-
-{% include_relative _content/basic-syntax/emphasis.md %}
-
-{% include_relative _content/basic-syntax/blockquotes.md %}
-
-{% include_relative _content/basic-syntax/lists.md %}
-
-{% include_relative _content/basic-syntax/code.md %}
-
-{% include_relative _content/basic-syntax/horizontal-rules.md %}
-
-{% include_relative _content/basic-syntax/links.md %}
-
-{% include_relative _content/basic-syntax/images.md %}
-
-{% include_relative _content/extended-syntax/index.md %}
-
-{% include_relative _content/extended-syntax/availability.md %}
-
-{% include_relative _content/extended-syntax/tables.md %}
-
-{% include_relative _content/extended-syntax/fenced-code-blocks.md %}
-
-{% include_relative _content/extended-syntax/automatic-url-linking.md %}
-
-{% include_relative _content/additional-resources.md %}
+    <!-- Main jumbotron for a primary marketing message or call to action -->
+    <div class="jumbotron">
+      <div class="container">
+        <center>
+          <img src="/assets/images/markdown-mark-white.svg">
+          <p>The <i>Markdown Guide</i> is a free and open-source reference guide that explains how to use Markdown, the simple and easy-to-use markup language you can use to format virtually any document.</p>
+          <p><a class="btn btn-outline-inverse btn-lg" href="/getting-started" role="button">Get Started</a></p>
+        </center>
+      </div>
+    </div>
+    {% include footer.html %}
+  </body>
+</html>

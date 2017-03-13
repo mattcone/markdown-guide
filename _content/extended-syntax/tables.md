@@ -1,4 +1,4 @@
-### Tables
+<h1 class="page-header">Tables</h1>
 
 To add a table, use three or more hyphens (`---`) to create each column's header, and use pipes (`|`) to separate each column. You can optionally add pipes on either end of the table.
 
@@ -11,10 +11,24 @@ To add a table, use three or more hyphens (`---`) to create each column's header
 
 The rendered output looks like this:
 
-| Syntax      | Description |
-| ----------- | ----------- |
-| Header      | Title       |
-| Paragraph   | Text        |
+<table class="table table-bordered">
+  <thead>
+    <tr>
+      <th>Syntax</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Header</td>
+      <td>Title</td>
+    </tr>
+    <tr>
+      <td>Paragraph</td>
+      <td>Text</td>
+    </tr>
+  </tbody>
+</table>
 
 Cell widths can vary, as shown below. The rendered output will look the same.
 
@@ -29,7 +43,7 @@ Cell widths can vary, as shown below. The rendered output will look the same.
   <i class="fa fa-info-circle" aria-hidden="true"></i> <strong>Note:</strong> Creating tables with hyphens and pipes can be tedious! To speed up the process, try using the <a href="http://www.tablesgenerator.com/markdown_tables">Markdown Tables Generator</a>. Build a table using the graphical interface, and then copy the generated Markdown-formatted text into your file. Easy!
 </div>
 
-#### Alignment
+## Alignment
 
 You can align text in the columns to the left, right, or center by adding a colon (`:`) to the left, right, or on both side of the hyphens within the header row.
 
@@ -42,13 +56,29 @@ You can align text in the columns to the left, right, or center by adding a colo
 
 The rendered output looks like this:
 
-| Syntax      | Description | Test Text     |
-| :---        |    :----:   |          ---: |
-| Header      | Title       | Here's this   |
-| Paragraph   | Text        | And more      |
+<table class="table table-bordered">
+  <thead>
+    <tr>
+      <th style="text-align: left">Syntax</th>
+      <th style="text-align: center">Description</th>
+      <th style="text-align: right">Test Text</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">Header</td>
+      <td style="text-align: center">Title</td>
+      <td style="text-align: right">Here’s this</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Paragraph</td>
+      <td style="text-align: center">Text</td>
+      <td style="text-align: right">And more</td>
+    </tr>
+  </tbody>
+</table>
 
-
-#### Formatting Text in Tables
+## Formatting Text in Tables
 
 You can format the text within tables. For example, you can add [links](#links), [code](#code-1) (words or phrases only, not [code blocks](#code-blocks)), and [emphasis](#emphasis).
 

@@ -1,58 +1,15 @@
 <head>
   <meta charset="utf-8">
-  <meta name="apple-mobile-web-app-capable" content="yes">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  {% assign page_title = '' %}
-  {% if page.title == "Home" %}
-      {% capture page_title %}
-        {{ site.title }}{{ site.title2 }}
-        {%if paginator and paginator.page != 1 %} - Página {{ paginator.page }}{% endif %}
-      {% endcapture %}
-  {% else %}
-      {% capture page_title %}
-          {%if page.slug == 'category' %}Categoria: {% endif %}
-          {%if page.slug == 'tag' %}Tag: {% endif %} {{ page.title }} | {{ site.title }}{{ site.title2}}
-      {% endcapture %}
-  {% endif %}
-  {% capture page_title %}
-      {{ page_title | strip | rstrip | lstrip | escape | strip_newlines }}
-  {% endcapture %}
+  <title>Markdown Guide | {{ page.title }}</title>
 
-  <title>{{ page_title }}</title>
-
-  {% assign page_description = '' %}
-  {% capture page_description %}
-      {% if page.description %}
-          {{ page.description | strip_html | strip | rstrip | strip_newlines | truncate: 160 }}
-      {% else %}
-          {{ site.description }}
-      {% endif %}
-      {%if paginator and paginator.page != 1 %} - Página {{ paginator.page }} {% endif %}
-      {%if page.slug == 'category' %} Categoria: {{ page.title }}{% endif %}
-      {%if page.slug == 'tag' %} Tag: {{ page.title }}{% endif %}
-  {% endcapture %}
-
-  {% capture page_description %}
-      {{ page_description | strip | rstrip | lstrip | escape | strip_newlines }}
-  {% endcapture %}
-
-  <meta name="description" content="A concise introduction to Markdown designed for novice and intermediate users.">
+  <meta name="description" content=" {{ page.description }}">
   <meta name="keywords" content="Markdown, Markdown language, Markdown syntax, Markdown guide, Markdown cheatsheet, Markdown help, Markdown tutorial">
 
   <meta name="HandheldFriendly" content="True">
   <meta name="MobileOptimized" content="320">
-
-  {% assign page_image = '' %}
-  {% capture page_image %}
-      {% if page.cover %}
-          {{ page.cover | prepend: site.baseurl | prepend: site.url }}
-      {% else %}
-          {{ site.cover | prepend: site.baseurl | prepend: site.url }}
-      {% endif %}
-  {% endcapture %}
-  {% capture page_image %}{{ page_image | strip | rstrip | lstrip | escape | strip_newlines }}{% endcapture %}
 
   <!-- Social: Facebook / Open Graph -->
 {% if page.id %}
@@ -83,19 +40,20 @@
   <meta itemprop="description" content="{{ page_description }}">
   <meta itemprop="image" content="{{ page_image }}">
 
-  <!-- rel prev and next -->
-  {% if paginator.previous_page %}
-    <link rel="prev" href="{{ paginator.previous_page_path | prepend: site.baseurl | prepend: site.url }}">
-  {% endif %}
-  {% if paginator.next_page %}
-    <link rel="next" href="{{ paginator.next_page_path | prepend: site.baseurl | prepend: site.url }}">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+  {% if page.title == 'Home' %}
+  <link href="/assets/css/homepage.css" rel="stylesheet">
+  {% else %}
+  <link href="/assets/css/page.css" rel="stylesheet">
   {% endif %}
 
-  <link rel="stylesheet" href="{{ "/assets/css/main.css" | prepend: site.baseurl }}">
   <link rel="stylesheet" href="{{ "/assets/css/font-awesome.min.css" | prepend: site.baseurl }}">
 
   <!-- Canonical link tag -->
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,700" rel="stylesheet">
 
   <!-- Google Analytics -->
   <script>

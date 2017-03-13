@@ -1,4 +1,4 @@
-### Horizontal Rules
+<h1 class="page-header">Horizontal Rules</h1>
 
 To create a horizontal rule, use three or more asterisks (`***`), dashes (`---`), or underscores (`___`).
 

@@ -1,0 +1,46 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Open Sans', sans-serif;
+    color: #FFFFFF;
+}
+p, div {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.jumbotron {
+  background: rgba(73,155,234,1);
+  background: -moz-linear-gradient(-45deg, rgba(73,155,234,1) 0%, rgba(3,167,221,1) 100%);
+  background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(73,155,234,1)), color-stop(100%, rgba(3,167,221,1)));
+  background: -webkit-linear-gradient(-45deg, rgba(73,155,234,1) 0%, rgba(3,167,221,1) 100%);
+  background: -o-linear-gradient(-45deg, rgba(73,155,234,1) 0%, rgba(3,167,221,1) 100%);
+  background: -ms-linear-gradient(-45deg, rgba(73,155,234,1) 0%, rgba(3,167,221,1) 100%);
+  background: linear-gradient(135deg, rgba(73,155,234,1) 0%, rgba(3,167,221,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#499bea', endColorstr='#03a7dd', GradientType=1 );
+  color: #FFFFFF;
+  padding: 80px 0 70px 0;
+}
+
+.jumbotron p {
+  padding: 40px 0 0 0;
+  font-size: 28px;
+  width: 80%;
+  align: middle;
+}
+
+.btn-outline-inverse {
+    color: #fff;
+    background-color: transparent;
+    border-color: #fff;
+    padding: 10px 50px;
+}
+
+.btn-outline-inverse:hover {
+    color: #03A7DD;;
+    background-color: #fff;
+    border-color: #fff;
+}

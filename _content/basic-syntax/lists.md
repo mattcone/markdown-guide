@@ -1,12 +1,12 @@
-### Lists
+<h1 class="page-header">Lists</h1>
 
 You can organize items into ordered and unordered lists.
 
-#### Ordered Lists
+## Ordered Lists
 
 To create an ordered list, add line items with numbers followed by periods. The numbers don't have to be in numerical order, but the list should start with the number one.
 
-<table>
+<table class="table table-bordered">
   <thead>
     <tr>
       <th>Markdown</th>
@@ -142,11 +142,11 @@ To create an ordered list, add line items with numbers followed by periods. The 
   </tbody>
 </table>
 
-#### Unordered Lists
+## Unordered Lists
 
 To create an unordered list, add dashes (`-`), asterisks (`*`), or plus signs (`+`) in front of list items. Indent one or more items to create a nested list.
 
-<table>
+<table class="table table-bordered">
   <thead>
     <tr>
       <th>Markdown</th>
@@ -282,11 +282,11 @@ To create an unordered list, add dashes (`-`), asterisks (`*`), or plus signs (`
   </tbody>
 </table>
 
-#### Adding Elements in Lists
+## Adding Elements in Lists
 
 To add another element in a list while preserving the continuity of the list, indent the element four spaces or one tab, as shown in the following examples.
 
-##### Paragraphs
+### Paragraphs
 
 ```
 *   This is the first list item.
@@ -306,7 +306,7 @@ The rendered output looks like this:
 
 *   And here's the third list item.
 
-##### Blockquotes
+### Blockquotes
 
 ```
 *   This is the first list item.
@@ -326,7 +326,7 @@ The rendered output looks like this:
 
 *   And here's the third list item.
 
-##### Code
+### Code
 
 Code normally needs to be indented four spaces or one tab, so when it's in a list, it needs to be indented eight spaces or two tabs.
 
@@ -354,7 +354,7 @@ The rendered output looks like this:
 
 3.  Update the title to match the name of your website.
 
-##### Images
+### Images
 
 ```
 1.  Open the file containing the Linux mascot.

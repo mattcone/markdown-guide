@@ -1,18 +1,44 @@
-### Code
+<h1 class="page-header">Code</h1>
 
 To denote a word or phrase as code, enclose it in tick marks (`` ` ``).
 
-| Markdown | HTML | Rendered Output |
-| -------- | ---- | --------------- |
-| ``At the command prompt, type `nano`.`` | `At the command prompt, type <code>nano</code> ` | At the command prompt, type `nano`. |
+<table class="table table-bordered">
+  <thead>
+    <tr>
+      <th>Markdown</th>
+      <th>HTML</th>
+      <th>Rendered Output</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code class="highlighter-rouge">At the command prompt, type `nano`.</code></td>
+      <td><code class="highlighter-rouge">At the command prompt, type &lt;code&gt;nano&lt;/code&gt; </code></td>
+      <td>At the command prompt, type <code class="highlighter-rouge">nano</code>.</td>
+    </tr>
+  </tbody>
+</table>
 
 If the word or phrase you want to denote as code includes a tick mark, enclose it in double tick marks (<code>``</code>).
 
-| Markdown | HTML | Rendered Output |
-| -------- | ---- | --------------- |
-| <code>``Use `code` in your Markdown file.``</code> | ``<code>Use `code` in your Markdown file.</code>`` | <code>Use `code` in your Markdown file.</code> |
+<table class="table table-bordered">
+  <thead>
+    <tr>
+      <th>Markdown</th>
+      <th>HTML</th>
+      <th>Rendered Output</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code>``Use `code` in your Markdown file.``</code></td>
+      <td><code class="highlighter-rouge">&lt;code&gt;Use `code` in your Markdown file.&lt;/code&gt;</code></td>
+      <td><code>Use `code` in your Markdown file.</code></td>
+    </tr>
+  </tbody>
+</table>
 
-#### Code Blocks
+## Code Blocks
 
 To create code blocks, indent every line of the block by at least four spaces or one tab.
 

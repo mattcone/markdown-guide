@@ -1,34 +1,100 @@
-### Emphasis
+<h1 class="page-header">Emphasis</h1>
 
 You can add emphasis by making text bold or italic.
 
-#### Bold
+## Bold
 
 To bold text, add two asterisks or underscores before and after a word or phrase. To bold the middle of a word for emphasis, add two asterisks without spaces around the letters.
 
-| Markdown | HTML | Rendered Output |
-| -------- | ---- | --------------- |
-| `I just love **bold text**.` | `I just love <strong>bold text</strong>.` | I just love **bold text**.
-| `I just love __bold text__.` | `I just love <strong>bold text</strong>.` | I just love __bold text__. |
-| `Love**is**bold` | `Love<strong>is</strong>bold` | Love**is**bold
+<table class="table table-bordered">
+  <thead>
+    <tr>
+      <th>Markdown</th>
+      <th>HTML</th>
+      <th>Rendered Output</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code class="highlighter-rouge">I just love **bold text**.</code></td>
+      <td><code class="highlighter-rouge">I just love &lt;strong&gt;bold text&lt;/strong&gt;.</code></td>
+      <td>I just love <strong>bold text</strong>.</td>
+    </tr>
+    <tr>
+      <td><code class="highlighter-rouge">I just love __bold text__.</code></td>
+      <td><code class="highlighter-rouge">I just love &lt;strong&gt;bold text&lt;/strong&gt;.</code></td>
+      <td>I just love <strong>bold text</strong>.</td>
+    </tr>
+    <tr>
+      <td><code class="highlighter-rouge">Love**is**bold</code></td> <td><code class="highlighter-rouge">Love&lt;strong&gt;is&lt;/strong&gt;bold</code></td>
+      <td>Love<strong>is</strong>bold</td>
+    </tr>
+  </tbody>
+</table>
 
-#### Italic
+## Italic
 
 To italicize text, add one asterisk or underscore before and after a word or phrase. To italicize the middle of a word for emphasis, add one asterisk without spaces around the letters.
 
-| Markdown | HTML | Rendered Output |
-| -------- | ---- | --------------- |
-| `Italicized text is the *cat's meow*.` | `Italicized text is the <em>cat's meow</em>.` | Italicized text is the *cat's meow*. |
-| `Italicized text is the _cat's meow_.` | `Italicized text is the <em>cat's meow</em>.` | Italicized text is the _cat's meow_. |
-| `A*cat*meow` | `A<em>cat</em>meow` | A*cat*meow
+<table class="table table-bordered">
+  <thead>
+    <tr>
+      <th>Markdown</th>
+      <th>HTML</th>
+      <th>Rendered Output</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code class="highlighter-rouge">Italicized text is the *cat's meow*.</code></td>
+      <td><code class="highlighter-rouge">Italicized text is the &lt;em&gt;cat's meow&lt;/em&gt;.</code></td>
+      <td>Italicized text is the <em>cat’s meow</em>.</td>
+    </tr>
+    <tr>
+      <td><code class="highlighter-rouge">Italicized text is the _cat's meow_.</code></td>
+      <td><code class="highlighter-rouge">Italicized text is the &lt;em&gt;cat's meow&lt;/em&gt;.</code></td>
+      <td>Italicized text is the <em>cat’s meow</em>.</td>
+    </tr>
+    <tr>
+      <td><code class="highlighter-rouge">A*cat*meow</code></td>
+      <td><code class="highlighter-rouge">A&lt;em&gt;cat&lt;/em&gt;meow</code></td>
+      <td>A<em>cat</em>meow</td>
+    </tr>
+  </tbody>
+</table>
 
-#### Bold and Italic
+## Bold and Italic
 
 To emphasize text with bold and italics at the same time, add three asterisks or underscores before and after a word or phrase.
 
-| Markdown | HTML | Rendered Output |
-| -------- | ---- | --------------- |
-| `This text is ***really important***.` | `This text is <strong><em>really important</em></strong>.` | This text is ***really important***. |
-| `This text is ___really important___.` | `This text is <strong><em>really important</em></strong>.` | This text is ___really important___. |
-| `This text is __*really important*__.` | `This text is <strong><em>really important</em></strong>.` | This text is __*really important*__. |
-| `This text is **_really important_**.` | `This text is <strong><em>really important</em></strong>.` | This text is **_really important_**. |
+<table class="table table-bordered">
+  <thead>
+    <tr>
+      <th>Markdown</th>
+      <th>HTML</th>
+      <th>Rendered Output</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code class="highlighter-rouge">This text is ***really important***.</code></td>
+      <td><code class="highlighter-rouge">This text is &lt;strong&gt;&lt;em&gt;really important&lt;/em&gt;&lt;/strong&gt;.</code></td>
+      <td>This text is <strong><em>really important</em></strong>.</td>
+    </tr>
+    <tr>
+      <td><code class="highlighter-rouge">This text is ___really important___.</code></td>
+      <td><code class="highlighter-rouge">This text is &lt;strong&gt;&lt;em&gt;really important&lt;/em&gt;&lt;/strong&gt;.</code></td>
+      <td>This text is <strong><em>really important</em></strong>.</td>
+    </tr>
+    <tr>
+      <td><code class="highlighter-rouge">This text is __*really important*__.</code></td>
+      <td><code class="highlighter-rouge">This text is &lt;strong&gt;&lt;em&gt;really important&lt;/em&gt;&lt;/strong&gt;.</code></td>
+      <td>This text is <strong><em>really important</em></strong>.</td>
+    </tr>
+    <tr>
+      <td><code class="highlighter-rouge">This text is **_really important_**.</code></td>
+      <td><code class="highlighter-rouge">This text is &lt;strong&gt;&lt;em&gt;really important&lt;/em&gt;&lt;/strong&gt;.</code></td>
+      <td>This text is <strong><em>really important</em></strong>.</td>
+    </tr>
+  </tbody>
+</table>

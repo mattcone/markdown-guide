@@ -4,12 +4,12 @@ layout: compress
 <!DOCTYPE html>
 <html>
   {% include head.html %}
-  <body>
+  <body data-spy="scroll" data-target="#toc" data-offset="70">
     {% include nav.html %}
     <!-- Main jumbotron for a primary marketing message or call to action -->
     <div class="jumbotron">
       <div class="container">
-          <h1 class="no-anchor">{{ page.title }}</h1>
+          <h1 class="no-anchor" data-toc-skip>{{ page.title }}</h1>
           <p>{{ page.description }}</p>
         </center>
       </div>
@@ -20,13 +20,7 @@ layout: compress
           {{ content }}
         </div>
         <div class="col-xs-6 col-sm-3 hidden-xs" id="sidebar">
-          <div class="list-group">
-            <a href="#whats-markdown" class="list-group-item">What's Markdown?</a>
-            <a href="#whats-markdown-good-for" class="list-group-item">What's Markdown Good For?</a>
-            <a href="#kicking-the-tires" class="list-group-item">Kicking the Tires</a>
-            <a href="#how-does-it-work" class="list-group-item">How Does it Work?</a>
-            <a href="#additional-resources" class="list-group-item">Additional Resources</a>
-          </div>
+          <nav id="toc" data-spy="affix" data-toggle="toc"></nav>
         </div>
       </div>
     </div>

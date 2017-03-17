@@ -68,3 +68,39 @@ h4 .anchorjs-link {
   font-weight: 300;
   margin-bottom: 20px;
 }
+
+/* css for the sidebar */
+/* https://afeld.github.io/bootstrap-toc/ */
+
+nav[data-toggle='toc'] {
+  margin-top: 40px;
+}
+
+.affix {
+  top: 40px;
+}
+
+nav[data-toggle='toc'] .nav > li > a:hover,
+nav[data-toggle='toc'] .nav > li > a:focus {
+  color: #03A7DD;
+  border-left: 1px solid #03A7DD;
+}
+nav[data-toggle='toc'] .nav > .active > a,
+nav[data-toggle='toc'] .nav > .active:hover > a,
+nav[data-toggle='toc'] .nav > .active:focus > a {
+  color: #03A7DD;
+  border-left: 2px solid #03A7DD;
+}
+
+/* small screens */
+@media (max-width: 768px) {
+  /* override the Affix plugin so that the navigation isn't sticky */
+  nav.affix[data-toggle='toc'] {
+    position: static;
+  }
+
+  /* alternatively, if you *do* want the second-level navigation to be shown (as seen on this page on mobile), use this */
+  nav[data-toggle='toc'] .nav .nav {
+    display: block;
+  }
+}

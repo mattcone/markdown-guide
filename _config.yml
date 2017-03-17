@@ -5,7 +5,6 @@ description: "A concise introduction to Markdown designed for novice and interme
 keywords: "Markdown, Markdown language, Markdown syntax, Markdown guide, Markdown cheatsheet, Markdown help, Markdown tutorial"
 url: https://markdownguide.org # site url
 baseurl: "" # apply repo name if use it under gh-pages branch
-# baseurl: null # apply null if repo name is something like username.github.io
 
 repo: http://github.com/mattcone/markdown-guide
 comments: false
@@ -25,16 +24,8 @@ author:
 # social settings
 og_locale: "en_US"
 
-gems:
-  - bourbon
-
 kramdown:
   auto_ids:       true
   toc_levels:     1..3
 
-# navbar pages
-navbar:
-  - slug : about
-    title: About
-
-exclude: ["vendor", "gulp", "node_modules", "bower", "bower_components", "config.rb", "src", "Gemfile", "Gemfile.lock", ".rvmrc", ".rbenv-version", "package.json", "gulpfile.js", "README.md", "LICENSE.txt", "Rakefile", "changelog.md"]
+exclude: ["vendor", "Gemfile", "Gemfile.lock", "README.md", "LICENSE.txt", "Rakefile"]

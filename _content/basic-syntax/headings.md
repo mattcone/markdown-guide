@@ -14,12 +14,12 @@ To create a heading, add number signs (`#`) in front of a word or phrase. The nu
     <tr>
       <td><code class="highlighter-rouge"># Heading level 1</code></td>
       <td><code class="highlighter-rouge">&lt;h1&gt;Heading level 1&lt;/h1&gt;</code></td>
-      <td><h1 class="no-anchor">Heading level 1</h1></td>
+      <td><h1 class="no-anchor" data-toc-skip>Heading level 1</h1></td>
     </tr>
     <tr>
       <td><code class="highlighter-rouge">## Heading level 2</code></td>
       <td><code class="highlighter-rouge">&lt;h2&gt;Heading level 2&lt;/h2&gt;</code></td>
-      <td><h2 class="no-anchor">Heading level 2</h2></td>
+      <td><h2 class="no-anchor" data-toc-skip>Heading level 2</h2></td>
     </tr>
     <tr>
       <td><code class="highlighter-rouge">### Heading level 3</code></td>
@@ -60,12 +60,12 @@ Alternatively, on the line below the text, add any number of `==` characters for
     <tr>
       <td><code class="highlighter-rouge">Heading level 1<br/>===============</code></td>
       <td><code class="highlighter-rouge">&lt;h1&gt;Heading level 1&lt;/h1&gt;</code></td>
-      <td><h1 class="no-anchor">Heading level 1</h1></td>
+      <td><h1 class="no-anchor" data-toc-skip>Heading level 1</h1></td>
     </tr>
     <tr>
       <td><code class="highlighter-rouge">Heading level 2<br/>---------------</code></td>
       <td><code class="highlighter-rouge">&lt;h2&gt;Heading level 2&lt;/h2&gt;</code></td>
-      <td><h2 class="no-anchor">Heading level 2</h2></td>
+      <td><h2 class="no-anchor" data-toc-skip>Heading level 2</h2></td>
     </tr>
   </tbody>
 </table>

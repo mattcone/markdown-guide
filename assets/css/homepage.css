@@ -8,6 +8,7 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Open Sans', sans-serif;
     color: #FFFFFF;
 }
+
 p, div {
     font-family: 'Open Sans', sans-serif;
 }
@@ -22,7 +23,7 @@ p, div {
   background: linear-gradient(135deg, rgba(73,155,234,1) 0%, rgba(3,167,221,1) 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#499bea', endColorstr='#03a7dd', GradientType=1 );
   color: #FFFFFF;
-  padding: 80px 0 70px 0;
+  padding: 100px 0 90px 0;
 }
 
 .jumbotron p {
@@ -32,15 +33,73 @@ p, div {
   align: middle;
 }
 
-.btn-outline-inverse {
-    color: #fff;
-    background-color: transparent;
-    border-color: #fff;
-    padding: 10px 50px;
+.jumbotron .btn-outline-inverse {
+  color: #fff;
+  background-color: transparent;
+  border-color: #fff;
+  padding: 10px 50px;
 }
 
-.btn-outline-inverse:hover {
-    color: #03A7DD;
-    background-color: #fff;
-    border-color: #fff;
+.jumbotron .btn-outline-inverse:hover {
+  color: #03A7DD;
+  background-color: #fff;
+  border-color: #fff;
+}
+
+.md-guide-feature {
+  padding-top: 30px;
+  padding-bottom: 40px;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  background-color: #fff;
+}
+
+.row {
+  padding-top: 5px;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.md-guide-feature p, h1, h2, h3, h4, h5, h6 {
+    font-family: 'Open Sans', sans-serif;
+    color: #000;
+}
+
+.icon {
+  font-size: 80px;
+  color: #03A7DD;
+  height: 80px;
+}
+
+.lead {
+  font-weight: 200;
+  font-size: 19px;
+  color: #555;
+  max-width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.col-sm-4 p {
+  font-size: 15px;
+  font-weight: 500;
+  color: #555;
+  width: 95%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.half-rule {
+  width: 100px;
+  margin: 40px auto;
+}
+
+.site-footer {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  margin-top: 50px;
+  margin-bottom: -27px;
+  color: #99979c;
+  background-color: #dbdbdb;
 }

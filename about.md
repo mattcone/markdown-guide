@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: about
 title: About
 description: Learn all about the Markdown Guide.
 ---

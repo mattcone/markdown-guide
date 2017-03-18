@@ -19,7 +19,7 @@ title: Home
     <div class="container">
       <div class="md-guide-feature">
         <h1 class="no-anchor">Everything you need to learn Markdown.</h1>
-        <p class="lead">Markdown makes writing on the web fast and easy. The <em>Markdown Guide</em> teaches folks how to use it.</p>
+        <p class="lead">Markdown makes writing on the web fast and easy. The <em>Markdown Guide</em> teaches people how to use it.</p>
         <hr class="half-rule">
         <div class="row">
           <div class="col-sm-4">

@@ -1,0 +1,34 @@
+---
+layout: compress
+---
+<!DOCTYPE html>
+<html>
+  {% include head.html %}
+  <body data-spy="scroll" data-target="#toc" data-offset="70">
+    {% include nav.html %}
+    <!-- Main jumbotron for a primary marketing message or call to action -->
+    <div class="jumbotron">
+      <div class="container">
+          <h1 class="no-anchor" data-toc-skip>{{ page.title }}</h1>
+          <p>{{ page.description }}</p>
+        </center>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row row-offcanvas row-offcanvas-right">
+        <div class="col-xs-12 col-sm-9">
+          {{ content }}
+        </div>
+        <div class="col-xs-6 col-sm-3 hidden-xs" id="sidebar">
+          <div class="panel panel-default">
+            <div class="panel-heading">Stay Informed</div>
+            <div class="panel-body">
+              <a href="http://tinyletter.com/mattcone">Subscribe to our email list</a> to get priority notifications about the <em>Markdown Guide</em> and related instructional materials.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    {% include footer.html %}
+  </body>
+</html>

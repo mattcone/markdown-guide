@@ -52,7 +52,7 @@ title: Home
         <h1 class="no-anchor">Stay in the loop.</h1>
         <p class="lead">Sign up now to get priority notifications about the <em>Markdown Guide</em> and related instructional materials.</p>
         <br/>
-        <a class="btn btn-default btn-lg" href="https://tinyletter.com/mattcone">Subscribe via Email</a>
+        <a class="btn btn-default btn-lg" href="http://tinyletter.com/markdownguide">Subscribe via Email</a>
       </div>
     </div>
     {% include footer.html %}

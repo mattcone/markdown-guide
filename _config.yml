@@ -3,7 +3,7 @@
 title: "Markdown Guide"
 description: "A concise introduction to Markdown designed for novice and intermediate users."
 keywords: "Markdown, Markdown language, Markdown syntax, Markdown guide, Markdown cheatsheet, Markdown help, Markdown tutorial"
-url: https://markdownguide.org # site url
+url: https://www.markdownguide.org # site url
 baseurl: "" # apply repo name if use it under gh-pages branch
 
 repo: http://github.com/mattcone/markdown-guide

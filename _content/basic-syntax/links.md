@@ -30,13 +30,13 @@ To [emphasize](#emphasis) links, add asterisks before and after the brackets and
 
 ```
 I love supporting **[EFF](https://eff.org)**.
-This is the *[Markdown Guide](https://markdownguide.org)*.
+This is the *[Markdown Guide](https://www.markdownguide.org)*.
 ```
 
 The rendered output looks like this:
 
 I love supporting the **[EFF](https://eff.org)**.<br/>
-This is the *[Markdown Guide](https://markdownguide.org)*.
+This is the *[Markdown Guide](https://www.markdownguide.org)*.
 
 ## Reference-style Links
 

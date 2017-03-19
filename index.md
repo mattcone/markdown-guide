@@ -10,7 +10,7 @@ title: Home
     <div class="jumbotron">
       <div class="container">
         <center>
-          <img src="/assets/images/markdown-mark-white.svg">
+          <img src="/assets/images/markdown-mark-white.svg" alt="Markdown logo">
           <p>The <i>Markdown Guide</i> is a free and open-source reference guide that explains how to use Markdown, the simple and easy-to-use markup language you can use to format virtually any document.</p>
           <p><a class="btn btn-outline-inverse btn-lg" href="/getting-started" role="button">Get Started</a></p>
         </center>
@@ -19,7 +19,7 @@ title: Home
     <div class="container">
       <div class="md-guide-feature">
         <h1 class="no-anchor">Everything you need to learn Markdown.</h1>
-        <p class="lead">Markdown makes writing on the web fast and easy. The <em>Markdown Guide</em> teaches people how to use it.</p>
+        <p class="lead">Markdown makes writing on the web fast and easy. The <em>Markdown Guide</em> teaches you how to use it.</p>
         <hr class="half-rule">
         <div class="row">
           <div class="col-sm-4">
@@ -52,7 +52,7 @@ title: Home
         <h1 class="no-anchor">Stay in the loop.</h1>
         <p class="lead">Sign up now to get priority notifications about the <em>Markdown Guide</em> and related instructional materials.</p>
         <br/>
-        <a class="btn btn-default btn-lg" href="https://tinyletter.com/mattcone">Subscribe Via Email</a>
+        <a class="btn btn-default btn-lg" href="https://tinyletter.com/mattcone">Subscribe via Email</a>
       </div>
     </div>
     {% include footer.html %}

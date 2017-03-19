@@ -10,6 +10,7 @@ repo: http://github.com/mattcone/markdown-guide
 comments: false
 
 gems:
+  - jekyll-last-modified-at
   - jekyll-sitemap
 
 # Build settings

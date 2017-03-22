@@ -1,10 +1,10 @@
 <head>
-  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico"/>
   <meta charset="utf-8">
+  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico"/>
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Markdown Guide | {{ page.title }}</title>
+  <title>Markdown Guide{% if page.title != 'Home' %} | {{ page.title }}{% endif %}</title>
 
   <meta name="description" content=" {{ page.description }}">
   <meta name="keywords" content="Markdown, Markdown language, Markdown syntax, Markdown guide, Markdown cheatsheet, Markdown help, Markdown tutorial">
@@ -41,10 +41,10 @@
   <meta itemprop="description" content="{{ page_description }}">
   <meta itemprop="image" content="{{ page_image }}">
 
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
 
   <!-- TOC - add after bootstrap.min.css -->
-  <link rel="stylesheet" href="https://cdn.rawgit.com/afeld/bootstrap-toc/v0.4.1/dist/bootstrap-toc.min.css">
+  <link rel="stylesheet" href="/assets/css/bootstrap-toc.min.css">
 
   {% if page.title == 'Home' %}
   <link href="/assets/css/homepage.css" rel="stylesheet">
@@ -52,11 +52,9 @@
   <link href="/assets/css/page.css" rel="stylesheet">
   {% endif %}
 
-  <link rel="stylesheet" href="{{ "/assets/css/font-awesome.min.css" | prepend: site.baseurl }}">
+  <link rel="stylesheet" href="/assets/css/font-awesome.min.css">
 
   <!-- Canonical link tag -->
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,700" rel="stylesheet">
 
 </head>

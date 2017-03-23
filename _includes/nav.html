@@ -16,6 +16,18 @@
         {% if page.title == 'Extended Syntax' %}<li class="active">{% else %}<li>{% endif %}<a href="/extended-syntax">Extended Syntax</a></li>
         {% if page.title == 'About' %}<li class="active">{% else %}<li>{% endif %}<a href="/about">About</a></li>
       </ul>
+      <div class="navbar-form navbar-right visible-md-inline visible-lg-inline bs-search" role="search">
+        <div class="col-xs-6 col-sm-3">
+          <div class="input-group input-group-sm">
+            <input type="text" class="form-control" id="search-input" placeholder="Search" aria-describedby="sizing-addon3">
+            <span class="input-group-btn" id="sizing-addon3">
+              <button class="btn btn-default" type="button" id="sizing-addon3">
+                <i class="fa fa-search" aria-hidden="true"></i>
+              </button>
+            </span>
+          </div>
+        </div>
+      </div>
     </div><!--/.nav-collapse -->
   </div>
 </nav>

@@ -1,0 +1,13 @@
+.navbar-form {
+  margin-top: 5px;
+  margin-bottom: 0;
+}
+
+.form-control {
+  margin-top: 5px;
+  height: 30px;
+  padding: 5px 10px;
+  font-size: 12px;
+  line-height: 1.5;
+  border-radius: 3px;
+}

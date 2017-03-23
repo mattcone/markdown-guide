@@ -3,7 +3,7 @@
     <small class="block">&copy; {{ site.time | date: '%Y' }}. A <a href="http://mattcone.com">{{ site.author.name }}</a> project. <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>. Source code on <a href="https://github.com/mattcone/markdown-guide">GitHub</a>.</small>
   </div>
 </footer>
-<script src="/assets/javascript/anchor.js"></script>
+<script type="text/javascript" src="/assets/javascript/anchor.js"></script>
 <script>
   anchors.options = {
   placement: 'left',
@@ -20,7 +20,7 @@
 <!-- TOC - add after bootstrap.min.js -->
 <script src="/assets/javascript/bootstrap-toc.min.js"></script>
 
-<script>
+<script type="text/javascript">
 $("#toc").affix({
     offset: {
       top: 60
@@ -29,8 +29,19 @@ $("#toc").affix({
 </script>
 
 <!-- Move headings down when using anchor links -->
-<script>
+<script type="text/javascript">
 var shiftWindow = function() { scrollBy(0, -70) };
 if (location.hash) shiftWindow();
 window.addEventListener("hashchange", shiftWindow);
+</script>
+
+<!-- for search -->
+<script type="text/javascript" src="https://cdn.jsdelivr.net/docsearch.js/2/docsearch.min.js"></script>
+<script type="text/javascript"> 
+docsearch({
+apiKey: '0125ba824e95b21d36ae268518067391',
+indexName: 'markdownguide',
+inputSelector: '#search-input',
+debug: true // Set debug to true if you want to inspect the dropdown
+});
 </script>

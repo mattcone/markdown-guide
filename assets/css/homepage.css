@@ -29,11 +29,17 @@ p, div {
   padding: 100px 0 90px 0;
 }
 
+.jumbotron .container {
+  text-align: center;
+}
+
 .jumbotron p {
   padding: 40px 0 0 0;
   font-size: 28px;
   width: 80%;
-  align: middle;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .jumbotron .btn-outline-inverse {
@@ -59,7 +65,7 @@ p, div {
 }
 
 .row {
-  padding-top: 5px;
+  margin-top: -15px;
   margin-right: -15px;
   margin-left: -15px;
 }
@@ -72,7 +78,7 @@ p, div {
 .icon {
   font-size: 80px;
   color: #03A7DD;
-  height: 80px;
+  height: 100px;
 }
 
 .lead {

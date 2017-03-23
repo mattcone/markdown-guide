@@ -3,12 +3,12 @@
 To add an image, add an exclamation mark (`!`), followed by alt text in brackets, and the path or URL to the image asset in parentheses. You can optionally add a title after the URL in the parentheses.
 
 ```
-![Philadelphia's Magic Gardens. This place was so cool!](/assets/images/philly-magic-gardens.png "Philadelphia's Magic Gardens")
+![Philadelphia's Magic Gardens. This place was so cool!](/assets/images/philly-magic-gardens.jpg "Philadelphia's Magic Gardens")
 ```
 
 The rendered output looks like this:
 
-<img src="/assets/images/philly-magic-garden.png" class="img-responsive" alt="Philadelphia's Magic Gardens. This place was so cool!" title="Philadelphia's Magic Gardens">
+<img src="/assets/images/philly-magic-garden.jpg" class="img-responsive" alt="Philadelphia's Magic Gardens. This place was so cool!" title="Philadelphia's Magic Gardens">
 
 ## Linking Images
 

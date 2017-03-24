@@ -6,35 +6,12 @@
 
   <title>Markdown Guide{% if page.title != 'Home' %} | {{ page.title }}{% endif %}</title>
 
-  <meta name="description" content=" {{ page.description }}">
+  <meta name="description" content="A free and open-source reference guide that explains how to use Markdown.">
+  <meta content="Matt Cone and contributors" name=author>
   <meta name="keywords" content="Markdown, Markdown language, Markdown syntax, Markdown guide, Markdown cheatsheet, Markdown help, Markdown tutorial">
 
   <meta name="HandheldFriendly" content="True">
   <meta name="MobileOptimized" content="320">
-
-  <!-- Social: Facebook / Open Graph -->
-{% if page.id %}
-  <meta property="og:type" content="article">
-  <meta property="article:author" content="{{ site.author.name }}">
-  <meta property="article:section" content="{{ page.categories | join: ', ' }}">
-  <meta property="article:tag" content="{{ page.keywords }}">
-  <meta property="article:published_time" content="{{ page.date }}">
-{% else%}
-  <meta property="og:type" content="website">
-{% endif %}
-  <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-  <meta property="og:title" content="{{ page_title }}">
-  <meta property="og:image" content="{{ page_image }}">
-  <meta property="og:description" content="{{ page_description }}">
-  <meta property="og:site_name" content="{{ page_title }}">
-  <meta property="og:locale" content="{{ site.og_locale }}">
-
-  <!-- Social: Twitter -->
-  <meta name="twitter:card" content="{{ site.twitter_card }}">
-  <meta name="twitter:site" content="{{ site.twitter_site }}">
-  <meta name="twitter:title" content="{{ page_title }}">
-  <meta name="twitter:description" content="{{ page_description }}">
-  <meta name="twitter:image:src" content="{{ page_image }}">
 
   <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
 

@@ -55,6 +55,16 @@ p, div {
   border-color: #fff;
 }
 
+.md-guide-feature .btn-lg {
+  color: #03A7DD;
+  border-color: #03A7DD;
+}
+
+.md-guide-feature .btn-lg:hover {
+  color: #fff;
+  background-color: #03A7DD;
+}
+
 .md-guide-feature {
   padding-top: 30px;
   padding-bottom: 40px;

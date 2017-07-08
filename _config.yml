@@ -5,7 +5,7 @@ baseurl: "" # apply repo name if use it under gh-pages branch
 repo: http://github.com/mattcone/markdown-guide
 comments: false
 
-gems:
+plugins:
   - jekyll-last-modified-at
   - jekyll-sitemap
 

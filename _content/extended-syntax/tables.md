@@ -39,8 +39,8 @@ Cell widths can vary, as shown below. The rendered output will look the same.
 | Paragraph | Text |
 ```
 
-<div class="alert alert-info">
-  <i class="fa fa-info-circle" aria-hidden="true"></i> <strong>Note:</strong> Creating tables with hyphens and pipes can be tedious! To speed up the process, try using the <a href="http://www.tablesgenerator.com/markdown_tables">Markdown Tables Generator</a>. Build a table using the graphical interface, and then copy the generated Markdown-formatted text into your file. Easy!
+<div class="alert alert-success">
+  <i class="fa fa-lightbulb-o" aria-hidden="true"></i> <strong>Tip:</strong> Creating tables with hyphens and pipes can be tedious! To speed up the process, try using the <a href="http://www.tablesgenerator.com/markdown_tables">Markdown Tables Generator</a>. Build a table using the graphical interface, and then copy the generated Markdown-formatted text into your file. Easy!
 </div>
 
 ## Alignment
@@ -83,3 +83,7 @@ The rendered output looks like this:
 You can format the text within tables. For example, you can add [links](/basic-syntax/#links), [code](/basic-syntax/#code-1) (words or phrases only, not [code blocks](/basic-syntax/#code-blocks)), and [emphasis](/basic-syntax/#emphasis).
 
 You can't add headings, blockquotes, lists, horizontal rules, images, or HTML tags.
+
+## Escaping Pipe Characters in Tables
+
+You can display a pipe (`|`) character in a table by using its HTML character code (`&#124;`).

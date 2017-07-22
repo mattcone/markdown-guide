@@ -1,6 +1,6 @@
 <footer class="site-footer">
   <div class="container">
-    <small class="block">&copy; {{ site.time | date: '%Y' }}. A <a href="http://mattcone.com">{{ site.author.name }}</a> project. <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>. Source code on <a href="https://github.com/mattcone/markdown-guide">GitHub</a>.</small>
+    <small class="block">&copy; {{ site.time | date: '%Y' }}. A <a href="http://mattcone.com">{{ site.author.name }}</a> project. <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>. Source code on <a href="https://github.com/mattcone/markdown-guide">GitHub</a>. <br/><a href="https://github.com/mattcone/markdown-guide/commit/{{ site.git.last_commit.short_sha }}">{{ site.git.last_commit.short_sha }}</a> deployed {{ site.git.last_commit.commit_date }}.</small>
   </div>
 </footer>
 <script type="text/javascript" src="/assets/javascript/anchor.js"></script>
@@ -37,7 +37,7 @@ window.addEventListener("hashchange", shiftWindow);
 
 <!-- for search -->
 <script type="text/javascript" src="https://cdn.jsdelivr.net/docsearch.js/2/docsearch.min.js"></script>
-<script type="text/javascript"> 
+<script type="text/javascript">
 docsearch({
 apiKey: '0125ba824e95b21d36ae268518067391',
 indexName: 'markdownguide',

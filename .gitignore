@@ -1,6 +1,7 @@
 _site/
 .sass-cache/
 .bundle/
+.git-metadata/
 
 # =========================
 # Operating System Files

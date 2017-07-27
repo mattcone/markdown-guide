@@ -40,7 +40,7 @@ Cell widths can vary, as shown below. The rendered output will look the same.
 ```
 
 <div class="alert alert-success">
-  <i class="fa fa-lightbulb-o" aria-hidden="true"></i> <strong>Tip:</strong> Creating tables with hyphens and pipes can be tedious! To speed up the process, try using the <a href="http://www.tablesgenerator.com/markdown_tables">Markdown Tables Generator</a>. Build a table using the graphical interface, and then copy the generated Markdown-formatted text into your file. Easy!
+  <i class="fa fa-lightbulb-o" aria-hidden="true"></i> <strong>Tip:</strong> Creating tables with hyphens and pipes can be tedious. To speed up the process, try using the <a href="http://www.tablesgenerator.com/markdown_tables">Markdown Tables Generator</a>. Build a table using the graphical interface, and then copy the generated Markdown-formatted text into your file.
 </div>
 
 ## Alignment

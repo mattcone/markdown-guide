@@ -19,7 +19,7 @@ To denote a word or phrase as code, enclose it in tick marks (`` ` ``).
   </tbody>
 </table>
 
-If the word or phrase you want to denote as code includes a tick mark, enclose it in double tick marks (<code>``</code>).
+If the word or phrase you want to denote as code includes one or more tick marks, you can escape it by enclosing the word or phrase in double tick marks (<code>``</code>).
 
 <table class="table table-bordered">
   <thead>
@@ -57,5 +57,5 @@ The rendered output looks like this:
     </html>
 
 <div class="alert alert-info">
-  <i class="fa fa-info-circle" aria-hidden="true"></i> <strong>Note:</strong> For a different way of creating code blocks, see <a href="/extended-syntax/#fenced-code-blocks">fenced code blocks</a>.
+  <i class="fa fa-info-circle" aria-hidden="true"></i> <strong>Note:</strong> To create code blocks without indenting lines, use <a href="/extended-syntax/#fenced-code-blocks">fenced code blocks</a>. 
 </div>

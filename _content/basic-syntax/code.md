@@ -13,7 +13,7 @@ To denote a word or phrase as code, enclose it in tick marks (`` ` ``).
   <tbody>
     <tr>
       <td><code class="highlighter-rouge">At the command prompt, type `nano`.</code></td>
-      <td><code class="highlighter-rouge">At the command prompt, type &lt;code&gt;nano&lt;/code&gt; </code></td>
+      <td><code class="highlighter-rouge">At the command prompt, type &lt;code&gt;nano&lt;/code&gt;. </code></td>
       <td>At the command prompt, type <code class="highlighter-rouge">nano</code>.</td>
     </tr>
   </tbody>
@@ -57,5 +57,5 @@ The rendered output looks like this:
     </html>
 
 <div class="alert alert-info">
-  <i class="fa fa-info-circle" aria-hidden="true"></i> <strong>Note:</strong> To create code blocks without indenting lines, use <a href="/extended-syntax/#fenced-code-blocks">fenced code blocks</a>. 
+  <i class="fa fa-info-circle" aria-hidden="true"></i> <strong>Note:</strong> To create code blocks without indenting lines, use <a href="/extended-syntax/#fenced-code-blocks">fenced code blocks</a>.
 </div>

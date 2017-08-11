@@ -330,7 +330,7 @@ The rendered output looks like this:
 
 Code normally needs to be indented four spaces or one tab, so when it's in a list, it needs to be indented eight spaces or two tabs.
 
-```
+```text
 1.  Open the file.
 2.  Find the following code block on line 21:
 
@@ -347,10 +347,12 @@ The rendered output looks like this:
 1.  Open the file.
 2.  Find the following code block on line 21:
 
-        <html>
-          <head>
-            <title>Test</title>
-          </head>
+    ```text
+    <html>
+      <head>
+        <title>Test</title>
+      </head>
+    ```
 
 3.  Update the title to match the name of your website.
 

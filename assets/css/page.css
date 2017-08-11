@@ -1,5 +1,6 @@
 @import url("open-sans.css");
 @import url("search.css");
+@import url("syntax.css");
 
 /* Move down content because we have a fixed navbar that is 50px tall */
 body {

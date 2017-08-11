@@ -42,7 +42,7 @@ If the word or phrase you want to denote as code includes one or more tick marks
 
 To create code blocks, indent every line of the block by at least four spaces or one tab.
 
-```
+```text
     <html>
       <head>
       </head>
@@ -51,10 +51,12 @@ To create code blocks, indent every line of the block by at least four spaces or
 
 The rendered output looks like this:
 
-    <html>
-      <head>
-      </head>
-    </html>
+```text
+<html>
+  <head>
+  </head>
+</html>
+```
 
 <div class="alert alert-info">
   <i class="fa fa-info-circle" aria-hidden="true"></i> <strong>Note:</strong> To create code blocks without indenting lines, use <a href="/extended-syntax/#fenced-code-blocks">fenced code blocks</a>.

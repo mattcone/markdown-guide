@@ -25,6 +25,8 @@ author:
 og_locale: "en_US"
 
 kramdown:
+  syntax_highlighter: rouge
+  input: GFM
   auto_ids:       true
   toc_levels:     1..3
 

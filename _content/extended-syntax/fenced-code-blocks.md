@@ -14,7 +14,31 @@ The basic Markdown syntax allows you to create [code blocks](/basic-syntax#code-
 
 The rendered output looks like this:
 
+```text
+{
+  "firstName": "John",
+  "lastName": "Smith",
+  "age": 25
+}
 ```
+
+## Syntax Highlighting
+
+Many Markdown processors support syntax highlighting for fenced code blocks. This feature allows you to add color highlighting for whatever language your code was written in. To add syntax highlighting, specify a language next to the tick marks before the fenced code block.
+
+~~~~~~~~~
+```json
+{
+  "firstName": "John",
+  "lastName": "Smith",
+  "age": 25
+}
+```
+~~~~~~~~~
+
+The rendered output looks like this:
+
+```json
 {
   "firstName": "John",
   "lastName": "Smith",

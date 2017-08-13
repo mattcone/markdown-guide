@@ -2,6 +2,7 @@
 layout: default
 title: Extended Syntax
 description: Advanced features that build on the basic Markdown syntax.
+last_modified_at: 2017-08-11
 ---
 
 {% include_relative _content/extended-syntax/overview.md %}

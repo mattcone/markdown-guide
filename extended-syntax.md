@@ -2,7 +2,7 @@
 layout: default
 title: Extended Syntax
 description: Advanced features that build on the basic Markdown syntax.
-last_modified_at: 2017-08-14
+last_modified_at: 2017-08-18
 ---
 
 {% include_relative _content/extended-syntax/overview.md %}
@@ -12,6 +12,8 @@ last_modified_at: 2017-08-14
 {% include_relative _content/extended-syntax/tables.md %}
 
 {% include_relative _content/extended-syntax/fenced-code-blocks.md %}
+
+{% include_relative _content/extended-syntax/footnotes.md %}
 
 {% include_relative _content/extended-syntax/header-ids.md %}
 

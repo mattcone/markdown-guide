@@ -112,3 +112,11 @@ nav[data-toggle='toc'] .nav > .active:focus > a {
     display: block;
   }
 }
+
+.footnotes {
+  margin-top: 40px;
+  padding-top: 20px;
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: rgb(238, 238, 238);
+}

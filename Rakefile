@@ -8,5 +8,8 @@ task :test do
     :check_favicon => true,
     :external_only => true,
     :url_swap => { %r{https://www.markdownguide.org} => '' },
+    :typhoeus => {
+      :ssl_verifypeer => false,
+      :ssl_verifyhost => 0},
     verbose => true}).run
 end

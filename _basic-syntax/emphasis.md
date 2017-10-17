@@ -1,4 +1,7 @@
-<h1 class="page-header">Emphasis</h1>
+---
+title: Emphasis
+syntax-id: emphasis
+---
 
 You can add emphasis by making text bold or italic.
 

@@ -1,4 +1,7 @@
-<h1 class="page-header">Code</h1>
+---
+title: Code
+syntax-id: code
+---
 
 To denote a word or phrase as code, enclose it in tick marks (`` ` ``).
 

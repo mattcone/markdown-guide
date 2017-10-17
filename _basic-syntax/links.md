@@ -1,4 +1,7 @@
-<h1 class="page-header">Links</h1>
+---
+title: Links
+syntax-id: links
+---
 
 To create a link, enclose the link text in brackets (e.g., `[Duck Duck Go]`) and then follow it immediately with the URL in parentheses (e.g., `(https://duckduckgo.com)`).
 

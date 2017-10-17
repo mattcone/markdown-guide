@@ -1,4 +1,7 @@
-<h1 class="page-header">Blockquotes</h1>
+---
+title: Blockquotes
+syntax-id: blockquotes
+---
 
 To create a blockquote, add a `>` in front of a paragraph.
 

@@ -1,4 +1,7 @@
-<h1 class="page-header">Paragraphs</h1>
+---
+title: Paragraphs
+syntax-id: paragraphs
+---
 
 To create paragraphs, use a blank line to separate one or more lines of text. You should not indent paragraphs with spaces or tabs.
 

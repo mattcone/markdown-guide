@@ -7,11 +7,7 @@
 
 ## Contributing
 
-Contributions are welcome. Feel free to open a pull request with changes!
-
-### Content Structure
-
-Content for the *Markdown Guide* is stored in the `_content` folder. The directories correspond to the page names, and the files correspond to the heading names. 
+Contributions are welcome. Feel free to open a pull request with changes.
 
 ### Running it Locally
 

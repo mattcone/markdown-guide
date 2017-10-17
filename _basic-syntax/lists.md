@@ -1,4 +1,7 @@
-<h1 class="page-header">Lists</h1>
+---
+title: Lists
+syntax-id: lists
+---
 
 You can organize items into ordered and unordered lists.
 

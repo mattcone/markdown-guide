@@ -1,4 +1,7 @@
-<h1 class="page-header">Line Breaks</h1>
+---
+title: Line Breaks
+syntax-id: line-breaks
+---
 
 To create a line break (`<br />`), end a line with two or more spaces, and then type return.
 

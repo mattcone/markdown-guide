@@ -9,6 +9,9 @@ plugins:
   - jekyll-last-modified-at
   - jekyll-sitemap
 
+collections:
+  - basic-syntax
+
 # Build settings
 permalink   : /:year/:title/
 markdown    : kramdown

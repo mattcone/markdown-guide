@@ -5,20 +5,20 @@ description: Advanced features that build on the basic Markdown syntax.
 last_modified_at: 2017-10-06
 ---
 
-{% include_relative _content/extended-syntax/overview.md %}
+{% include syntax.html type="extended" syntax-id="overview" %}
 
-{% include_relative _content/extended-syntax/availability.md %}
+{% include syntax.html type="extended" syntax-id="availability" %}
 
-{% include_relative _content/extended-syntax/tables.md %}
+{% include syntax.html type="extended" syntax-id="tables" %}
 
-{% include_relative _content/extended-syntax/fenced-code-blocks.md %}
+{% include syntax.html type="extended" syntax-id="fenced-code-blocks" %}
 
-{% include_relative _content/extended-syntax/footnotes.md %}
+{% include syntax.html type="extended" syntax-id="footnotes" %}
 
-{% include_relative _content/extended-syntax/header-ids.md %}
+{% include syntax.html type="extended" syntax-id="header-ids" %}
 
-{% include_relative _content/extended-syntax/strikethrough.md %}
+{% include syntax.html type="extended" syntax-id="strikethrough" %}
 
-{% include_relative _content/extended-syntax/task-lists.md %}
+{% include syntax.html type="extended" syntax-id="task-lists" %}
 
-{% include_relative _content/extended-syntax/automatic-url-linking.md %}
+{% include syntax.html type="extended" syntax-id="automatic-url-linking" %}

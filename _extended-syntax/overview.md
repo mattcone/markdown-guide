@@ -1,4 +1,7 @@
-<h1 class="page-header">Overview</h1>
+---
+title: Overview
+syntax-id: overview
+---
 
 <p class="lead">The <a href="/basic-syntax">basic syntax</a> outlined in John Gruber's original design document added many of the elements needed on a day-to-day basis, but it wasn't enough for some people. That's where extended syntax comes in.</p>
 

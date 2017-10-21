@@ -1,0 +1,10 @@
+{% if include.type == "basic" %}
+  {% assign syntaxes = site.basic-syntax | where:"syntax-id", include.syntax-id %}
+{% elsif include.type == "extended" %}
+  {% assign syntaxes = site.extended-syntax | where:"syntax-id", include.syntax-id %}
+{% endif %}
+
+{% for syntax in syntaxes %}
+  <h1 class="page-header">{{ syntax.title }}</h1>
+  {{ syntax.content }}
+{% endfor %}

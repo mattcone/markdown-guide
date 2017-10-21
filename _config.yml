@@ -11,6 +11,7 @@ plugins:
 
 collections:
   - basic-syntax
+  - extended-syntax
 
 # Build settings
 permalink   : /:year/:title/

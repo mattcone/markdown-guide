@@ -1,4 +1,7 @@
-<h1 class="page-header">Availability</h1>
+---
+title: Availability
+syntax-id: availability
+---
 
 Extended syntax isn't available in all Markdown applications. You'll need to check whether or not the lightweight markup language your application is using supports extended syntax. If it doesn't, it may still be possible to enable extensions in your Markdown processor.
 

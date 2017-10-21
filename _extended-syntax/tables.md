@@ -1,4 +1,7 @@
-<h1 class="page-header">Tables</h1>
+---
+title: Tables
+syntax-id: tables
+---
 
 To add a table, use three or more hyphens (`---`) to create each column's header, and use pipes (`|`) to separate each column. You can optionally add pipes on either end of the table.
 

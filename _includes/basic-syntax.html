@@ -1,8 +1,0 @@
-{% assign basics = site.basic-syntax | where:"syntax-id", include.basic-id %}
-{% for basic in basics %}
-
-<h1 class="page-header">{{ basic.title }}</h1>
-
-{{ basic.content }}
-
-{% endfor %}

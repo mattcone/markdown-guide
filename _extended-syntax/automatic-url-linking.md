@@ -1,4 +1,7 @@
-<h1 class="page-header">Automatic URL Linking</h1>
+---
+title: Automatic URL Linking
+syntax-id: automatic-url-linking
+---
 
 Many Markdown processors automatically turn URLs into links. That means if you type http://www.example.com, your Markdown processor will automatically turn it into a link even though you haven’t [used brackets](/basic-syntax/#links).
 

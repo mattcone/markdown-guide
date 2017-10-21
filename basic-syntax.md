@@ -5,24 +5,24 @@ description: The Markdown elements outlined in John Gruber's design document.
 last_modified_at: 2017-10-03
 ---
 
-{% include basic-syntax.html basic-id="overview" %}
+{% include syntax.html type="basic" syntax-id="overview" %}
 
-{% include basic-syntax.html basic-id="headings" %}
+{% include syntax.html type="basic" syntax-id="headings" %}
 
-{% include basic-syntax.html basic-id="paragraphs" %}
+{% include syntax.html type="basic" syntax-id="paragraphs" %}
 
-{% include basic-syntax.html basic-id="line-breaks" %}
+{% include syntax.html type="basic" syntax-id="line-breaks" %}
 
-{% include basic-syntax.html basic-id="emphasis" %}
+{% include syntax.html type="basic" syntax-id="emphasis" %}
 
-{% include basic-syntax.html basic-id="blockquotes" %}
+{% include syntax.html type="basic" syntax-id="blockquotes" %}
 
-{% include basic-syntax.html basic-id="lists" %}
+{% include syntax.html type="basic" syntax-id="lists" %}
 
-{% include basic-syntax.html basic-id="code" %}
+{% include syntax.html type="basic" syntax-id="code" %}
 
-{% include basic-syntax.html basic-id="horizontal-rules" %}
+{% include syntax.html type="basic" syntax-id="horizontal-rules" %}
 
-{% include basic-syntax.html basic-id="links" %}
+{% include syntax.html type="basic" syntax-id="links" %}
 
-{% include basic-syntax.html basic-id="images" %}
+{% include syntax.html type="basic" syntax-id="images" %}

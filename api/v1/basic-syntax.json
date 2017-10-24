@@ -1,0 +1,40 @@
+---
+permalink: api/v1/basic-syntax
+notes:
+  - In Links section, figure out how (or if) to add section for reference links.
+  - Fix code block markdown output -- it's not showing the spaces.
+  - In Emphasis section, figure out how (or if) to add section for bold and italic.
+  - How to add Adding Elements in Lists?
+---
+{
+  "status": "OK",
+  "last_updated": "2017-10-24",
+  "basic_syntax": [
+    {% for syntax in site.basic-syntax %}
+        {% if syntax.api != "no" %}
+          {
+            "name"        : "{{ syntax.title }}",
+            "description" : "{{ syntax.description }}",
+            "examples"    : [
+              {% for example in syntax.examples %}
+                {
+                  "markdown"    : {{ example.markdown | jsonify }},
+                  "html"        : "{{ example.html }}"
+                } {% unless forloop.last %},{% endunless %}
+              {% endfor %}
+            ],
+            "additional-examples"    : [
+              {% for additional in syntax.additional-examples %}
+                {
+                  "name"        : "{{ additional.name }}",
+                  "description" : "{{ additional.description }}",
+                  "markdown"    : {{ additional.markdown | jsonify }},
+                  "html"        : "{{ additional.html }}"
+                } {% unless forloop.last %},{% endunless %}
+              {% endfor %}
+            ]
+          } {% unless forloop.last %},{% endunless %}
+        {% endif %}
+    {% endfor %}
+  ]
+}

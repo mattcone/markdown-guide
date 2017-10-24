@@ -1,6 +1,19 @@
 ---
 title: Code
 syntax-id: code
+description: "To denote a word or phrase as code, enclose it in tick marks (`` ` ``)."
+examples:
+  - markdown: "At the command prompt, type `nano`."
+    html: "At the command prompt, type <code>nano</code>."
+additional-examples:
+  - name: "Code Blocks"
+    description: "To create code blocks, indent every line of the block by at least four spaces or one tab."
+    markdown: |
+        <html>
+          <head>
+          </head>
+        </html>
+    html: <pre><code><html><head></head></html></code></pre>
 ---
 
 To denote a word or phrase as code, enclose it in tick marks (`` ` ``).

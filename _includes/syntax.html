@@ -1,10 +1,14 @@
-{% if include.type == "basic" %}
+{% if include.type == "basic" or include.type == "basic-sub" %}
   {% assign syntaxes = site.basic-syntax | where:"syntax-id", include.syntax-id %}
 {% elsif include.type == "extended" %}
   {% assign syntaxes = site.extended-syntax | where:"syntax-id", include.syntax-id %}
 {% endif %}
 
 {% for syntax in syntaxes %}
-  <h1 class="page-header">{{ syntax.title }}</h1>
-  {{ syntax.content }}
+{% if include.type != "basic-sub" %}
+<h1 class="page-header">{{ syntax.title }}</h1>
+{% elsif include.type == "basic-sub" %}
+## {{ syntax.title }}
+{% endif %}
+{{ syntax.content }}
 {% endfor %}

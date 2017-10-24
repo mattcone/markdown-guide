@@ -1,6 +1,33 @@
 ---
 title: Headings
 syntax-id: headings
+description: "To create a heading, add number signs (`#`) in front of a word or phrase. The number of number signs you use should correspond to the heading level. For example, to create a heading level three (`<h3>`), use three number signs (e.g., `### My Header`)."
+examples:
+  - markdown: "# Heading level 1"
+    html: "<h1>Heading level 1</h1>"
+  - markdown: "## Heading level 2"
+    html: "<h2>Heading level 2</h2>"
+  - markdown: "### Heading level 3"
+    html: "<h3>Heading level 3</h3>"
+  - markdown: "#### Heading level 4"
+    html: "<h4>Heading level 4</h4>"
+  - markdown: "##### Heading level 5"
+    html: "<h5>Heading level 5</h5>"
+  - markdown: "###### Heading level 6"
+    html: "<h6>Heading level 6</h6>"
+additional-examples:
+  - name: "Alternative H1 Syntax"
+    description: "Alternatively, on the line below the text, add any number of == characters for heading level 1."
+    markdown: |
+      Heading level 1
+      ===============
+    html: "<h1>Heading level 1</h1>"
+  - name: "Alternative H2 Syntax"
+    description: "Alternatively, on the line below the text, add any number of -- characters for heading level 2."
+    markdown: |
+      Heading level 2
+      ---------------
+    html: "<h2>Heading level 2</h2>"
 ---
 
 To create a heading, add number signs (`#`) in front of a word or phrase. The number of number signs you use should correspond to the heading level. For example, to create a heading level three (`<h3>`), use three number signs (e.g., `### My Header`).

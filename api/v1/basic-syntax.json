@@ -23,7 +23,7 @@ notes:
                 } {% unless forloop.last %},{% endunless %}
               {% endfor %}
             ],
-            "additional-examples"    : [
+            "additional_examples"    : [
               {% for additional in syntax.additional-examples %}
                 {
                   "name"        : "{{ additional.name }}",

@@ -24,11 +24,10 @@ The *Markdown Guide* is made possible by the support of several individuals and 
 
 <p xmlns:dct="http://purl.org/dc/terms/" xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#">
   To the extent possible under law,
-  <a rel="dct:publisher"
-     href="https://www.markdownguide.org">
-    <span property="dct:title">Matt Cone</span></a>
+    <span property="dct:title">Matt Cone</span>
   has waived all copyright and related or neighboring rights to the
-  <i><span property="dct:title">Markdown Guide</span></i>.
+  <i><a rel="dct:publisher"
+     href="https://www.markdownguide.org"><span property="dct:title">Markdown Guide</span></a></i>.
 This work is published from the
 <span property="vcard:Country" datatype="dct:ISO3166"
       content="US" about="https://www.markdownguide.org">

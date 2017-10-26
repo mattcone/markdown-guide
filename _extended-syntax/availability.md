@@ -10,7 +10,7 @@ Extended syntax isn't available in all Markdown applications. You'll need to che
 There are several lightweight markup languages that are *supersets* of Markdown. They include Gruber's basic syntax and build upon it by adding additional elements like tables, codeblocks, syntax highlighting, URL autolinking, and footnotes. Many of the most popular Markdown applications use one of the following lightweight markup languages:
 
 - [CommonMark](http://commonmark.org)
-- [GitHub Flavored Markdown (GFM)](https://help.github.com/articles/working-with-advanced-formatting/)
+- [GitHub Flavored Markdown (GFM)](https://github.github.com/gfm/)
 - [Markdown Extra](https://michelf.ca/projects/php-markdown/extra/)
 - [MultiMarkdown](http://fletcherpenney.net/multimarkdown/)
 

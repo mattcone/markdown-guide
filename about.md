@@ -34,6 +34,6 @@ This work is published from the
   United States</span>.
   <br /><br />
   <a rel="license"
-     href="http://creativecommons.org/publicdomain/zero/1.0/">
+     href="https://creativecommons.org/publicdomain/zero/1.0/">
     <img src="http://i.creativecommons.org/p/zero/1.0/88x31.png" style="border-style: none;" alt="CC0" /></a>
 </p>

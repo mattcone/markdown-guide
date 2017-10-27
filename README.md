@@ -1,7 +1,6 @@
 # Markdown Guide
 
 [![Join the chat at https://gitter.im/markdown-guide/Lobby](https://badges.gitter.im/markdown-guide/Lobby.svg)](https://gitter.im/markdown-guide/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-
 [![Build Status](https://travis-ci.org/mattcone/markdown-guide.svg?branch=master)](https://travis-ci.org/mattcone/markdown-guide)
 [![Dependency Status](https://gemnasium.com/badges/github.com/mattcone/markdown-guide.svg)](https://gemnasium.com/github.com/mattcone/markdown-guide)
 

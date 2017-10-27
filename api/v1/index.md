@@ -5,7 +5,7 @@ description: Programmatically access <i>Markdown Guide</i> documentation.
 last_modified_at: 2017-10-24
 ---
 
-<p class="about">The Markdown Guide API conveniently provides Markdown documentation in JSON format, allowing you to programmatically access and use our documentation in your applications and websites for free.</p>
+<p class="about">The Markdown Guide API provides Markdown documentation in JSON format, allowing you to programmatically access and use our documentation in your applications and websites for free.</p>
 
 <div class="alert alert-info">
   <i class="fa fa-info-circle" aria-hidden="true"></i> <strong>Note:</strong> Hey there! :wave: We just launched this, so if you see anything wonky, please let us know by <a href="https://github.com/mattcone/markdown-guide/issues">filing an issue on GitHub</a>.
@@ -17,7 +17,7 @@ The Markdown Guide API provides a subset of documentation from the *Markdown Gui
 
 ## Why?
 
-Why create an API for Markdown documentation? Because there's so much duplicated Markdown documentation on the web! It seems like everybody has their own version of Markdown documentation for their application or website. That's a shame since most of it is exactly the same as all of the other documentation out there.
+Why create an API for Markdown documentation? Because there's so much duplicated Markdown documentation on the web! It seems like everybody has their own version of Markdown documentation for their application or website. That's a shame since most of it is exactly the same.
 
 Then came the epiphany. :bulb: We realized we could create a JSON API using documentation from the *Markdown Guide*. That way, software developers could start using the API to include our documentation in their applications, and organizations like universities and libraries could use the API to include our documentation on their websites.
 

@@ -6,9 +6,9 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Markdown Guide{% if page.title != 'Home' %} | {{ page.title }}{% endif %}</title>
+  <title>{% if page.title != 'Home' %}{{ page.title }} | {% endif %}Markdown Guide</title>
 
-  <meta name="description" content="A free and open-source reference guide that explains how to use Markdown.">
+  <meta name="description" content="{% if page.description %}{{ page.description }}{% else %} A free and open-source reference guide that explains how to use Markdown.{% endif %}">
   <meta content="Matt Cone and contributors" name=author>
   <meta name="keywords" content="Markdown, Markdown language, Markdown syntax, Markdown guide, Markdown cheatsheet, Markdown help, Markdown tutorial">
 

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: API
-description: Programmatically access <i>Markdown Guide</i> documentation.
+description: Programmatically access Markdown documentation.
 last_modified_at: 2017-10-24
 ---
 

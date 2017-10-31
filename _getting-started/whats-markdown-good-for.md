@@ -53,7 +53,7 @@ Believe it or not, you can generate presentations from Markdown-formatted files.
 
 If you send a lot of email and you're tired of the formatting controls available on most email provider websites, you'll be happy to learn there's an easy way to write email messages using Markdown. [Markdown Here](http://markdown-here.com) is a free and open-source browser extension that converts Markdown-formatted text into HTML that's ready to send.
 
-## Technical Documentation
+## Documentation
 
 Markdown is a natural fit for technical documentation. Companies like GitHub are increasingly switching to Markdown for their documentation — check out their [blog post](https://github.com/blog/1939-how-github-uses-github-to-document-github) about how they migrated their Markdown-formatted documentation to [Jekyll](https://jekyllrb.com/). If you write documentation for a product or service, take a look at these handy tools:
 

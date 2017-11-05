@@ -1,7 +1,7 @@
 ---
 title: Horizontal Rules
 syntax-id: horizontal-rules
-description: "To create a horizontal rule, use three or more asterisks (`***`), dashes (`---`), or underscores (`___`)."
+description: "To create a horizontal rule, use three or more asterisks (`***`), dashes (`---`), or underscores (`___`) on a line by themselves."
 examples:
   - markdown: "***"
     html: "<hr>"
@@ -11,7 +11,7 @@ examples:
     html: "<hr>"
 ---
 
-To create a horizontal rule, use three or more asterisks (`***`), dashes (`---`), or underscores (`___`).
+To create a horizontal rule, use three or more asterisks (`***`), dashes (`---`), or underscores (`___`) on a line by themselves.
 
 ```
 ***

@@ -8,7 +8,7 @@ notes:
 ---
 {
   "status": "OK",
-  "last_updated": "2017-10-24",
+  "last_updated": "2017-11-04",
   "basic_syntax": [
     {% for syntax in site.basic-syntax %}
         {% if syntax.api != "no" %}

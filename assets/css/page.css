@@ -120,3 +120,7 @@ nav[data-toggle='toc'] .nav > .active:focus > a {
   border-top-style: solid;
   border-top-color: rgb(238, 238, 238);
 }
+
+code {
+  padding: 0;
+}

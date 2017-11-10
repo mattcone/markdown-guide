@@ -2,10 +2,10 @@
 layout: default
 title: Cheat Sheet
 description: A quick reference to the Markdown syntax.
-last_modified_at: 2017-11-08
+last_modified_at: 2017-11-10
 ---
 
-<p class="about">This cheat sheet provides a quick overview of all the Markdown syntax elements. It can't cover every edge case, so if you need more information about any of these elements, refer to our reference guides for <a href="/basic-syntax">basic syntax</a> and <a href="/extended-syntax">extended syntax</a>.</p>
+<p class="about">This Markdown cheat sheet provides a quick overview of all the Markdown syntax elements. It can't cover every edge case, so if you need more information about any of these elements, refer to our reference guides for <a href="/basic-syntax">basic syntax</a> and <a href="/extended-syntax">extended syntax</a>.</p>
 
 <h1 class="page-header">Basic Syntax</h1>
 
@@ -96,7 +96,7 @@ last_modified_at: 2017-11-08
       </code></td>
     </tr>
     <tr>
-      <td><a href="/extended-syntax/#fenced-code-blocks">Fenced Code Blocks</a></td>
+      <td><a href="/extended-syntax/#fenced-code-blocks">Fenced Code Block</a></td>
       <td><code>```<br>
       {<br>
       &nbsp;&nbsp;"firstName": "John",<br>
@@ -107,7 +107,7 @@ last_modified_at: 2017-11-08
       </code></td>
     </tr>
     <tr>
-      <td><a href="/extended-syntax/#footnotes">Footnotes</a></td>
+      <td><a href="/extended-syntax/#footnotes">Footnote</a></td>
       <td><code>
         Here's a sentence with a footnote. [^1]<br><br>
 
@@ -115,7 +115,7 @@ last_modified_at: 2017-11-08
       </code></td>
     </tr>
     <tr>
-      <td><a href="/extended-syntax/#heading-ids">Heading IDs</a></td>
+      <td><a href="/extended-syntax/#heading-ids">Heading ID</a></td>
       <td><code>### My Great Heading {#custom-id}</code></td>
     </tr>
     <tr>
@@ -123,7 +123,7 @@ last_modified_at: 2017-11-08
       <td><code>~~The world is flat.~~</code></td>
     </tr>
     <tr>
-      <td><a href="/extended-syntax/#task-lists">Task Lists</a></td>
+      <td><a href="/extended-syntax/#task-lists">Task List</a></td>
       <td><code>
         - [x] Write the press release<br>
         - [ ] Update the website<br>

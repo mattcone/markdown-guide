@@ -1,6 +1,7 @@
 ---
 title: Blockquotes
 syntax-id: blockquotes
+syntax-summary: "> blockquote"
 description: "To create a blockquote, add a `>` in front of a paragraph."
 examples:
   - markdown: "> Dorothy followed her through many of the beautiful rooms in  her castle."

@@ -1,6 +1,7 @@
 ---
 title: Links
 syntax-id: links
+syntax-summary: "[title](https://www.example.com)"
 description: "To create a link, enclose the link text in brackets (e.g., `[Duck Duck Go]`) and then follow it immediately with the URL in parentheses (e.g., `(https://duckduckgo.com)`)."
 examples:
   - markdown: "My favorite search engine is [Duck Duck Go](https://duckduckgo.com)."

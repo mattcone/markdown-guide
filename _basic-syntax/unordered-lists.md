@@ -1,6 +1,10 @@
 ---
 title: Unordered Lists
 syntax-id: unordered-lists
+syntax-summary: |
+  - First item
+  - Second item
+  - Third item
 description: "To create an unordered list, add dashes (`-`), asterisks (`*`), or plus signs (`+`) in front of line items. Indent one or more items to create a nested list."
 examples:
   - markdown: |

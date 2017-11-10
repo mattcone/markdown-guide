@@ -1,6 +1,7 @@
 ---
 title: Bold
 syntax-id: bold
+syntax-summary: "**bold text**"
 description: "To bold text, add two asterisks or underscores before and after a word or phrase. To bold the middle of a word for emphasis, add two asterisks without spaces around the letters."
 examples:
   - markdown: "I just love **bold text**."

@@ -1,6 +1,7 @@
 ---
 title: Italic
 syntax-id: italic
+syntax-summary: "*italicized text*"
 description: "To italicize text, add one asterisk or underscore before and after a word or phrase. To italicize the middle of a word for emphasis, add one asterisk without spaces around the letters."
 examples:
   - markdown: "Italicized text is the *cat's meow*."

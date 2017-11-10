@@ -1,6 +1,7 @@
 ---
 title: Code
 syntax-id: code
+syntax-summary: "`code`"
 description: "To denote a word or phrase as code, enclose it in tick marks (`` ` ``)."
 examples:
   - markdown: "At the command prompt, type `nano`."

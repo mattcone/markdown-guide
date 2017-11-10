@@ -1,6 +1,10 @@
 ---
 title: Footnotes
 syntax-id: footnotes
+syntax-summary: |
+  Here's a sentence with a footnote. [^1]
+
+  [^1]: This is the footnote.
 ---
 
 Footnotes allow you to add notes and references without cluttering the body of the document. When you create a footnote, a superscript number with a link appears where you added the footnote reference. Readers can click the link to jump to the content of the footnote at the bottom of the page.

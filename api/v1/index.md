@@ -2,7 +2,7 @@
 layout: default
 title: API
 description: Programmatically access Markdown documentation.
-last_modified_at: 2017-11-04
+last_modified_at: 2017-11-10
 ---
 
 <p class="about">The Markdown Guide API provides Markdown documentation in JSON format, allowing you to programmatically access and use our documentation in your applications and websites for free.</p>
@@ -25,7 +25,7 @@ We'd love to see the *Markdown Guide* become the central documentation repositor
 
 ## Limitations
 
-The Markdown Guide API is designed to provide only essential Markdown documentation. As a result, the API doesn't include all of the documentation available on the *Markdown Guide* website. For example, the [Adding Elements in Lists](/basic-syntax/#adding-elements-in-lists) section is not available through the API.
+The Markdown Guide API is designed to provide only essential Markdown documentation. As a result, the API doesn't include all of the documentation available on the *Markdown Guide* website. For example, the [Adding Elements in Lists](/basic-syntax/#adding-elements-in-lists) section is not available through the basic syntax endpoint.
 
 <h1 class="page-header">Basic Syntax Endpoint</h1>
 
@@ -46,11 +46,33 @@ The basic syntax endpoint contains documentation about the Markdown elements out
 
 <script src="https://gist.github.com/mattcone/a0103c47bdac8bf81a54b29f650e5cb2.js"></script>
 
+<h1 class="page-header">Cheat Sheet Endpoint</h1>
+
+The cheat sheet endpoint provides an overview of the most popular basic and extended Markdown syntax elements, as described on the [Cheat Sheet page](/cheat-sheet/).
+
+<div class="panel panel-info">
+  <div class="panel-heading">
+    <h5 class="no-anchor" data-toc-skip>API Endpoint</h5>
+  </div>
+  <div class="panel-body"><a href="/api/v1/cheat-sheet.json">/api/v1/cheat-sheet.json</a></div>
+</div>
+
+## Request
+
+`curl https://www.markdownguide.org/api/v1/cheat-sheet.json`
+
+## Response
+
+<script src="https://gist.github.com/mattcone/ec8057127a0ff2e0b45d2cde14355b2a.js"></script>
+
 <h1 class="page-header">Changelog</h1>
 
 Here's a list of all the changes we've made to the Markdown Guide API.
 
 ```
+2017-11-10
+- Added cheat sheet endpoint
+
 2017-11-04
 - Added section about escaping tick marks in code
 

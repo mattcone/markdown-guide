@@ -1,6 +1,10 @@
 ---
 title: Ordered Lists
 syntax-id: ordered-lists
+syntax-summary: |
+  1. First item
+  2. Second item
+  3. Third item
 description: "To create an ordered list, add line items with numbers followed by periods. The numbers don't have to be in numerical order, but the list should start with the number one."
 examples:
   - markdown: |

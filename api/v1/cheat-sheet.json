@@ -1,0 +1,33 @@
+---
+permalink: api/v1/cheat-sheet
+---
+{
+  "status": "OK",
+  "last_updated": "2017-11-10",
+  "cheat_sheet": [
+    {
+      "basic_syntax": [
+        {% for syntax in site.basic-syntax %}
+            {% if syntax.syntax-summary %}
+              {
+                "element"   : "{{ syntax.title }}",
+                "syntax"    : {{ syntax.syntax-summary | jsonify }}
+              } {% unless forloop.last %},{% endunless %}
+            {% endif %}
+        {% endfor %}
+      ]
+    },
+    {
+      "extended_syntax": [
+        {% for syntax in site.extended-syntax %}
+            {% if syntax.syntax-summary %}
+              {
+                "element"   : "{{ syntax.title }}",
+                "syntax"    : {{ syntax.syntax-summary | jsonify }}
+              } {% unless forloop.last %},{% endunless %}
+            {% endif %}
+        {% endfor %}
+      ]
+    }
+  ]
+}

@@ -12,7 +12,7 @@ This is an open-source project, and your contributions are welcome. The reposito
 
 ### Reporting Issues
 
-Find a typo or inaccurate statement? Please [create an issue](https://github.com/mattcone/markdown-guide/issues) in our GitHub project. Thank you!
+Find a typo or inaccurate statement? Please [create an issue](https://github.com/mattcone/markdown-guide/issues) in our GitHub project.
 
 ### Acknowledgements
 

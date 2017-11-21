@@ -70,7 +70,7 @@ GEM
       forwardable-extended (~> 2.6)
     posix-spawn (0.3.13)
     public_suffix (3.0.1)
-    rake (12.2.1)
+    rake (12.3.0)
     rb-fsevent (0.10.2)
     rb-inotify (0.9.10)
       ffi (>= 0.5.0, < 2)

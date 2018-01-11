@@ -3,7 +3,7 @@
 source 'https://rubygems.org'
 
 group :development do
-  gem 'jekyll', '~> 3.6.0'
+  gem 'jekyll', '~> 3.7.0'
   gem 'jekyll-sitemap'
   gem 'jekyll-last-modified-at'
   gem 'jemoji'

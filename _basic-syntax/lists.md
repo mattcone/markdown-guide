@@ -54,9 +54,9 @@ The rendered output looks like this:
 
 *   And here's the third list item.
 
-### Code
+### Code Blocks {#code-blocks-1}
 
-Code normally needs to be indented four spaces or one tab, so when it's in a list, it needs to be indented eight spaces or two tabs.
+[Code blocks](#code-blocks) are normally indented four spaces or one tab.  When they're in a list, indent them eight spaces or two tabs.
 
 ```text
 1.  Open the file.

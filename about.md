@@ -20,20 +20,4 @@ The *Markdown Guide* is made possible by the support of several individuals and 
 
 ### License
 
-[CC0 1.0 Universal (CC0 1.0)](https://creativecommons.org/publicdomain/zero/1.0/)
-
-<p xmlns:dct="http://purl.org/dc/terms/" xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#">
-  To the extent possible under law,
-    <span property="dct:title">Matt Cone</span>
-  has waived all copyright and related or neighboring rights to the
-  <i><a rel="dct:publisher"
-     href="https://www.markdownguide.org"><span property="dct:title">Markdown Guide</span></a></i>.
-This work is published from the
-<span property="vcard:Country" datatype="dct:ISO3166"
-      content="US" about="https://www.markdownguide.org">
-  United States</span>.
-  <br /><br />
-  <a rel="license"
-     href="https://creativecommons.org/publicdomain/zero/1.0/">
-    <img src="https://i.creativecommons.org/p/zero/1.0/88x31.png" style="border-style: none;" alt="CC0" /></a>
-</p>
+The content of this project itself is licensed under the [CC0 1.0 Universal license](https://creativecommons.org/publicdomain/zero/1.0/), and the underlying source code used to format and display that content is licensed under the [MIT license](https://github.com/mattcone/markdown-guide/blob/master/LICENSE.txt).

@@ -22,13 +22,13 @@ Markdown doesn't have all the bells and whistles of word processors like Microso
 
 Here are some Markdown document authoring applications we recommend:
 
-- **Mac:** [iA Writer](https://ia.net/writer/), [Marked](http://marked2app.com/), or [MacDown](https://macdown.uranusjr.com/)
-- **iOS / Android:** [iA Writer](https://ia.net/writer/)
+- **Mac:** [iA Writer](https://ia.net/writer/), [Ulysses](https://ulyssesapp.com/), [Marked](http://marked2app.com/), or [MacDown](https://macdown.uranusjr.com/)
+- **iOS / Android:** [iA Writer](https://ia.net/writer/) or [Ulysses](https://ulyssesapp.com/) (iOS only)
 - **Windows:** [MarkdownPad](http://markdownpad.com/)
 - **Web:** [Dillinger](https://dillinger.io) or [StackEdit](https://stackedit.io/)
 
 <div class="alert alert-success">
-  <i class="fa fa-lightbulb-o" aria-hidden="true"></i> <strong>Tip:</strong> iA Writer <a href="https://ia.net/writer/templates/">provides  templates</a> for previewing, printing, and exporting Markdown-formatted documents. For example, the "Academic – MLA Style" template indents paragraphs and adds double sentence spacing.
+  <i class="fa fa-lightbulb-o" aria-hidden="true"></i> <strong>Tip:</strong> Both <a href="https://ia.net/writer/templates/">iA Writer</a> and <a href="https://styles.ulyssesapp.com/">Ulysses</a> provide templates for previewing, printing, and exporting Markdown-formatted documents. For example, iA Writer's "Academic – MLA Style" template indents paragraphs and adds double sentence spacing.
 </div>
 
 ## Notes
@@ -60,4 +60,4 @@ Markdown is a natural fit for technical documentation. Companies like GitHub are
 - **[GitBook](https://www.gitbook.com)** is a service that can help you create knowledge bases, ebooks, manuals, and API documentation from Markdown files.
 - **[Read the Docs](https://readthedocs.org)** can generate a documentation website from your open source Markdown files. Just connect your GitHub repository to their service and push — Read the Docs does the rest. They also have a [service for commercial entities](https://readthedocs.com/).
 - **[Jekyll](https://jekyllrb.com/)** was mentioned earlier in the section on websites, but it's also a good option for generating a documentation website from Markdown files. If you go this route, be sure to check out the [Jekyll documentation theme](http://idratherbewriting.com/documentation-theme-jekyll/).
-- **[MkDocs](http://www.mkdocs.org/)** is a fast, simple, and downright gorgeous static site generator that's geared towards building project documentation. Documentation source files are written in Markdown and configured with a single YAML configuration file. MkDocs has several [built in themes](http://www.mkdocs.org/user-guide/styling-your-docs/), including a port of the [Read the Docs](https://readthedocs.org/) documentation theme for use with MkDocs. One of the newest and most supported MkDocs themes is [MkDocs Material](https://squidfunk.github.io/mkdocs-material/) which features a beautiful Material Design UI. 
+- **[MkDocs](http://www.mkdocs.org/)** is a fast, simple, and downright gorgeous static site generator that's geared towards building project documentation. Documentation source files are written in Markdown and configured with a single YAML configuration file. MkDocs has several [built in themes](http://www.mkdocs.org/user-guide/styling-your-docs/), including a port of the [Read the Docs](https://readthedocs.org/) documentation theme for use with MkDocs. One of the newest and most supported MkDocs themes is [MkDocs Material](https://squidfunk.github.io/mkdocs-material/) which features a beautiful Material Design UI.

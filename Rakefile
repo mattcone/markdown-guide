@@ -7,6 +7,7 @@ task :test do
     :assume_extension => true,
     :check_favicon => true,
     :external_only => true,
+    :only_4xx => true,
     :url_swap => { %r{https://www.markdownguide.org} => '' },
     :typhoeus => {
       :ssl_verifypeer => false,

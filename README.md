@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/mattcone/markdown-guide.svg?branch=master)](https://travis-ci.org/mattcone/markdown-guide)
 
-[The Markdown Guide](https://www.markdownguide.org) is a concise introduction to Markdown designed for novice and intermediate users. It was born out of frustration with existing Markdown references that are needlessly verbose.
+[The Markdown Guide](https://www.markdownguide.org) is a comprehensive Markdown reference designed for novice and intermediate users. It was born out of frustration with existing Markdown references that are incomplete, inadequate, or both.
 
 ## Contributing
 

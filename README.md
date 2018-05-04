@@ -45,9 +45,9 @@ The content of this project itself is licensed under the [Creative Commons Attri
 끌어 오기 요청을 열기 전에 컴퓨터에서 변경 내용을 미리 보는 것이 좋습니다. * Markdown Guide *는 [Jekyll static site generator] (http://jekyllrb.com/)를 사용합니다. 저장소를 분기하거나 복제 한 후 다음 단계를 수행하여 사이트를 생성하고 미리 봅니다.
 
 - 컴퓨터에 루비가 설치되어 있는지 확인하십시오. https://www.ruby-lang.org/ko/downloads/를 참조하십시오.
--`번들 설치`
-- '지킬 봉사'
-- 브라우저에서 http://127.0.0.1:4000/을 가리 킵니다.
+-`bundle install`
+- 'jekyll serve'
+- http://127.0.0.1:4000/ 브라우저를 클릭
 
 ## 배포
 
@@ -55,4 +55,4 @@ The content of this project itself is licensed under the [Creative Commons Attri
 
 ## 라이센스
 
-이 프로젝트 자체의 내용은 [Creative Commons Attribution-ShareAlike 4.0 International license] (https://creativecommons.org/licenses/by-sa/4.0/) 및 그 소스 코드를 포맷하고 표시하는 데 사용되는 소스 코드에 따라 사용이 허가됩니다. 컨텐츠는 [MIT license] (LICENSE.txt)에 의거하여 라이센스가 부여됩니다.
+이 프로젝트 자체의 내용은 [Creative Commons Attribution-ShareAlike 4.0 International license](https://creativecommons.org/licenses/by-sa/4.0/) 및 그 소스 코드를 포맷하고 표시하는 데 사용되는 소스 코드에 따라 사용이 허가됩니다. 컨텐츠는 [MIT license](LICENSE.txt)에 의거하여 라이센스가 부여됩니다.

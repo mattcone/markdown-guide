@@ -46,7 +46,7 @@ The content of this project itself is licensed under the [Creative Commons Attri
 
 - 컴퓨터에 루비가 설치되어 있는지 확인하십시오. https://www.ruby-lang.org/ko/downloads/를 참조하십시오.
 
--`bundle install`
+- `bundle install`
 - 'jekyll serve'
 - http://127.0.0.1:4000/ 브라우저를 클릭
 

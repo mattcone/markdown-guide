@@ -29,10 +29,3 @@ The content of this project itself is licensed under the [Creative Commons Attri
 
 
 
-## <In korea>
-# Markdown 가이드
-
-[![Build Status](https://travis-ci.org/mattcone/markdown-guide.svg?branch=master)](https://travis-ci.org/mattcone/markdown-guide)
-
-[Markdown 가이드](https://www.markdownguide.org)는 초보자와 중급 사용자를 위해 설계된 포괄적 인 Markdown 참조 문서입니다. 그것은 불완전하거나 부적절한 기존 Markdown 참고 문헌에 대한 좌절감에서 태어났습니다.
-

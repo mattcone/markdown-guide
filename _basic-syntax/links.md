@@ -94,12 +94,12 @@ You can place this second part of the link anywhere in your Markdown document. S
 
 ### An Example Putting the Parts Together
 
-Say you add a URL as a [standard URL link](#urls-and-email-addresses) to a paragraph and it looks like this in Markdown:
+Say you add a URL as a [standard URL link](#links) to a paragraph and it looks like this in Markdown:
 
 ```
 In a hole in the ground there lived a hobbit. Not a nasty, dirty, wet hole, filled with the ends
 of worms and an oozy smell, nor yet a dry, bare, sandy hole with nothing in it to sit down on or to
-eat: it was a hobbit-hole <https://en.wikipedia.org/wiki/Hobbit#Lifestyle>, and that means comfort.
+eat: it was a [hobbit-hole](https://en.wikipedia.org/wiki/Hobbit#Lifestyle "Hobbit lifestyles"), and that means comfort.
 ```
 
 Though it may point to interesting additional information, the URL as displayed really doesn't add much to the existing raw text other than making it harder to read. To fix that, you could format the URL like this instead:

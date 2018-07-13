@@ -1,11 +1,11 @@
 ---
 title: Links
 syntax-id: links
-syntax-summary: "[title](https://www.example.com)"
-description: "To create a link, enclose the link text in brackets (e.g., `[Duck Duck Go]`) and then follow it immediately with the URL in parentheses (e.g., `(https://duckduckgo.com)`)."
+syntax-summary: "[link name](https://www.example.com)"
+description: "To create a link, enclose the link text in brackets (e.g., `[Duck Duck Go]`) and then follow it immediately with the URL in parentheses (e.g., `(https://duckduckgo.com)`). You can optionally add a title after the URL in the parentheses."
 examples:
-  - markdown: "My favorite search engine is [Duck Duck Go](https://duckduckgo.com)."
-    html: My favorite search engine is <a href=\"https://duckduckgo.com\">Duck Duck Go</a>.
+  - markdown: "My favorite search engine is [Duck Duck Go](https://duckduckgo.com \"The best search engine for privacy\")."
+    html: My favorite search engine is <a href=\"https://duckduckgo.com\" title=\"The best search engine for privacy\">Duck Duck Go</a>.
 additional-examples:
   - name: "URLs and Email Addresses"
     description: "To quickly turn a URL or email address into a link, enclose it in angle brackets."
@@ -17,15 +17,15 @@ additional-examples:
     html: I love supporting <strong><a href=\"https://eff.org\">EFF</a></strong>. This is the <em><a href=\"https://www.markdownguide.org\">Markdown Guide</a></em>.
 ---
 
-To create a link, enclose the link text in brackets (e.g., `[Duck Duck Go]`) and then follow it immediately with the URL in parentheses (e.g., `(https://duckduckgo.com)`).
+To create a link, enclose the link text in brackets (e.g., `[Duck Duck Go]`) and then follow it immediately with the URL in parentheses (e.g., `(https://duckduckgo.com)`). You can optionally add a title after the URL in the parentheses.
 
 ```
-My favorite search engine is [Duck Duck Go](https://duckduckgo.com).
+My favorite search engine is [Duck Duck Go](https://duckduckgo.com "The best search engine for privacy").
 ```
 
 The rendered output looks like this:
 
-My favorite search engine is [Duck Duck Go](https://duckduckgo.com).
+My favorite search engine is [Duck Duck Go](https://duckduckgo.com "The best search engine for privacy").
 
 ## URLs and Email Addresses
 

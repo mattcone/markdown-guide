@@ -2,7 +2,7 @@
 layout: default
 title: API
 description: Programmatically access Markdown documentation.
-last_modified_at: 2017-11-10
+last_modified_at: 2018-07-12
 ---
 
 <p class="about">The Markdown Guide API provides Markdown documentation in JSON format, allowing you to programmatically access and use our documentation in your applications and websites for free.</p>
@@ -70,6 +70,9 @@ The cheat sheet endpoint provides an overview of the most popular basic and exte
 Here's a list of all the changes we've made to the Markdown Guide API.
 
 ```
+2018-07-12
+- Updated links description to include information about adding titles
+
 2017-11-10
 - Added cheat sheet endpoint
 

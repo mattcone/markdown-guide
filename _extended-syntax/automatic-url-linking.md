@@ -15,7 +15,7 @@ The rendered output looks like this:
 
 ## Disabling Automatic URL Linking
 
-If you don't want a URL to be automatically linked, you can remove the link by [denoting the URL as code](/basic-syntax/#code-1) with tick marks.
+If you don't want a URL to be automatically linked, you can remove the link by [denoting the URL as code](/basic-syntax/#code) with tick marks.
 
 ```
 `http://www.example.com`

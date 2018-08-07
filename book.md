@@ -4,9 +4,28 @@ title: Get the Book
 description: The comprehensive Markdown reference guide in book format.
 ---
 
-<p class="about">This website has helped tens of thousands of people master Markdown. Now you can take it with you. Introducing the <em>Markdown Guide</em> book.</p>
-
-<p class="lead" style="padding-bottom: 30px"><strong style="font-weight: 600">Ready to download the book for free or purchase a package?</strong> <a href="#pricing">Skip to the Pricing section to get the book!</a></p>
+<div class="row" style="padding-bottom: 30px">
+  <div class="col-sm-5"><img src="/assets/images/book-cover.jpg" style="width: 95%"></div>
+  <div class="col-sm-7">
+    <p class="lead" style="padding-bottom: 30px">This website has helped tens of thousands of people master Markdown. Now you can take it with you. Introducing the <em>Markdown Guide</em> book.</p>
+    
+    <h3 class="no-anchor">Download it now, for free.</h3>
+    
+    <p class="lead">I want everyone to read the <em>Markdown Guide</em>. That's why it's free to download in PDF, EPUB, and MOBI format. Feel free to share it with your friends and family.</p>
+    
+    <a class="btn btn-success btn-lg" style="margin-right: 25px; margin-top: 5px" href="/assets/book/markdown-guide.pdf">Get the PDF File</a>
+    
+    <a class="btn btn-success btn-lg" style="margin-right: 25px; margin-top: 5px" href="/assets/book/markdown-guide.epub">Get the EPUB File</a>
+    
+    <a class="btn btn-success btn-lg" style="margin-top: 5px" href="/assets/book/markdown-guide.mobi">Get the MOBI File</a>
+    
+    <p class="lead" style="padding-top: 25px">The <em>Markdown Guide</em> is also available from <a href="https://leanpub.com/themarkdownguide">Leanpub</a> and <a href="https://www.amazon.com/dp/B07G7JB641">Amazon</a>.</p>
+    
+    <h3 class="no-anchor" style="padding-top: 30px">Get in on the action.</h3>
+    
+    <p class="lead">This is an open-source project, and your contributions are welcome. The repository is <a href="https://github.com/mattcone/markdown-guide-book">hosted on GitHub</a>. Find something wrong? <a href="https://github.com/mattcone/markdown-guide-book/issues">Create an issue</a> on GitHub and I'll fix it as soon as possible. Thank you!</p>
+  </div>
+</div>
 
 <h2 class="no-anchor">You Need to Learn Markdown</h2>
 
@@ -32,34 +51,6 @@ description: The comprehensive Markdown reference guide in book format.
 
 <p class="lead" style="padding-bottom: 30px">The <em>Markdown Guide</em> contains all of the content on this website, but it's been updated and expanded to include more examples. And it's not finished yet! Like the website, the book will continue to be updated on a regular basis with new sections and chapters.</p>
 
-## Pricing
+<h2 class="no-anchor">About the Author</h2>
 
-<p class="lead">I want everyone to read the <em>Markdown Guide</em>. That's why it's free to download in PDF format. Feel free to share it with your friends and family.</p>
-
-<a class="btn btn-info btn-lg" style="margin-bottom: 10px" href="/assets/book/markdown-guide.pdf">Download</a>
-
-<p class="lead" style="padding-bottom: 30px">If you’d like to purchase the <em>Markdown Guide</em>, there are two options available.</p>
-
-<h2 class="no-anchor">$4.99</h2>
-
-<p class="lead">Get the book in PDF, MOBI, and EPUB format. It's perfect for reading on portable devices like the Kindle. To keep you in the loop, I'll send you an email notification every time I update the book, and you'll be able to download the updated files for free.</p>
-
-<p class="lead"><strong style="font-weight: 600">100% Satisfaction Guaranteed.</strong> If you're not completely satisfied with the <em>Markdown Guide</em>, <a href="mailto:matt@macinstruct.com">email me</a> and I'll refund your money.</p>
-
-<a class="btn btn-success btn-lg" style="margin-bottom: 35px" href="https://gum.co/qkNfd?wanted=true">Purchase</a>
-
-<h2 class="no-anchor">$9.99</h2>
-
-<p class="lead">A package designed for professional users and those who need a little extra oomph. Get the book, update notifications, and access to a private Slack channel with myself and your fellow readers for personal, one-on-one help with all your Markdown issues.</p>
-
-<p class="lead"><strong style="font-weight: 600">100% Satisfaction Guaranteed.</strong> If you're not completely satisfied with the <em>Markdown Guide</em>, <a href="mailto:matt@macinstruct.com">email me</a> and I'll refund your money.</p>
-
-<a class="btn btn-success btn-lg" style="margin-bottom: 35px" href="https://gum.co/BaWGx?wanted=true">Purchase</a>
-
-<h2 class="no-anchor">100% of Proceeds Are Donated to Charity</h2>
-
-<p class="lead" style="padding-bottom: 30px">I'm donating all of the proceeds to <a href="https://watsi.org/">Watsi</a>, a non-profit organization that helps fund life-changing surgery for patients in developing countries. If you purchase the <em>Markdown Guide</em>, you'll be making a difference in the lives of people without access to affordable medical care.</p>
-
-<h2 class="no-anchor">Contributing</h2>
-
-<p class="lead">This is an open-source project, and your contributions are welcome. The repository is <a href="https://github.com/mattcone/markdown-guide-book">hosted on GitHub</a>.</p>
+<p class="lead">Matt Cone is a technical writer at <a href="https://www.fastly.com">Fastly</a>. He has over ten years of experience creating documentation for organizations like Linode and the U.S. Department of Health and Human Services. Matt's first book, <em><a href="https://www.amazon.com/Master-Your-Mac-Simple-Customize/dp/1593274068/">Master Your Mac</a></em>, was published by No Starch Press. To get in touch with Matt, visit <a href="http://mattcone.com">http://mattcone.com</a>.</p>

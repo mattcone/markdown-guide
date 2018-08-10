@@ -8,7 +8,7 @@ last_modified_at: 2018-07-12
 <p class="about">The Markdown Guide API provides Markdown documentation in JSON format, allowing you to programmatically access and use our documentation in your applications and websites for free.</p>
 
 <div class="alert alert-info">
-  <i class="fa fa-info-circle" aria-hidden="true"></i> <strong>Note:</strong> Hey there! :wave: We just launched this, so if you see anything wonky, please let us know by <a href="https://github.com/mattcone/markdown-guide/issues">filing an issue on GitHub</a>.
+  <i class="fas fa-info-circle"></i> <strong>Note:</strong> Hey there! :wave: We just launched this, so if you see anything wonky, please let us know by <a href="https://github.com/mattcone/markdown-guide/issues">filing an issue on GitHub</a>.
 </div>
 
 <h1 class="page-header">Introduction</h1>

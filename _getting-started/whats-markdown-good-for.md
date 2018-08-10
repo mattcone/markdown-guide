@@ -13,7 +13,7 @@ Markdown was designed for the web, so it should come as no surprise that there a
 If you're familiar with HTML, CSS, and version control, check out [Jekyll](https://jekyllrb.com/), a popular static site generator that takes Markdown files and builds an HTML website. One advantage to this approach is that [GitHub Pages](https://pages.github.com/) provides free hosting for Jekyll-generated websites. If Jekyll isn't your cup of tea, just pick one of the [many other static site generators available](https://www.staticgen.com/).
 
 <div class="alert alert-info">
-  <i class="fa fa-info-circle" aria-hidden="true"></i> <strong>Note:</strong> We used Jekyll to create the <i>Markdown Guide</i>. You can view the source code on <a href="https://github.com/mattcone/markdown-guide">GitHub</a>.
+  <i class="fas fa-info-circle"></i> <strong>Note:</strong> We used Jekyll to create the <i>Markdown Guide</i>. You can view the source code on <a href="https://github.com/mattcone/markdown-guide">GitHub</a>.
 </div>
 
 ## Documents
@@ -28,7 +28,7 @@ Here are some Markdown document authoring applications we recommend:
 - **Web:** [Dillinger](https://dillinger.io) or [StackEdit](https://stackedit.io/)
 
 <div class="alert alert-success">
-  <i class="fa fa-lightbulb-o" aria-hidden="true"></i> <strong>Tip:</strong> Both <a href="https://ia.net/writer/templates/">iA Writer</a> and <a href="https://styles.ulyssesapp.com/">Ulysses</a> provide templates for previewing, printing, and exporting Markdown-formatted documents. For example, iA Writer's "Academic – MLA Style" template indents paragraphs and adds double sentence spacing.
+  <i class="fas fa-lightbulb"></i> <strong>Tip:</strong> Both <a href="https://ia.net/writer/templates/">iA Writer</a> and <a href="https://styles.ulyssesapp.com/">Ulysses</a> provide templates for previewing, printing, and exporting Markdown-formatted documents. For example, iA Writer's "Academic – MLA Style" template indents paragraphs and adds double sentence spacing.
 </div>
 
 ## Notes

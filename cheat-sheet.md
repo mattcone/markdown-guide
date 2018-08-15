@@ -56,7 +56,7 @@ last_modified_at: 2017-11-10
       </td>
     </tr>
     <tr>
-      <td><a href="/basic-syntax/#code-1">Code</a></td>
+      <td><a href="/basic-syntax/#code">Code</a></td>
       <td><code>`code`</code></td>
     </tr>
     <tr>

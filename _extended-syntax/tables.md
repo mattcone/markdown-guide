@@ -51,7 +51,7 @@ Cell widths can vary, as shown below. The rendered output will look the same.
   <i class="fas fa-lightbulb"></i> <strong>Tip:</strong> Creating tables with hyphens and pipes can be tedious. To speed up the process, try using the <a href="http://www.tablesgenerator.com/markdown_tables">Markdown Tables Generator</a>. Build a table using the graphical interface, and then copy the generated Markdown-formatted text into your file.
 </div>
 
-## Alignment
+### Alignment
 
 You can align text in the columns to the left, right, or center by adding a colon (`:`) to the left, right, or on both side of the hyphens within the header row.
 
@@ -86,12 +86,12 @@ The rendered output looks like this:
   </tbody>
 </table>
 
-## Formatting Text in Tables
+### Formatting Text in Tables
 
 You can format the text within tables. For example, you can add [links](/basic-syntax/#links), [code](/basic-syntax/#code-1) (words or phrases in tick marks (`` ` ``) only, not [code blocks](/basic-syntax/#code-blocks)), and [emphasis](/basic-syntax/#emphasis).
 
 You can't add headings, blockquotes, lists, horizontal rules, images, or HTML tags.
 
-## Escaping Pipe Characters in Tables
+### Escaping Pipe Characters in Tables
 
 You can display a pipe (`|`) character in a table by using its HTML character code (`&#124;`).

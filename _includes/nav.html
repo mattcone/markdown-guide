@@ -1,34 +1,23 @@
-<nav class="navbar navbar-inverse navbar-fixed-top">
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark mdg-nav">
   <div class="container">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="/">Markdown Guide</a>
-    </div>
-    <div id="navbar" class="collapse navbar-collapse">
-      <ul class="nav navbar-nav">
-        {% if page.title == 'Getting Started' %}<li class="active">{% else %}<li>{% endif %}<a href="/getting-started">Get Started</a></li>
-        {% if page.title == 'Cheat Sheet' %}<li class="active">{% else %}<li>{% endif %}<a href="/cheat-sheet">Cheat Sheet</a></li>
-        {% if page.title == 'Basic Syntax' %}<li class="active">{% else %}<li>{% endif %}<a href="/basic-syntax">Basic Syntax</a></li>
-        {% if page.title == 'Extended Syntax' %}<li class="active">{% else %}<li>{% endif %}<a href="/extended-syntax">Extended Syntax</a></li>
-        {% if page.title == 'Get the Book' %}<li class="active">{% else %}<li>{% endif %}<a href="/book">Book</a></li>
-      </ul>
-      <div class="navbar-form navbar-right visible-md-inline visible-lg-inline bs-search" role="search">
-        <div class="col-xs-6 col-sm-3">
-          <div class="input-group input-group-sm">
-            <input type="text" class="form-control" id="search-input" placeholder="Search" aria-describedby="sizing-addon3">
-            <span class="input-group-btn" id="sizing-addon3">
-              <button class="btn btn-default" type="button">
-                <i class="fa fa-search" aria-hidden="true"></i>
-              </button>
-            </span>
-          </div>
-        </div>
+    <a class="navbar-brand" href="/" style="margin-top: 2px; margin-bottom: 3px">
+      <img src="/assets/images/markdown-mark-white.svg" height="23" class="d-inline-block align-top" alt="" style="margin-top: 4px; padding-right: 10px">
+      Markdown Guide
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup" style="margin-top: 2px">
+      <div class="navbar-nav">
+        <a class="nav-item nav-link {% if page.title == 'Getting Started' %}active{% endif %}" href="/getting-started">Get Started</a>
+        <a class="nav-item nav-link {% if page.title == 'Cheat Sheet' %}active{% endif %}" href="/cheat-sheet">Cheat Sheet</a>
+        <a class="nav-item nav-link {% if page.title == 'Basic Syntax' %}active{% endif %}" href="/basic-syntax">Basic Syntax</a>
+        <a class="nav-item nav-link {% if page.title == 'Extended Syntax' %}active{% endif %}" href="/extended-syntax">Extended Syntax</a>
+        <a class="nav-item nav-link {% if page.title == 'Get the Book' %}active{% endif %}" href="/book">Book</a>
       </div>
-    </div><!--/.nav-collapse -->
+    </div>
+    <form class="form-inline d-none d-lg-inline-block mt-2 mt-md-0">
+      <input type="text" class="form-control" id="search-input" placeholder="Search" aria-describedby="sizing-addon3" style="margin-top:0">
+    </form>
   </div>
 </nav>

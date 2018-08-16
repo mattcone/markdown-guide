@@ -33,7 +33,7 @@ The rendered output looks like this:
 }
 ```
 
-## Syntax Highlighting
+### Syntax Highlighting
 
 Many Markdown processors support syntax highlighting for fenced code blocks. This feature allows you to add color highlighting for whatever language your code was written in. To add syntax highlighting, specify a language next to the tick marks before the fenced code block.
 

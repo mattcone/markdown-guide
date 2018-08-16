@@ -13,7 +13,7 @@ examples:
 To create paragraphs, use a blank line to separate one or more lines of text. You should not indent paragraphs with spaces or tabs.
 
 <table class="table table-bordered">
-  <thead>
+  <thead class="thead-light">
     <tr>
       <th>Markdown</th>
       <th>HTML</th>

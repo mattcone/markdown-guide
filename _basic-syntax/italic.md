@@ -15,7 +15,7 @@ examples:
 To italicize text, add one asterisk or underscore before and after a word or phrase. To italicize the middle of a word for emphasis, add one asterisk without spaces around the letters.
 
 <table class="table table-bordered">
-  <thead>
+  <thead class="thead-light">
     <tr>
       <th>Markdown</th>
       <th>HTML</th>

@@ -15,7 +15,7 @@ examples:
 To bold text, add two asterisks or underscores before and after a word or phrase. To bold the middle of a word for emphasis, add two asterisks without spaces around the letters.
 
 <table class="table table-bordered">
-  <thead>
+  <thead class="thead-light">
     <tr>
       <th>Markdown</th>
       <th>HTML</th>

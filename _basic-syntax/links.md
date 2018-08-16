@@ -27,7 +27,7 @@ The rendered output looks like this:
 
 My favorite search engine is [Duck Duck Go](https://duckduckgo.com).
 
-## Adding Titles
+### Adding Titles
 
 You can optionally add a title for a link. This will appear as a tooltip when the user hovers over the link. To add a title, enclose it in parentheses after the URL. 
 
@@ -39,7 +39,7 @@ The rendered output looks like this:
 
 My favorite search engine is [Duck Duck Go](https://duckduckgo.com "The best search engine for privacy").
 
-## URLs and Email Addresses
+### URLs and Email Addresses
 
 To quickly turn a URL or email address into a link, enclose it in angle brackets.
 
@@ -53,7 +53,7 @@ The rendered output looks like this:
 <https://www.markdownguide.org><br/>
 <fake@example.com>
 
-## Formatting Links
+### Formatting Links
 
 To [emphasize](#emphasis) links, add asterisks before and after the brackets and parentheses.
 
@@ -67,11 +67,11 @@ The rendered output looks like this:
 I love supporting the **[EFF](https://eff.org)**.<br/>
 This is the *[Markdown Guide](https://www.markdownguide.org)*.
 
-## Reference-style Links
+### Reference-style Links
 
 Reference-style links are a special kind of link that make URLs easier to display and read in Markdown. Reference-style links are constructed in two parts: the part you keep inline with your text and the part you store somewhere else in the file to keep the text easy to read.
 
-### Formatting the First Part of the Link
+#### Formatting the First Part of the Link
 
 The first part of a reference-style link is formatted with two sets of brackets. The first set of brackets surrounds the text that should appear linked. The second set of brackets displays a label used to point to the link you're storing elsewhere in your document.
 
@@ -84,7 +84,7 @@ This means the following example formats are all roughly equivalent for the firs
 - `[hobbit-hole][a]`
 - `[hobbit-hole][A]`
 
-### Formatting the Second Part of the Link
+#### Formatting the Second Part of the Link
 
 The second part of a reference-style link is formatted with the following attributes:
 
@@ -104,7 +104,7 @@ This means the following example formats are all roughly equivalent for the seco
 
 You can place this second part of the link anywhere in your Markdown document. Some people place them immediately after the paragraph in which they appear while other people place them at the end of the document (like endnotes or footnotes).
 
-### An Example Putting the Parts Together
+#### An Example Putting the Parts Together
 
 Say you add a URL as a [standard URL link](#links) to a paragraph and it looks like this in Markdown:
 

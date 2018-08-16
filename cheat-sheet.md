@@ -5,14 +5,16 @@ description: A quick reference to the Markdown syntax.
 last_modified_at: 2017-11-10
 ---
 
-<p class="about">This Markdown cheat sheet provides a quick overview of all the Markdown syntax elements. It can't cover every edge case, so if you need more information about any of these elements, refer to our reference guides for <a href="/basic-syntax">basic syntax</a> and <a href="/extended-syntax">extended syntax</a>.</p>
+## Overview
 
-<h1 class="page-header">Basic Syntax</h1>
+This Markdown cheat sheet provides a quick overview of all the Markdown syntax elements. It can't cover every edge case, so if you need more information about any of these elements, refer to our reference guides for [basic syntax](/basic-syntax) and [extended syntax](/extended-syntax).
 
-<p class="lead">These are the elements outlined in John Gruber's original design document. All Markdown applications support these elements.</p>
+## Basic Syntax
 
-<table class="table table-bordered table-striped">
-  <thead>
+These are the elements outlined in John Gruber's original design document. All Markdown applications support these elements.
+
+<table class="table table-bordered">
+  <thead class="thead-light">
     <tr>
       <th>Element</th>
       <th>Markdown Syntax</th>
@@ -56,7 +58,7 @@ last_modified_at: 2017-11-10
       </td>
     </tr>
     <tr>
-      <td><a href="/basic-syntax/#code-1">Code</a></td>
+      <td><a href="/basic-syntax/#code">Code</a></td>
       <td><code>`code`</code></td>
     </tr>
     <tr>
@@ -74,12 +76,12 @@ last_modified_at: 2017-11-10
   </tbody>
 </table>
 
-<h1 class="page-header">Extended Syntax</h1>
+## Extended Syntax
 
-<p class="lead">These elements extend the basic syntax by adding additional features. Not all Markdown applications support these elements.</p>
+These elements extend the basic syntax by adding additional features. Not all Markdown applications support these elements.
 
-<table class="table table-bordered table-striped">
-  <thead>
+<table class="table table-bordered">
+  <thead class="thead-light">
     <tr>
       <th>Element</th>
       <th>Markdown Syntax</th>

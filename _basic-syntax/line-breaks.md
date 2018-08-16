@@ -12,7 +12,7 @@ examples:
 To create a line break (`<br>`), end a line with two or more spaces, and then type return.
 
 <table class="table table-bordered">
-  <thead>
+  <thead class="thead-light">
     <tr>
       <th>Markdown</th>
       <th>HTML</th>

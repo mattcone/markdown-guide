@@ -10,12 +10,12 @@ You can add emphasis by making text bold or italic.
 
 {% include syntax.html type="basic-sub" syntax-id="italic" %}
 
-## Bold and Italic
+### Bold and Italic
 
 To emphasize text with bold and italics at the same time, add three asterisks or underscores before and after a word or phrase.
 
 <table class="table table-bordered">
-  <thead>
+  <thead class="thead-light">
     <tr>
       <th>Markdown</th>
       <th>HTML</th>

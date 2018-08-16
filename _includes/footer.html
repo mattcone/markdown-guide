@@ -12,29 +12,13 @@
   anchors.add('h1, h2, h3, h4, h5').remove('.no-anchor');
 </script>
 
-<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-<script src="/assets/javascript/jquery-1.12.4.min.js"></script>
-
-<!-- Include all compiled plugins (below), or include individual files as needed -->
-<script src="/assets/javascript/bootstrap.min.js"></script>
+<!-- Bootstrap JavaScript -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
 
 <!-- TOC - add after bootstrap.min.js -->
-<script src="/assets/javascript/bootstrap-toc.min.js"></script>
-
-<script type="text/javascript">
-$("#toc").affix({
-    offset: {
-      top: 60
-    }
-});
-</script>
-
-<!-- Move headings down when using anchor links -->
-<script type="text/javascript">
-var shiftWindow = function() { scrollBy(0, -70) };
-if (location.hash) shiftWindow();
-window.addEventListener("hashchange", shiftWindow);
-</script>
+<script src="https://cdn.rawgit.com/afeld/bootstrap-toc/v1.0.0/dist/bootstrap-toc.min.js"></script>
 
 <!-- for search -->
 <script type="text/javascript" src="https://cdn.jsdelivr.net/docsearch.js/2/docsearch.min.js"></script>

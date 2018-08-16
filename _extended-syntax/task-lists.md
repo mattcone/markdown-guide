@@ -17,4 +17,4 @@ Task lists allow you to create a list of items with checkboxes. In Markdown appl
 
 The rendered output looks like this:
 
-<img src="/assets/images/tasklist.png" class="img-responsive" alt="Markdown task list">
+<img src="/assets/images/tasklist.png" class="img-fluid" alt="Markdown task list">

@@ -16,12 +16,12 @@ The HTML looks like this:
 <h3 id="custom-id">My Great Heading</h3>
 ```
 
-## Linking to Heading IDs
+### Linking to Heading IDs
 
 You can link to headings with custom IDs in the file by creating a [standard link](/basic-syntax/#links) with a number sign (`#`) followed by the custom heading ID.
 
 <table class="table table-bordered">
-  <thead>
+  <thead class="thead-light">
     <tr>
       <th>Markdown</th>
       <th>HTML</th>

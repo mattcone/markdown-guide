@@ -14,12 +14,12 @@ The rendered output looks like this:
 
 \* Without the backslash, this would be a bullet in an unordered list.
 
-## Characters You Can Escape
+### Characters You Can Escape
 
 You can use a backslash to escape the following characters.
 
 <table class="table table-bordered">
-  <thead>
+  <thead class="thead-light">
     <tr>
       <th>Character</th>
       <th>Name</th>

@@ -6,9 +6,9 @@
 
 {% for syntax in syntaxes %}
 {% if include.type != "basic-sub" %}
-<h1 class="page-header">{{ syntax.title }}</h1>
+<h2>{{ syntax.title }}</h2>
 {% elsif include.type == "basic-sub" %}
-## {{ syntax.title }}
+### {{ syntax.title }}
 {% endif %}
 {{ syntax.content }}
 {% endfor %}

@@ -1,30 +1,27 @@
-@import url("open-sans.css");
 @import url("search.css");
 @import url("syntax.css");
 
-/* Move down content because we have a fixed navbar that is 50px tall */
-body {
-  padding-top: 30px;
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 500;
+  padding-top: 20px;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 600;
+.mdg-nav {
+  font-size: .9rem;
 }
 
 .jumbotron h1 {
-  font-weight: 600;
-  font-size: 58px;
-}
-
-p, div {
-  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 3.2rem;
+  margin-top: -45px;
 }
 
 .jumbotron {
   background: #03A7DD;
   color: #FFFFFF;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
+  border-radius: 0;
+  height: 195px;
 }
 
 .jumbotron p {
@@ -60,7 +57,7 @@ h4 .anchorjs-link {
 
 .site-footer {
   padding-top: 35px;
-  padding-bottom: 25px;
+  padding-bottom: 20px;
   margin-top: 50px;
   color: #99979c;
   background-color: #dbdbdb;
@@ -81,14 +78,13 @@ h4 .anchorjs-link {
 /* https://afeld.github.io/bootstrap-toc/ */
 
 nav[data-toggle='toc'] {
-  margin-top: 40px;
-}
-
-.affix {
-  top: 40px;
+  padding-top: 28px;
 }
 
 nav[data-toggle='toc'] .nav > li > a:hover,
+nav[data-toggle='toc'] .nav-link.active,
+nav[data-toggle='toc'] .nav-link.active:focus,
+nav[data-toggle='toc'] .nav-link.active:hover,
 nav[data-toggle='toc'] .nav > li > a:focus {
   color: #03A7DD;
   border-left: 1px solid #03A7DD;
@@ -106,11 +102,6 @@ nav[data-toggle='toc'] .nav > .active:focus > a {
   nav.affix[data-toggle='toc'] {
     position: static;
   }
-
-  /* alternatively, if you *do* want the second-level navigation to be shown (as seen on this page on mobile), use this */
-  nav[data-toggle='toc'] .nav .nav {
-    display: block;
-  }
 }
 
 .footnotes {
@@ -121,6 +112,10 @@ nav[data-toggle='toc'] .nav > .active:focus > a {
   border-top-color: rgb(238, 238, 238);
 }
 
-code {
-  padding: 0;
+.highlight {
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-bottom: 1px;
+  margin-bottom: 20px;
 }

@@ -1,6 +1,6 @@
-<h1 class="page-header">How Does it Work?</h1>
+## How Does it Work?
 
-<p class="lead">Dillinger makes writing in Markdown easy because it hides the stuff happening behind the scenes, but it's worth exploring how the process works in general.</p>
+Dillinger makes writing in Markdown easy because it hides the stuff happening behind the scenes, but it's worth exploring how the process works in general.
 
 When you write in Markdown, the text is stored in a plaintext file that has an `.md` or `.markdown` extension. But then what? How is your Markdown-formatted file converted into HTML or a print-ready document?
 
@@ -14,7 +14,7 @@ Markdown applications use something called a *Markdown processor* (also commonly
 
 <br/>
 <center>
-  <img src="/assets/images/process.png" class="img-responsive" alt="The Markdown Process">
+  <img src="/assets/images/process.png" class="img-fluid" alt="The Markdown Process">
 </center>
 <br/>
 

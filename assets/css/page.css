@@ -16,19 +16,32 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: -45px;
 }
 
+.jumbotron p {
+  padding: 5px 0 0 0;
+  font-size: 24px;
+  font-weight: 300;
+  margin-bottom: 10px;
+}
+
+@media(max-width: 576px) {
+  .jumbotron p {
+    padding: 5px 0 0 0;
+    font-size: 1rem;
+    font-weight: 300;
+    margin-bottom: 10px;
+  }
+  .jumbotron h1 {
+    font-size: 1.5rem;
+    margin-top: 0px;
+  }
+}
+
 .jumbotron {
   background: #03A7DD;
   color: #FFFFFF;
   margin-bottom: 20px;
   border-radius: 0;
   height: 195px;
-}
-
-.jumbotron p {
-  padding: 5px 0 0 0;
-  font-size: 24px;
-  font-weight: 300;
-  margin-bottom: 10px;
 }
 
 .page-header {

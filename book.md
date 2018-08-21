@@ -5,7 +5,7 @@ description: The comprehensive Markdown reference guide in book format.
 ---
 
 <div class="row" style="padding-bottom: 30px">
-  <div class="col-sm-5" style="margin-top: 5px"><img src="/assets/images/book-cover.jpg" style="width: 95%"></div>
+  <div class="col-sm-5" style="margin-top: 5px"><img src="/assets/images/book-cover.jpg" style="width: 95%" alt="The Markdown Guide book cover"></div>
   <div class="col-sm-7">
     <p class="lead">This website has helped tens of thousands of people master Markdown. Now you can take it with you. Introducing the <em>Markdown Guide</em> book.</p>
     

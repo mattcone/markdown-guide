@@ -12,11 +12,9 @@ Markdown applications use something called a *Markdown processor* (also commonly
   <i class="fas fa-info-circle"></i> <strong>Note:</strong> The Markdown application and processor are two separate components. For the sake of brevity, we've combined them into one element ("Markdown App") in the figure below.
 </div>
 
-<br/>
-<center>
+<div style="text-align:center; margin:30px 0">
   <img src="/assets/images/process.png" class="img-fluid" alt="The Markdown Process">
-</center>
-<br/>
+</div>
 
 To summarize, this is a four-part process:
 

@@ -6,11 +6,9 @@ Using Markdown is different than using a [WYSIWYG](https://en.wikipedia.org/wiki
 
 For instance, to denote a heading, you add a number sign before it (e.g., `# Heading One`). Or to make a phrase bold, you add two asterisks before and after it (e.g., `**this text is bold**`). It may take a while to get used to seeing Markdown syntax in your text, especially if you're accustomed to WYSIWYG applications. The screenshot below shows a Markdown file displayed in the [Atom text editor](https://atom.io).
 
-<br/>
-<center>
+<div style="text-align:center; margin:30px 0">
   <img src="/assets/images/atom.png" class="img-fluid" alt="Markdown file in the Atom text editor">
-</center>
-<br/>
+</div>
 
 You can add Markdown formatting elements to a plaintext file using a text editor application. Or you can use one of the many Markdown applications for macOS, Windows, Linux, iOS, and Android operating systems. There are also several web-based applications specifically designed for writing in Markdown.
 

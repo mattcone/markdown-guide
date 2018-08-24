@@ -132,3 +132,22 @@ nav[data-toggle='toc'] .nav > .active:focus > a {
   padding-bottom: 1px;
   margin-bottom: 20px;
 }
+
+.form-control-lg {
+  display: block;
+  width: 100%;
+  padding: .5rem 1rem;
+  font-size: 1.1rem;
+  height: 2.5rem;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: .3rem;
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+textarea {
+  height: 250px;
+}

@@ -16,6 +16,10 @@ This is an open-source project, and your contributions are welcome. The reposito
 
 Find a typo or inaccurate statement? Please [create an issue](https://github.com/mattcone/markdown-guide/issues) in our GitHub project.
 
+## Contacting
+
+Use the [contact form](/contact) to send a message to the maintainer of the *Markdown Guide*.
+
 ## Acknowledgements
 
 The *Markdown Guide* is made possible by the support of several individuals and organizations. Thanks to [all who have contributed](https://github.com/mattcone/markdown-guide/graphs/contributors) to this project, and thanks to [Netlify](https://www.netlify.com/) for graciously hosting this website.

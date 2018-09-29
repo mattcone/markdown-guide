@@ -8,19 +8,19 @@ Here are some examples of what you can do with Markdown.
 
 ### Websites
 
-Markdown was designed for the web, so it should come as no surprise that there are plenty of applications specifically designed for creating website content. If you'd like to use a content management system (CMS) to power your website, take a look at [Ghost](https://ghost.org/). It's a free and  open-source blogging platform with a nice Markdown editor. If you're a WordPress user, you'll be happy to know there's [Markdown support](https://en.support.wordpress.com/markdown/) for websites hosted on WordPress.com. Self-hosted WordPress sites can use the [Jetpack plugin](https://jetpack.com/support/markdown/).
+Markdown was designed for the web, so it should come as no surprise that there are plenty of applications specifically designed for creating website content. If you'd like to use a content management system (CMS) to power your website, take a look at [Ghost](https://ghost.org/). It's a free and open-source blogging platform with a nice Markdown editor. If you're a WordPress user, you'll be happy to know there's [Markdown support](https://en.support.wordpress.com/markdown/) for websites hosted on WordPress.com. Self-hosted WordPress sites can use the [Jetpack plugin](https://jetpack.com/support/markdown/).
 
 If you're familiar with HTML, CSS, and version control, check out [Jekyll](https://jekyllrb.com/), a popular static site generator that takes Markdown files and builds an HTML website. One advantage to this approach is that [GitHub Pages](https://pages.github.com/) provides free hosting for Jekyll-generated websites. If Jekyll isn't your cup of tea, just pick one of the [many other static site generators available](https://www.staticgen.com/).
 
 <div class="alert alert-info">
-  <i class="fas fa-info-circle"></i> <strong>Note:</strong> We used Jekyll to create the <i>Markdown Guide</i>. You can view the source code on <a href="https://github.com/mattcone/markdown-guide">GitHub</a>.
+  <i class="fas fa-info-circle"></i> <strong>Note:</strong> I used Jekyll to create the <i>Markdown Guide</i>. You can view the source code on <a href="https://github.com/mattcone/markdown-guide">GitHub</a>.
 </div>
 
 ### Documents
 
 Markdown doesn't have all the bells and whistles of word processors like Microsoft Word, but it's good enough for creating basic documents like assignments and letters. You can use a Markdown document authoring application to create and export Markdown-formatted documents to PDF or HTML file format. The PDF part is key, because once you have a PDF document, you can do anything with it — print it, email it, or upload it to a website.
 
-Here are some Markdown document authoring applications we recommend:
+Here are some Markdown document authoring applications I recommend:
 
 - **Mac:** [iA Writer](https://ia.net/writer/), [Ulysses](https://ulyssesapp.com/), [Marked](http://marked2app.com/), or [MacDown](https://macdown.uranusjr.com/)
 - **iOS / Android:** [iA Writer](https://ia.net/writer/) or [Ulysses](https://ulyssesapp.com/) (iOS only)

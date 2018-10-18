@@ -2,7 +2,7 @@
 layout: default
 title: API
 description: Programmatically access Markdown documentation.
-last_modified_at: 2018-07-12
+last_modified_at: 2018-10-18
 ---
 
 ## Introduction
@@ -60,6 +60,9 @@ The cheat sheet endpoint provides an overview of the most popular basic and exte
 Here's a list of all the changes we've made to the Markdown Guide API.
 
 ```
+2018-10-18
+- Updated cheat sheet endpoint to include information about definition lists
+
 2018-07-12
 - Updated links description to include information about adding titles
 

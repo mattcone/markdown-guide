@@ -2,7 +2,7 @@
 layout: default
 title: Cheat Sheet
 description: A quick reference to the Markdown syntax.
-last_modified_at: 2017-11-10
+last_modified_at: 2018-10-18
 ---
 
 ## Overview
@@ -119,6 +119,13 @@ These elements extend the basic syntax by adding additional features. Not all Ma
     <tr>
       <td><a href="/extended-syntax/#heading-ids">Heading ID</a></td>
       <td><code>### My Great Heading {#custom-id}</code></td>
+    </tr>
+    <tr>
+      <td><a href="/extended-syntax/#definition-lists">Definition List</a></td>
+      <td><code>
+        term<br>
+        : definition
+      </code></td>
     </tr>
     <tr>
       <td><a href="/extended-syntax/#strikethrough">Strikethrough</a></td>

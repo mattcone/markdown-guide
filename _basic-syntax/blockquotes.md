@@ -90,7 +90,7 @@ Blockquotes can contain other Markdown formatted elements. Not all elements can 
 
 The rendered output looks like this:
 
-> <h4 class="no-anchor">The quarterly results look good!</h4>
+> <h4 class="no-anchor">The quarterly results look great!</h4>
 >
 > - Revenue was off the chart.
 > - Profits were higher than ever.

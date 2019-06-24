@@ -58,7 +58,7 @@ The rendered output looks like this:
 To [emphasize](#emphasis) links, add asterisks before and after the brackets and parentheses.
 
 ```
-I love supporting **[EFF](https://eff.org)**.
+I love supporting the **[EFF](https://eff.org)**.
 This is the *[Markdown Guide](https://www.markdownguide.org)*.
 ```
 

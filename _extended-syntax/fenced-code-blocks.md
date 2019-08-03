@@ -33,6 +33,10 @@ The rendered output looks like this:
 }
 ```
 
+<div class="alert alert-success">
+  <i class="fas fa-lightbulb"></i> <strong>Tip:</strong> Need to display tick marks inside a code block? See <a href="/basic-syntax/#escaping-tick-marks">this section</a> to learn how to escape them.
+</div>
+
 ### Syntax Highlighting
 
 Many Markdown processors support syntax highlighting for fenced code blocks. This feature allows you to add color highlighting for whatever language your code was written in. To add syntax highlighting, specify a language next to the tick marks before the fenced code block.

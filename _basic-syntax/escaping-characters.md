@@ -27,52 +27,56 @@ You can use a backslash to escape the following characters.
   </thead>
   <tbody>
     <tr>
-      <td><code>\</code></td>
+      <td>\</td>
       <td>backslash</td>
     </tr>
     <tr>
-      <td><code>`</code></td>
-      <td>tick mark</td>
+      <td>`</td>
+      <td>tick mark (also see <a href="#escaping-tick-marks">escaping tick marks in code</a>)</td>
     </tr>
     <tr>
-    <td><code>*</code></td>
-    <td>asterisk</td>
+      <td>*</td>
+      <td>asterisk</td>
     </tr>
     <tr>
-    <td><code>_</code></td>
-    <td>underscore</td>
+      <td>_</td>
+      <td>underscore</td>
     </tr>
     <tr>
-    <td><code>{}</code></td>
-    <td>curly braces</td>
+      <td>{ }</td>
+      <td>curly braces</td>
     </tr>
     <tr>
-    <td><code>[]</code></td>
-    <td>brackets</td>
+      <td>[ ]</td>
+      <td>brackets</td>
     </tr>
     <tr>
-    <td><code>()</code></td>
-    <td>parentheses</td>
+      <td>( )</td>
+      <td>parentheses</td>
     </tr>
     <tr>
-    <td><code>#</code></td>
-    <td>pound sign</td>
+      <td>#</td>
+      <td>pound sign</td>
     </tr>
     <tr>
-    <td><code>+</code></td>
-    <td>plus sign</td>
+      <td>+</td>
+      <td>plus sign</td>
     </tr>
     <tr>
-    <td><code>-</code></td>
-    <td>minus sign (hyphen)</td>
+      <td>-</td>
+      <td>minus sign (hyphen)</td>
     </tr>
     <tr>
-    <td><code>.</code></td>
-    <td>dot</td>
+      <td>.</td>
+      <td>dot</td>
     </tr>
     <tr>
-    <td><code>!</code></td>
-    <td>exclamation mark</td>
+      <td>!</td>
+      <td>exclamation mark</td>
+    </tr>
+    <tr>
+      <td>|</td>
+      <td>pipe (also see <a href="/extended-syntax/#escaping-pipe-characters-in-tables">escaping pipe in tables</a>)</td>
     </tr>
   </tbody>
 </table>

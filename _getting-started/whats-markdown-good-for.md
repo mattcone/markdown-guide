@@ -37,7 +37,7 @@ Here are some Markdown document authoring applications I recommend:
 
 ### Notes
 
-In nearly every way, Markdown is the ideal syntax for taking notes. Sadly, [Evernote](https://evernote.com/) and [OneNote](http://www.onenote.com/), two of the most popular note applications, don't currently support Markdown. The good news is that several other note applications *do* support Markdown:
+In nearly every way, Markdown is the ideal syntax for taking notes. Sadly, [Evernote](https://evernote.com/) and [OneNote](https://www.onenote.com/), two of the most popular note applications, don't currently support Markdown. The good news is that several other note applications *do* support Markdown:
 
 - **[Simplenote](https://simplenote.com/)** is a free, barebones note-taking application available for every platform.
 - **[Bear](https://bear.app/)** is an Evernote-like application available for Mac and iOS devices. It doesn't exclusively use Markdown syntax by default, but you can enable [Markdown compatibility mode](https://bear.app/faq/Markup%20:%20Markdown/Markdown%20compatibility%20mode/).

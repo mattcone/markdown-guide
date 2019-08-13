@@ -32,7 +32,7 @@ You can use a backslash to escape the following characters.
     </tr>
     <tr>
       <td>`</td>
-      <td>tick mark (also see <a href="#escaping-tick-marks">escaping tick marks in code</a>)</td>
+      <td>tick mark (see also <a href="#escaping-tick-marks">escaping tick marks in code</a>)</td>
     </tr>
     <tr>
       <td>*</td>
@@ -76,7 +76,7 @@ You can use a backslash to escape the following characters.
     </tr>
     <tr>
       <td>|</td>
-      <td>pipe (also see <a href="/extended-syntax/#escaping-pipe-characters-in-tables">escaping pipe in tables</a>)</td>
+      <td>pipe (see also <a href="/extended-syntax/#escaping-pipe-characters-in-tables">escaping pipe in tables</a>)</td>
     </tr>
   </tbody>
 </table>

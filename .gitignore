@@ -2,6 +2,7 @@ _site/
 .sass-cache/
 .bundle/
 .git-metadata/
+.jekyll-cache/
 
 # =========================
 # Operating System Files

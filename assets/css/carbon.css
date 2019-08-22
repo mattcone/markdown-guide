@@ -6,6 +6,8 @@
 #carbonads {
   display: flex;
   max-width: 330px;
+  margin-top: 30px;
+  margin-bottom: 15px;
   background-color: hsl(0, 0%, 98%);
   box-shadow: 0 1px 4px 1px hsla(0, 0%, 0%, .1);
 }

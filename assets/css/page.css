@@ -159,3 +159,7 @@ blockquote {
   padding: 1em 10px 0.1em 10px;
   quotes: "\201C""\201D""\2018""\2019";
 }
+
+code {
+  color: #212529;
+}

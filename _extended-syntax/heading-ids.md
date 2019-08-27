@@ -37,4 +37,4 @@ You can link to headings with custom IDs in the file by creating a [standard lin
   </tbody>
 </table>
 
-Other websites can link to the heading by adding the custom heading ID to the full URL of the webpage (e.g, `[Heading IDs](https:/www.markdownguide.org/extended-syntax#heading-ids)`).
+Other websites can link to the heading by adding the custom heading ID to the full URL of the webpage (e.g, `[Heading IDs](https://www.markdownguide.org/extended-syntax#heading-ids)`).

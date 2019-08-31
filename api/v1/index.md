@@ -13,9 +13,9 @@ The Markdown Guide API provides a subset of documentation from the *Markdown Gui
 
 Why create an API for Markdown documentation? Because there's so much duplicated Markdown documentation on the web! It seems like everybody has their own version of Markdown documentation for their application or website. That's a shame since most of it is exactly the same.
 
-Then came the epiphany. :bulb: We realized we could create a JSON API using documentation from the *Markdown Guide*. That way, software developers could start using the API to include our documentation in their applications, and organizations like universities and libraries could use the API to include our documentation on their websites.
+Then came the epiphany. 💡 We realized we could create a JSON API using documentation from the *Markdown Guide*. That way, software developers could start using the API to include our documentation in their applications, and organizations like universities and libraries could use the API to include our documentation on their websites.
 
-We'd love to see the *Markdown Guide* become the central documentation repository for the thousands of Markdown instructions sprinkled around the internet. Will it work? Who knows! One thing's for sure though: We can't wait to see what you do with it. :metal:
+We'd love to see the *Markdown Guide* become the central documentation repository for the thousands of Markdown instructions sprinkled around the internet. Will it work? Who knows! One thing's for sure though: We can't wait to see what you do with it. 🤘
 
 ### Limitations
 

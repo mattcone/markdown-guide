@@ -8,25 +8,25 @@ description: The comprehensive Markdown reference guide in book format.
   <div class="col-sm-5" style="margin-top: 5px"><img src="/assets/images/book-cover.jpg" style="width: 95%" alt="The Markdown Guide book cover"></div>
   <div class="col-sm-7">
     <p class="lead">This website has helped tens of thousands of people master Markdown. Now you can take it with you. Introducing the <em>Markdown Guide</em> book.</p>
-    
+
     <h3 class="no-anchor" style="margin-top: 20px">Download it now, for free.</h3>
-    
+
     <p class="lead" style="padding-bottom: 10px">I want everyone to read the <em>Markdown Guide</em>. That's why it's free to download in PDF, EPUB, and MOBI format. Feel free to share it with your friends and family.</p>
-    
+
     <div class="row" style="margin-top:15px; margin-bottom:25px">
       <div class="col-sm-12">
         <a class="btn btn-success btn-lg" style="margin-right: 20px; margin-top: 5px" href="/assets/book/markdown-guide.pdf">Get the PDF File</a>
-        
+
         <a class="btn btn-success btn-lg" style="margin-right: 20px; margin-top: 5px" href="/assets/book/markdown-guide.epub">Get the EPUB File</a>
-        
+
         <a class="btn btn-success btn-lg" style="margin-top: 5px" href="/assets/book/markdown-guide.mobi">Get the MOBI File</a>
       </div>
     </div>
-    
+
     <p class="lead">The <em>Markdown Guide</em> is also available from <a href="https://leanpub.com/themarkdownguide">Leanpub</a> and <a href="https://www.amazon.com/dp/B07G7JB641">Amazon</a>.</p>
-    
+
     <h3 class="no-anchor" style="padding-top: 30px">Get in on the action.</h3>
-    
+
     <p class="lead">This is an open-source project, and your contributions are welcome. The repository is <a href="https://github.com/mattcone/markdown-guide-book">hosted on GitHub</a>. Find something wrong? <a href="https://github.com/mattcone/markdown-guide-book/issues">Create an issue</a> on GitHub and I'll fix it as soon as possible. Thank you!</p>
   </div>
 </div>
@@ -39,7 +39,7 @@ description: The comprehensive Markdown reference guide in book format.
 
 <p class="lead" style="padding-bottom: 10px">Learning Markdown means you can stop using all the subpar writing tools you've tolerated for years. <strong style="font-weight: 600">It can also further your career.</strong> Believe it or not, knowing how to write using Markdown is a requirement for many jobs.</p>
 
-<h2 class="no-anchor">Markdown is Everywhere</h2> 
+<h2 class="no-anchor">Markdown is Everywhere</h2>
 
 <p class="lead">My litmus test for a successful writing tool is whether using it can become second nature. Does writing with it feel natural? Or do I feel like I'm constantly fighting against it? I stop using tools that hinder me. Time is valuable, and I don't have the luxury of indulging things that squander that precious resource.</p>
 
@@ -57,4 +57,4 @@ description: The comprehensive Markdown reference guide in book format.
 
 <h2 class="no-anchor">About the Author</h2>
 
-<p class="lead">Matt Cone is a technical writer at <a href="https://www.fastly.com">Fastly</a>. He has over ten years of experience creating documentation for organizations like Linode and the U.S. Department of Health and Human Services. Matt's first book, <em><a href="https://www.amazon.com/Master-Your-Mac-Simple-Customize/dp/1593274068/">Master Your Mac</a></em>, was published by No Starch Press. To get in touch with Matt, visit <a href="http://mattcone.com">http://mattcone.com</a>.</p>
+<p class="lead">Matt Cone is a technical writer at <a href="https://www.fastly.com">Fastly</a>. He has experience creating documentation for organizations like Linode and the U.S. Department of Health and Human Services. Matt's first book, <em><a href="https://www.amazon.com/Master-Your-Mac-Simple-Customize/dp/1593274068/">Master Your Mac</a></em>, was published by No Starch Press. To get in touch with Matt, visit <a href="http://mattcone.com">http://mattcone.com</a>.</p>

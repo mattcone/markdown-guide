@@ -8,7 +8,6 @@ comments: false
 plugins:
   - jekyll-last-modified-at
   - jekyll-sitemap
-  - jemoji
 
 collections:
   - basic-syntax

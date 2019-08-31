@@ -1,0 +1,24 @@
+[build]
+  publish = "_site/"
+  command = "JEKYLL_ENV=production jekyll build ; cp _site/"
+
+[build.processing]
+  skip_processing = false
+[build.processing.css]
+  bundle = true
+  minify = true
+[build.processing.js]
+  bundle = true
+  minify = true
+[build.processing.html]
+  pretty_urls = false
+[build.processing.images]
+  compress = true
+
+[[headers]]
+  for = "/*"
+
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-XSS-Protection = "1; mode=block"
+    X-Content-Type-Options = "nosniff"

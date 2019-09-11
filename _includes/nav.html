@@ -13,7 +13,7 @@
         <a class="nav-item nav-link {% if page.title == 'Cheat Sheet' %}active{% endif %}" href="/cheat-sheet/">Cheat Sheet</a>
         <a class="nav-item nav-link {% if page.title == 'Basic Syntax' %}active{% endif %}" href="/basic-syntax/">Basic Syntax</a>
         <a class="nav-item nav-link {% if page.title == 'Extended Syntax' %}active{% endif %}" href="/extended-syntax/">Extended Syntax</a>
-        <a class="nav-item nav-link {% if page.title == 'Tools' %}active{% endif %}" href="/tools/">Tools</a>
+        <a class="nav-item nav-link {% if page.url contains `/` %}active{% endif %}" href="/tools/">Tools</a>
         <a class="nav-item nav-link {% if page.title == 'Get the Book' %}active{% endif %}" href="/book/">Book</a>
       </div>
     </div>

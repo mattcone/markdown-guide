@@ -10,8 +10,17 @@ plugins:
   - jekyll-sitemap
 
 collections:
-  - basic-syntax
-  - extended-syntax
+  basic-syntax:
+  extended-syntax:
+  tools:
+    output: true
+    permalink: /tools/:title/
+
+defaults:
+  - scope:
+      type: tools
+    values:
+      layout: tool
 
 # Build settings
 permalink   : /:year/:title/

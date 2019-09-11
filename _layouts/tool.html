@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  {% include head.html %}
+    {% include nav.html %}
+    <div class="container">
+      <div class="row" style="padding-top:30px;">
+        <div class="col-md-2 d-none d-md-block">
+          <img src="/assets/images/tool-icons/{{ page.icon }}" style="width:80px">
+          <h1 class="no-anchor">{{ page.title }}</h1>
+          <p><a href="{{ page.website }}" style="font-size: 12px">{{ page.website }}</a></p>
+          <button type="button" class="btn btn-info btn-sm" style="font-size:12px">{{ page.category }}</button>
+          <br><br>
+          <a href="https://github.com/mattcone/markdown-guide/issues/new" class="btn btn-light btn-sm" style="font-size:12px">Report a problem →</a>
+        </div>
+
+        <div class="col-xs-13 col-sm-13 col-md-9" style="padding-top:30px;">
+          {{ content }}
+          {% include mailing-list.html %}
+        </div>
+
+      </div>
+  </div>
+    {% include footer.html %}
+  </body>
+</html>

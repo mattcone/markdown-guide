@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+  {% include head.html %}
+  <body data-spy="scroll" data-target="#toc">
+    {% include nav.html %}
+    <!-- Main jumbotron for a primary marketing message or call to action -->
+    <div class="jumbotron">
+      <div class="container">
+        <h1 class="no-anchor" data-toc-skip>{{ page.title }}</h1>
+        <p>{{ page.description }}</p>
+      </div>
+    </div>
+    <div class="container">
+      {{ content }}
+      {% include mailing-list.html %}
+    </div>
+    {% include footer.html %}
+  </body>
+</html>

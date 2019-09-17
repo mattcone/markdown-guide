@@ -1,7 +1,7 @@
 ---
 title: Slack
 category: collaboration
-description: "Slack is a popular team messaging and collaboration application."
+description: "Slack is a messaging and team collaboration application that supports Markdown."
 icon: slack.png
 website: https://slack.com
 markdown-processor:
@@ -155,7 +155,7 @@ To create a post, click the paperclip icon and select **Post** from the **Create
 
 #### Markdown Support in Slack Posts
 
-The Slack post interface provides support for the following the Markdown elements.
+The Slack post interface provides support for the following Markdown elements.
 
 <table class="table table-bordered" style="font-size: 14px">
   <thead class="thead-light">

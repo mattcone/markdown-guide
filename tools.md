@@ -10,7 +10,7 @@ last_modified_at: 2019-09-14
     <div class="card" style="width: 16rem;">
       <div class="card-body">
         <h4 class="card-title no-anchor" style="margin-top: -20px"><span class="emoji" style="font-size:30px">👋</span>&nbsp;&nbsp;&nbsp;Howdy!</h4>
-        <p class="card-text">This is only the start of a Markdown tool directory. Creating this information will take some time, so please pardon the dust while we build this out.</p>
+        <p class="card-text">This is only the start of what will eventually be a comprehensive Markdown tool directory. Creating this information will take some time, so please pardon the dust while we build this out.</p>
       </div>
     </div>
   </div>

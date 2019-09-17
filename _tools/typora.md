@@ -7,7 +7,7 @@ website: https://typora.io
 markdown-processor:
 ---
 
-[Typora](https://typora.io) is a simple and configurable document editor that provides excellent Markdown support. This application is ideal for students and professionals who needs to write essays and reports. It might be difficult using Typora for multi-file projects or for publishing websites.
+[Typora](https://typora.io) is a simple and configurable document editor that provides excellent Markdown support. This application is ideal for students and professionals who needs to write essays and reports. It might be difficult using Typora for multi-file projects or for website publishing.
 
 Typora stands out by offering a variety of settings without sacrificing the simplicity of a barebones interface. Newcomers to Markdown may appreciate the keyboard shortcuts for formatting options as well as the intuitive *live editor* that hides the Markdown formatting syntax after you type it.
 

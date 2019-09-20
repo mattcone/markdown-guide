@@ -1,10 +1,9 @@
 ---
 title: Slack
 category: collaboration
-description: "Slack is a messaging and team collaboration application that supports Markdown."
+description: "Slack is a messaging and team collaboration application."
 icon: slack.png
 website: https://slack.com
-markdown-processor:
 ---
 
 [Slack](https://slack.com) is a popular team messaging and collaboration application that supports a subset of the Markdown syntax. Different parts of the interface provide different levels of Markdown support.
@@ -46,7 +45,7 @@ The Slack message interface provides support for the following the Markdown elem
     <tr>
       <td><a href="/basic-syntax#bold">Bold</a></td>
       <td class="table-danger">No</td>
-      <td>The Markdown syntax is not supported, but you can add bold styling with single asterisks, which is the standard Markdown syntax for italics. Very confusing!</td>
+      <td>The Markdown syntax is not supported, but you can add bold styling with single asterisks, which is the standard Markdown syntax for italic. Very confusing!</td>
     </tr>
     <tr>
       <td><a href="/basic-syntax#italic">Italic</a></td>
@@ -147,7 +146,7 @@ The Slack message interface provides support for the following the Markdown elem
 
 ### Posts
 
-The Slack post interface is editor that allows you to create a document for sharing in Slack. This is a "live editor," which means you will see the actual formatting immediately after you type Markdown formatted text. For example, if you type `_test_`, the underscores will disappear and you'll see the word "test" in italics.
+The Slack post interface is editor that allows you to create a document for sharing in Slack. This is a live editor, which means you will see the actual formatting immediately after you type Markdown formatted text. For example, if you type `_test_`, the underscores will disappear and you'll see the word "test" in italics.
 
 To create a post, click the paperclip icon and select **Post** from the **Create new** menu, as shown below.
 
@@ -184,7 +183,7 @@ The Slack post interface provides support for the following Markdown elements.
     <tr>
       <td><a href="/basic-syntax#bold">Bold</a></td>
       <td class="table-danger">No</td>
-      <td>The Markdown syntax is not supported, but you can add bold styling with single asterisks, which is the standard Markdown syntax for italics. Very confusing!</td>
+      <td>The Markdown syntax is not supported, but you can add bold styling with single asterisks, which is the standard Markdown syntax for italic. Very confusing!</td>
     </tr>
     <tr>
       <td><a href="/basic-syntax#italic">Italic</a></td>

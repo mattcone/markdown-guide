@@ -39,10 +39,10 @@ Here are some Markdown document authoring applications I recommend:
 
 In nearly every way, Markdown is the ideal syntax for taking notes. Sadly, [Evernote](https://evernote.com/) and [OneNote](https://www.onenote.com/), two of the most popular note applications, don't currently support Markdown. The good news is that several other note applications *do* support Markdown:
 
-- **[Simplenote](https://simplenote.com/)** is a free, barebones note-taking application available for every platform.
-- **[Notable](https://github.com/notable/notable)** is an open source note-taking application that runs on a variety of platforms.
-- **[Bear](https://bear.app/)** is an Evernote-like application available for Mac and iOS devices. It doesn't exclusively use Markdown syntax by default, but you can enable [Markdown compatibility mode](https://bear.app/faq/Markup%20:%20Markdown/Markdown%20compatibility%20mode/).
-- **[Boostnote](https://boostnote.io/)** bills itself as an "open source note-taking app designed for programmers."
+- [Simplenote](https://simplenote.com/) is a free, barebones note-taking application available for every platform.
+- [Notable](https://github.com/notable/notable) is an open source note-taking application that runs on a variety of platforms.
+- [Bear](/tools/bear/) is an Evernote-like application available for Mac and iOS devices. It doesn't exclusively use Markdown syntax by default, but you can enable [Markdown compatibility mode](https://bear.app/faq/Markup%20:%20Markdown/Markdown%20compatibility%20mode/).
+- [Boostnote](https://boostnote.io/) bills itself as an "open source note-taking app designed for programmers."
 
 If you can't part with Evernote, check out [Marxico](https://marxi.co/), a subscription-based Markdown editor for Evernote, or use [Markdown Here](https://markdown-here.com/features.html#not-just-email) with the Evernote website.
 
@@ -62,8 +62,8 @@ If you send a lot of email and you're tired of the formatting controls available
 
 Markdown is a natural fit for technical documentation. Companies like GitHub are increasingly switching to Markdown for their documentation — check out their [blog post](https://github.com/blog/1939-how-github-uses-github-to-document-github) about how they migrated their Markdown-formatted documentation to [Jekyll](https://jekyllrb.com/). If you write documentation for a product or service, take a look at these handy tools:
 
-- **[Read the Docs](https://readthedocs.org)** can generate a documentation website from your open source Markdown files. Just connect your GitHub repository to their service and push — Read the Docs does the rest. They also have a [service for commercial entities](https://readthedocs.com/).
-- **[MkDocs](https://www.mkdocs.org/)** is a fast and simple static site generator that's geared towards building project documentation. Documentation source files are written in Markdown and configured with a single YAML configuration file. MkDocs has several [built in themes](https://www.mkdocs.org/user-guide/styling-your-docs/), including a port of the [Read the Docs](https://readthedocs.org/) documentation theme for use with MkDocs. One of the newest themes is [MkDocs Material](https://squidfunk.github.io/mkdocs-material/).
-- **[Docusaurus](https://docusaurus.io/)** is a static site generator designed exclusively for creating documentation websites. It supports translations, search, and versioning.
-- **[VuePress](https://vuepress.vuejs.org/)** is a static site generator powered by [Vue](https://vuejs.org/) and optimized for writing technical documentation.
-- **[Jekyll](https://jekyllrb.com/)** was mentioned earlier in the section on websites, but it's also a good option for generating a documentation website from Markdown files. If you go this route, be sure to check out the [Jekyll documentation theme](https://idratherbewriting.com/documentation-theme-jekyll/).
+- [Read the Docs](https://readthedocs.org) can generate a documentation website from your open source Markdown files. Just connect your GitHub repository to their service and push — Read the Docs does the rest. They also have a [service for commercial entities](https://readthedocs.com/).
+- [MkDocs](https://www.mkdocs.org/) is a fast and simple static site generator that's geared towards building project documentation. Documentation source files are written in Markdown and configured with a single YAML configuration file. MkDocs has several [built in themes](https://www.mkdocs.org/user-guide/styling-your-docs/), including a port of the [Read the Docs](https://readthedocs.org/) documentation theme for use with MkDocs. One of the newest themes is [MkDocs Material](https://squidfunk.github.io/mkdocs-material/).
+- [Docusaurus](https://docusaurus.io/) is a static site generator designed exclusively for creating documentation websites. It supports translations, search, and versioning.
+- [VuePress](https://vuepress.vuejs.org/) is a static site generator powered by [Vue](https://vuejs.org/) and optimized for writing technical documentation.
+- [Jekyll](https://jekyllrb.com/) was mentioned earlier in the section on websites, but it's also a good option for generating a documentation website from Markdown files. If you go this route, be sure to check out the [Jekyll documentation theme](https://idratherbewriting.com/documentation-theme-jekyll/).

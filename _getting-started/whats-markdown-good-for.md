@@ -29,7 +29,7 @@ Here are some Markdown document authoring applications I recommend:
 - **Mac:** [iA Writer](https://ia.net/writer/), [Ulysses](https://ulyssesapp.com/), [Marked](https://marked2app.com/), or [MacDown](https://macdown.uranusjr.com/)
 - **iOS / Android:** [iA Writer](https://ia.net/writer/) or [Ulysses](https://ulyssesapp.com/) (iOS only)
 - **Windows:** [MarkdownPad](https://markdownpad.com/) or [ghostwriter](https://wereturtle.github.io/ghostwriter/) ([GitHub project](https://github.com/wereturtle/ghostwriter))
-- **Web:** [Dillinger](https://dillinger.io) or [StackEdit](https://stackedit.io/)
+- **Web:** [Dillinger](/tools/dillinger/) or [StackEdit](https://stackedit.io/)
 
 <div class="alert alert-success">
   <i class="fas fa-lightbulb"></i> <strong>Tip:</strong> Both <a href="https://ia.net/writer/templates/">iA Writer</a> and <a href="https://styles.ulyssesapp.com/">Ulysses</a> provide templates for previewing, printing, and exporting Markdown-formatted documents. For example, iA Writer's "Academic – MLA Style" template indents paragraphs and adds double sentence spacing.

@@ -6,7 +6,7 @@ icon: reddit.png
 website: https://www.reddit.com
 ---
 
-[Reddit](https://www.reddit.com) is a popular news aggregation and community discussion website. Reddit provides solid Markdown support and things generally work the way you expect them to. The company has developed its own Markdown processor called "snoomark" which is based on GitHub-Flavored Markdown. Some have start referring to this as "Reddit-flavored Markdown."
+[Reddit](https://www.reddit.com) is a popular news aggregation and community discussion website. Reddit provides solid Markdown support and things generally work the way you expect them to. The company has developed its own Markdown processor called "snoomark" which is based on GitHub-Flavored Markdown. Some have started referring to this as "Reddit-flavored Markdown."
 
 ### Enabling Markdown Support
 

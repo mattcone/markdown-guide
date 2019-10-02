@@ -119,7 +119,7 @@ Dillinger provides support for the following Markdown elements. The application 
     <tr>
       <td><a href="/extended-syntax/#task-lists">Task Lists</a></td>
       <td class="table-success">Yes</td>
-      <td></td>
+      <td>You don't have to use dashes. Just use brackets (i.e., <code>[ ]</code>).</td>
     </tr>
     <tr>
       <td><a href="/extended-syntax/#automatic-url-linking">Automatic URL Linking</a></td>

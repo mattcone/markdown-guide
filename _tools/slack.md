@@ -69,8 +69,8 @@ The Slack message interface provides support for the following the Markdown elem
     </tr>
     <tr>
       <td><a href="/basic-syntax#code">Code</a></td>
-      <td class="table-success">Yes</td>
-      <td></td>
+      <td class="table-warning">Partial</td>
+      <td><a href="/basic-syntax/#code-blocks">Code blocks</a> are not supported.</td>
     </tr>
     <tr>
       <td><a href="/basic-syntax/#horizontal-rules">Horizontal Rules</a></td>

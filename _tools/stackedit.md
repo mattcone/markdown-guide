@@ -1,21 +1,22 @@
 ---
-title: Dillinger
+title: StackEdit
 category: "online editor"
-description: "Dillinger is an online Markdown editor designed for on-the-go writing."
-icon: dillinger.png
-website: https://dillinger.io
+description: "StackEdit is a powerful online Markdown editor you can use anywhere."
+icon: stackedit.png
+website: https://stackedit.io
 ---
 
-[Dillinger](https://dillinger.io) is an online Markdown editor. Like [StackEdit](/tools/stackedit/), it loads right in your web browser, so there's no need to download and install an application on your computer. Dillinger has two panes: the editor on the left, and the live preview on the right. The split panes make it easy to see what Markdown-formatted text looks like.
+[StackEdit](https://stackedit.io) is a powerful online Markdown editor. Like [Dillinger](/tools/dillinger/), it loads right in your web browser, so there's no need to download and install an application on your computer. StackEdit has a wide variety of features and configurable options for power users, making it in many ways a better all-around option than comparable desktop applications.
 
-Dillinger provides excellent Markdown support. Unfortunately, the export options are not customizable and the file saving features are a bit flaky. And since Dillinger loads in your web browser, it's entirely dependent on a consistent internet connection. If your internet connection goes down or your web browser crashes, you could lose your work. For those reasons, Dillinger is best used for experimentation and quick note taking.
+<img src="/assets/images/tools/stackedit.png" class="img-fluid" alt="StackEdit Markdown editor">
 
-<img src="/assets/images/dillinger.png" class="img-fluid" alt="Dillinger Markdown editor">
+StackEdit's Markdown support is excellent. Features include the ability to sync and save files to third-party services, output to various file formats using custom templates, and configure metadata properties for files. (Note that you must subscribe to StackEdit to output to some of the file formats, like PDF.) LaTeX and UML diagrams are also supported. You can apparently use StackEdit without an internet connection.
 
+StackEdit is limited by a lack of documentation. Users are left to discover and toy around with many of the application's features on their own. That's a shame, because the undocumented features are essentially unusable by all but the most advanced users. For example, you can create your own templates for exported files, but there's no information about what templating language is used, and no guidance on how to create your own templates. There is a [community support forum](https://community.stackedit.io/), but users shouldn't have to read through questions and answers to figure out how to do something simple.
 
-### Markdown Support in Dillinger
+### Markdown Support in StackEdit
 
-Dillinger provides support for the following Markdown elements. The application uses the [markdown-it](https://github.com/markdown-it/markdown-it) Markdown processor.
+StackEdit provides support for the following Markdown elements. The application uses the [PageDown](https://github.com/StackExchange/pagedown) Markdown processor.
 
 <table class="table table-bordered" style="font-size: 14px">
   <thead class="thead-light">
@@ -39,7 +40,7 @@ Dillinger provides support for the following Markdown elements. The application 
     <tr>
       <td><a href="/basic-syntax/#line-breaks">Line Breaks</a></td>
       <td class="table-success">Yes</td>
-      <td>The Markdown syntax (trailing whitespace) is not supported, but you can press the Return key once to achieve the same result.</td>
+      <td></td>
     </tr>
     <tr>
       <td><a href="/basic-syntax#bold">Bold</a></td>
@@ -119,7 +120,7 @@ Dillinger provides support for the following Markdown elements. The application 
     <tr>
       <td><a href="/extended-syntax/#task-lists">Task Lists</a></td>
       <td class="table-success">Yes</td>
-      <td>You don't have to use dashes. Just use brackets (i.e., <code>[ ]</code>).</td>
+      <td></td>
     </tr>
     <tr>
       <td><a href="/extended-syntax/#automatic-url-linking">Automatic URL Linking</a></td>
@@ -133,7 +134,7 @@ Dillinger provides support for the following Markdown elements. The application 
     </tr>
     <tr>
       <td>HTML</td>
-      <td class="table-danger">No</td>
+      <td class="table-success">Yes</td>
       <td></td>
     </tr>
   </tbody>
@@ -141,7 +142,7 @@ Dillinger provides support for the following Markdown elements. The application 
 
 ### Support for Additional Syntax Elements
 
-As an added bonus, Dillinger provides support for several obscure elements.
+As an added bonus, StackEdit provides support for several obscure elements.
 
 <table class="table table-bordered" style="font-size: 14px">
   <thead class="thead-light">
@@ -160,14 +161,14 @@ As an added bonus, Dillinger provides support for several obscure elements.
 is maintained by the W3C.</td>
     </tr>
     <tr>
+      <td>Emoji</td>
+      <td><code>:joy:</code></td>
+      <td>😂</td>
+    </tr>
+    <tr>
       <td>Highlight</td>
       <td><code>==word or phrase==</code></td>
       <td><mark>word or phrase</mark></td>
-    </tr>
-    <tr>
-      <td>Insert</td>
-      <td><code>++This text has been inserted++</code></td>
-      <td><ins>This text has been inserted</ins></td>
     </tr>
     <tr>
       <td>Subscript</td>
@@ -184,4 +185,4 @@ is maintained by the W3C.</td>
 
 ### See Also
 
-- [Dillinger repository on GitHub](https://github.com/joemccann/dillinger)
+- [StackEdit repository on GitHub](https://github.com/benweet/stackedit/)

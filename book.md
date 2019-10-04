@@ -7,7 +7,7 @@ description: The comprehensive Markdown reference guide in book format.
 <div class="row" style="padding-bottom: 30px">
   <div class="col-sm-5" style="margin-top: 5px"><img src="/assets/images/book-cover.jpg" style="width: 95%" alt="The Markdown Guide book cover"></div>
   <div class="col-sm-7">
-    <p class="lead">This website has helped tens of thousands of people master Markdown. Now you can take it with you. Introducing the <em>Markdown Guide</em> book.</p>
+    <p class="lead">This website has helped hundreds of thousands of people master Markdown. Now you can take it with you. Introducing the <em>Markdown Guide</em> book.</p>
 
     <h3 class="no-anchor" style="margin-top: 20px">Download it now, for free.</h3>
 
@@ -51,7 +51,7 @@ description: The comprehensive Markdown reference guide in book format.
 
 <p class="lead">So you want to learn to write using Markdown. Great! Now what?</p>
 
-<p class="lead">I was in your shoes once, too. I wanted to learn Markdown, but I couldn't find any good resources for beginners. That's why I decided to create the <em>Markdown Guide</em>. It's designed to be a comprehensive reference guide to the Markdown markup language. </p>
+<p class="lead">I was in your shoes once, too. I wanted to learn Markdown, but I couldn't find any good resources for beginners. That's why I decided to create the <em>Markdown Guide</em>. It's designed to be a comprehensive reference guide to the Markdown markup language.</p>
 
 <p class="lead" style="padding-bottom: 10px">The <em>Markdown Guide</em> contains all of the content on this website, but it's been updated and expanded to include more examples. And it's not finished yet! Like the website, the book will continue to be updated on a regular basis with new sections and chapters.</p>
 

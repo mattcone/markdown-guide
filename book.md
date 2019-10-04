@@ -45,7 +45,7 @@ description: The comprehensive Markdown reference guide in book format.
 
 <p class="lead">Markdown passes the test with flying colors. Writing using Markdown just <em>feels right</em>. Since its introduction in 2004, millions of people have starting using it to write everything from notes to documents. <strong style="font-weight: 600">It's one of the most successful markup languages of all time.</strong></p>
 
-<p class="lead" style="padding-bottom: 10px">Markdown has succeeded where other markup languages have failed because it strikes the right balance between power and simplicity. It's easy to learn and simple to use. Its tremendous success means it's ubiquitous enough to replace WYSIWYG editors on websites like Reddit and GitHub. But Markdown is also powerful enough to create documents, books, and technical documentation. Markdown is literally everywhere.</p>
+<p class="lead" style="padding-bottom: 10px">Markdown has succeeded where other markup languages have failed because it strikes the right balance between power and simplicity. It's easy to learn and simple to use. Its tremendous success means it's ubiquitous enough to replace WYSIWYG editors on websites like <a href="/tools/reddit/">Reddit</a> and GitHub. But Markdown is also powerful enough to create documents, books, and technical documentation. Markdown is literally everywhere.</p>
 
 <h2 class="no-anchor">Get Going Fast</h2>
 

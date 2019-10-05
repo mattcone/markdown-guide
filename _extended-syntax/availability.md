@@ -3,7 +3,7 @@ title: Availability
 syntax-id: availability
 ---
 
-Extended syntax isn't available in all Markdown applications. You'll need to check whether or not the lightweight markup language your application is using supports extended syntax. If it doesn't, it may still be possible to enable extensions in your Markdown processor.
+Not all Markdown applications support extended syntax elements. You'll need to check whether or not the lightweight markup language your application is using supports the extended syntax elements you want to use. If it doesn't, it may still be possible to enable extensions in your Markdown processor.
 
 ### Lightweight Markup Languages
 
@@ -16,4 +16,4 @@ There are several lightweight markup languages that are *supersets* of Markdown.
 
 ### Markdown Processors
 
-There are [dozens of Markdown processors](https://github.com/markdown/markdown.github.com/wiki/Implementations) available. Many of them allow you to add extensions that enable extended syntax. Check your processor's documentation for more information.
+There are [dozens of Markdown processors](https://github.com/markdown/markdown.github.com/wiki/Implementations) available. Many of them allow you to add extensions that enable extended syntax elements. Check your processor's documentation for more information.

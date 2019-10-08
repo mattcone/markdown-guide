@@ -26,8 +26,8 @@ Markdown doesn't have all the bells and whistles of word processors like Microso
 
 Here are some Markdown document authoring applications I recommend:
 
-- **Mac:** [iA Writer](https://ia.net/writer/), [Ulysses](https://ulyssesapp.com/), [Marked](https://marked2app.com/), or [MacDown](https://macdown.uranusjr.com/)
-- **iOS / Android:** [iA Writer](https://ia.net/writer/) or [Ulysses](https://ulyssesapp.com/) (iOS only)
+- **Mac:** [iA Writer](/tools/ia-writer/), [Ulysses](https://ulyssesapp.com/), [Marked](https://marked2app.com/), or [MacDown](https://macdown.uranusjr.com/)
+- **iOS / Android:** [iA Writer](/tools/ia-writer/) or [Ulysses](https://ulyssesapp.com/) (iOS only)
 - **Windows:** [ghostwriter](https://wereturtle.github.io/ghostwriter/) or [Markdown Monster](https://markdownmonster.west-wind.com/)
 - **Linux:** [ReText](https://github.com/retext-project/retext) or [ghostwriter](https://wereturtle.github.io/ghostwriter/)
 - **Web:** [Dillinger](/tools/dillinger/) or [StackEdit](/tools/stackedit/)

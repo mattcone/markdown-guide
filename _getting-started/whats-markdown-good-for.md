@@ -45,7 +45,7 @@ In nearly every way, Markdown is the ideal syntax for taking notes. Sadly, [Ever
 - [Bear](/tools/bear/) is an Evernote-like application available for Mac and iOS devices. It doesn't exclusively use Markdown by default, but you can enable Markdown compatibility mode.
 - [Boostnote](https://boostnote.io/) bills itself as an "open source note-taking app designed for programmers."
 
-If you can't part with Evernote, check out [Marxico](https://marxi.co/), a subscription-based Markdown editor for Evernote, or use [Markdown Here](https://markdown-here.com/features.html#not-just-email) with the Evernote website.
+If you can't part with Evernote, check out [Marxico](https://marxi.co/), a subscription-based Markdown editor for Evernote, or use [Markdown Here](/tools/markdown-here/) with the Evernote website.
 
 ### Books
 
@@ -57,7 +57,7 @@ Believe it or not, you can generate presentations from Markdown-formatted files.
 
 ### Email
 
-If you send a lot of email and you're tired of the formatting controls available on most email provider websites, you'll be happy to learn there's an easy way to write email messages using Markdown. [Markdown Here](https://markdown-here.com) ([GitHub project](https://github.com/adam-p/markdown-here/)) is a free and open-source browser extension that converts Markdown-formatted text into HTML that's ready to send.
+If you send a lot of email and you're tired of the formatting controls available on most email provider websites, you'll be happy to learn there's an easy way to write email messages using Markdown. [Markdown Here](/tools/markdown-here/) is a free and open-source browser extension that converts Markdown-formatted text into HTML that's ready to send.
 
 ### Documentation
 

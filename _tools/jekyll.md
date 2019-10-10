@@ -1,22 +1,26 @@
 ---
-title: GitHub Pages
+title: Jekyll
 category: "websites"
-description: "GitHub Pages is a free service that turns Markdown files into a website."
-icon: github-pages.png
-website: https://pages.github.com
+description: "Jekyll is a static site generator that converts Markdown files to a website."
+icon: jekyll.png
+website: https://jekyllrb.com
 ---
 
-[GitHub Pages](https://pages.github.com) is a service that turns Markdown files into a website and hosts them for free on the internet. If you know how to use GitHub and you need to create a simple webpage, you can't do better than GitHub Pages. Just create a new repository on GitHub, commit the Markdown files, and enable the GitHub Pages feature.
+[Jekyll](https://jekyllrb.com) is a static site generator that takes Markdown files and converts them to a website. Jekyll is a free and open-source application written in the Ruby programming language. Thousands of websites, including the *Markdown Guide*, rely on Jekyll to convert Markdown source files to HTML output. [GitHub Pages](/tools/github-pages/) uses Jekyll as the backend for its free website creation service.
 
-GitHub Pages uses the Jekyll static site generator to create your website, and the Markdown support is excellent. You can pick one of GitHub's pre-made themes for your website, use a [Jekyll theme](http://jekyllthemes.org/), or use your own custom CSS. Shown below is a sample webpage using one of GitHub's pre-made themes.
+By default, Jekyll uses the [kramdown](https://kramdown.gettalong.org/) Markdown processor with stock settings, but you can enable other kramdown options or even switch Jekyll to another Markdown processor. See the [Jekyll Markdown configuration options](https://jekyllrb.com/docs/configuration/markdown/) documentation for more information. You can change Jekyll's kramdown settings in the `_config.yml` file. The settings for the *Markdown Guide* are shown below.
 
-<img src="/assets/images/tools/github-pages.png" class="img-fluid" style="width:90%;" alt="Example of GitHub Pages websites">
+```yaml
+kramdown:
+  syntax_highlighter: rouge
+  input: GFM
+  auto_ids:       true
+  toc_levels:     1..3
+```
 
-Confusingly, GitHub Pages renders Markdown differently than GitHub does. GitHub uses its own Markdown processor; GitHub Pages uses kramdown. This means your `README.md` file will look different on GitHub's website than on your GitHub Pages website. For example, emoji are rendered on GitHub's website, but not on websites generated using GitHub Pages.
+### Markdown Support in Jekyll
 
-### Markdown Support in GitHub Pages
-
-GitHub Pages provides support for the following Markdown elements. GitHub Pages uses [Jekyll](/tools/jekyll/), which uses the [kramdown](https://kramdown.gettalong.org/) Markdown processor.
+Jekyll provides support for the following Markdown elements. By default, Jekyll uses the [kramdown](https://kramdown.gettalong.org/) Markdown processor.
 
 <table class="table table-bordered" style="font-size: 14px">
   <thead class="thead-light">
@@ -142,7 +146,7 @@ GitHub Pages provides support for the following Markdown elements. GitHub Pages 
 
 ### Support for Additional Syntax Elements
 
-As an added bonus, GitHub Pages provides support for several obscure elements.
+As an added bonus, Jekyll provides support for several obscure elements.
 
 <table class="table table-bordered" style="font-size: 14px">
   <thead class="thead-light">
@@ -165,5 +169,5 @@ is maintained by the W3C.</td>
 
 ### See Also
 
-- [Jekyll documentation](https://jekyllrb.com/)
+- [Jekyll Markdown configuration options](https://jekyllrb.com/docs/configuration/markdown/)
 - [kramdown documentation](https://kramdown.gettalong.org/)

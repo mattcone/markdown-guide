@@ -59,7 +59,7 @@ GEM
     mini_portile2 (2.4.0)
     nokogiri (1.10.4)
       mini_portile2 (~> 2.4.0)
-    parallel (1.17.0)
+    parallel (1.18.0)
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
     posix-spawn (0.3.13)

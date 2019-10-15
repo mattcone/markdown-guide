@@ -141,7 +141,7 @@ Joplin provides support for the following Markdown elements.
 As an added bonus, Joplin provides support for several obscure elements.
 
 <div class="alert alert-success">
-  <i class="fas fa-lightbulb"></i> <strong>Tip:</strong> Most of these elements are not enabled by default. You can enable them in <strong>Preferences</strong> > <strong>Plugins</strong>.
+  <i class="fas fa-lightbulb"></i> <strong>Tip:</strong> Most of these elements are disabled by default. You can enable them in <strong>Preferences</strong> > <strong>Plugins</strong>.
 </div>
 
 <table class="table table-bordered" style="font-size: 14px">

@@ -1,21 +1,22 @@
 ---
-title: Dillinger
-category: "online editor"
-description: "Dillinger is an online Markdown editor designed for on-the-go writing."
-icon: dillinger.png
-website: https://dillinger.io
+title: Ulysses
+category: "documents"
+description: "Ulysses is a popular writing application for macOS and iOS devices."
+icon: ulysses.png
+website: https://ulysses.app
 ---
 
-[Dillinger](https://dillinger.io) is an online Markdown editor. Like [StackEdit](/tools/stackedit/), it loads right in your web browser, so there's no need to download and install an application on your computer. Dillinger has two panes: the editor on the left, and the live preview on the right. The split panes make it easy to see what Markdown-formatted text looks like.
+[Ulysses](https://ulysses.app) is a popular writing application for macOS and iOS devices. Lauded by journalists and reviewers, Ulysses provides lots of useful features and nice touches for people who write professionally. The theming and export options are second to none.
 
-Dillinger provides excellent Markdown support. Unfortunately, the export options are not customizable and the file saving features are a bit flaky. And since Dillinger loads in your web browser, it's entirely dependent on a consistent internet connection. If your internet connection goes down or your web browser crashes, you could lose your work. For those reasons, Dillinger is best used for experimentation and quick note taking.
+Unfortunately, using Ulysses to write in Markdown is an exercise in frustration. The application supports a subset of the Markdown syntax, but support for many syntax elements is notably absent. Even worse, support for some elements is provided using non-standard notation. If you're hoping to write exclusively in Markdown, Ulysses probably isn't the right app for you.
 
-<img src="/assets/images/dillinger.png" class="img-fluid" alt="Dillinger Markdown editor">
+<img src="/assets/images/tools/ulysses.png" class="img-fluid" alt="Ulysses application with a Markdown file">
 
+Ulysses has a Markup window in Preferences that apparently allows you to specify a different subset of Markdown, but changing the settings didn't seem to do anything, and I couldn't find any documentation for the settings.
 
-### Markdown Support in Dillinger
+### Markdown Support in Ulysses
 
-Dillinger provides support for the following Markdown elements. The application uses the [markdown-it](https://github.com/markdown-it/markdown-it) Markdown processor.
+Ulysses provides support for the following Markdown elements.
 
 <table class="table table-bordered" style="font-size: 14px">
   <thead class="thead-light">
@@ -29,7 +30,7 @@ Dillinger provides support for the following Markdown elements. The application 
     <tr>
       <td><a href="/basic-syntax#headings">Headings</a></td>
       <td class="table-success">Yes</td>
-      <td></td>
+      <td><a href="/basic-syntax/#alternate-syntax">Alternative syntax</a> is not supported.</td>
     </tr>
     <tr>
       <td><a href="/basic-syntax/#paragraphs-1">Paragraphs</a></td>
@@ -38,8 +39,8 @@ Dillinger provides support for the following Markdown elements. The application 
     </tr>
     <tr>
       <td><a href="/basic-syntax/#line-breaks">Line Breaks</a></td>
-      <td class="table-success">Yes</td>
-      <td>The Markdown syntax (trailing whitespace) is not supported, but you can press the Return key once to achieve the same result.</td>
+      <td class="table-danger">No</td>
+      <td></td>
     </tr>
     <tr>
       <td><a href="/basic-syntax#bold">Bold</a></td>
@@ -68,53 +69,53 @@ Dillinger provides support for the following Markdown elements. The application 
     </tr>
     <tr>
       <td><a href="/basic-syntax#code">Code</a></td>
-      <td class="table-success">Yes</td>
-      <td></td>
+      <td class="table-warning">Partial</td>
+      <td><a href="/basic-syntax/#code-blocks">Code blocks</a> are not supported.</td>
     </tr>
     <tr>
       <td><a href="/basic-syntax/#horizontal-rules">Horizontal Rules</a></td>
-      <td class="table-success">Yes</td>
-      <td></td>
+      <td class="table-warning">Partial</td>
+      <td>Must use four dashes (<code>----</code>)</td>.
     </tr>
     <tr>
       <td><a href="/basic-syntax/#links">Links</a></td>
-      <td class="table-success">Yes</td>
-      <td></td>
+      <td class="table-danger">No</td>
+      <td>The Markdown syntax is not supported, but you can add links by using the Markup menu</td>
     </tr>
     <tr>
       <td><a href="/basic-syntax/#images-1">Images</a></td>
-      <td class="table-success">Yes</td>
-      <td>There's no ability to upload images — you'll need to store the images on another server.</td>
+      <td class="table-danger">No</td>
+      <td>The Markdown syntax is not supported, but you can add images by using the Markup menu.</td>
     </tr>
     <tr>
       <td><a href="/extended-syntax/#tables">Tables</a></td>
-      <td class="table-success">Yes</td>
+      <td class="table-danger">No</td>
       <td></td>
     </tr>
     <tr>
       <td><a href="/extended-syntax/#fenced-code-blocks">Fenced Code Blocks</a></td>
-      <td class="table-success">Yes</td>
-      <td>Syntax highlighting is also supported.</td>
+      <td class="table-danger">No</td>
+      <td>The Markdown syntax is not supported, but you can add code blocks by using the Markup menu.</td>
     </tr>
     <tr>
       <td><a href="/extended-syntax/#footnotes">Footnotes</a></td>
-      <td class="table-success">Yes</td>
-      <td></td>
+      <td class="table-danger">No</td>
+      <td>The Markdown syntax is not supported, but you can add footnotes by using the Markup menu.</td>
     </tr>
     <tr>
       <td><a href="/extended-syntax/#heading-ids">Heading IDs</a></td>
-      <td class="table-warning">Partial</td>
-      <td>Automatically generated. There's no way to set custom heading IDs.</td>
+      <td class="table-danger">No</td>
+      <td></td>
     </tr>
     <tr>
       <td><a href="/extended-syntax/#definition-lists">Definition Lists</a></td>
-      <td class="table-success">Yes</td>
+      <td class="table-danger">No</td>
       <td></td>
     </tr>
     <tr>
       <td><a href="/extended-syntax/#strikethrough">Strikethrough</a></td>
-      <td class="table-success">Yes</td>
-      <td></td>
+      <td class="table-warning">Partial</td>
+      <td>The Markdown syntax is not supported, but you can use two pipes on either end of a word or phrase (<code>||cross this out||</code>).</td>
     </tr>
     <tr>
       <td><a href="/extended-syntax/#task-lists">Task Lists</a></td>
@@ -123,13 +124,13 @@ Dillinger provides support for the following Markdown elements. The application 
     </tr>
     <tr>
       <td><a href="/extended-syntax/#automatic-url-linking">Automatic URL Linking</a></td>
-      <td class="table-success">Yes</td>
+      <td class="table-danger">No</td>
       <td></td>
     </tr>
     <tr>
       <td><a href="/extended-syntax/#disabling-automatic-url-linking">Disabling Automatic URL Linking</a></td>
       <td class="table-success">Yes</td>
-      <td></td>
+      <td>You don't need to use this since URLs aren't automatically linked.</td>
     </tr>
     <tr>
       <td>HTML</td>
@@ -141,7 +142,7 @@ Dillinger provides support for the following Markdown elements. The application 
 
 ### Support for Additional Syntax Elements
 
-As an added bonus, Dillinger provides support for several obscure elements.
+As an added bonus, Ulysses provides support for several obscure elements.
 
 <table class="table table-bordered" style="font-size: 14px">
   <thead class="thead-light">
@@ -153,35 +154,9 @@ As an added bonus, Dillinger provides support for several obscure elements.
   </thead>
   <tbody>
     <tr>
-      <td>Abbreviation</td>
-      <td><code>*[HTML]: Hyper Text Markup Language</code><br>
-      <code>The HTML specification is maintained by the W3C.</code></td>
-      <td>The <abbr title="Hyper Text Markup Language">HTML</abbr> specification
-is maintained by the W3C.</td>
-    </tr>
-    <tr>
       <td>Highlight</td>
-      <td><code>==word or phrase==</code></td>
+      <td><code>::word or phrase::</code></td>
       <td><mark>word or phrase</mark></td>
-    </tr>
-    <tr>
-      <td>Insert</td>
-      <td><code>++This text has been inserted++</code></td>
-      <td><ins>This text has been inserted</ins></td>
-    </tr>
-    <tr>
-      <td>Subscript</td>
-      <td><code>H~2~O</code></td>
-      <td>H<sub>2</sub>O</td>
-    </tr>
-    <tr>
-      <td>Superscript</td>
-      <td><code>X^2^</code></td>
-      <td>X<sup>2</sup></td>
     </tr>
   </tbody>
 </table>
-
-### See Also
-
-- [Dillinger repository on GitHub](https://github.com/joemccann/dillinger)

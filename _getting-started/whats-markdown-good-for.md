@@ -26,14 +26,14 @@ Markdown doesn't have all the bells and whistles of word processors like Microso
 
 Here are some Markdown document authoring applications I recommend:
 
-- **Mac:** [iA Writer](/tools/ia-writer/), [Ulysses](https://ulyssesapp.com/), [Marked](https://marked2app.com/), or [MacDown](https://macdown.uranusjr.com/)
-- **iOS / Android:** [iA Writer](/tools/ia-writer/) or [Ulysses](https://ulyssesapp.com/) (iOS only)
+- **Mac:** [iA Writer](/tools/ia-writer/), [Marked](https://marked2app.com/), or [MacDown](https://macdown.uranusjr.com/)
+- **iOS / Android:** [iA Writer](/tools/ia-writer/)
 - **Windows:** [ghostwriter](https://wereturtle.github.io/ghostwriter/) or [Markdown Monster](https://markdownmonster.west-wind.com/)
 - **Linux:** [ReText](https://github.com/retext-project/retext) or [ghostwriter](https://wereturtle.github.io/ghostwriter/)
 - **Web:** [Dillinger](/tools/dillinger/) or [StackEdit](/tools/stackedit/)
 
 <div class="alert alert-success">
-  <i class="fas fa-lightbulb"></i> <strong>Tip:</strong> Both <a href="https://ia.net/writer/templates/">iA Writer</a> and <a href="https://styles.ulyssesapp.com/">Ulysses</a> provide templates for previewing, printing, and exporting Markdown-formatted documents. For example, iA Writer's "Academic – MLA Style" template indents paragraphs and adds double sentence spacing.
+  <i class="fas fa-lightbulb"></i> <strong>Tip:</strong> <a href="https://ia.net/writer/templates/">iA Writer</a> provides templates for previewing, printing, and exporting Markdown-formatted documents. For example, the "Academic – MLA Style" template indents paragraphs and adds double sentence spacing.
 </div>
 
 ### Notes

@@ -75,7 +75,7 @@ Ulysses provides support for the following Markdown elements.
     <tr>
       <td><a href="/basic-syntax/#horizontal-rules">Horizontal Rules</a></td>
       <td class="table-warning">Partial</td>
-      <td>Must use four dashes (<code>----</code>)</td>.
+      <td>Must use four dashes (<code>----</code>)</td>
     </tr>
     <tr>
       <td><a href="/basic-syntax/#links">Links</a></td>

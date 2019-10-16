@@ -8,11 +8,9 @@ website: https://ulysses.app
 
 [Ulysses](https://ulysses.app) is a popular writing application for macOS and iOS devices. Lauded by journalists and reviewers, Ulysses provides lots of useful features and nice touches for people who write professionally. The theming and export options are second to none.
 
-Unfortunately, using Ulysses to write in Markdown is an exercise in frustration. The application supports a subset of the Markdown syntax, but support for many syntax elements is notably absent. Even worse, support for some elements is provided using non-standard notation. If you're hoping to write exclusively in Markdown, Ulysses probably isn't the right app for you.
+Unfortunately, using Ulysses to write in Markdown is an exercise in frustration. The application supports a subset of the Markdown syntax, but support for many syntax elements is notably absent. Even worse, support for some elements is provided using non-standard notation. Ulysses might not be your first choice if you're wanting to write exclusively in Markdown.
 
 <img src="/assets/images/tools/ulysses.png" class="img-fluid" alt="Ulysses application with a Markdown file">
-
-Ulysses has a Markup window in Preferences that apparently allows you to specify a different subset of Markdown, but changing the settings didn't seem to do anything, and I couldn't find any documentation for the settings.
 
 ### Markdown Support in Ulysses
 

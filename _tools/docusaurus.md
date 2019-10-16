@@ -100,8 +100,8 @@ Docusaurus provides support for the following Markdown elements. Docusaurus uses
     </tr>
     <tr>
       <td><a href="/extended-syntax/#heading-ids">Heading IDs</a></td>
-      <td class="table-success">Yes</td>
-      <td></td>
+      <td class="table-warning">Partial</td>
+      <td>Automatically generated. There's no way to set custom heading IDs.</td>
     </tr>
     <tr>
       <td><a href="/extended-syntax/#definition-lists">Definition Lists</a></td>

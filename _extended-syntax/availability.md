@@ -13,6 +13,7 @@ There are several lightweight markup languages that are *supersets* of Markdown.
 - [GitHub Flavored Markdown (GFM)](https://github.github.com/gfm/)
 - [Markdown Extra](https://michelf.ca/projects/php-markdown/extra/)
 - [MultiMarkdown](http://fletcherpenney.net/multimarkdown/)
+- [R Markdown](https://rmarkdown.rstudio.com/)
 
 ### Markdown Processors
 

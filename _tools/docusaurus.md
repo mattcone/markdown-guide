@@ -10,7 +10,7 @@ website: https://docusaurus.io
 
 <img src="/assets/images/tools/Docusaurus.png" class="img-fluid" alt="Example of Docusaurus website">
 
-### Markdown Support in Docusaurus
+### Docusaurus Markdown Support
 
 Docusaurus provides support for the following Markdown elements. Docusaurus uses the [remarkable](https://github.com/jonschlinkert/remarkable) Markdown processor.
 

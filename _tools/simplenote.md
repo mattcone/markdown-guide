@@ -20,7 +20,7 @@ To enable Markdown support in Simplenote, create a note, click the Info icon, an
 
 The currently selected note and any new notes you create in the future will have this setting enabled automatically.
 
-### Markdown Support in Simplenote
+### Simplenote Markdown Support
 
 Simplenote provides support for the following Markdown elements.
 

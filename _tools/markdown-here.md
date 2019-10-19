@@ -15,7 +15,7 @@ To use Markdown Here after installing it, start typing Markdown-formatted text i
 One source of frustration is the inconsistency in rendered output. Since Markdown Here relies on the features provided by whatever rich text editor you happen to be working in, the rendered output varies from website to website. This probably goes without saying, but you should be careful to examine the output before sending your email message or saving your file.
 
 
-### Markdown Support in Markdown Here
+### Markdown Here Markdown Support
 
 Markdown Here provides support for the following Markdown elements (as tested in Gmail).
 

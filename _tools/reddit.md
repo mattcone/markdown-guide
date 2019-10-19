@@ -16,7 +16,7 @@ By default, Reddit disables Markdown support for new posts and comments. You can
 
 To permanently save this setting, you can enable the **Default to Markdown** setting in **User Settings** > **Feed Settings**. Enabling that setting will automatically enable Markdown for new posts or comments.
 
-### Markdown Support on Reddit
+### Reddit Markdown Support
 
 Reddit provides support for the following Markdown elements. For a deep dive into Reddit's Markdown support, see [this wiki article](https://www.reddit.com/wiki/markdown).
 

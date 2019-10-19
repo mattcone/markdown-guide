@@ -12,7 +12,7 @@ Unfortunately, using Ulysses to write in Markdown is an exercise in frustration.
 
 <img src="/assets/images/tools/ulysses.png" class="img-fluid" alt="Ulysses application with a Markdown file">
 
-### Markdown Support in Ulysses
+### Ulysses Markdown Support
 
 Ulysses provides support for the following Markdown elements.
 

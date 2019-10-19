@@ -14,7 +14,7 @@ GitHub Pages uses the Jekyll static site generator to create your website, and t
 
 Confusingly, GitHub Pages renders Markdown differently than GitHub does. GitHub uses its own Markdown processor; GitHub Pages uses kramdown. This means your `README.md` file will look different on GitHub's website than on your GitHub Pages website. For example, emoji are rendered on GitHub's website, but not on websites generated using GitHub Pages.
 
-### Markdown Support in GitHub Pages
+### GitHub Pages Markdown Support
 
 GitHub Pages provides support for the following Markdown elements. GitHub Pages uses [Jekyll](/tools/jekyll/), which uses the [kramdown](https://kramdown.gettalong.org/) Markdown processor.
 

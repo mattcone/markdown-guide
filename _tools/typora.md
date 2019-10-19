@@ -12,7 +12,7 @@ Typora stands out by offering a variety of settings without sacrificing the simp
 
 <img src="/assets/images/tools/typora-editor.png" class="img-fluid" style="width:70%; margin-bottom:-10px" alt="Typora editor interface">
 
-### Markdown Support in Typora
+### Typora Markdown Support
 
 Typora provides support for the following Markdown elements. See the Typora [Markdown reference](http://support.typora.io/Markdown-Reference/) for the official documentation. The Typora documentation indicates that the application generally uses [GitHub Flavored Markdown (GFM)](https://github.github.com/gfm/).
 

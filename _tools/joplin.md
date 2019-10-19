@@ -10,7 +10,7 @@ website: https://joplinapp.org
 
 <img src="/assets/images/tools/joplin.png" class="img-fluid" style="width: 90%;" alt="Joplin Markdown application">
 
-### Markdown Support in Joplin
+### Joplin Markdown Support
 
 Joplin provides support for the following Markdown elements.
 

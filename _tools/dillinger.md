@@ -13,7 +13,7 @@ Dillinger provides excellent Markdown support. Unfortunately, the export options
 <img src="/assets/images/dillinger.png" class="img-fluid" alt="Dillinger Markdown editor">
 
 
-### Markdown Support in Dillinger
+### Dillinger Markdown Support
 
 Dillinger provides support for the following Markdown elements. The application uses the [markdown-it](https://github.com/markdown-it/markdown-it) Markdown processor.
 

@@ -10,7 +10,7 @@ website: https://bear.app
 
 There aren't a lot of whizbang features in Bear. Instead, Bear consistently delivers on all of its promises. Tags, search, and syncing all work flawlessly. The application is intuitive, and that's exactly what you want when you're taking notes.
 
-<img src="/assets/images/tools/bear.png" class="img-fluid" alt="Bear Markdown in the app">
+<img src="/assets/images/tools/bear.png" class="img-fluid" alt="Markdown in the Bear Markdown app">
 
 Bear doesn't automatically enable support Markdown by default, but you can [enable it in the preferences](#enabling-markdown-support). The application has a hybrid live editor and text editor — you can see both the Markdown syntax and the way the formatting changes the text. It takes a while to get used to, but it's useful if you're just getting started with Markdown.
 
@@ -22,7 +22,7 @@ To enable Markdown support in Bear, open the Preferences window. On the **Genera
   <i class="fas fa-lightbulb"></i> <strong>Tip:</strong> If you're using Bear on more than one device, you'll need to enable the Markdown compatibility mode setting on all of your devices.
 </div>
 
-### Markdown Support in Bear
+### Bear Markdown Support
 
 Bear provides support for the following Markdown elements.
 

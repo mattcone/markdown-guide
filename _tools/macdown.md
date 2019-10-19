@@ -12,7 +12,7 @@ MacDown sports two panes — you type on the left and preview the formatted text
 
 <img src="/assets/images/tools/macdown.png" class="img-fluid" alt="The MacDown application with open Markdown file.">
 
-### Markdown Support in MacDown
+### MacDown Markdown Support
 
 MacDown provides support for the following Markdown elements. The application uses the [Hoedown](https://github.com/hoedown/hoedown) Markdown processor.
 

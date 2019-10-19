@@ -8,7 +8,7 @@ website: https://mattermost.com
 
 [Mattermost](https://mattermost.com) is an open source enterprise messaging and team collaboration application. It's like [Slack](/tools/slack/), but with excellent Markdown support. In fact, Mattermost provides exactly the type of Markdown support you want to see in a messaging application. You can type messages in Markdown or copy and paste Markdown-formatted text into the message field — it works exactly the way you'd expect it to.
 
-### Markdown Support in Mattermost
+### Mattermost Markdown Support
 
 Mattermost provides support for the following Markdown elements. The application uses [a fork of the marked Markdown processor](https://github.com/mattermost/marked).
 

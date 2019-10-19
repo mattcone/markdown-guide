@@ -18,7 +18,7 @@ kramdown:
   toc_levels:     1..3
 ```
 
-### Markdown Support in Jekyll
+### Jekyll Markdown Support
 
 Jekyll provides support for the following Markdown elements. By default, Jekyll uses the [kramdown](https://kramdown.gettalong.org/) Markdown processor.
 

@@ -12,9 +12,9 @@ website: https://slack.com
 
 Slack's message interface is the one people use most. In its [support documentation](https://get.slack.help/hc/en-us/articles/202288908-Format-your-messages), the company claims that they've "chosen not to support" Markdown in the message interface, but that's not entirely true. Support for some basic syntax is provided, although support for many elements is notably absent.
 
-<img src="/assets/images/tools/slack-messages.png" class="img-fluid" style="width:70%" alt="Slack message interface">
+<img src="/assets/images/tools/slack-messages.png" class="img-fluid" style="width:70%" alt="Slack markdown in the message interface">
 
-#### Markdown Support in Slack Messages
+#### Slack Markdown Support in Messages
 
 The Slack message interface provides support for the following the Markdown elements.
 
@@ -150,9 +150,9 @@ The Slack post interface is editor that allows you to create a document for shar
 
 To create a post, click the paperclip icon and select **Post** from the **Create new** menu, as shown below.
 
-<img src="/assets/images/tools/slack-posts.png" class="img-fluid" style="width:70%" alt="Slack post interface">
+<img src="/assets/images/tools/slack-posts.png" class="img-fluid" style="width:70%" alt="Slack markdown in the post interface">
 
-#### Markdown Support in Slack Posts
+#### Slack Markdown Support in Posts
 
 The Slack post interface provides support for the following Markdown elements.
 

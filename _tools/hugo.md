@@ -56,7 +56,7 @@ Hugo provides support for the following Markdown elements. By default, Hugo uses
     <tr>
       <td><a href="/basic-syntax#italic">Italic</a></td>
       <td class="table-success">Yes</td>
-      <td>By default, using asterisks and underscores in the middle of a word doesn't work you way expect (e.g., <code>in*middle*here</code> and <code>in_middle_here</code> is rendered literally). You can disable the <a href="https://gohugo.io/content-management/formats/#blackfriday-extensions"><code>noIntraEmphasis</code> extension</a> to restore the conventional Markdown functionality.</td>
+      <td>By default, using asterisks and underscores in the middle of a word doesn't work you way expect (e.g., <code>in*middle*here</code> and <code>in_middle_here</code> are rendered literally). You can disable the <a href="https://gohugo.io/content-management/formats/#blackfriday-extensions"><code>noIntraEmphasis</code> extension</a> to restore the conventional Markdown functionality.</td>
     </tr>
     <tr>
       <td><a href="/basic-syntax#blockquotes-1">Blockquotes</a></td>

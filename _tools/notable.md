@@ -16,7 +16,7 @@ But without a doubt, Notable's best feature is that it doesn't manipulate your M
 
 ### Notable Markdown Support
 
-Notable provides support for the following Markdown elements.
+Notable provides support for the following Markdown elements. The application uses the [markdown-it](https://github.com/markdown-it/markdown-it) Markdown processor.
 
 <table class="table table-bordered" style="font-size: 14px">
   <thead class="thead-light">

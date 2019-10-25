@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Cheat Sheet
+title: Markdown Cheat Sheet
 description: A quick reference to the Markdown syntax.
 last_modified_at: 2018-10-18
 ---

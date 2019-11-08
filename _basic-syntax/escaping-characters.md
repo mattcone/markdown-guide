@@ -32,7 +32,7 @@ You can use a backslash to escape the following characters.
     </tr>
     <tr>
       <td>`</td>
-      <td>tick mark (see also <a href="#escaping-tick-marks">escaping tick marks in code</a>)</td>
+      <td>backtick (see also <a href="#escaping-backticks">escaping backticks in code</a>)</td>
     </tr>
     <tr>
       <td>*</td>

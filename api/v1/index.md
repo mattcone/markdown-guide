@@ -70,7 +70,7 @@ Here's a list of all the changes we've made to the Markdown Guide API.
 - Added cheat sheet endpoint
 
 2017-11-04
-- Added section about escaping tick marks in code
+- Added section about escaping backticks in code
 
 2017-10-24
 - Released API v1

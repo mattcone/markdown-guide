@@ -55,17 +55,19 @@ The rendered output looks like this:
 
 ### Formatting Links
 
-To [emphasize](#emphasis) links, add asterisks before and after the brackets and parentheses.
+To [emphasize](#emphasis) links, add asterisks before and after the brackets and parentheses. To denote links as [code](#code), add backticks in the brackets.
 
 ```
 I love supporting the **[EFF](https://eff.org)**.
 This is the *[Markdown Guide](https://www.markdownguide.org)*.
+See the section on [`code`](#code).
 ```
 
 The rendered output looks like this:
 
 I love supporting the **[EFF](https://eff.org)**.<br/>
-This is the *[Markdown Guide](https://www.markdownguide.org)*.
+This is the *[Markdown Guide](https://www.markdownguide.org)*.<br/>
+See the section on [`code`](#code).
 
 ### Reference-style Links
 

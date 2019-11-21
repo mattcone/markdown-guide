@@ -9,17 +9,7 @@ website: https://imdone.io
 [Imdone](https://imdone.io) is a simple and powerful kanban board for people who work with markdown and code.  Blocks of markdown in your notes, docs and code are represented as cards on your kanban boards.
 You can add and edit cards using the built in card editor or your favorite text/markdown editor, making it very convenient to update your tasks while you're working on a markdown document or code.
 
-<!--
-is an innovative application that bills itself as an all-in-one knowledge management solution for individuals and teams. You could think of it as a note-taking app or a wiki, but those descriptions don't really do it justice. You really have to try it to get a sense of what it's capable of. Some organizations use Notion for project management and task tracking, among other things. The application can even function as a database of sorts.
-
-Notion has desktop and mobile apps available, as well as a web-based interface. You create an account for yourself and your organization — the accounts are used to sync everything with Notion's servers.
--->
-
 <img src="/assets/images/tools/imdone.png" class="img-fluid" style="width: 90%;" alt="Imdone kanban application">
-
-<!--
-Notion's Markdown support is hit or miss. Copying and pasting Markdown-formatted text into Notion generally works the way you'd expect, but using Notion's live editor to write using Markdown doesn't always work. You can, for instance, use asterisks to make text bold, but trying to use brackets to create a link or pipes to create a table doesn't work — which is strange considering that those syntax elements *do* work when you copy and paste them in. It's also difficult to edit Markdown-formatted text that you've copied and pasted in Notion.
--->
 
 ### Imdone Markdown Support
 

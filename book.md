@@ -9,7 +9,7 @@ description: The comprehensive Markdown reference guide in book format.
   <div class="col-sm-7">
     <p class="lead">This website has helped hundreds of thousands of people master Markdown. Now you can take it with you. Introducing the <em>Markdown Guide</em> book.</p>
 
-    <h3 class="no-anchor" style="margin-top: 20px">Download it now, for free.</h3>
+    <h3 class="no-anchor" style="margin-top: 20px">Download it for free.</h3>
 
     <p class="lead" style="padding-bottom: 10px">I want everyone to read the <em>Markdown Guide</em>. That's why it's free to download in PDF, EPUB, and MOBI format. Feel free to share it with your friends and family.</p>
 

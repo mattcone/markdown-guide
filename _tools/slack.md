@@ -10,9 +10,19 @@ website: https://slack.com
 
 ### Messages
 
-Slack's message interface is the one people use most. In its [support documentation](https://get.slack.help/hc/en-us/articles/202288908-Format-your-messages), the company claims that they've "chosen not to support" Markdown in the message interface, but that's not entirely true. Support for some basic syntax is provided, although support for many elements is notably absent.
+Slack's message interface is the one people use most. Support for some [basic syntax](/basic-syntax/) is provided, although support for many elements is notably absent.
+
+In November 2019, Slack introduced a new WYSIWYG interface, as shown below. This feature is enabled for all users by default. The most obvious change is the addition of formatting buttons in the interface controls, but there's also a live editor that hides the Markdown formatting after you type it. You don't have to use the interface controls to format your text — you can still use the Markdown syntax elements  described in the next section.
 
 <img src="/assets/images/tools/slack-messages.png" class="img-fluid" style="width:70%" alt="Slack markdown in the message interface">
+
+You can disable the WYSIWYG interface in **Preferences** > **Advanced**. Select the **Format messages with markup** setting, as shown below. Enabling this setting will hide the WYSIWYG formatting buttons and disable the live editor so you can see the Markdown formatting as you type it.
+
+<div class="alert alert-success">
+  <i class="fas fa-lightbulb"></i> <strong>Tip:</strong> If you have multiple workplaces open in Slack, you'll need to enable this setting for each workplace.
+</div>
+
+<img src="/assets/images/tools/slack-enable-markdown.png" class="img-fluid" style="width:80%" alt="Enable Markdown in the Slack message interface">
 
 #### Slack Markdown Support in Messages
 

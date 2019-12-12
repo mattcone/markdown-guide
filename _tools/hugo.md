@@ -8,7 +8,7 @@ website: https://gohugo.io
 
 [Hugo](https://gohugo.io) is a popular static site generator written in the Go programming language. Hugo is jam-packed with features, but one of its main selling points is speed — Hugo takes mere seconds to generate a site with thousands of pages. [Smashing Magazine](https://www.smashingmagazine.com/2017/03/a-little-surprise-is-waiting-for-you-here/) recently switched to Hugo from WordPress.
 
-Hugo has excellent Markdown support out of the box. By default, Hugo uses the [Blackfriday](https://github.com/russross/blackfriday) Markdown processor. See the <a href="https://gohugo.io/getting-started/configuration/#configure-blackfriday">configuration instructions</a> to learn more about the extensions you can configure. You can change Hugo's Blackfriday settings in the `config.toml` file, as shown below.
+Hugo has excellent Markdown support out of the box. By default, Hugo uses the [Goldmark](https://github.com/yuin/goldmark/) Markdown processor which is fully [CommonMark](https://commonmark.org/)-compliant. See the [configuration instructions](https://gohugo.io/getting-started/configuration-markup/) to learn more about the extensions you can configure. You can change Hugo's Goldmark settings in the `config.toml` file, as shown below.
 
 ```toml
 baseURL = "http://mysite.org/"
@@ -16,13 +16,13 @@ languageCode = "en-us"
 title = "My Site"
 theme = "ananke"
 
-[blackfriday]
+[markup]
 taskLists = false
 ```
 
 ### Hugo Markdown Support
 
-Hugo provides support for the following Markdown elements. By default, Hugo uses the [Blackfriday](https://github.com/russross/blackfriday) Markdown processor.
+Hugo provides support for the following Markdown elements using its default [Goldmark](https://gohugo.io/getting-started/configuration-markup/#goldmark) Markdown processor.
 
 <table class="table table-bordered" style="font-size: 14px">
   <thead class="thead-light">
@@ -170,4 +170,4 @@ As an added bonus, Hugo provides support for several obscure elements. These are
 ### See Also
 
 - [Hugo Supported Content Formats](https://gohugo.io/content-management/formats/)
-- [Blackfriday GitHub repository](https://github.com/russross/blackfriday)
+- [Goldmark GitHub repository](https://github.com/yuin/goldmark/)

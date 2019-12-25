@@ -14,7 +14,7 @@ Typora stands out by offering a variety of settings without sacrificing the simp
 
 ### Typora Markdown Support
 
-Typora provides support for the following Markdown elements. See the Typora [Markdown reference](http://support.typora.io/Markdown-Reference/) for the official documentation. The Typora documentation indicates that the application generally uses [GitHub Flavored Markdown (GFM)](https://github.github.com/gfm/).
+Typora provides support for the following Markdown elements. See the Typora [Markdown reference](https://support.typora.io/Markdown-Reference/) for the official documentation. The Typora documentation indicates that the application generally uses [GitHub Flavored Markdown (GFM)](https://github.github.com/gfm/).
 
 <table class="table table-bordered" style="font-size: 14px">
   <thead class="thead-light">
@@ -33,12 +33,12 @@ Typora provides support for the following Markdown elements. See the Typora [Mar
     <tr>
       <td><a href="/basic-syntax/#paragraphs-1">Paragraphs</a></td>
       <td class="table-success">Yes</td>
-      <td>By default, you only need to press the Return key once (not twice). See the Typora <a href="http://support.typora.io/Line-Break/">documentation</a> for more information.</td>
+      <td>By default, you only need to press the Return key once (not twice). See the Typora <a href="https://support.typora.io/Line-Break/">documentation</a> for more information.</td>
     </tr>
     <tr>
       <td><a href="/basic-syntax/#line-breaks">Line Breaks</a></td>
       <td class="table-success">Yes</td>
-      <td>By default, you need to press Command-Shift-Return. See the Typora <a href="http://support.typora.io/Line-Break/">documentation</a> for more information.</td>
+      <td>By default, you need to press Command-Shift-Return. See the Typora <a href="https://support.typora.io/Line-Break/">documentation</a> for more information.</td>
     </tr>
     <tr>
       <td><a href="/basic-syntax#bold">Bold</a></td>
@@ -78,7 +78,7 @@ Typora provides support for the following Markdown elements. See the Typora [Mar
     <tr>
       <td><a href="/basic-syntax/#links">Links</a></td>
       <td class="table-success">Yes</td>
-      <td>See the Typora <a href="http://support.typora.io/Links/">documentation</a> for instructions on linking to files on your computer.</td>
+      <td>See the Typora <a href="https://support.typora.io/Links/">documentation</a> for instructions on linking to files on your computer.</td>
     </tr>
     <tr>
       <td><a href="/basic-syntax/#images-1">Images</a></td>
@@ -93,7 +93,7 @@ Typora provides support for the following Markdown elements. See the Typora [Mar
     <tr>
       <td><a href="/extended-syntax/#fenced-code-blocks">Fenced Code Blocks</a></td>
       <td class="table-success">Yes</td>
-      <td>Syntax highlighting is also supported. See the <a href="http://support.typora.io/Code-Fences-Language-Support/">list of supported languages</a>.</td>
+      <td>Syntax highlighting is also supported. See the <a href="https://support.typora.io/Code-Fences-Language-Support/">list of supported languages</a>.</td>
     </tr>
     <tr>
       <td><a href="/extended-syntax/#footnotes">Footnotes</a></td>
@@ -133,7 +133,7 @@ Typora provides support for the following Markdown elements. See the Typora [Mar
     <tr>
       <td>HTML</td>
       <td class="table-warning">Partial</td>
-      <td>See the Typora <a href="http://support.typora.io/HTML/">documentation</a> for information about which HTML elements are supported.</td>
+      <td>See the Typora <a href="https://support.typora.io/HTML/">documentation</a> for information about which HTML elements are supported.</td>
     </tr>
   </tbody>
 </table>
@@ -142,7 +142,7 @@ Typora provides support for the following Markdown elements. See the Typora [Mar
 
 As an added bonus, Typora provides support for several obscure elements, including diagrams and inline math.
 
-Most of these elements are disabled by default. To enable them, open the Preferences window and modify the settings under **Markdown** > **Syntax Support**. See the Typora [Markdown reference](http://support.typora.io/Markdown-Reference/) for additional information.
+Most of these elements are disabled by default. To enable them, open the Preferences window and modify the settings under **Markdown** > **Syntax Support**. See the Typora [Markdown reference](https://support.typora.io/Markdown-Reference/) for additional information.
 
 <table class="table table-bordered" style="font-size: 14px">
   <thead class="thead-light">
@@ -178,11 +178,11 @@ Most of these elements are disabled by default. To enable them, open the Prefere
 
 ### Themes
 
-Typora [provides a variety of themes](http://theme.typora.io/) for when you export your documents. If you know CSS, you can customize these themes. Open the Preferences window and see the settings under **Appearance** > **Themes**.
+Typora [provides a variety of themes](https://theme.typora.io/) for when you export your documents. If you know CSS, you can customize these themes. Open the Preferences window and see the settings under **Appearance** > **Themes**.
 
 ### Strict Mode
 
-Typora provides *strict mode* settings for users who want to enforce syntax limitations on headings, ordered lists, and unordered lists. For example, you could configure unordered lists to only use hyphens and not asterisks. Configure these settings in the Preferences window under **Markdown** > **Syntax Preference**. See the Typora [documentation](http://support.typora.io/Strict-Mode/) for additional information.
+Typora provides *strict mode* settings for users who want to enforce syntax limitations on headings, ordered lists, and unordered lists. For example, you could configure unordered lists to only use hyphens and not asterisks. Configure these settings in the Preferences window under **Markdown** > **Syntax Preference**. See the Typora [documentation](https://support.typora.io/Strict-Mode/) for additional information.
 
 ### Source Code Mode
 
@@ -194,4 +194,4 @@ Typora provides a wide variety of export options under **File** > **Export** for
 
 ### See Also
 
-- [Typora support](http://support.typora.io/)
+- [Typora support](https://support.typora.io/)

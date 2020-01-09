@@ -1,16 +1,21 @@
 ---
 title: CodiMD
 category: "websites"
-description: "CodiMD is an open-source real-time collaborative markdown editor."
+description: "CodiMD is an open-source real-time collaborative Markdown editor."
 icon: codimd.png
 website: https://github.com/hackmdio/codimd
 ---
 
-[CodiMD](https://github.com/hackmdio/codimd) is an open-source real-time collaborative markdown editor. You can easily [deploy CodiMD with Docker following this tutorial](https://hackmd.io/c/codimd-documentation/%2Fs%2Fcodimd-docker-deployment). CodiMD supports CommonMark and multiple other markup syntax, such as:
+[CodiMD](https://github.com/hackmdio/codimd) is an open-source real-time collaborative Markdown editor. You can easily [deploy CodiMD with Docker following this tutorial](https://hackmd.io/c/codimd-documentation/%2Fs%2Fcodimd-docker-deployment). CodiMD supports CommonMark and other markup syntax, such as:
+
 - MathJax for formulas
 - Mermaid and Graphviz for UML diagrams
 - Vega-lite for data visualizations
-- Emojis for a rich document editing experience.
+- Emojis for a rich document editing experience
+
+### CodiMD Markdown Support
+
+CodiMD provides support for the following Markdown elements.
 
 <table class="table table-bordered" style="font-size: 14px">
   <thead class="thead-light">
@@ -134,6 +139,27 @@ website: https://github.com/hackmdio/codimd
   </tbody>
 </table>
 
+### Support for Additional Syntax Elements
+
+As an added bonus, CodiME provides support for several obscure elements.
+
+<table class="table table-bordered" style="font-size: 14px">
+  <thead class="thead-light">
+    <tr>
+      <th>Element</th>
+      <th>Markdown</th>
+      <th>Rendered Output</th>
+    </tr>
+  </thead>
+  <tbody>
+  <tr>
+    <td>Emoji</td>
+    <td><code>:joy:</code></td>
+    <td>😂</td>
+  </tr>
+  </tbody>
+</table>
+
 ### See Also
 
-- See [features](https://codimd-app.herokuapp.com/features) for more information.
+- See [CodiMD features](https://codimd-app.herokuapp.com/features) for more information.

@@ -68,7 +68,7 @@ website: https://github.com/hackmdio/codimd
     </tr>
     <tr>
       <td><a href="/basic-syntax/#horizontal-rules">Horizontal Rules</a></td>
-      <td class="table-danger">Yes</td>
+      <td class="table-success">Yes</td>
       <td></td>
     </tr>
     <tr>
@@ -93,17 +93,17 @@ website: https://github.com/hackmdio/codimd
     </tr>
     <tr>
       <td><a href="/extended-syntax/#footnotes">Footnotes</a></td>
-      <td class="table-danger">Yes</td>
+      <td class="table-success">Yes</td>
       <td></td>
     </tr>
     <tr>
       <td><a href="/extended-syntax/#heading-ids">Heading IDs</a></td>
-      <td class="table-success">No</td>
+      <td class="table-danger">No</td>
       <td></td>
     </tr>
     <tr>
       <td><a href="/extended-syntax/#definition-lists">Definition Lists</a></td>
-      <td class="table-danger">Yes</td>
+      <td class="table-success">Yes</td>
       <td></td>
     </tr>
     <tr>
@@ -123,12 +123,12 @@ website: https://github.com/hackmdio/codimd
     </tr>
     <tr>
       <td><a href="/extended-syntax/#disabling-automatic-url-linking">Disabling Automatic URL Linking</a></td>
-      <td class="table-success">No</td>
+      <td class="table-danger">No</td>
       <td></td>
     </tr>
     <tr>
       <td>HTML</td>
-      <td class="table-danger">Yes</td>
+      <td class="table-success">Yes</td>
       <td></td>
     </tr>
   </tbody>

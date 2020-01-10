@@ -141,7 +141,7 @@ CodiMD provides support for the following Markdown elements.
 
 ### Support for Additional Syntax Elements
 
-As an added bonus, CodiME provides support for several obscure elements.
+As an added bonus, CodiMD provides support for several obscure elements.
 
 <table class="table table-bordered" style="font-size: 14px">
   <thead class="thead-light">

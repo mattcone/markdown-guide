@@ -109,7 +109,7 @@ Notable provides support for the following Markdown elements. The application us
     </tr>
     <tr>
       <td><a href="/extended-syntax/#definition-lists">Definition Lists</a></td>
-      <td class="table-success">No</td>
+      <td class="table-danger">No</td>
       <td></td>
     </tr>
     <tr>

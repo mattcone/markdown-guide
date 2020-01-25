@@ -1,43 +1,45 @@
 ---
 layout: book
 title: Get the Book
-description: The comprehensive Markdown reference guide in book format.
+description: Everything you need to know about Markdown in 60 pages.
 ---
 
 <div class="row" style="padding-bottom: 30px">
-  <div class="col-sm-5" style="margin-top: 5px"><img src="/assets/images/book-cover.jpg" style="width: 95%" alt="The Markdown Guide book cover"></div>
+  <div class="col-sm-5" style="margin-top: 5px"><a href="https://gum.co/markdownguide?wanted=true"><img src="/assets/images/book-cover.jpg" style="width: 95%" alt="The Markdown Guide book cover"></a></div>
   <div class="col-sm-7">
-    <p class="lead">This website has helped hundreds of thousands of people master Markdown. Now you can take it with you. Introducing the <em>Markdown Guide</em> book.</p>
+    <p class="lead">Take your Markdown skills to the next level with the <em>Markdown Guide</em> book. Learn everything you need to know about Markdown in 60 pages. This book includes information on getting started, choosing a Markdown application, how to use basic and extended syntax, and more.</p>
 
-    <h3 class="no-anchor" style="margin-top: 20px">Download it for free.</h3>
+    <h3 class="no-anchor" style="margin-top: 20px">Buy It Now For $9.99</h3>
 
-    <p class="lead" style="padding-bottom: 10px">I want everyone to read the <em>Markdown Guide</em>. That's why it's free to download in PDF, EPUB, and MOBI format. Feel free to share it with your friends and family.</p>
+    <p class="lead" style="padding-bottom: 10px">You'll get the book in PDF, EPUB, and MOBI format. Free lifetime updates are included so you can keep abreast of new developments. </p>
 
     <div class="row" style="margin-top:15px; margin-bottom:25px">
       <div class="col-sm-12">
-        <a class="btn btn-success btn-lg" style="margin-right: 20px; margin-top: 5px" href="/assets/book/markdown-guide.pdf">Get the PDF File</a>
-
-        <a class="btn btn-success btn-lg" style="margin-right: 20px; margin-top: 5px" href="/assets/book/markdown-guide.epub">Get the EPUB File</a>
-
-        <a class="btn btn-success btn-lg" style="margin-top: 5px" href="/assets/book/markdown-guide.mobi">Get the MOBI File</a>
+        <a class="btn btn-success btn-lg" style="margin-right: 20px; margin-top: 5px" href="https://gum.co/markdownguide?wanted=true">Buy Now for $9.99</a>
       </div>
     </div>
 
     <p class="lead">The <em>Markdown Guide</em> is also available from <a href="https://leanpub.com/themarkdownguide">Leanpub</a> and <a href="https://www.amazon.com/dp/B07G7JB641">Amazon</a>.</p>
 
-    <h3 class="no-anchor" style="padding-top: 30px">Get in on the action.</h3>
+    <h3 class="no-anchor" style="padding-top: 30px">100% Satisfaction Guaranteed</h3>
 
-    <p class="lead">This is an open-source project, and your contributions are welcome. The repository is <a href="https://github.com/mattcone/markdown-guide-book">hosted on GitHub</a>. Find something wrong? <a href="https://github.com/mattcone/markdown-guide-book/issues">Create an issue</a> on GitHub and I'll fix it as soon as possible. Thank you!</p>
+    <p class="lead">If you're not completely satisfied with this book, just <a href="/contact/">let me know</a> and I'll refund your money, no questions asked.</p>
   </div>
 </div>
 
 <h2 class="no-anchor">You Need to Learn Markdown</h2>
 
-<p class="lead">My name is Matt Cone. I'm a technical writer, and I've used a lot of writing tools over the course of my professional career. One of the most interesting tools I've encountered is Markdown.</p>
+<p class="lead">I'm a technical writer, and I've used a lot of writing tools over the course of my professional career. One of the most interesting tools I've encountered is Markdown.</p>
 
 <p class="lead">I've been using Markdown for years now and I recommend it to everyone I know. There are lots of reasons why you should learn to write using Markdown, but one of the best reasons is that it's better than the alternatives.</p>
 
 <p class="lead" style="padding-bottom: 10px">Learning Markdown means you can stop using all the subpar writing tools you've tolerated for years. <strong style="font-weight: 600">It can also further your career.</strong> Believe it or not, knowing how to write using Markdown is a requirement for many jobs.</p>
+
+<div class="row" style="margin-top:15px; margin-bottom:25px">
+  <div class="col-sm-12">
+    <a class="btn btn-success btn-lg" style="margin-right: 20px; margin-top: 5px" href="https://gum.co/markdownguide?wanted=true">Buy Now for $9.99</a>
+  </div>
+</div>
 
 <h2 class="no-anchor">Markdown is Everywhere</h2>
 
@@ -54,6 +56,12 @@ description: The comprehensive Markdown reference guide in book format.
 <p class="lead">I was in your shoes once, too. I wanted to learn Markdown, but I couldn't find any good resources for beginners. That's why I decided to create the <em>Markdown Guide</em>. It's designed to be a comprehensive reference guide to the Markdown markup language.</p>
 
 <p class="lead" style="padding-bottom: 10px">The <em>Markdown Guide</em> contains all of the content on this website, but it's been updated and expanded to include more examples. And it's not finished yet! Like the website, the book will continue to be updated on a regular basis with new sections and chapters.</p>
+
+<div class="row" style="margin-top:15px; margin-bottom:25px">
+  <div class="col-sm-12">
+    <a class="btn btn-success btn-lg" style="margin-right: 20px; margin-top: 5px" href="https://gum.co/markdownguide?wanted=true">Buy Now for $9.99</a>
+  </div>
+</div>
 
 <h2 class="no-anchor">About the Author</h2>
 

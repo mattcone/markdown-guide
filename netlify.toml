@@ -15,6 +15,18 @@
 [build.processing.images]
   compress = true
 
+[[redirects]]
+from = "/assets/book/markdown-guide.pdf"
+to = "/book"
+
+[[redirects]]
+from = "/assets/book/markdown-guide.epub"
+to = "/book"
+
+[[redirects]]
+from = "/assets/book/markdown-guide.mobi"
+to = "/book"
+
 [[headers]]
   for = "/*"
 

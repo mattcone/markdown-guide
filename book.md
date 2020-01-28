@@ -19,6 +19,8 @@ description: Everything you need to know about Markdown in 60 pages.
       </div>
     </div>
 
+    <p class="lead">The <em>Markdown Guide</em> is also available from <a href="https://leanpub.com/themarkdownguide">Leanpub</a> and <a href="https://www.amazon.com/dp/B07G7JB641">Amazon</a>.</p>
+
     <h3 class="no-anchor" style="padding-top: 30px">100% Satisfaction Guaranteed</h3>
 
     <p class="lead">If you're not completely satisfied, I'll refund your money, no questions asked.</p>

@@ -10,7 +10,7 @@ website: 	https://www.squarespace.com
 
 <img src="/assets/images/tools/squarespace.png" class="img-fluid" style="width: 60%;" alt="Squarespace Markdown block.">
 
-Squarespace's Markdown support is acceptable. Most basic Markdown syntax elements are supported, but support for a number of extended syntax elements is lacking. One disadvantage is that the editor for the Markdown block is a tiny box and the text is displayed in a minuscule (and non-adjustable) font size. You're probably better off copying and pasting the text in from another application.
+Squarespace supports most basic Markdown syntax elements, but support for a number of extended syntax elements is lacking. One disadvantage is that the editor for the Markdown block is a tiny box and the text is displayed in a minuscule (and non-adjustable) font size. You're probably better off copying and pasting the text in from another application.
 
 ### Squarespace Markdown Support
 

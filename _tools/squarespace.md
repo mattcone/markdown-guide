@@ -1,20 +1,20 @@
 ---
-title: Trello
+title: Squarespace
 category: "websites"
-description: "Trello is a kanban-style project management application."
-icon: trello.png
-website: https://trello.com
+description: "Squarespace is a popular subscription service for building websites."
+icon: squarespace.png
+website: 	https://www.squarespace.com
 ---
 
-[Trello](https://trello.com) is a popular kanban-style project management application that can be used for everything from project management to making grocery shopping lists. You create a board, add columns (called "lists"), and then add cards to lists. The interactive drag-and-drop interface allows you to easily reorder cards and move them between lists as you work on tasks.
+[Squarespace](https://www.squarespace.com) is a popular subscription service for building websites. The service features a drag-and-drop interface that lets you build websites right in your web browser. One of the components available for webpages is a *Markdown block* — a content area that supports Markdown. You'll see the option when you click the Add Block icon, as shown below.
 
-Trello has excellent support for basic Markdown syntax. You can use Markdown in the card descriptions, checklists, and comments. You can also use Markdown for your Trello bio. Not all formatting is properly displayed when viewed in the iOS and Andriod applications.
+<img src="/assets/images/tools/squarespace.png" class="img-fluid" style="width: 60%;" alt="Squarespace Markdown block.">
 
-<img src="/assets/images/tools/trello.jpeg" class="img-fluid" style="width: 100%;" alt="Trello board with Markdown.">
+Squarespace's Markdown support is acceptable. Most basic Markdown syntax elements are supported, but support for a number of extended syntax elements is lacking. One disadvantage is that the editor for the Markdown block is a tiny box and the text is displayed in a minuscule (and non-adjustable) font size. You're probably better off copying and pasting the text in from another application.
 
-### Trello Markdown Support
+### Squarespace Markdown Support
 
-Trello provides support for the following Markdown elements.
+Squarespace provides support for the following Markdown elements.
 
 <table class="table table-bordered" style="font-size: 14px">
   <thead class="thead-light">
@@ -38,7 +38,7 @@ Trello provides support for the following Markdown elements.
     <tr>
       <td><a href="/basic-syntax/#line-breaks">Line Breaks</a></td>
       <td class="table-success">Yes</td>
-      <td>You can press the Return key once to achieve the same result.</td>
+      <td></td>
     </tr>
     <tr>
       <td><a href="/basic-syntax#bold">Bold</a></td>
@@ -77,8 +77,8 @@ Trello provides support for the following Markdown elements.
     </tr>
     <tr>
       <td><a href="/basic-syntax/#links">Links</a></td>
-      <td class="table-success">Yes</td>
-      <td></td>
+      <td class="table-warning">Partial</td>
+      <td>Using <a href="/basic-syntax/#urls-and-email-addresses">angle brackets</a> for URLs and email addresses is not supported.</td>
     </tr>
     <tr>
       <td><a href="/basic-syntax/#images-1">Images</a></td>
@@ -87,7 +87,7 @@ Trello provides support for the following Markdown elements.
     </tr>
     <tr>
       <td><a href="/extended-syntax/#tables">Tables</a></td>
-      <td class="table-danger">No</td>
+      <td class="table-success">Yes</td>
       <td></td>
     </tr>
     <tr>
@@ -132,33 +132,13 @@ Trello provides support for the following Markdown elements.
     </tr>
     <tr>
       <td>HTML</td>
-      <td class="table-danger">No</td>
+      <td class="table-success">Yes</td>
       <td></td>
-    </tr>
-  </tbody>
-</table>
-
-### Support for Additional Syntax Elements
-
-As an added bonus, Trello provides support for several obscure elements.
-
-<table class="table table-bordered" style="font-size: 14px">
-  <thead class="thead-light">
-    <tr>
-      <th>Element</th>
-      <th>Markdown</th>
-      <th>Rendered Output</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Emoji</td>
-      <td><code>:joy:</code></td>
-      <td>😂</td>
     </tr>
   </tbody>
 </table>
 
 ### See Also
 
-- [How To Format Your Text in Trello](https://help.trello.com/article/821-using-markdown-in-trello)
+- [Markdown cheat sheet](https://support.squarespace.com/hc/en-us/articles/206543587-Markdown-cheat-sheet)
+- [Markdown blocks](https://support.squarespace.com/hc/en-us/articles/205813788-Markdown-Blocks)

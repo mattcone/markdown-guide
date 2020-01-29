@@ -135,7 +135,7 @@ Reddit provides support for the following Markdown elements. For a deep dive int
       <td></td>
     </tr>
     <tr>
-      <td>HTML</td>
+      <td><a href="/basic-syntax/#html">HTML</a></td>
       <td class="table-danger">No</td>
       <td></td>
     </tr>

@@ -131,7 +131,7 @@ Ulysses provides support for the following Markdown elements.
       <td>You don't need to use this since URLs aren't automatically linked.</td>
     </tr>
     <tr>
-      <td>HTML</td>
+      <td><a href="/basic-syntax/#html">HTML</a></td>
       <td class="table-danger">No</td>
       <td></td>
     </tr>

@@ -131,7 +131,7 @@ Standard Notes, through the [Advanced Markdown extension](https://standardnotes.
       <td></td>
     </tr>
     <tr>
-      <td>HTML</td>
+      <td><a href="/basic-syntax/#html">HTML</a></td>
       <td class="table-success">Yes</td>
       <td></td>
     </tr>

@@ -131,7 +131,7 @@ GitBook provides support for the following Markdown elements.
       <td></td>
     </tr>
     <tr>
-      <td>HTML</td>
+      <td><a href="/basic-syntax/#html">HTML</a></td>
       <td class="table-danger">No</td>
       <td></td>
     </tr>

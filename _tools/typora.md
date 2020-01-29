@@ -131,7 +131,7 @@ Typora provides support for the following Markdown elements. See the Typora [Mar
       <td></td>
     </tr>
     <tr>
-      <td>HTML</td>
+      <td><a href="/basic-syntax/#html">HTML</a></td>
       <td class="table-warning">Partial</td>
       <td>See the Typora <a href="https://support.typora.io/HTML/">documentation</a> for information about which HTML elements are supported.</td>
     </tr>

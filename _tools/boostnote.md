@@ -129,7 +129,7 @@ Boostnote provides support for the following Markdown elements.
       <td></td>
     </tr>
     <tr>
-      <td>HTML</td>
+      <td><a href="/basic-syntax/#html">HTML</a></td>
       <td class="table-success">Yes</td>
       <td>By default, only outputs "safe" HTML, but you can change that setting in <strong>Preferences</strong>.</td>
     </tr>

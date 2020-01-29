@@ -133,7 +133,7 @@ GitHub Pages provides support for the following Markdown elements. GitHub Pages 
       <td></td>
     </tr>
     <tr>
-      <td>HTML</td>
+      <td><a href="/basic-syntax/#html">HTML</a></td>
       <td class="table-success">Yes</td>
       <td></td>
     </tr>

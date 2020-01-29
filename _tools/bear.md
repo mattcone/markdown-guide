@@ -141,7 +141,7 @@ Bear provides support for the following Markdown elements.
       <td></td>
     </tr>
     <tr>
-      <td>HTML</td>
+      <td><a href="/basic-syntax/#html">HTML</a></td>
       <td class="table-warning">Partial</td>
       <td>HTML is not rendered in Bear notes, but it is apparently rendered in the HTML output from exported notes.</td>
     </tr>

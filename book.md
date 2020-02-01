@@ -5,7 +5,7 @@ description: Everything you need to know about Markdown in 60 pages.
 ---
 
 <div class="row" style="padding-bottom: 30px">
-  <div class="col-sm-5" style="margin-top: 5px"><a href="https://gum.co/markdownguide?wanted=true"><img src="/assets/images/book-cover.jpg" style="width: 95%" alt="The Markdown Guide book cover"></a></div>
+  <div class="col-sm-5" style="margin-top: 5px"><a href="https://gum.co/markdownguide"><img src="/assets/images/book-cover.jpg" style="width: 95%" alt="The Markdown Guide book cover"></a></div>
   <div class="col-sm-7">
     <p class="lead">Take your Markdown skills to the next level with the <em>Markdown Guide</em> book. It includes information on getting started, choosing a Markdown application, using basic and extended syntax, and much more. Learn everything you need to know about Markdown in 60 pages.</p>
 
@@ -15,7 +15,7 @@ description: Everything you need to know about Markdown in 60 pages.
 
     <div class="row" style="margin-top:15px; margin-bottom:25px">
       <div class="col-sm-12">
-        <a class="btn btn-success btn-lg" style="margin-right: 20px; margin-top: 5px" href="https://gum.co/markdownguide?wanted=true">Buy now for $9.99</a>
+        <a class="btn btn-success btn-lg" style="margin-right: 20px; margin-top: 5px" href="https://gum.co/markdownguide">Buy now for $9.99</a>
       </div>
     </div>
 
@@ -41,7 +41,7 @@ description: Everything you need to know about Markdown in 60 pages.
 
 <p class="lead">Markdown passes the test with flying colors. Writing using Markdown just <em>feels right</em>. Since its introduction in 2004, millions of people have starting using it to write everything from notes to documents. <strong style="font-weight: 600">It's one of the most successful markup languages of all time.</strong></p>
 
-<p class="lead" style="padding-bottom: 10px">Markdown has succeeded where other markup languages have failed because it strikes the right balance between power and simplicity. It's easy to learn and simple to use. Its tremendous success means it's ubiquitous enough to replace WYSIWYG editors on websites like <a href="/tools/reddit/">Reddit</a> and GitHub. But Markdown is also powerful enough to create documents, books, and technical documentation. Markdown is literally everywhere.</p>
+<p class="lead" style="padding-bottom: 10px">Markdown has succeeded where other markup languages have failed because it strikes the right balance between power and simplicity. It's easy to learn and simple to use. Its tremendous success means it's ubiquitous enough to replace WYSIWYG editors on websites like Reddit and GitHub. But Markdown is also powerful enough to create documents, books, and technical documentation. Markdown is literally everywhere.</p>
 
 <h3 class="no-anchor">Get Going Fast</h3>
 
@@ -53,7 +53,7 @@ description: Everything you need to know about Markdown in 60 pages.
 
 <div class="row" style="margin-top:15px; margin-bottom:25px">
   <div class="col-sm-12">
-    <a class="btn btn-success btn-lg" style="margin-right: 20px; margin-top: 5px" href="https://gum.co/markdownguide?wanted=true">Buy now for $9.99</a>
+    <a class="btn btn-success btn-lg" style="margin-right: 20px; margin-top: 5px" href="https://gum.co/markdownguide">Buy now for $9.99</a>
   </div>
 </div>
 

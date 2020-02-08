@@ -48,7 +48,7 @@ title: The Markdown Guide Book
 </div>
 
 <h2 class="no-anchor text-center" style="padding-top:80px;">What's inside.</h2>
-<p class="lead text-center" style="padding-bottom:20px;">Beautifully formatted pages. Clear and concise examples.</p>
+<p class="lead text-center" style="padding-bottom:20px;">Clear and concise examples. Beautifully formatted pages.</p>
 
 <div class="container" style="padding-bottom:50px;">
   <div class="row">

@@ -17,15 +17,15 @@
 
 [[redirects]]
 from = "/assets/book/markdown-guide.pdf"
-to = "/book"
+to = "/book/"
 
 [[redirects]]
 from = "/assets/book/markdown-guide.epub"
-to = "/book"
+to = "/book/"
 
 [[redirects]]
 from = "/assets/book/markdown-guide.mobi"
-to = "/book"
+to = "/book/"
 
 [[headers]]
   for = "/*"

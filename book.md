@@ -1,62 +1,76 @@
 ---
 layout: book
-title: Get the Book
-description: Everything you need to know about Markdown in 60 pages.
+title: The Markdown Guide Book
 ---
 
-<div class="row" style="padding-bottom: 30px">
-  <div class="col-sm-5" style="margin-top: 5px"><a href="https://gum.co/markdownguide"><img src="/assets/images/book-cover.jpg" style="width: 95%" alt="The Markdown Guide book cover"></a></div>
+<div class="row" style="padding-top: 15px; padding-bottom: 30px">
   <div class="col-sm-7">
-    <p class="lead">Take your Markdown skills to the next level with the <em>Markdown Guide</em> book. It includes information on getting started, choosing a Markdown application, using basic and extended syntax, and much more. Learn everything you need to know about Markdown in 60 pages.</p>
+    <h1 class="no-anchor" style="margin-top: 15px;">The Markdown Guide</h1>
+    <p class="lead" style="font-size:24px; color:#808080; padding-bottom:10px;">By Matt Cone</p>
+    <p class="lead" style="padding-bottom: 5px;">Learn Markdown in 60 pages. <em>The Markdown Guide</em> book includes everything you need to get started and master Markdown syntax.</p>
 
-    <h3 class="no-anchor" style="padding-top: 30px">Buy It For $9.99</h3>
+    <p class="lead">✔️ &nbsp; Professional quality PDF, MOBI, and EPUB files (DRM-free)</p>
+    <p class="lead">✔️ &nbsp; Unlimited free lifetime updates</p>
+    <p class="lead">✔️ &nbsp; 100% satisfaction guaranteed</p>
 
-    <p class="lead" style="padding-bottom: 10px">You'll get the book in PDF, EPUB, and MOBI format. Free lifetime updates are included so you can keep abreast of new developments. </p>
-
-    <div class="row" style="margin-top:15px; margin-bottom:25px">
+    <div class="row" style="padding-top:10px; margin-bottom:55px">
       <div class="col-sm-12">
-        <a class="btn btn-success btn-lg" style="margin-right: 20px; margin-top: 5px" href="https://gum.co/markdownguide">Buy now for $9.99</a>
+        <a class="btn btn-success btn-lg" style="margin-right: 20px; margin-top: 5px" href="https://gum.co/markdownguide?wanted=true">Buy now for $9.99</a>
+        <a class="btn btn-outline-secondary btn-lg" style="margin-top: 5px" href="/assets/markdown-guide-sample.pdf">Read free sample</a>
       </div>
     </div>
 
-    <p class="lead">The <em>Markdown Guide</em> is also available from <a href="https://leanpub.com/themarkdownguide">Leanpub</a> and <a href="https://www.amazon.com/dp/B07G7JB641">Amazon</a>.</p>
+    <p class="lead" style="padding-top:0px;"><em>The Markdown Guide</em> is also available on <a href="https://leanpub.com/themarkdownguide">Leanpub</a> and <a href="https://www.amazon.com/dp/B07G7JB641">Amazon</a>.</p>
+  </div>
+  <div class="col-sm-5"><a href="https://gum.co/markdownguide?wanted=true"><img src="/assets/images/book-cover.jpg" class="img-fluid" style="width: 100%" alt="The Markdown Guide book cover"></a></div>
+</div>
 
-    <h3 class="no-anchor" style="padding-top: 30px">100% Satisfaction Guaranteed</h3>
+<hr style="margin-top:40px; margin-bottom:40px;">
 
-    <p class="lead">If you're not completely satisfied, I'll refund your money, no questions asked.</p>
+<h2 class="no-anchor text-center">Take your Markdown skills to the next level.</h2>
+<p class="lead text-center" style="padding-bottom:20px;">Learn the power of Markdown and take full control of the syntax.</p>
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm text-center">
+      <p style="font-size:50px">📚</p>
+      <p class="lead" style="margin-top:-10px">See how Markdown works and dive in using an online editor.</p>
+    </div>
+    <div class="col-sm text-center">
+      <p style="font-size:50px">📝</p>
+      <p class="lead" style="margin-top:-10px">Practice using basic and extended Markdown syntax elements.</p>
+    </div>
+    <div class="col-sm text-center">
+      <p style="font-size:50px">💪</p>
+      <p class="lead" style="margin-top:-10px">Learn how to use Markdown for just about everything.</p>
+    </div>
   </div>
 </div>
 
-<h3 class="no-anchor">You Need to Learn Markdown</h3>
+<h2 class="no-anchor text-center" style="padding-top:80px;">What's inside.</h2>
+<p class="lead text-center" style="padding-bottom:20px;">Beautifully formatted pages. Clear and concise examples.</p>
 
-<p class="lead">I'm a technical writer, and I've used a lot of writing tools over the course of my professional career. One of the most interesting tools I've encountered is Markdown.</p>
-
-<p class="lead">I've been using Markdown for years now and I recommend it to everyone I know. There are lots of reasons why you should learn to write using Markdown, but one of the best reasons is that it's better than the alternatives.</p>
-
-<p class="lead" style="padding-bottom: 10px">Learning Markdown means you can stop using all the subpar writing tools you've tolerated for years. <strong style="font-weight: 600">It can also further your career.</strong> Believe it or not, knowing how to write using Markdown is a requirement for many jobs.</p>
-
-<h3 class="no-anchor">Markdown is Everywhere</h3>
-
-<p class="lead">My litmus test for a successful writing tool is whether using it can become second nature. Does writing with it feel natural? Or do I feel like I'm constantly fighting against it? I stop using tools that hinder me. Time is valuable, and I don't have the luxury of indulging things that squander that precious resource.</p>
-
-<p class="lead">Markdown passes the test with flying colors. Writing using Markdown just <em>feels right</em>. Since its introduction in 2004, millions of people have starting using it to write everything from notes to documents. <strong style="font-weight: 600">It's one of the most successful markup languages of all time.</strong></p>
-
-<p class="lead" style="padding-bottom: 10px">Markdown has succeeded where other markup languages have failed because it strikes the right balance between power and simplicity. It's easy to learn and simple to use. Its tremendous success means it's ubiquitous enough to replace WYSIWYG editors on websites like Reddit and GitHub. But Markdown is also powerful enough to create documents, books, and technical documentation. Markdown is literally everywhere.</p>
-
-<h3 class="no-anchor">Get Going Fast</h3>
-
-<p class="lead">So you want to learn to write using Markdown. Great! Now what?</p>
-
-<p class="lead">I was in your shoes once, too. I wanted to learn Markdown, but I couldn't find any good resources for beginners. That's why I decided to create the <em>Markdown Guide</em>. It's designed to be a comprehensive reference guide to the Markdown markup language.</p>
-
-<p class="lead" style="padding-bottom: 10px">The <em>Markdown Guide</em> contains all of the content on this website, but it's been updated and expanded to include more examples. And it's not finished yet! Like the website, the book will continue to be updated on a regular basis with new sections and chapters.</p>
-
-<div class="row" style="margin-top:15px; margin-bottom:25px">
-  <div class="col-sm-12">
-    <a class="btn btn-success btn-lg" style="margin-right: 20px; margin-top: 5px" href="https://gum.co/markdownguide">Buy now for $9.99</a>
+<div class="container" style="padding-bottom:50px;">
+  <div class="row">
+    <div class="col-sm text-center">
+      <img src="/assets/images/book-page-1.png" class="img-fluid border rounded" style="width: 90%" alt="The Markdown Guide book page one">
+    </div>
+    <div class="col-sm text-center">
+      <img src="/assets/images/book-page-2.png" class="img-fluid border rounded" style="width: 90%" alt="The Markdown Guide book page two">
+    </div>
   </div>
 </div>
 
-<h3 class="no-anchor">About the Author</h3>
+<center><a class="btn btn-success btn-lg" style="margin-right: 20px; margin-top: 5px" href="https://gum.co/markdownguide?wanted=true">Buy now for $9.99</a></center>
 
-<p class="lead">Matt Cone is a technical writer at <a href="https://www.fastly.com">Fastly</a>. He has experience creating documentation for organizations like Linode and the U.S. Department of Health and Human Services. Matt's first book, <em><a href="https://www.amazon.com/Master-Your-Mac-Simple-Customize/dp/1593274068/">Master Your Mac</a></em>, was published by No Starch Press. To get in touch with Matt, visit <a href="https://www.mattcone.com">https://www.mattcone.com</a>.</p>
+<div class="container" style="padding-top:60px;">
+  <div class="row">
+    <div class="col-sm-6">
+      <h3 class="no-anchor" style="padding-bottom:10px;">About the Author</h3>
+      <p class="lead">Matt Cone is a technical writer at <a href="https://www.fastly.com">Fastly</a>. He has experience creating documentation for organizations like Linode and the U.S. Department of Health and Human Services. Matt's first book, <em><a href="https://www.amazon.com/Master-Your-Mac-Simple-Customize/dp/1593274068/">Master Your Mac</a></em>, was published by No Starch Press. To get in touch with Matt, visit <a href="https://www.mattcone.com">https://www.mattcone.com</a>.</p>
+    </div>
+    <div class="col-sm-6 text-center">
+      <img src="/assets/images/mattcone.jpg" class="img-fluid border rounded" style="width: 90%" alt="Matt Cone">
+    </div>
+  </div>
+</div>

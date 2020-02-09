@@ -10,4 +10,4 @@ You might be wondering why people use Markdown instead of a WYSIWYG editor. Why 
 
 - Markdown is future proof. Even if the application you're using stops working at some point in the future, you'll still be able to read your Markdown-formatted text using a text editing application. This is an important consideration when it comes to books, university theses, and other milestone documents that need to be preserved indefinitely.
 
-- Markdown is everywhere. Websites like Reddit and GitHub support Markdown, and lots of desktop and web-based applications support it.
+- Markdown is everywhere. Websites like [Reddit](/tools/reddit/) and GitHub support Markdown, and lots of desktop and web-based applications support it.

@@ -103,3 +103,36 @@ Alternatively, on the line below the text, add any number of `==` characters for
     </tr>
   </tbody>
 </table>
+
+### Heading Best Practices
+
+Markdown applications don't agree on how to handle missing blank lines between a heading and the surrounding paragraphs. For compatibility, you should always separate paragraphs and headings with one or more blank lines.
+
+<table class="table table-bordered">
+  <thead class="thead-light">
+    <tr>
+      <th>Do this</th>
+      <th>Don't do this</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        <code class="highlighter-rouge">
+          This is a paragraph.<br><br>
+
+          # Here's the heading<br><br>
+
+          And this is another paragraph.
+        </code>
+      </td>
+      <td>
+        <code class="highlighter-rouge">
+        This is a paragraph.<br>
+        # Here's the heading<br>
+        And this is another paragraph.
+        </code>
+      </td>
+    </tr>
+  </tbody>
+</table>

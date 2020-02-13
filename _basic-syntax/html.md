@@ -16,7 +16,7 @@ The rendered output looks like this:
 
 This **word** is bold. This <em>word</em> is italic.
 
-### Limitations
+### HTML Best Practices
 
 For security reasons, not all Markdown applications support HTML in Markdown documents. When in doubt, check your Markdown application's documentation. Some applications support only a subset of HTML tags.
 

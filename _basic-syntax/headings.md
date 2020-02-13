@@ -111,8 +111,8 @@ Markdown applications don't agree on how to handle missing blank lines between a
 <table class="table table-bordered">
   <thead class="thead-light">
     <tr>
-      <th>Do this</th>
-      <th>Don't do this</th>
+      <th>✅&nbsp; Do this</th>
+      <th>❌&nbsp; Don't do this</th>
     </tr>
   </thead>
   <tbody>

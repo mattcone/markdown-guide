@@ -73,7 +73,7 @@ title: The Markdown Guide Book
 
 <blockquote class="blockquote">
   <p class="mb-0"><em>The Markdown Guide</em> is awesome. I keep it open in a browser tab for reference while working on my guides.</p>
-  <footer class="blockquote-footer" style="padding-bottom:20px;">Rob Reeder, Technical Writing Manager at <a href="https://cert.org">Carnegie Mellon CERT</a></footer>
+  <footer class="blockquote-footer" style="padding-bottom:20px;">Rob Reeder, Documentation Specialist, <a href="https://cert.org">Software Engineering Institute, CMU</a></footer>
 </blockquote>
 
 <blockquote class="blockquote">

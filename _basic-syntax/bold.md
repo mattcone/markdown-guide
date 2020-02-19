@@ -40,7 +40,7 @@ To bold text, add two asterisks or underscores before and after a word or phrase
   </tbody>
 </table>
 
-### Bold Best Practices
+#### Bold Best Practices
 
 Markdown applications don't agree on how to handle underscores in the middle of a word. For compatibility, use asterisks to bold the middle of a word for emphasis.
 

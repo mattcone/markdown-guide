@@ -106,7 +106,7 @@ Alternatively, on the line below the text, add any number of `==` characters for
 
 ### Heading Best Practices
 
-Markdown applications don't agree on how to handle missing blank lines between a heading and the surrounding paragraphs. For compatibility, you should separate paragraphs and headings with one or more blank lines.
+Markdown applications don't agree on how to handle missing blank lines between a heading and the surrounding paragraphs. For compatibility, separate paragraphs and headings with one or more blank lines.
 
 <table class="table table-bordered">
   <thead class="thead-light">

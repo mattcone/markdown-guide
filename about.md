@@ -6,7 +6,7 @@ description: Learn all about the Markdown Guide.
 
 ## Purpose
 
-The *Markdown Guide* is a comprehensive Markdown reference designed for novice and intermediate users. It was born out of frustration with existing Markdown references that are incomplete, inadequate, or both.
+The *Markdown Guide* is a comprehensive Markdown reference designed for both novices and experts. It was born out of frustration with existing Markdown references that are incomplete, inadequate, or both.
 
 ## Contributing
 

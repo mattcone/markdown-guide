@@ -10,7 +10,7 @@ examples:
     html: "<p>I really like using Markdown.</p><p>I think I'll use it to format all of my documents from now on.</p>"
 ---
 
-To create paragraphs, use a blank line to separate one or more lines of text. You should not indent paragraphs with spaces or tabs.
+To create paragraphs, use a blank line to separate one or more lines of text.
 
 <table class="table table-bordered">
   <thead class="thead-light">
@@ -38,6 +38,38 @@ To create paragraphs, use a blank line to separate one or more lines of text. Yo
         <p>I really like using Markdown.</p>
 
         <p>I think I'll use it to format all of my documents from now on.</p>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+### Paragraph Best Practices
+
+Don't indent paragraphs with spaces or tabs.
+
+<table class="table table-bordered">
+  <thead class="thead-light">
+    <tr>
+      <th>✅&nbsp; Do this</th>
+      <th>❌&nbsp; Don't do this</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        <code class="highlighter-rouge">
+          Don't put tabs or spaces in front of your paragraphs.<br><br>
+
+          Keep lines left-aligned like this.<br><br>
+        </code>
+      </td>
+      <td>
+        <code class="highlighter-rouge">
+        &nbsp;&nbsp;&nbsp;&nbsp;This can result in unexpected
+        formatting problems.<br><br>
+
+        &nbsp;&nbsp;Don't add tabs or spaces in front of paragraphs.
+        </code>
       </td>
     </tr>
   </tbody>

@@ -39,3 +39,30 @@ To bold text, add two asterisks or underscores before and after a word or phrase
     </tr>
   </tbody>
 </table>
+
+### Bold Best Practices
+
+Markdown applications don't agree on how to handle underscores in the middle of a word. For compatibility, use asterisks to bold the middle of a word for emphasis.
+
+<table class="table table-bordered">
+  <thead class="thead-light">
+    <tr>
+      <th>✅&nbsp; Do this</th>
+      <th>❌&nbsp; Don't do this</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        <code class="highlighter-rouge">
+          Love**is**bold
+        </code>
+      </td>
+      <td>
+        <code class="highlighter-rouge">
+          Love__is__bold
+        </code>
+      </td>
+    </tr>
+  </tbody>
+</table>

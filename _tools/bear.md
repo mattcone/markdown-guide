@@ -131,6 +131,16 @@ Bear provides support for the following Markdown elements.
       <td></td>
     </tr>
     <tr>
+      <td><a href="/extended-syntax/#copying-and-pasting-emoji">Emoji (copy and paste)</a></td>
+      <td class="table-success">Yes</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><a href="/extended-syntax/#using-emoji-shortcodes">Emoji (shortcodes)</a></td>
+      <td class="table-warning">Partial</td>
+      <td>Type a colon, start typing the name of the emoji, and a menu with associated emoji will appear. Click an emoji to insert it in the document.</td>
+    </tr>
+    <tr>
       <td><a href="/extended-syntax/#automatic-url-linking">Automatic URL Linking</a></td>
       <td class="table-success">Yes</td>
       <td></td>

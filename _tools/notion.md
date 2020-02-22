@@ -123,6 +123,16 @@ Notion provides support for the following Markdown elements.
       <td>Copying and pasting Markdown-formatted task lists works, but you can't type them in Notion's editor. Use the <code>/todo</code> slash command instead.</td>
     </tr>
     <tr>
+      <td><a href="/extended-syntax/#copying-and-pasting-emoji">Emoji (copy and paste)</a></td>
+      <td class="table-success">Yes</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><a href="/extended-syntax/#using-emoji-shortcodes">Emoji (shortcodes)</a></td>
+      <td class="table-danger">No</td>
+      <td></td>
+    </tr>
+    <tr>
       <td><a href="/extended-syntax/#automatic-url-linking">Automatic URL Linking</a></td>
       <td class="table-success">Yes</td>
       <td></td>

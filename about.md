@@ -6,7 +6,7 @@ description: Learn all about the Markdown Guide.
 
 ## Purpose
 
-The *Markdown Guide* is a comprehensive Markdown reference designed for both novices and experts. It was born out of frustration with existing Markdown references that are incomplete, inadequate, or both.
+*The Markdown Guide* is a comprehensive Markdown reference designed for both novices and experts. It was born out of frustration with existing Markdown references that are incomplete, inadequate, or both.
 
 ## Contributing
 
@@ -18,11 +18,11 @@ Find a typo or inaccurate statement? Please [create an issue](https://github.com
 
 ## Contacting
 
-Use the [contact form](/contact) to send a message to the maintainer of the *Markdown Guide*.
+Use the [contact form](/contact) to send a message to the maintainer of *The Markdown Guide*.
 
 ## Acknowledgements
 
-The *Markdown Guide* is made possible by the support of several individuals and organizations. Thanks to [all who have contributed](https://github.com/mattcone/markdown-guide/graphs/contributors) to this project, and thanks to [Netlify](https://www.netlify.com/) for graciously hosting this website.
+*The Markdown Guide* is made possible by the support of several individuals and organizations. Thanks to [all who have contributed](https://github.com/mattcone/markdown-guide/graphs/contributors) to this project, and thanks to [Netlify](https://www.netlify.com/) for graciously hosting this website.
 
 ## License
 

@@ -119,6 +119,16 @@ Joplin provides support for the following Markdown elements.
       <td></td>
     </tr>
     <tr>
+      <td><a href="/extended-syntax/#copying-and-pasting-emoji">Emoji (copy and paste)</a></td>
+      <td class="table-success">Yes</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><a href="/extended-syntax/#using-emoji-shortcodes">Emoji (shortcodes)</a></td>
+      <td class="table-success">Yes</td>
+      <td>Not enabled by default, but can be enabled in <strong>Preferences</strong> > <strong>Plugins</strong>.</td>
+    </tr>
+    <tr>
       <td><a href="/extended-syntax/#automatic-url-linking">Automatic URL Linking</a></td>
       <td class="table-success">Yes</td>
       <td></td>
@@ -159,11 +169,6 @@ As an added bonus, Joplin provides support for several obscure elements.
       <code>The HTML specification is maintained by the W3C.</code></td>
       <td>The <abbr title="Hyper Text Markup Language">HTML</abbr> specification
 is maintained by the W3C.</td>
-    </tr>
-    <tr>
-      <td>Emoji</td>
-      <td><code>:joy:</code></td>
-      <td>😂</td>
     </tr>
     <tr>
       <td>Highlight</td>

@@ -121,6 +121,16 @@ MacDown provides support for the following Markdown elements. The application us
       <td>Disabled by default. Enable in <strong>Preferences</strong> > <strong>Rendering</strong>.</td>
     </tr>
     <tr>
+      <td><a href="/extended-syntax/#copying-and-pasting-emoji">Emoji (copy and paste)</a></td>
+      <td class="table-success">Yes</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><a href="/extended-syntax/#using-emoji-shortcodes">Emoji (shortcodes)</a></td>
+      <td class="table-danger">No</td>
+      <td></td>
+    </tr>
+    <tr>
       <td><a href="/extended-syntax/#automatic-url-linking">Automatic URL Linking</a></td>
       <td class="table-success">Yes</td>
       <td>Disabled by default. Enable in <strong>Preferences</strong> > <strong>Markdown</strong>.</td>

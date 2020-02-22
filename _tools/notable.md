@@ -123,6 +123,16 @@ Notable provides support for the following Markdown elements. The application us
       <td></td>
     </tr>
     <tr>
+      <td><a href="/extended-syntax/#copying-and-pasting-emoji">Emoji (copy and paste)</a></td>
+      <td class="table-success">Yes</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><a href="/extended-syntax/#using-emoji-shortcodes">Emoji (shortcodes)</a></td>
+      <td class="table-success">Yes</td>
+      <td></td>
+    </tr>
+    <tr>
       <td><a href="/extended-syntax/#automatic-url-linking">Automatic URL Linking</a></td>
       <td class="table-success">Yes</td>
       <td></td>
@@ -153,11 +163,6 @@ As an added bonus, Notable provides support for several obscure elements.
     </tr>
   </thead>
   <tbody>
-    <tr>
-      <td>Emoji</td>
-      <td><code>:joy:</code></td>
-      <td>😂</td>
-    </tr>
     <tr>
       <td>Subscript</td>
       <td><code>H~2~O</code></td>

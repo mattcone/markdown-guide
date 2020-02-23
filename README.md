@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/mattcone/markdown-guide.svg?branch=master)](https://travis-ci.org/mattcone/markdown-guide)
 
-[The Markdown Guide](https://www.markdownguide.org) is a comprehensive Markdown reference designed for both novices and experts. It was born out of frustration with existing Markdown references that are incomplete, inadequate, or both.
+*[The Markdown Guide](https://www.markdownguide.org)* is a comprehensive Markdown reference designed for both novices and experts. It was born out of frustration with existing Markdown references that are incomplete, inadequate, or both.
 
 ## Contributing
 
@@ -10,7 +10,7 @@ Contributions are welcome. Feel free to open a pull request with changes.
 
 ### Running it Locally
 
-It can be helpful to preview changes on your computer before opening a pull request. The *Markdown Guide* uses the [Jekyll static site generator](http://jekyllrb.com/). After forking or cloning the repository, perform the following steps to generate the site and preview it:
+It can be helpful to preview changes on your computer before opening a pull request. *The Markdown Guide* uses the [Jekyll static site generator](http://jekyllrb.com/). After forking or cloning the repository, perform the following steps to generate the site and preview it:
 
 - Make sure you have ruby installed on your computer. See https://www.ruby-lang.org/en/downloads/
 - `bundle install`

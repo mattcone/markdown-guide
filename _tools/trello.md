@@ -121,6 +121,16 @@ Trello provides support for the following Markdown elements.
       <td></td>
     </tr>
     <tr>
+      <td><a href="/extended-syntax/#copying-and-pasting-emoji">Emoji (copy and paste)</a></td>
+      <td class="table-success">Yes</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><a href="/extended-syntax/#using-emoji-shortcodes">Emoji (shortcodes)</a></td>
+      <td class="table-success">Yes</td>
+      <td></td>
+    </tr>
+    <tr>
       <td><a href="/extended-syntax/#automatic-url-linking">Automatic URL Linking</a></td>
       <td class="table-success">Yes</td>
       <td></td>
@@ -134,27 +144,6 @@ Trello provides support for the following Markdown elements.
       <td><a href="/basic-syntax/#html">HTML</a></td>
       <td class="table-danger">No</td>
       <td></td>
-    </tr>
-  </tbody>
-</table>
-
-### Support for Additional Syntax Elements
-
-As an added bonus, Trello provides support for several obscure elements.
-
-<table class="table table-bordered" style="font-size: 14px">
-  <thead class="thead-light">
-    <tr>
-      <th>Element</th>
-      <th>Markdown</th>
-      <th>Rendered Output</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Emoji</td>
-      <td><code>:joy:</code></td>
-      <td>😂</td>
     </tr>
   </tbody>
 </table>

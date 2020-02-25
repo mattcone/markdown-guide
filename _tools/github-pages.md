@@ -95,7 +95,7 @@ GitHub Pages provides support for the following Markdown elements. GitHub Pages 
     <tr>
       <td><a href="/extended-syntax/#fenced-code-blocks">Fenced Code Blocks</a></td>
       <td class="table-success">Yes</td>
-      <td>Syntax highlighting is also supported.</td>
+      <td>Syntax highlighting is also supported. Make sure that <code>syntax_highlighter: rouge</code> is in the <code>kramdown</code> section of the <code>_config.yml</code> file.</td>
     </tr>
     <tr>
       <td><a href="/extended-syntax/#footnotes">Footnotes</a></td>

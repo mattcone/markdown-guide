@@ -40,3 +40,30 @@ To italicize text, add one asterisk or underscore before and after a word or phr
     </tr>
   </tbody>
 </table>
+
+#### Italic Best Practices
+
+Markdown applications don't agree on how to handle underscores in the middle of a word. For compatibility, use asterisks to italicize the middle of a word for emphasis.
+
+<table class="table table-bordered">
+  <thead class="thead-light">
+    <tr>
+      <th>✅&nbsp; Do this</th>
+      <th>❌&nbsp; Don't do this</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        <code class="highlighter-rouge">
+          A*cat*meow
+        </code>
+      </td>
+      <td>
+        <code class="highlighter-rouge">
+          A_cat_meow
+        </code>
+      </td>
+    </tr>
+  </tbody>
+</table>

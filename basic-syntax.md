@@ -2,7 +2,7 @@
 layout: default
 title: Basic Syntax
 description: The Markdown elements outlined in John Gruber's design document.
-last_modified_at: 2020-02-28
+last_modified_at: 2020-03-01
 ---
 
 {% include syntax.html type="basic" syntax-id="overview" %}

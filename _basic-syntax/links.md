@@ -133,3 +133,30 @@ and the HTML for the link would be:
 ```
 <a href="https://en.wikipedia.org/wiki/Hobbit#Lifestyle" title="Hobbit lifestyles">hobbit-hole</a>
 ```
+
+### Link Best Practices
+
+Markdown applications don't agree on how to handle spaces in the middle of a URL. For compatibility, try to URL encode any spaces with `%20`.
+
+<table class="table table-bordered">
+  <thead class="thead-light">
+    <tr>
+      <th>✅&nbsp; Do this</th>
+      <th>❌&nbsp; Don't do this</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        <code class="highlighter-rouge">
+        [link](https://www.example.com/my%20great%20page)
+        </code>
+      </td>
+      <td>
+        <code class="highlighter-rouge">
+        [link](https://www.example.com/my great page)
+        </code>
+      </td>
+    </tr>
+  </tbody>
+</table>

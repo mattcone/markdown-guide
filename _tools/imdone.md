@@ -91,7 +91,7 @@ Imdone provides support for the following Markdown elements.
     <tr>
       <td><a href="/extended-syntax/#fenced-code-blocks">Fenced Code Blocks</a></td>
       <td class="table-success">Yes</td>
-      <td>Syntax highlighting is not supported.</td>
+      <td>Syntax highlighting is supported.</td>
     </tr>
     <tr>
       <td><a href="/extended-syntax/#footnotes">Footnotes</a></td>

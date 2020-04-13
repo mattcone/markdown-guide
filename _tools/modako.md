@@ -92,13 +92,13 @@ In Madoko, tab's are considered to be equivalent to 4 spaces. It is therefore be
     </tr>
     <tr>
       <td><a href="/basic-syntax/#images-1">Images</a></td>
-      <td class="table-warning">Yes</td>
-      <td>Images and be dropped into the document to be automatically uploaded and linked to a sub-directory of the document's folder. Just watch the file size as images larger than about 1Mb are rejected by the Madoko server.</td>
+      <td class="table-warning">Partial</td>
+      <td>Images can be dropped into the document to be automatically uploaded and linked to a sub-directory of the document's folder. Just watch the file size as images larger than about 1Mb are rejected by the Madoko server.</td>
     </tr>
     <tr>
       <td><a href="/extended-syntax/#tables">Tables</a></td>
       <td class="table-success">Yes</td>
-      <td>Madoko significantly extends the [table syntax](http://madoko.org/reference.html#sec-table) of basic Markdown.</td>
+      <td>Madoko significantly extends the <a href="http://madoko.org/reference.html#sec-table">table syntax</a> of basic Markdown.</td>
     </tr>
     <tr>
       <td><a href="/extended-syntax/#fenced-code-blocks">Fenced Code Blocks</a></td>
@@ -153,7 +153,7 @@ In Madoko, tab's are considered to be equivalent to 4 spaces. It is therefore be
     <tr>
       <td><a href="/basic-syntax/#html">HTML</a></td>
       <td class="table-warning">Partial</td>
-      <td>See the [Madoko Reference](http://madoko.org/reference.html#sec-custom) for more information on custom blocks.</td>
+      <td>See the <a href="http://madoko.org/reference.html#sec-custom">Madoko Reference</a> for more information on custom blocks.</td>
     </tr>
   </tbody>
 </table>

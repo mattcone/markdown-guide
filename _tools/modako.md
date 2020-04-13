@@ -16,7 +16,7 @@ The online editor can also edit files on the local disk, or run LaTeX locally, u
 
 ### Modako Markdown Support
 
-Modako provides support for the following Markdown elements. Madoko implements extensions like [Github Flavored Markdown](https://help.github.com/articles/github-flavored-markdown), [pandoc](http://johnmacfarlane.net/pandoc), [Markdown Extra](http://michelf.ca/projects/php-markdown/extra), and [multi-markdown](http://fletcherpenney.net/multimarkdown), and it adds other useful features for writing academic and industrial documents.
+Modako provides support for the following Markdown elements. Madoko implements extensions like Github Flavored Markdown, [pandoc](https://pandoc.org/), [Markdown Extra](https://michelf.ca/projects/php-markdown/extra/), and [multi-markdown](https://fletcherpenney.net/multimarkdown/), and it adds other useful features for writing academic and industrial documents.
 
 In Madoko, tabs are considered to be equivalent to 4 spaces. It's best to configure your editor to view tabs as 4 spaces wide or documents may look off.
 
@@ -92,7 +92,7 @@ In Madoko, tabs are considered to be equivalent to 4 spaces. It's best to config
     <tr>
       <td><a href="/extended-syntax/#tables">Tables</a></td>
       <td class="table-success">Yes</td>
-      <td>Madoko significantly extends the <a href="http://madoko.org/reference.html#sec-table">table syntax</a> of basic Markdown.</td>
+      <td>Madoko significantly extends the <a href="https://madoko.org/reference.html#sec-table">table syntax</a> of basic Markdown.</td>
     </tr>
     <tr>
       <td><a href="/extended-syntax/#fenced-code-blocks">Fenced Code Blocks</a></td>
@@ -147,11 +147,11 @@ In Madoko, tabs are considered to be equivalent to 4 spaces. It's best to config
     <tr>
       <td><a href="/basic-syntax/#html">HTML</a></td>
       <td class="table-warning">Partial</td>
-      <td>See the <a href="http://madoko.org/reference.html#sec-custom">Madoko Reference</a> for more information on custom blocks.</td>
+      <td>See the <a href="https://madoko.org/reference.html#sec-custom">Madoko Reference</a> for more information on custom blocks.</td>
     </tr>
   </tbody>
 </table>
 
 ### See Also
 
-- [Madoko Reference](http://madoko.org/reference.html)
+- [Madoko Reference](https://madoko.org/reference.html)

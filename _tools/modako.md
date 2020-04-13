@@ -1,30 +1,24 @@
 ---
 title: Modako
 category: documents
-description: "Madoko is a fast markdown processor for writing professional articles, books, manuals, webpages and presentations, with a focus on simplicity and plain text readability."
+description: "Madoko is an application for writing professional articles and more."
 icon: modako.png
 website: https://www.madoko.net/
 ---
 
-[Modako](https://www.madoko.net/) is a fast markdown processor for writing professional articles, books, manuals, webpages and presentations, with a focus on simplicity and plain text readability.
+[Modako](https://www.madoko.net/) is a fast Markdown processor for writing professional articles, books, manuals, webpages and presentations, with a focus on simplicity and plain text readability. You can use Modako to write complex documents in Markdown and get beautiful PDF and HTML output. Madoko is a Javascript Markdown processor written in Koka. It started out as a demo program for the new, strongly typed, Koka language and the name comes from "Markdown in Koka."
 
-With Madoko you can write complex documents completely in markdown and get beautiful PDF and HTML output.
+Madoko can both be run locally as a command-line program or on Madoko.net to take advantage of storage and collaboration features. Madoko integrates seamlessly with Dropbox, Github, and OneDrive. It automatically synchronizes all changes in the cloud. This way, your document is always available from any device.
 
-Madoko is a fast javascript Markdown processor written in Koka It started out as a demo program for the new, strongly typed, Koka language and the name comes from "Markdown in Koka".
-
-Madoko can both be run local as a command-line program, or as a full online experience on Madoko.net with storage and collaboration through dropbox or github. Madoko integrates seamlessly with Dropbox, Github, and, Onedrive, and automatically synchronizes all changes in the cloud. This way, your document is always available anywhere from any device.
-
-The online editor can also edit files on the local disk, or run LaTeX locally, using the madoko local program.
+The online editor can also edit files on the local disk, or run LaTeX locally, using the Madoko local program.
 
 <img src="/assets/images/tools/modako-editor.png" class="img-fluid" style="width:70%; margin-bottom:-10px" alt="Modako editor interface">
 
 ### Modako Markdown Support
 
-Modako provides support for the following Markdown elements. See the Modako [Madoko Reference](http://madoko.org/reference.html) for the official documentation. The Madoko documentation indicates that the application generally uses John Gruber's Markdown philosophy of simplicity and focus on plain text readability.
+Modako provides support for the following Markdown elements. Madoko implements extensions like [Github Flavored Markdown](https://help.github.com/articles/github-flavored-markdown), [pandoc](http://johnmacfarlane.net/pandoc), [Markdown Extra](http://michelf.ca/projects/php-markdown/extra), and [multi-markdown](http://fletcherpenney.net/multimarkdown), and it adds other useful features for writing academic and industrial documents.
 
-Madoko is fully compatible with basic [Markdown syntax](http://daringfireball.net/projects/markdown/syntax) and passes the entire test suite. It also implements most extensions, like [Github flavored markdown](https://help.github.com/articles/github-flavored-markdown), [PanDoc](http://johnmacfarlane.net/pandoc), [Markdown Extra](http://michelf.ca/projects/php-markdown/extra), and [multi-markdown](http://fletcherpenney.net/multimarkdown), and it adds quite a few features itself to make it really useful for writing academic and industrial documents.
-
-In Madoko, tab's are considered to be equivalent to 4 spaces. It is therefore best to configure your editor to view tabs as 4 spaces wide or documents may look off.
+In Madoko, tabs are considered to be equivalent to 4 spaces. It's best to configure your editor to view tabs as 4 spaces wide or documents may look off.
 
 <table class="table table-bordered" style="font-size: 14px">
   <thead class="thead-light">
@@ -158,6 +152,6 @@ In Madoko, tab's are considered to be equivalent to 4 spaces. It is therefore be
   </tbody>
 </table>
 
-### Support for Additional Syntax Elements
+### See Also
 
-Madoko provides many essential additions for larger documents.
+- [Madoko Reference](http://madoko.org/reference.html)

@@ -10,7 +10,7 @@ website: https://www.madoko.net/
 
 With Madoko you can write complex documents completely in markdown and get beautiful PDF and HTML output.
 
-Madoko is a fast javascript Markdown processor written in Koka It started out as a demo program for the new, strongly typed, Koka language and the name comes from “Markdown in Koka”.
+Madoko is a fast javascript Markdown processor written in Koka It started out as a demo program for the new, strongly typed, Koka language and the name comes from "Markdown in Koka".
 
 Madoko can both be run local as a command-line program, or as a full online experience on Madoko.net with storage and collaboration through dropbox or github. Madoko integrates seamlessly with Dropbox, Github, and, Onedrive, and automatically synchronizes all changes in the cloud. This way, your document is always available anywhere from any device.
 

@@ -1,7 +1,7 @@
 ---
 title: Zettlr
 category: documents
-description: "An open source Markdown editor designed for academic writing."
+description: "Zettlr is an open source Markdown editor designed for academic writing."
 icon: zettlr.png
 website: https://www.zettlr.com/
 ---

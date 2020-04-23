@@ -17,6 +17,10 @@ It can be helpful to preview changes on your computer before opening a pull requ
 - `bundle exec jekyll serve`
 - Point your browser at http://127.0.0.1:4000/
 
+### Adding tools
+
+See [this page](https://github.com/mattcone/markdown-guide/wiki/Markdown-tool-directory) for information about adding applications to the [Markdown tools directory](https://www.markdownguide.org/tools/).
+
 ## Deployment
 
 Pull requests merged to the master branch are automatically deployed to the production website.

@@ -2,7 +2,7 @@
 layout: tools
 title: Tools
 description: Applications and components that support Markdown.
-last_modified_at: 2019-10-23
+last_modified_at: 2020-04-22
 ---
 
 <div class="row">
@@ -10,7 +10,7 @@ last_modified_at: 2019-10-23
     <div class="card" style="width: 16rem; height: 15rem;">
       <div class="card-body">
         <h4 class="card-title no-anchor" style="margin-top: -20px;"><span class="emoji" style="font-size:30px">👋</span>&nbsp;&nbsp;&nbsp;Howdy!</h4>
-        <p class="card-text">This is the start of a comprehensive Markdown tool directory. Creating this information will take some time — thanks for your patience.</p>
+        <p class="card-text">This is the start of a comprehensive Markdown tool directory. Compiling all this will take some time! <a href="https://github.com/mattcone/markdown-guide/wiki/Markdown-tool-directory">Learn how to contribute.</a></p>
       </div>
     </div>
   </div>

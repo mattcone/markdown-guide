@@ -1,0 +1,98 @@
+# Each tool has YAML front matter describing the tool's properties.
+# The fields are:
+
+headings:
+  name: Headings
+  link: /basic-syntax#headings
+
+paragraphs:
+  name: Paragraphs
+  link: /basic-syntax/#paragraphs-1
+
+line-breaks:
+  name: Line Breaks
+  link: /basic-syntax/#line-breaks
+
+bold:
+  name: Bold
+  link: /basic-syntax#bold
+
+italic:
+  name: Italic
+  link: /basic-syntax#italic
+
+blockquotes:
+  name: Blockquotes
+  link: /basic-syntax#blockquotes-1
+
+ordered-lists:
+  name: Ordered Lists
+  link: /basic-syntax#ordered-lists
+
+unordered-lists:
+  name: Unrdered Lists
+  link: /basic-syntax#unordered-lists
+
+code:
+  name: Code
+  link: /basic-syntax#code
+
+horizontal-rules:
+  name: Horizontal Rules
+  link: /basic-syntax/#horizontal-rules
+
+links:
+  name: Links
+  link: /basic-syntax/#links
+
+images:
+  name: Images
+  link: /basic-syntax/#images-1
+
+tables:
+  name: Tables
+  link: /extended-syntax/#tables
+
+fenced-code-blocks:
+  name: Fenced Code Blocks
+  link: /extended-syntax/#fenced-code-blocks
+
+footnotes:
+  name: Footnotes
+  link: /extended-syntax/#footnotes
+
+heading-ids:
+  name: Heading IDs
+  link: /extended-syntax/#heading-ids
+
+definition-lists:
+  name: Definition Lists
+  link: /extended-syntax/#definition-lists
+
+strikethrough:
+  name: Strikethrough
+  link: /extended-syntax/#strikethrough
+
+task-lists:
+  name: Task Lists
+  link: /extended-syntax/#task-lists
+
+emoji-cp:
+  name: Emoji (copy and paste)
+  link: /extended-syntax/#copying-and-pasting-emoji
+
+emoji-sc:
+  name: Emoji (shortcodes)
+  link: /extended-syntax/#using-emoji-shortcodes
+
+auto-url-linking:
+  name: Automatic URL Linking
+  link: /extended-syntax/#automatic-url-linking
+
+disabling-auto-url:
+  name: Disabling Automatic URL Linking
+  link: /extended-syntax/#disabling-automatic-url-linking
+
+html:
+  name: HTML
+  link: /basic-syntax/#html

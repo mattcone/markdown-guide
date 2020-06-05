@@ -1,0 +1,17 @@
+# Possible availability statuses for Markdown features for tools:
+
+y:
+  name: "Yes"
+  class: table-success
+
+p:
+  name: "Partial"
+  class: table-warning
+
+n:
+  name: "No"
+  class: table-danger
+
+u:
+  name: "Unknown"
+  class: table-default

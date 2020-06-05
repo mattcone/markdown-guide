@@ -1,0 +1,24 @@
+### {{ page.title }} Markdown Support
+
+{{ page.title }} provides support for the following Markdown elements.
+
+<table class="table table-bordered" style="font-size: 14px">
+  <thead class="thead-light">
+    <tr>
+      <th>Element</th>
+      <th>Support</th>
+      <th>Notes</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for item in page.syntax %}
+    {% assign element = site.data.tools[item.id] %}
+    {% assign status = site.data.status[item.available] %}
+    <tr>
+      <td><a href="{{ element.link }}">{{ element.name }}</a></td>
+      <td class="{{ status.class }}">{{ status.name }}</td>
+      <td>{% if item.notes %}{{ item.notes | markdownify | remove: '<p>' | remove: '</p>' }}{% endif %}</td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>

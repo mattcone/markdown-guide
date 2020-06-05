@@ -4,150 +4,74 @@ category: "online editor"
 description: "Dillinger is an online Markdown editor designed for on-the-go writing."
 icon: dillinger.png
 website: https://dillinger.io
+syntax:
+  - id: headings
+    available: y
+  - id: paragraphs
+    available: y
+  - id: line-breaks
+    available: p
+    notes: "The Markdown syntax (trailing whitespace) is not supported, but you can press the Return key once to achieve the same result."
+  - id: bold
+    available: y
+  - id: italic
+    available: y
+  - id: blockquotes
+    available: y
+  - id: ordered-lists
+    available: y
+  - id: unordered-lists
+    available: y
+  - id: code
+    available: y
+  - id: horizontal-rules
+    available: y
+  - id: links
+    available: y
+  - id: images
+    available: y
+    notes: "There's no ability to upload images — you'll need to store the images on another server."
+  - id: tables
+    available: y
+  - id: fenced-code-blocks
+    available: y
+    notes: "Syntax highlighting is also supported."
+  - id: footnotes
+    available: y
+  - id: heading-ids
+    available: p
+    notes: "Automatically generated. There's no way to set custom heading IDs."
+  - id: definition-lists
+    available: y
+  - id: strikethrough
+    available: y
+  - id: task-lists
+    available: y
+    notes: "You don't have to use dashes. Just use brackets (e.g., `[ ]`)."
+  - id: emoji-cp
+    available: y
+  - id: emoji-sc
+    available: n
+  - id: auto-url-linking
+    available: y
+  - id: disabling-auto-url
+    available: y
+  - id: html
+    available: n
+see-also:
+  - name: Dillinger repository on GitHub
+    link: https://github.com/joemccann/dillinger
 ---
 
 [Dillinger](https://dillinger.io) is an online Markdown editor. Like [StackEdit](/tools/stackedit/), it loads right in your web browser, so there's no need to download and install an application on your computer. Dillinger has two panes: the editor on the left, and the live preview on the right. The split panes make it easy to see what Markdown-formatted text looks like.
 
 Dillinger provides excellent Markdown support. Unfortunately, the export options are not customizable and the file saving features are a bit flaky. And since Dillinger loads in your web browser, it's entirely dependent on a consistent internet connection. If your internet connection goes down or your web browser crashes, you could lose your work. For those reasons, Dillinger is best used for experimentation and quick note taking.
 
+The application uses the [markdown-it](https://github.com/markdown-it/markdown-it) Markdown processor.
+
 <img src="/assets/images/dillinger.png" class="img-fluid" alt="Dillinger Markdown editor">
 
-
-### Dillinger Markdown Support
-
-Dillinger provides support for the following Markdown elements. The application uses the [markdown-it](https://github.com/markdown-it/markdown-it) Markdown processor.
-
-<table class="table table-bordered" style="font-size: 14px">
-  <thead class="thead-light">
-    <tr>
-      <th>Element</th>
-      <th>Support</th>
-      <th>Notes</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><a href="/basic-syntax#headings">Headings</a></td>
-      <td class="table-success">Yes</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td><a href="/basic-syntax/#paragraphs-1">Paragraphs</a></td>
-      <td class="table-success">Yes</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td><a href="/basic-syntax/#line-breaks">Line Breaks</a></td>
-      <td class="table-success">Yes</td>
-      <td>The Markdown syntax (trailing whitespace) is not supported, but you can press the Return key once to achieve the same result.</td>
-    </tr>
-    <tr>
-      <td><a href="/basic-syntax#bold">Bold</a></td>
-      <td class="table-success">Yes</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td><a href="/basic-syntax#italic">Italic</a></td>
-      <td class="table-success">Yes</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td><a href="/basic-syntax#blockquotes-1">Blockquotes</a></td>
-      <td class="table-success">Yes</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td><a href="/basic-syntax#ordered-lists">Ordered Lists</a></td>
-      <td class="table-success">Yes</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td><a href="/basic-syntax#unordered-lists">Unordered Lists</a></td>
-      <td class="table-success">Yes</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td><a href="/basic-syntax#code">Code</a></td>
-      <td class="table-success">Yes</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td><a href="/basic-syntax/#horizontal-rules">Horizontal Rules</a></td>
-      <td class="table-success">Yes</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td><a href="/basic-syntax/#links">Links</a></td>
-      <td class="table-success">Yes</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td><a href="/basic-syntax/#images-1">Images</a></td>
-      <td class="table-success">Yes</td>
-      <td>There's no ability to upload images — you'll need to store the images on another server.</td>
-    </tr>
-    <tr>
-      <td><a href="/extended-syntax/#tables">Tables</a></td>
-      <td class="table-success">Yes</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td><a href="/extended-syntax/#fenced-code-blocks">Fenced Code Blocks</a></td>
-      <td class="table-success">Yes</td>
-      <td>Syntax highlighting is also supported.</td>
-    </tr>
-    <tr>
-      <td><a href="/extended-syntax/#footnotes">Footnotes</a></td>
-      <td class="table-success">Yes</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td><a href="/extended-syntax/#heading-ids">Heading IDs</a></td>
-      <td class="table-warning">Partial</td>
-      <td>Automatically generated. There's no way to set custom heading IDs.</td>
-    </tr>
-    <tr>
-      <td><a href="/extended-syntax/#definition-lists">Definition Lists</a></td>
-      <td class="table-success">Yes</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td><a href="/extended-syntax/#strikethrough">Strikethrough</a></td>
-      <td class="table-success">Yes</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td><a href="/extended-syntax/#task-lists">Task Lists</a></td>
-      <td class="table-success">Yes</td>
-      <td>You don't have to use dashes. Just use brackets (e.g., <code>[ ]</code>).</td>
-    </tr>
-    <tr>
-      <td><a href="/extended-syntax/#copying-and-pasting-emoji">Emoji (copy and paste)</a></td>
-      <td class="table-success">Yes</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td><a href="/extended-syntax/#using-emoji-shortcodes">Emoji (shortcodes)</a></td>
-      <td class="table-danger">No</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td><a href="/extended-syntax/#automatic-url-linking">Automatic URL Linking</a></td>
-      <td class="table-success">Yes</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td><a href="/extended-syntax/#disabling-automatic-url-linking">Disabling Automatic URL Linking</a></td>
-      <td class="table-success">Yes</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td><a href="/basic-syntax/#html">HTML</a></td>
-      <td class="table-danger">No</td>
-      <td></td>
-    </tr>
-  </tbody>
-</table>
+{% include tool-syntax-table.html %}
 
 ### Support for Additional Syntax Elements
 
@@ -191,7 +115,3 @@ is maintained by the W3C.</td>
     </tr>
   </tbody>
 </table>
-
-### See Also
-
-- [Dillinger repository on GitHub](https://github.com/joemccann/dillinger)

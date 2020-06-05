@@ -4,147 +4,70 @@ category: "notes"
 description: "Joplin is a note taking application that respects your privacy."
 icon: joplin.png
 website: https://joplinapp.org
+syntax:
+  - id: headings
+    available: y
+  - id: paragraphs
+    available: y
+  - id: line-breaks
+    available: y
+    notes: In addition to trailing whitespace, you can also use a trailing backslash or press the Return key once to achieve the same result.
+  - id: bold
+    available: y
+  - id: italic
+    available: y
+  - id: blockquotes
+    available: y
+  - id: ordered-lists
+    available: y
+  - id: unordered-lists
+    available: y
+  - id: code
+    available: y
+  - id: horizontal-rules
+    available: y
+  - id: links
+    available: y
+  - id: images
+    available: y
+  - id: tables
+    available: y
+  - id: fenced-code-blocks
+    available: y
+    notes: "Syntax highlighting is also supported."
+  - id: footnotes
+    available: y
+  - id: heading-ids
+    available: p
+    notes: "Automatically generated. There's no way to set custom heading IDs."
+  - id: definition-lists
+    available: y
+    notes: "Not enabled by default, but can be enabled in **Preferences** > **Plugins**."
+  - id: strikethrough
+    available: y
+  - id: task-lists
+    available: y
+  - id: emoji-cp
+    available: y
+  - id: emoji-sc
+    available: y
+    notes: "Not enabled by default, but can be enabled in **Preferences** > **Plugins**."
+  - id: auto-url-linking
+    available: y
+  - id: disabling-auto-url
+    available: y
+  - id: html
+    available: y
+see-also:
+  - name: Joplin Markdown documentation
+    link: https://joplinapp.org
 ---
 
 [Joplin](https://joplinapp.org) is a free and open-source note taking application that works on every platform. Joplin's user interface isn't as polished as some of its competitors — it feels more geeky, if that makes any sense — but the application is a favorite among privacy advocates and is recommended by [privacytools.io](https://www.privacytools.io/software/notebooks/). Joplin stores notes on your local file system, provides end-to-end encryption, and allows you to synchronize files across devices by storing them on a service like Dropbox or Nextcloud.
 
 <img src="/assets/images/tools/joplin.png" class="img-fluid" style="width: 90%;" alt="Joplin Markdown application">
 
-### Joplin Markdown Support
-
-Joplin provides support for the following Markdown elements.
-
-<table class="table table-bordered" style="font-size: 14px">
-  <thead class="thead-light">
-    <tr>
-      <th>Element</th>
-      <th>Support</th>
-      <th>Notes</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><a href="/basic-syntax#headings">Headings</a></td>
-      <td class="table-success">Yes</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td><a href="/basic-syntax/#paragraphs-1">Paragraphs</a></td>
-      <td class="table-success">Yes</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td><a href="/basic-syntax/#line-breaks">Line Breaks</a></td>
-      <td class="table-success">Yes</td>
-      <td>In addition to trailing whitespace, you can also use a trailing backslash or press the Return key once to achieve the same result.</td>
-    </tr>
-    <tr>
-      <td><a href="/basic-syntax#bold">Bold</a></td>
-      <td class="table-success">Yes</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td><a href="/basic-syntax#italic">Italic</a></td>
-      <td class="table-success">Yes</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td><a href="/basic-syntax#blockquotes-1">Blockquotes</a></td>
-      <td class="table-success">Yes</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td><a href="/basic-syntax#ordered-lists">Ordered Lists</a></td>
-      <td class="table-success">Yes</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td><a href="/basic-syntax#unordered-lists">Unordered Lists</a></td>
-      <td class="table-success">Yes</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td><a href="/basic-syntax#code">Code</a></td>
-      <td class="table-success">Yes</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td><a href="/basic-syntax/#horizontal-rules">Horizontal Rules</a></td>
-      <td class="table-success">Yes</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td><a href="/basic-syntax/#links">Links</a></td>
-      <td class="table-success">Yes</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td><a href="/basic-syntax/#images-1">Images</a></td>
-      <td class="table-success">Yes</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td><a href="/extended-syntax/#tables">Tables</a></td>
-      <td class="table-success">Yes</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td><a href="/extended-syntax/#fenced-code-blocks">Fenced Code Blocks</a></td>
-      <td class="table-success">Yes</td>
-      <td>Syntax highlighting is also supported.</td>
-    </tr>
-    <tr>
-      <td><a href="/extended-syntax/#footnotes">Footnotes</a></td>
-      <td class="table-success">Yes</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td><a href="/extended-syntax/#heading-ids">Heading IDs</a></td>
-      <td class="table-warning">Partial</td>
-      <td>Automatically generated. There's no way to set custom heading IDs.</td>
-    </tr>
-    <tr>
-      <td><a href="/extended-syntax/#definition-lists">Definition Lists</a></td>
-      <td class="table-success">Yes</td>
-      <td>Not enabled by default, but can be enabled in <strong>Preferences</strong> > <strong>Plugins</strong>.</td>
-    </tr>
-    <tr>
-      <td><a href="/extended-syntax/#strikethrough">Strikethrough</a></td>
-      <td class="table-success">Yes</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td><a href="/extended-syntax/#task-lists">Task Lists</a></td>
-      <td class="table-success">Yes</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td><a href="/extended-syntax/#copying-and-pasting-emoji">Emoji (copy and paste)</a></td>
-      <td class="table-success">Yes</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td><a href="/extended-syntax/#using-emoji-shortcodes">Emoji (shortcodes)</a></td>
-      <td class="table-success">Yes</td>
-      <td>Not enabled by default, but can be enabled in <strong>Preferences</strong> > <strong>Plugins</strong>.</td>
-    </tr>
-    <tr>
-      <td><a href="/extended-syntax/#automatic-url-linking">Automatic URL Linking</a></td>
-      <td class="table-success">Yes</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td><a href="/extended-syntax/#disabling-automatic-url-linking">Disabling Automatic URL Linking</a></td>
-      <td class="table-success">Yes</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td><a href="/basic-syntax/#html">HTML</a></td>
-      <td class="table-success">Yes</td>
-      <td></td>
-    </tr>
-  </tbody>
-</table>
+{% include tool-syntax-table.html %}
 
 ### Support for Additional Syntax Elements
 
@@ -192,7 +115,3 @@ is maintained by the W3C.</td>
     </tr>
   </tbody>
 </table>
-
-### See Also
-
-- [Joplin Markdown documentation](https://joplinapp.org)

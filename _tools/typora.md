@@ -4,149 +4,76 @@ category: documents
 description: "Typora is a simple and configurable editor designed for notes and documents."
 icon: typora.png
 website: https://typora.io
+syntax:
+  - id: headings
+    available: y
+  - id: paragraphs
+    available: y
+    notes: "By default, you only need to press the Return key once (not twice). See the [Typora documentation](https://support.typora.io/Line-Break/) for more information."
+  - id: line-breaks
+    available: y
+    notes: "By default, you need to press Command-Shift-Return. See the [Typora documentation](https://support.typora.io/Line-Break/) for more information."
+  - id: bold
+    available: y
+  - id: italic
+    available: y
+  - id: blockquotes
+    available: y
+  - id: ordered-lists
+    available: y
+  - id: unordered-lists
+    available: y
+  - id: code
+    available: y
+  - id: horizontal-rules
+    available: y
+  - id: links
+    available: y
+    notes: "See the [Typora documentation](https://support.typora.io/Links/) for instructions on linking to files on your computer."
+  - id: images
+    available: y
+    notes: "To insert images from your computer, use the options under **Format > Images**."
+  - id: tables
+    available: y
+  - id: fenced-code-blocks
+    available: y
+    notes: "Syntax highlighting is also supported. See the [list of supported languages](https://support.typora.io/Code-Fences-Language-Support/)."
+  - id: footnotes
+    available: y
+  - id: heading-ids
+    available: p
+    notes: "Automatically generated. For example, if you have a heading called `Heading IDs`, you can link to it with `[link](#heading-ids)`. There's apparently no way to set custom heading IDs. It's unclear what happens when there are two identical headings."
+  - id: definition-lists
+    available: n
+  - id: strikethrough
+    available: y
+  - id: task-lists
+    available: y
+  - id: emoji-cp
+    available: y
+  - id: emoji-sc
+    available: y
+  - id: auto-url-linking
+    available: y
+  - id: disabling-auto-url
+    available: y
+  - id: html
+    available: p
+    notes: "See the [Typora documentation](https://support.typora.io/HTML/) for information about which HTML elements are supported."
+see-also:
+  - name: Typora support
+    link: https://support.typora.io/
 ---
 
 [Typora](https://typora.io) is a simple and configurable document editor that provides excellent Markdown support. This application is ideal for students and professionals who need to write essays and reports. It might be difficult using Typora for multi-file projects or for website publishing.
 
 Typora stands out by offering a variety of settings without sacrificing the simplicity of a barebones interface. Newcomers to Markdown may appreciate the keyboard shortcuts for formatting options as well as the intuitive live editor that hides the Markdown formatting syntax after you type it.
 
+See the Typora [Markdown reference](https://support.typora.io/Markdown-Reference/) for the official documentation. The Typora documentation indicates that the application generally uses [GitHub Flavored Markdown (GFM)](https://github.github.com/gfm/).
+
 <img src="/assets/images/tools/typora-editor.png" class="img-fluid" style="width:70%; margin-bottom:-10px" alt="Typora editor interface">
 
-### Typora Markdown Support
-
-Typora provides support for the following Markdown elements. See the Typora [Markdown reference](https://support.typora.io/Markdown-Reference/) for the official documentation. The Typora documentation indicates that the application generally uses [GitHub Flavored Markdown (GFM)](https://github.github.com/gfm/).
-
-<table class="table table-bordered" style="font-size: 14px">
-  <thead class="thead-light">
-    <tr>
-      <th>Element</th>
-      <th>Support</th>
-      <th>Notes</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><a href="/basic-syntax#headings">Headings</a></td>
-      <td class="table-success">Yes</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td><a href="/basic-syntax/#paragraphs-1">Paragraphs</a></td>
-      <td class="table-success">Yes</td>
-      <td>By default, you only need to press the Return key once (not twice). See the Typora <a href="https://support.typora.io/Line-Break/">documentation</a> for more information.</td>
-    </tr>
-    <tr>
-      <td><a href="/basic-syntax/#line-breaks">Line Breaks</a></td>
-      <td class="table-success">Yes</td>
-      <td>By default, you need to press Command-Shift-Return. See the Typora <a href="https://support.typora.io/Line-Break/">documentation</a> for more information.</td>
-    </tr>
-    <tr>
-      <td><a href="/basic-syntax#bold">Bold</a></td>
-      <td class="table-success">Yes</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td><a href="/basic-syntax#italic">Italic</a></td>
-      <td class="table-success">Yes</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td><a href="/basic-syntax#blockquotes-1">Blockquotes</a></td>
-      <td class="table-success">Yes</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td><a href="/basic-syntax#ordered-lists">Ordered Lists</a></td>
-      <td class="table-success">Yes</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td><a href="/basic-syntax#unordered-lists">Unordered Lists</a></td>
-      <td class="table-success">Yes</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td><a href="/basic-syntax#code">Code</a></td>
-      <td class="table-success">Yes</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td><a href="/basic-syntax/#horizontal-rules">Horizontal Rules</a></td>
-      <td class="table-success">Yes</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td><a href="/basic-syntax/#links">Links</a></td>
-      <td class="table-success">Yes</td>
-      <td>See the Typora <a href="https://support.typora.io/Links/">documentation</a> for instructions on linking to files on your computer.</td>
-    </tr>
-    <tr>
-      <td><a href="/basic-syntax/#images-1">Images</a></td>
-      <td class="table-success">Yes</td>
-      <td>To insert images from your computer, use the options under <strong>Format</strong> > <strong>Images</strong>.</td>
-    </tr>
-    <tr>
-      <td><a href="/extended-syntax/#tables">Tables</a></td>
-      <td class="table-success">Yes</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td><a href="/extended-syntax/#fenced-code-blocks">Fenced Code Blocks</a></td>
-      <td class="table-success">Yes</td>
-      <td>Syntax highlighting is also supported. See the <a href="https://support.typora.io/Code-Fences-Language-Support/">list of supported languages</a>.</td>
-    </tr>
-    <tr>
-      <td><a href="/extended-syntax/#footnotes">Footnotes</a></td>
-      <td class="table-success">Yes</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td><a href="/extended-syntax/#heading-ids">Heading IDs</a></td>
-      <td class="table-warning">Partial</td>
-      <td>Automatically generated. For example, if you have a heading called <code>Heading IDs</code>, you can link to it with <code>[link](#heading-ids)</code>. There's apparently no way to set custom heading IDs. It's unclear what happens when there are two identical headings.</td>
-    </tr>
-    <tr>
-      <td><a href="/extended-syntax/#definition-lists">Definition Lists</a></td>
-      <td class="table-danger">No</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td><a href="/extended-syntax/#strikethrough">Strikethrough</a></td>
-      <td class="table-success">Yes</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td><a href="/extended-syntax/#task-lists">Task Lists</a></td>
-      <td class="table-success">Yes</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td><a href="/extended-syntax/#copying-and-pasting-emoji">Emoji (copy and paste)</a></td>
-      <td class="table-success">Yes</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td><a href="/extended-syntax/#using-emoji-shortcodes">Emoji (shortcodes)</a></td>
-      <td class="table-success">Yes</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td><a href="/extended-syntax/#automatic-url-linking">Automatic URL Linking</a></td>
-      <td class="table-success">Yes</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td><a href="/extended-syntax/#disabling-automatic-url-linking">Disabling Automatic URL Linking</a></td>
-      <td class="table-success">Yes</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td><a href="/basic-syntax/#html">HTML</a></td>
-      <td class="table-warning">Partial</td>
-      <td>See the Typora <a href="https://support.typora.io/HTML/">documentation</a> for information about which HTML elements are supported.</td>
-    </tr>
-  </tbody>
-</table>
+{% include tool-syntax-table.html %}
 
 ### Support for Additional Syntax Elements
 
@@ -196,7 +123,3 @@ You can disable Typora's live editor by selecting **View** > **Source Code Mode*
 ### Export Options
 
 Typora provides a wide variety of export options under **File** > **Export** for when you're ready to publish your Markdown document. Some of the export options, like Microsoft Word and LaTeX format, require [Pandoc](https://pandoc.org/).
-
-### See Also
-
-- [Typora support](https://support.typora.io/)

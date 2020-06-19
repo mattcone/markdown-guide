@@ -2,7 +2,7 @@
 layout: default
 title: Markdown Cheat Sheet
 description: A quick reference to the Markdown syntax.
-last_modified_at: 2018-10-18
+last_modified_at: 2020-06-19
 ---
 
 ## Overview
@@ -141,3 +141,7 @@ These elements extend the basic syntax by adding additional features. Not all Ma
     </tr>
   </tbody>
 </table>
+
+## Downloads
+
+You can <a href="/assets/markdown-cheat-sheet.md" download="markdown-cheat-sheet.md">download this cheat sheet as a Markdown file</a> for use in your Markdown application.

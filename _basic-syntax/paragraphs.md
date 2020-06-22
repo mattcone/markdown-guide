@@ -45,7 +45,7 @@ To create paragraphs, use a blank line to separate one or more lines of text.
 
 ### Paragraph Best Practices
 
-Don't indent paragraphs with spaces or tabs.
+Unless the [paragraph is in a list](/basic-syntax/#paragraphs), don't indent paragraphs with spaces or tabs.
 
 <table class="table table-bordered">
   <thead class="thead-light">

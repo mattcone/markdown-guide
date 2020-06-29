@@ -69,12 +69,12 @@ The Slack message interface provides support for the following the Markdown elem
     </tr>
     <tr>
       <td><a href="/basic-syntax#ordered-lists">Ordered Lists</a></td>
-      <td class="table-success">Yes</td>
+      <td class="table-danger">No</td>
       <td></td>
     </tr>
     <tr>
       <td><a href="/basic-syntax#unordered-lists">Unordered Lists</a></td>
-      <td class="table-success">Yes</td>
+      <td class="table-danger">No</td>
       <td></td>
     </tr>
     <tr>
@@ -149,7 +149,7 @@ The Slack message interface provides support for the following the Markdown elem
     </tr>
     <tr>
       <td><a href="/extended-syntax/#disabling-automatic-url-linking">Disabling Automatic URL Linking</a></td>
-      <td class="table-success">Yes</td>
+      <td class="table-danger">No</td>
       <td></td>
     </tr>
     <tr>
@@ -168,9 +168,9 @@ The Slack message interface provides support for the following the Markdown elem
 
 The Slack post interface is editor that allows you to create a document for sharing in Slack. This is a live editor, which means you will see the actual formatting immediately after you type Markdown formatted text. For example, if you type `_test_`, the underscores will disappear and you'll see the word "test" in italics.
 
-To create a post, click the paperclip icon and select **Post** from the **Create new** menu, as shown below.
+To create a post, click the shortcuts icon and select **Create a Post** as shown below.
 
-<img src="/assets/images/tools/slack-posts.png" class="img-fluid" style="width:70%" alt="Slack markdown in the post interface">
+<img src="/assets/images/tools/slack-posts.png" class="img-fluid" style="width:50%" alt="Slack markdown in the post interface">
 
 #### Slack Markdown Support in Posts
 

@@ -64,6 +64,7 @@ see-also:
 - MathJax for formulas
 - Mermaid and Graphviz for UML diagrams
 - Vega-lite for data visualizations
-- Emojis for a rich document editing experience
+
+CodiMD is the open-source version of [HackMD](/tools/hackmd/).
 
 {% include tool-syntax-table.html %}

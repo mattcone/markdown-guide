@@ -81,6 +81,11 @@ title: The Markdown Guide Book
   <footer class="blockquote-footer" style="padding-bottom:20px;">Matthew Setter, via <a href="https://twitter.com/settermjd/status/1126099562345705472">Twitter</a></footer>
 </blockquote>
 
+<blockquote class="blockquote">
+  <p class="mb-0">An interesting read and worth reading... This book provides the right amount of information to learn Markdown and I would highly recommend it!</p>
+  <footer class="blockquote-footer" style="padding-bottom:20px;">Mohamad Kalaaji, via <a href="https://www.goodreads.com/review/show/3419254608">Goodreads</a></footer>
+</blockquote>
+
 <blockquote class="blockquote" style="margin-bottom:60px;">
   <p class="mb-0">I've found this very simple guide to Markdown syntax very useful in a pinch.</p>
   <footer class="blockquote-footer" style="padding-bottom:20px;">Morgan Thompson, via <a href="https://twitter.com/datamorgan/status/1109518506125451264">Twitter</a></footer>

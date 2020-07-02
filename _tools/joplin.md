@@ -11,7 +11,7 @@ syntax:
     available: y
   - id: line-breaks
     available: y
-    notes: In addition to trailing whitespace, you can also use a trailing backslash or press the Return key once to achieve the same result.
+    notes: "In addition to trailing whitespace, you can also use a trailing backslash or press the Return key once to achieve the same result."
   - id: bold
     available: y
   - id: italic
@@ -34,7 +34,8 @@ syntax:
     available: y
   - id: fenced-code-blocks
     available: y
-    notes: "Syntax highlighting is also supported."
+  - id: syntax-highlighting
+    available: y
   - id: footnotes
     available: y
   - id: heading-ids

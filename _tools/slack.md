@@ -105,7 +105,12 @@ The Slack message interface provides support for the following the Markdown elem
     <tr>
       <td><a href="/extended-syntax/#fenced-code-blocks">Fenced Code Blocks</a></td>
       <td class="table-success">Yes</td>
-      <td>Syntax highlighting is not supported.</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><a href="/extended-syntax/#syntax-highlighting">Syntax Highlighting</a></td>
+      <td class="table-danger">No</td>
+      <td></td>
     </tr>
     <tr>
       <td><a href="/extended-syntax/#footnotes">Footnotes</a></td>
@@ -253,7 +258,12 @@ The Slack post interface provides support for the following Markdown elements.
     <tr>
       <td><a href="/extended-syntax/#fenced-code-blocks">Fenced Code Blocks</a></td>
       <td class="table-success">Yes</td>
-      <td>Syntax highlighting is not supported.</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><a href="/extended-syntax/#syntax-highlighting">Syntax Highlighting</a></td>
+      <td class="table-danger">No</td>
+      <td></td>
     </tr>
     <tr>
       <td><a href="/extended-syntax/#footnotes">Footnotes</a></td>

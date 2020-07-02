@@ -37,7 +37,8 @@ syntax:
     available: n
   - id: fenced-code-blocks
     available: y
-    notes: "Syntax highlighting is also supported."
+  - id: syntax-highlighting
+    available: y
   - id: footnotes
     available: y
   - id: heading-ids

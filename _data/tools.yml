@@ -57,6 +57,10 @@ fenced-code-blocks:
   name: Fenced Code Blocks
   link: /extended-syntax/#fenced-code-blocks
 
+syntax-highlighting:
+  name: Syntax Highlighting
+  link: /extended-syntax/#syntax-highlighting
+
 footnotes:
   name: Footnotes
   link: /extended-syntax/#footnotes

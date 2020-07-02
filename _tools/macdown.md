@@ -34,7 +34,10 @@ syntax:
     notes: "Enabled by default in **Preferences** > **Markdown**."
   - id: fenced-code-blocks
     available: y
-    notes: "Enabled by default in **Preferences** > **Markdown**. <br><br>Syntax highlighting is disabled by default. Enable in **Preferences** > **Rendering**."
+    notes: "Enabled by default in **Preferences** > **Markdown**."
+  - id: syntax-highlighting
+    available: y
+    notes: "Disabled by default. Enable in **Preferences** > **Rendering**."
   - id: footnotes
     available: y
     notes: "Enabled by default in **Preferences** > **Markdown**."

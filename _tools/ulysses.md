@@ -39,6 +39,8 @@ syntax:
   - id: fenced-code-blocks
     available: n
     notes: "The Markdown syntax is not supported, but you can add code blocks by using the Markup menu."
+  - id: syntax-highlighting
+    available: u
   - id: footnotes
     available: n
     notes: "The Markdown syntax is not supported, but you can add footnotes by using the Markup menu."

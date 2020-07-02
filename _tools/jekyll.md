@@ -33,7 +33,9 @@ syntax:
     available: y
   - id: fenced-code-blocks
     available: y
-    notes: "Syntax highlighting is also supported. Make sure that `syntax_highlighter: rouge` is in the `kramdown` section of the `_config.yml` file."
+  - id: syntax-highlighting
+    available: y
+    notes: "Make sure that `syntax_highlighter: rouge` is in the `kramdown` section of the `_config.yml` file."
   - id: footnotes
     available: y
   - id: heading-ids

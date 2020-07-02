@@ -35,6 +35,8 @@ syntax:
     notes: "Madoko significantly extends the [table syntax](https://madoko.org/reference.html#sec-table) of basic Markdown."
   - id: fenced-code-blocks
     available: y
+  - id: syntax-highlighting
+    available: y
     notes: "Internally, Madoko uses the Monarch library to do syntax highlighting."
   - id: footnotes
     available: y

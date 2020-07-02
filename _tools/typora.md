@@ -37,7 +37,9 @@ syntax:
     available: y
   - id: fenced-code-blocks
     available: y
-    notes: "Syntax highlighting is also supported. See the [list of supported languages](https://support.typora.io/Code-Fences-Language-Support/)."
+  - id: syntax-highlighting
+    available: y
+    notes: "See the [list of supported languages](https://support.typora.io/Code-Fences-Language-Support/)."
   - id: footnotes
     available: y
   - id: heading-ids

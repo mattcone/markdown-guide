@@ -34,7 +34,8 @@ syntax:
     available: y
   - id: fenced-code-blocks
     available: y
-    notes: "You have to tell Zettlr which language to use by adding its identifier directly after the introducing code fence."
+  - id: syntax-highlighting
+    available: y
   - id: footnotes
     available: y
   - id: heading-ids

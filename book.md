@@ -20,7 +20,7 @@ title: The Markdown Guide Book
       </div>
     </div>
 
-    <p class="lead" style="padding-top:0px;"><em>The Markdown Guide</em> is also available on <a href="https://leanpub.com/themarkdownguide">Leanpub</a> and <a href="https://www.amazon.com/dp/B07G7JB641">Amazon</a>.</p>
+    <p class="lead" style="padding-top:0px;"><em>The Markdown Guide</em> is also available on <a href="https://leanpub.com/themarkdownguide">Leanpub</a> and <a href="https://amzn.to/31FMLMA">Amazon</a>.</p>
   </div>
   <div class="col-sm-5"><a href="https://gum.co/markdownguide?wanted=true"><img src="/assets/images/book-cover.jpg" class="img-fluid float-center" style="width: 95%" alt="The Markdown Guide book cover"></a></div>
 </div>

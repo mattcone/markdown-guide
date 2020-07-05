@@ -1,0 +1,65 @@
+---
+title: Znote
+category: "notes"
+description: "Znote is a Beautiful & Free Markdown editor for developers."
+icon: znote.png
+website: https://znote.lagrede.fr
+syntax:
+  - id: headings
+    available: y
+  - id: paragraphs
+    available: y
+  - id: line-breaks
+    available: y
+  - id: bold
+    available: y
+  - id: italic
+    available: y
+  - id: blockquotes
+    available: y
+  - id: ordered-lists
+    available: y
+  - id: unordered-lists
+    available: y
+  - id: code
+    available: y
+  - id: horizontal-rules
+    available: y
+  - id: links
+    available: y
+  - id: images
+    available: y
+  - id: tables
+    available: y
+  - id: fenced-code-blocks
+    available: y
+  - id: syntax-highlighting
+    available: y
+  - id: footnotes
+    available: n
+  - id: heading-ids
+    available: n
+  - id: definition-lists
+    available: n
+  - id: strikethrough
+    available: y
+  - id: task-lists
+    available: y
+  - id: emoji-cp
+    available: y
+  - id: emoji-sc
+    available: n
+  - id: auto-url-linking
+    available: y
+  - id: disabling-auto-url
+    available: y
+  - id: html
+    available: n
+---
+
+[Znote](https://znote.lagrede.fr) is a free and beautiful program designed to help you write organized Markdown documents. You can quickly edit your texts, notes, and files, using the simplistic left-side widget organizer for smoothly navigating different files. Thanks to the dark mode and code highlighter, this app is perfect for developers. Available for macOs, Windows and Linux.
+
+
+<img src="/assets/images/tools/znote.png" class="img-fluid" style="width: 90%;" alt="Znote Markdown application">
+
+{% include tool-syntax-table.html %}

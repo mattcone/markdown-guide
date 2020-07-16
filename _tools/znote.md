@@ -3,7 +3,7 @@ title: Znote
 category: "notes"
 description: "Znote is a free Markdown editor designed for developers."
 icon: znote.png
-website: https://znote.lagrede.fr
+website: https://znote.io
 syntax:
   - id: headings
     available: y

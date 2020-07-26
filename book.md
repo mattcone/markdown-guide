@@ -77,6 +77,11 @@ title: The Markdown Guide Book
 </blockquote>
 
 <blockquote class="blockquote">
+  <p class="mb-0">This book provides the right amount of information to learn Markdown and I highly recommend it!</p>
+  <footer class="blockquote-footer" style="padding-bottom:20px;">Mohamad Kalaaji, via <a href="https://www.goodreads.com/review/show/3419254608">Goodreads</a></footer>
+</blockquote>
+
+<blockquote class="blockquote">
   <p class="mb-0">If you’re working with Markdown, then do yourself a favour and check out <em>The Markdown Guide</em>... It’s excellent.</p>
   <footer class="blockquote-footer" style="padding-bottom:20px;">Matthew Setter, via <a href="https://twitter.com/settermjd/status/1126099562345705472">Twitter</a></footer>
 </blockquote>

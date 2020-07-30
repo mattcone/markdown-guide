@@ -60,7 +60,7 @@ see-also:
     link: https://codimd-app.herokuapp.com/features
 ---
 
-[CodiMD](https://github.com/hackmdio/codimd) is an open-source real-time collaborative Markdown editor. You can easily [deploy CodiMD with Docker following this tutorial](https://hackmd.io/c/codimd-documentation/%2Fs%2Fcodimd-docker-deployment). CodiMD supports CommonMark and other markup syntax, such as:
+[CodiMD](https://github.com/hackmdio/codimd) is an open-source real-time collaborative Markdown editor. You can easily [deploy CodiMD with Docker following this tutorial](https://hackmd.io/s/codimd-docker-deployment). CodiMD supports CommonMark and other markup syntax, such as:
 
 - MathJax for formulas
 - Mermaid and Graphviz for UML diagrams

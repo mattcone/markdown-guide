@@ -172,3 +172,32 @@ To create an ordered list, add line items with numbers followed by periods. The 
     </tr>
   </tbody>
 </table>
+
+#### Ordered List Best Practices
+
+CommonMark and a few other lightweight markup languages let you use a parenthesis (`)`) as a delimiter (e.g., `1) First item`), but not all Markdown applications support this, so it isn’t a great option from a compatibility perspective. For compatibility, use periods only.
+
+<table class="table table-bordered">
+  <thead class="thead-light">
+    <tr>
+      <th>✅&nbsp; Do this</th>
+      <th>❌&nbsp; Don't do this</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        <code class="highlighter-rouge">
+          1. First item<br>
+          2. Second item
+        </code>
+      </td>
+      <td>
+        <code class="highlighter-rouge">
+          1) First item<br>
+          2) Second item
+        </code>
+      </td>
+    </tr>
+  </tbody>
+</table>

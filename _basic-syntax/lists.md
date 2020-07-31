@@ -103,3 +103,23 @@ The rendered output looks like this:
     ![Tux, the Linux mascot](/assets/images/tux.png)
 
 3.  Close the file.
+
+#### Lists
+
+You can nest an unordered list in an ordered list, or vice versa.
+
+```
+1. First item
+2. Second item
+3. Third item
+    - Indented item
+    - Indented item
+4. Fourth item
+```
+
+1. First item
+2. Second item
+3. Third item
+    - Indented item
+    - Indented item
+4. Fourth item 

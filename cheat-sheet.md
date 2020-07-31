@@ -2,12 +2,12 @@
 layout: default
 title: Markdown Cheat Sheet
 description: A quick reference to the Markdown syntax.
-last_modified_at: 2020-06-19
+last_modified_at: 2020-07-31
 ---
 
 ## Overview
 
-This Markdown cheat sheet provides a quick overview of all the Markdown syntax elements. It can't cover every edge case, so if you need more information about any of these elements, refer to our reference guides for [basic syntax](/basic-syntax) and [extended syntax](/extended-syntax).
+This Markdown cheat sheet provides a quick overview of all the Markdown syntax elements. It can't cover every edge case, so if you need more information about any of these elements, refer to the reference guides for [basic syntax](/basic-syntax) and [extended syntax](/extended-syntax).
 
 ## Basic Syntax
 

@@ -25,14 +25,28 @@ title: The Markdown Guide Book
   <div class="col-sm-5"><a href="https://gum.co/markdownguide?wanted=true"><img src="/assets/images/book-cover.jpg" class="img-fluid float-center" style="width: 95%" alt="The Markdown Guide book cover"></a></div>
 </div>
 
+<div class="col d-flex justify-content-center" style="padding-top: 30px;">
+  <div class="card text-center" style="width: 75%">
+    <div class="card-body">
+      <h5 class="card-title no-anchor text-center" style="padding-top: 0;"><small class="text-muted">Read by professionals working at:</small></h5>
+      <img src="/assets/images/logos/apple.svg" style="padding-right: 2em;">
+      <img src="/assets/images/logos/google.svg" style="padding-top: .25em; padding-right: 2em;">
+      <img src="/assets/images/logos/dropbox.svg" style="padding-top: .15em; padding-right: 2em;">
+      <img src="/assets/images/logos/adobe.svg" style="padding-top: .25em; padding-right: 2em;">
+      <img src="/assets/images/logos/square.svg" style="padding-top: .18em; padding-right: 2em;">
+      <img src="/assets/images/logos/airbnb.svg" style="padding-top: .16em; padding-right: 2em;">
+    </div>
+  </div>
+</div>
+
 <h2 class="no-anchor text-center" style="padding-top: 60px;">Take your Markdown skills to the next level.</h2>
-<p class="lead text-center" style="padding-bottom:20px;">Learn the power of Markdown and take full control of the syntax.</p>
+<p class="lead text-center" style="padding-bottom:20px;">Master the power of Markdown and take full control of the syntax.</p>
 
 <div class="container">
   <div class="row">
     <div class="col-sm text-center">
       <p style="font-size:50px">📚</p>
-      <p class="lead" style="margin-top:-10px">See how Markdown works and dive in using an online editor.</p>
+      <p class="lead" style="margin-top:-10px">Learn how Markdown works and dive in using an online editor.</p>
     </div>
     <div class="col-sm text-center">
       <p style="font-size:50px">📝</p>

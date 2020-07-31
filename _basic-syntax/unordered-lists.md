@@ -106,8 +106,8 @@ To create an unordered list, add dashes (`-`), asterisks (`*`), or plus signs (`
       <td>
         <code class="highlighter-rouge">
           + First item<br/>
-          * Second item<br/>
-          - Third item<br/>
+          + Second item<br/>
+          + Third item<br/>
           + Fourth item
         </code>
       </td>
@@ -168,6 +168,39 @@ To create an unordered list, add dashes (`-`), asterisks (`*`), or plus signs (`
           </li>
           <li>Fourth item</li>
         </ul>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+#### Unordered List Best Practices
+
+Markdown applications don’t agree on how to handle different delimiters in the same list. For compatibility, don't mix and match delimiters in the same list — pick one and stick with it.
+
+<table class="table table-bordered">
+  <thead class="thead-light">
+    <tr>
+      <th>✅&nbsp; Do this</th>
+      <th>❌&nbsp; Don't do this</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        <code class="highlighter-rouge">
+          - First item<br>
+          - Second item<br>
+          - Third item<br>
+          - Fourth item
+        </code>
+      </td>
+      <td>
+        <code class="highlighter-rouge">
+          + First item<br>
+          * Second item<br>
+          - Third item<br>
+          + Fourth item
+        </code>
       </td>
     </tr>
   </tbody>

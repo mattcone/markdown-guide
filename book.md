@@ -30,12 +30,12 @@ description: "Learn Markdown in 60 pages. The Markdown Guide book includes every
   <div class="card text-center" style="width: 75%">
     <div class="card-body">
       <h5 class="card-title no-anchor text-center" style="padding-top: 0;"><small class="text-muted">Read by professionals working at:</small></h5>
-      <img src="/assets/images/logos/apple.svg" style="padding-right: 2em;">
-      <img src="/assets/images/logos/google.svg" style="padding-top: .25em; padding-right: 2em;">
-      <img src="/assets/images/logos/dropbox.svg" style="padding-top: .15em; padding-right: 2em;">
-      <img src="/assets/images/logos/adobe.svg" style="padding-top: .25em; padding-right: 2em;">
-      <img src="/assets/images/logos/square.svg" style="padding-top: .18em; padding-right: 2em;">
-      <img src="/assets/images/logos/airbnb.svg" style="padding-top: .16em; padding-right: 2em;">
+      <img src="/assets/images/logos/apple.svg" style="padding-right: 2em;" alt="Apple logo">
+      <img src="/assets/images/logos/google.svg" style="padding-top: .25em; padding-right: 2em;" alt="Google logo">
+      <img src="/assets/images/logos/dropbox.svg" style="padding-top: .15em; padding-right: 2em;" alt="Dropbox logo">
+      <img src="/assets/images/logos/adobe.svg" style="padding-top: .25em; padding-right: 2em;" alt="Adobe logo">
+      <img src="/assets/images/logos/square.svg" style="padding-top: .18em; padding-right: 2em;" alt="Square logo">
+      <img src="/assets/images/logos/airbnb.svg" style="padding-top: .16em; padding-right: 2em;" alt="Airbnb logo">
     </div>
   </div>
 </div>

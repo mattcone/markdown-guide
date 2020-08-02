@@ -54,7 +54,7 @@ title: The Markdown Guide Book
     </div>
     <div class="col-sm text-center">
       <p style="font-size:50px">💪</p>
-      <p class="lead" style="margin-top:-10px">Learn how to use Markdown for just about everything.</p>
+      <p class="lead" style="margin-top:-10px">Start using Markdown everywhere <br>for all of your writing.</p>
     </div>
   </div>
 </div>

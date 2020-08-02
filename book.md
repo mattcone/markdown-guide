@@ -1,6 +1,7 @@
 ---
 layout: book
 title: The Markdown Guide Book
+description: "Learn Markdown in 60 pages. The Markdown Guide book includes everything you need to get started and master Markdown syntax."
 ---
 
 <div class="row" style="padding-top: 15px; padding-bottom: 30px">

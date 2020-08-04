@@ -11,7 +11,8 @@ syntax:
   - id: paragraphs
     available: y
   - id: line-breaks
-    available: n
+    available: y
+    notes: "In addition to trailing whitespace, you can also press the Return key once to achieve the same result."
   - id: bold
     available: y
   - id: italic
@@ -40,7 +41,8 @@ syntax:
     available: n
     notes: "The Markdown syntax is not supported, but you can add code blocks by using the Markup menu."
   - id: syntax-highlighting
-    available: u
+    available: n
+    notes: "The Markdown syntax is not supported, but you can specify the language by using the interface."
   - id: footnotes
     available: n
     notes: "The Markdown syntax is not supported, but you can add footnotes by using the Markup menu."
@@ -55,9 +57,9 @@ syntax:
     available: y
     notes: "You don't have to use dashes. Just use brackets (e.g., `[ ]`)."
   - id: emoji-cp
-    available: u
+    available: y
   - id: emoji-sc
-    available: u
+    available: n
   - id: auto-url-linking
     available: n
   - id: disabling-auto-url

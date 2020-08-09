@@ -14,7 +14,7 @@ This is an open-source project, and your contributions are welcome. The reposito
 
 ## Reporting Issues
 
-Find a typo or inaccurate statement? Please [create an issue](https://github.com/mattcone/markdown-guide/issues) in our GitHub project.
+Find a typo or inaccurate statement? Please [create an issue](https://github.com/mattcone/markdown-guide/issues) in the GitHub project.
 
 ## Contacting
 
@@ -22,7 +22,7 @@ Use the [contact form](/contact) to send a message to the maintainer of *The Mar
 
 ## Acknowledgements
 
-*The Markdown Guide* is made possible by the support of several individuals and organizations. Thanks to [all who have contributed](https://github.com/mattcone/markdown-guide/graphs/contributors) to this project, and thanks to [Netlify](https://www.netlify.com/) for graciously hosting this website.
+*The Markdown Guide* is made possible by the support of several individuals and organizations. Thanks to [all who have contributed](https://github.com/mattcone/markdown-guide/graphs/contributors) to this project.
 
 ## License
 

@@ -117,9 +117,11 @@ You can nest an unordered list in an ordered list, or vice versa.
 4. Fourth item
 ```
 
+The rendered output looks like this:
+
 1. First item
 2. Second item
 3. Third item
     - Indented item
     - Indented item
-4. Fourth item 
+4. Fourth item

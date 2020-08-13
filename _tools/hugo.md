@@ -55,6 +55,7 @@ syntax:
     available: y
   - id: html
     available: y
+    notes: "Disabled by default if you're using Goldmark. To enable, set the `unsafe` option to `true` in the [Goldmark configuration](https://gohugo.io/getting-started/configuration-markup#goldmark)."
 see-also:
   - name: Hugo Supported Content Formats
     link: https://gohugo.io/content-management/formats/

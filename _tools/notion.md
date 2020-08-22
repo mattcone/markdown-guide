@@ -39,7 +39,8 @@ syntax:
   - id: fenced-code-blocks
     available: y
   - id: syntax-highlighting
-    available: n
+    available: p
+    notes: "Must pick the programming language to highlight using the GUI."
   - id: footnotes
     available: n
   - id: heading-ids

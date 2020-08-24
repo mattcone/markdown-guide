@@ -56,7 +56,8 @@ syntax:
   - id: emoji-cp
     available: y
   - id: emoji-sc
-    available: n
+    available: y
+    notes: "The second colon isn't needed. Type `:` followed by the name of the emoji e.g. `:fire`"
   - id: auto-url-linking
     available: y
   - id: disabling-auto-url

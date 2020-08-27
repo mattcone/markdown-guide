@@ -15,7 +15,7 @@ title: Home
         <p><a class="btn btn-outline-inverse btn-lg" href="/getting-started/" role="button">Get Started</a></p>
       </div>
     </div>
-    <center><div class="horizontal" data-ea-publisher="markdownguide" data-ea-type="image"></div></center>
+    {% if jekyll.environment == "production" %}<center><div class="horizontal" data-ea-publisher="markdownguide" data-ea-type="image"></div></center>{% endif %}
     <div class="container">
       <div class="md-guide-feature">
         <h1 class="no-anchor">Everything you need to learn Markdown.</h1>

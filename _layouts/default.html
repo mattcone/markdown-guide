@@ -18,9 +18,11 @@
         </div>
         <div class="col-md-3 d-none d-md-block" id="sidebar">
           <nav id="toc" data-toggle="toc" class="sticky-top" style="z-index:1"></nav>
+          {% if jekyll.environment == "production" %}
           <div style="position: fixed; bottom: 0px; right: 0px;">
             <div data-ea-publisher="markdownguide" data-ea-type="image"></div>
           </div>
+          {% endif %}
         </div>
       </div>
     </div>

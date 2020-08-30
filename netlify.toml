@@ -27,6 +27,10 @@ to = "/book/"
 from = "/assets/book/markdown-guide.mobi"
 to = "/book/"
 
+[[redirects]]
+from = "/tools/modako/"
+to = "/tools/madoko/"
+
 [[headers]]
   for = "/*"
 

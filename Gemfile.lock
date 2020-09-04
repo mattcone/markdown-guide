@@ -66,7 +66,7 @@ GEM
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
     posix-spawn (0.3.15)
-    public_suffix (4.0.5)
+    public_suffix (4.0.6)
     rainbow (3.0.0)
     rake (13.0.1)
     rb-fsevent (0.10.4)

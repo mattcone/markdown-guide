@@ -1,9 +1,9 @@
 ---
 title: GitJournal
 category: "notes"
-description: "GitJournal is a mobile first markdown editor integrated with Git."
+description: "GitJournal is a mobile-first Markdown editor integrated with Git."
 icon: gitjournal.png
-website: https://GitJournal.io
+website: https://gitjournal.io
 syntax:
   - id: headings
     available: y
@@ -60,11 +60,11 @@ see-also:
     link: https://github.com/GitJournal/GitJournal
 ---
 
-[GitJournal](https://gitjournal.io) is a mobile first markdown editor integrated with Git.
+[GitJournal](https://gitjournal.io) is a mobile-first Markdown editor integrated with Git.
 
-It supporting syncing your notes using any Git Repository accessible vis SSH - Github / GitLab / Gitea / Your own Server. The entire code base is also completely Open Source. GitJournal focuses on giving users control of their data and allowing them to access it over multiple devices using an open and well known protocol - Git. There are various free and commercial providers of Git Hosting, and setting up your own Git Server has a much lower bar to entry than any other syncing solution.
+It supporting syncing your notes using any git repository accessible vis SSH, including GitHub, GitLab, Gitea, or your own server. The entire code base is also completely open source. GitJournal focuses on giving users control of their data and allowing them to access it with multiple devices using an open and well known protocol: git. There are various free and commercial git hosting providers, and setting up your own git server has a lower bar of entry than any other syncing solution.
 
-GitJournal additionally lets you easily link your notes together with a Wiki style link - ``[[FileName]]``.  This lets you easily interlink different ideas and even build your own Zettelkasten.
+GitJournal additionally lets you easily link your notes together with a Wiki style link - ``[[FileName]]``.  This lets you easily interlink different ideas and even build your own knowledge base.
 
 {% include tool-syntax-table.html %}
 

@@ -9,7 +9,7 @@ examples:
     html: "<p>This is the first line.  <br>And this is the second line.</p>"
 ---
 
-To create a line break (`<br>`), end a line with two or more spaces, and then type return.
+To create a line break (`<br>`), end a line with a backslash (`\`), and then type return.
 
 <table class="table table-bordered">
   <thead class="thead-light">
@@ -23,7 +23,7 @@ To create a line break (`<br>`), end a line with two or more spaces, and then ty
     <tr>
       <td>
         <code class="highlighter-rouge">
-          This is the first line. &nbsp;<br />
+          This is the first line. \<br />
           And this is the second line.
         </code>
       </td>
@@ -42,11 +42,11 @@ To create a line break (`<br>`), end a line with two or more spaces, and then ty
 
 ### Line Break Best Practices
 
-You can use two or more spaces (commonly referred to as "trailing whitespace") for line breaks in nearly every Markdown application, but it's controversial. It's hard to see trailing whitespace in an editor, and many people accidentally or intentionally put two spaces after every sentence. For this reason, you may want to use something other than trailing whitespace for line breaks. Fortunately, there is another option supported by nearly every Markdown application: the `<br>` HTML tag.
+CommonMark, the official standard for Markdown (as per RFC 7764), defines that a backslash (`\`) at the end of the line will create a newline, but a few non-compliant Markdown implementations don't support this, so you must use the `<br>` .
 
-For compatibility, use trailing white space or the `<br>` HTML tag at the end of the line.
+In most Markdown applications you can also use two or more spaces (commonly referred to as "trailing whitespace") for line breaks, but it's hard to see trailing whitespace in an editor, many editors remove trailing whitespace automatically, and many people accidentally or intentionally put two spaces after every sentence. For this reason, it's controversial, and you may want to use the other supported options for line breaks.
 
-There are two other options I don't recommend using. CommonMark and a few other lightweight markup languages let you type a backslash (`\`) at the end of the line, but not all Markdown applications support this, so it isn't a great option from a compatibility perspective. And at least a couple lightweight markup languages don't require anything at the end of the line — just type return and they'll create a line break.
+Fortunately, there is another option supported by nearly every Markdown application: the `<br>` HTML tag.
 
 <table class="table table-bordered">
   <thead class="thead-light">
@@ -59,20 +59,20 @@ There are two other options I don't recommend using. CommonMark and a few other 
     <tr>
       <td>
         <code class="highlighter-rouge">
-          First line with two spaces after. &nbsp;<br>
-          And the next line.<br><br>
-
-          First line with the HTML tag after.&lt;br&gt;<br>
-          And the next line.<br><br>
-        </code>
-      </td>
-      <td>
-        <code class="highlighter-rouge">
         First line with a backslash after.\<br>
         And the next line.<br><br>
 
         First line with nothing after.<br>
         And the next line.<br><br>
+        </code>
+      </td>
+      <td>
+        <code class="highlighter-rouge">
+          First line with two spaces after. &nbsp;<br>
+          And the next line.<br><br>
+
+          First line with the HTML tag after.&lt;br&gt;<br>
+          And the next line.<br><br>
         </code>
       </td>
     </tr>

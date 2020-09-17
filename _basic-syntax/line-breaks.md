@@ -1,7 +1,7 @@
 ---
 title: Line Breaks
 syntax-id: line-breaks
-description: "To create a line break (`<br>`), end a line with a blackslash `\`, or a `<br>`, and then type return."
+description: "To create a line break (`<br>`), end a line with a blackslash `\\`, or a `<br>`, and then type return."
 examples:
   - markdown: |
       This is the first line.  

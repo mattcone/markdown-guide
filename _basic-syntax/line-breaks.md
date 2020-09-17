@@ -4,7 +4,7 @@ syntax-id: line-breaks
 description: "To create a line break (`<br>`), end a line with a blackslash `\\`, or a `<br>`, and then type return."
 examples:
   - markdown: |
-      This is the first line.  
+      This is the first line. \
       And this is the second line.
     html: "<p>This is the first line.  <br>And this is the second line.</p>"
 ---

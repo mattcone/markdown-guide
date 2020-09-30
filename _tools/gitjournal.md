@@ -66,6 +66,8 @@ It supporting syncing your notes using any git repository accessible vis SSH, in
 
 GitJournal additionally lets you easily link your notes together with a Wiki style link - ``[[FileName]]``.  This lets you easily interlink different ideas and even build your own knowledge base.
 
+<img src="/assets/images/tools/gitjournal.png" class="img-fluid" alt="GitJournal">
+
 {% include tool-syntax-table.html %}
 
 ### Support for Additional Syntax Elements

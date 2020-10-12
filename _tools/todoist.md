@@ -35,8 +35,8 @@ syntax:
   - id: images
     available: n
   - id: tables
-    available: y
-    notes: "Supported in comments only."
+    available: n
+    notes: "No longer supported in the latest version."
   - id: fenced-code-blocks
     available: y
   - id: syntax-highlighting

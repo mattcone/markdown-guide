@@ -36,7 +36,7 @@ syntax:
     available: n
   - id: tables
     available: n
-    notes: "not with latest version"
+    notes: "No longer supported in the latest version."
   - id: fenced-code-blocks
     available: y
   - id: syntax-highlighting

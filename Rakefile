@@ -8,7 +8,9 @@ task :test do
     :check_favicon => true,
     :external_only => true,
     :only_4xx => true,
-    :url_ignore => ['https://ghost.org/', 'https://ghost.org/faq/using-the-editor/#using-markdown'],
+    :url_ignore => ['https://ghost.org/',
+                    'https://ghost.org/faq/using-the-editor/#using-markdown',
+                    'https://get.todoist.help/hc/en-us/articles/205195102'],
     :url_swap => { %r{https://www.markdownguide.org} => '' },
     :typhoeus => {
       :ssl_verifypeer => false,

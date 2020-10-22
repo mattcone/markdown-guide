@@ -5,7 +5,7 @@ description: Kurzreferenz zur Markdown Syntax
 last_modified_at: 2020-10-22
 ---
 
-## Overview
+## Übersicht
 
 Dieses Markdown Kurzhandbuch gibt euch eine kurze Übersicht über alle Markdown Syntax Elemente. Solltet ihr mehr Informationen zu den einzelnen Syntax-Elementen brauchen die dieser Guide nicht abdeckt, besucht bitte folgende Dokumente. [Basic syntax](/basic-syntax) und [Extended syntax](/extended-syntax).
 

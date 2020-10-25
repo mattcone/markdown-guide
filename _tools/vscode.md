@@ -1,7 +1,7 @@
 ---
 title: Visual Studio Code
 category: documents
-description: "A cross-platform, open-source, extensible source code editor that owes much of its success to its rich extensions marketplace"
+description: "A cross-platform, open-source, extensible source code editor"
 icon: vscode.png
 website: https://code.visualstudio.com
 syntax:
@@ -37,21 +37,25 @@ syntax:
   - id: syntax-highlighting
     available: y
   - id: footnotes
-    available: n
+    available: p
+    notes: "In code editor only. Comprehensive support requires the Markdown Preview Enhanced extension."
   - id: heading-ids
     available: p
-    notes: "Custom IDs are not supported"
+    notes: "Does not support custom IDs. Comprehensive support requires the Markdown Preview Enhanced extension."
   - id: definition-lists
-    available: n
+    available: p
+    notes: "Requires the Markdown Preview Enhanced extension."
   - id: strikethrough
     available: p
     notes: "Two tildes (`~~word~~`) only."
   - id: task-lists
-    available: n
+    available: p
+    notes: "One of the many readily available extensions can add this feature, e.g. Markdown Preview Enhanced."
   - id: emoji-cp
     available: y
   - id: emoji-sc
-    available: n
+    available: p
+    notes: "Requires the Markdown Preview Enhanced extension."
   - id: auto-url-linking
     available: y
   - id: disabling-auto-url
@@ -63,7 +67,7 @@ see-also:
     link: https://github.com/microsoft/vscode
 ---
 
-[Visual Studio Code](https://code.visualstudio.com) is extensible, free, open-source, and cross-platform. It owes much of its success to its active community of extension developers. Whenever it lacks a certain feature, there is usually an extension to fix that shortcoming. Its out-of-the-box Markdown support includes:
+[Visual Studio Code](https://code.visualstudio.com) is a source code editor. It is extensible, free, open-source, and cross-platform. It owes much of its success to its active community of extension developers. Whenever it lacks a certain feature, there is usually an extension to fix that shortcoming. Its out-of-the-box Markdown support includes:
 
 * CommonMark support
 * Syntax highlighting
@@ -72,23 +76,21 @@ see-also:
 * Themes
 * Code style
 
-It does not support WYSIWIG editing.
-
-While Visual Studio Code does not come with out-of-the-box ability to export Markdown to any other formats, it can copy Markdown code with syntax coloring intact.
+It does not support WYSIWIG editing. While Visual Studio Code does not come with out-of-the-box ability to export Markdown to any other formats, it can copy Markdown code with syntax coloring intact.
 
 <img src="/assets/images/tools/vscode.png" class="img-fluid" alt="Visual Studio Code" />
 
 Markdown extensions available in the Visual Studio marketplace extend it with the following features:
 
-* Extended Markdown syntax (e.g. "Markdown Extended")
-* Markdown code formatting ("Prettier - Code formatter")
-* Exporting to other formats (e.g. "Markdown Preview")
+* Extended syntax (e.g. "Markdown Extended")
+* Markdown code formatting (e.g. "Prettier - Code formatter")
+* Exporting to other formats (e.g. "Markdown Preview Enhanced")
 * UI elements (e.g. "Markdown Shortcuts")
 * Extended markdown syntax highlighting (e.g. "One Dark Pro")
-* Linting (e.g. "markdownlint")
+* Linting (e.g. "markdownlint") – It is a feature for developers but a huge annoyance for ordinary writers
 * Style-compliance kits for different services (e.g. "Docs Authoring Pack" for Microsoft Docs)
-* Spelling check
+* Spelling check (e.g. "Code Spell Checker")
 
-<img src="/assets/images/tools/vscode-extended.png" class="img-fluid" alt="Visual Studio Code, with Markdown Preview and One Dark Pro" />
+<img src="/assets/images/tools/vscode-extended.png" class="img-fluid" alt="Visual Studio Code, with Markdown Preview Enhanced, Markdownlint, and One Dark Pro" />
 
 {% include tool-syntax-table.html %}

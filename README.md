@@ -1,5 +1,7 @@
 # Markdown Guide
 
+![Build Status](https://github.com/mattcone/markdown-guide/workflows/test/badge.svg?branch=master)
+
 [![Build Status](https://travis-ci.org/mattcone/markdown-guide.svg?branch=master)](https://travis-ci.org/mattcone/markdown-guide)
 
 *[The Markdown Guide](https://www.markdownguide.org)* is a comprehensive Markdown reference designed for both novices and experts. It was born out of frustration with existing Markdown references that are incomplete, inadequate, or both.

@@ -8,4 +8,9 @@ jobs:
       - uses: actions/setup-ruby@v1
         with:
           ruby-version: '2.7'
-      - run: bundle exec rake test
+      - name: Install dependencies
+        run: |
+          gem install bundler
+          bundler install
+      - name: Run tests
+        run: bundle exec rake test

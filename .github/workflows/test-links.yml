@@ -1,0 +1,8 @@
+name: test-links
+on: [push]
+jobs:
+  check-bats-version:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/setup-ruby
+      - run: bundle exec rake test

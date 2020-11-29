@@ -51,8 +51,8 @@ syntax:
     available: p
     notes: "Use only one tilde symbol before and after the phrase. Doesn't work when copying and pasting Markdown-formatted text into Notion."
   - id: task-lists
-    available: p
-    notes: "Copying and pasting Markdown-formatted task lists works, but you can't type them in Notion's editor. Use the `/todo` slash command instead."
+    available: y
+    notes: "Copying and pasting Markdown-formatted task lists works. You can generate todo boxes with `[]` or use the `/todo` slash command instead."
   - id: emoji-cp
     available: y
   - id: emoji-sc

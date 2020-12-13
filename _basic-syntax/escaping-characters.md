@@ -51,6 +51,10 @@ You can use a backslash to escape the following characters.
       <td>brackets</td>
     </tr>
     <tr>
+      <td>< ></td>
+      <td>angle brackets</td>
+    </tr>
+    <tr>
       <td>( )</td>
       <td>parentheses</td>
     </tr>

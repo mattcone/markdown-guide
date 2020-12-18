@@ -10,7 +10,9 @@ task :test do
     :only_4xx => true,
     :url_ignore => ['https://ghost.org/',
                     'https://ghost.org/faq/using-the-editor/#using-markdown',
-                    'https://get.todoist.help/hc/en-us/articles/205195102'],
+                    'https://get.todoist.help/hc/en-us/articles/205195102',
+                    'https://twitter.com/settermjd/status/1126099562345705472',
+                    'https://twitter.com/datamorgan/status/1109518506125451264'],
     :url_swap => { %r{https://www.markdownguide.org} => '' },
     :typhoeus => {
       :ssl_verifypeer => false,

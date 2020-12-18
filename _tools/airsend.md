@@ -35,7 +35,7 @@ syntax:
     available: y
   - id: syntax-highlighting
     available: p
-    notes: "It currently supports syntax highlighting for the chat but not for the wiki"
+    notes: "It currently supports syntax highlighting for the chat, but not for the wiki."
   - id: footnotes
     available: n
   - id: heading-ids
@@ -62,7 +62,7 @@ see-also:
     link: https://www.airsend.io/blog/index.php/2020/02/19/how-to-format-a-message-using-markdown-language/
 ---
 
-[AirSend](https://www.airsend.io/) is available for macOS, iOS, Android, Windows, and Linux. [AirSend](https://www.airsend.io/) is perfect for users who like to see their notes and status reports in a Markdown-formatted text. While typing out your notes, users can see the live preview of their Markdown language. [AirSend](https://www.airsend.io/) users can also use live Markdown language during an ongoing conversation. [AirSend](https://www.airsend.io/)’s Markdown language is great for keeping track of notes, formatting documents, and publishing status reports.
+[AirSend](https://www.airsend.io/) is a collaboration application that's great for keeping track of notes, formatting documents, and publishing status reports. This application allows users to see their notes and status reports in Markdown-formatted text. While typing your notes, other users can see the live preview on their screens. AirSend is available for macOS, iOS, Android, Windows, and Linux.
 
 <img src="/assets/images/tools/airsend.png" class="img-fluid" alt="Editing Wiki using Markdown in AirSend">
 

@@ -38,7 +38,8 @@ syntax:
   - id: syntax-highlighting
     available: n
   - id: footnotes
-    available: y
+    available: p
+    notes: "iOS and macOS only"
   - id: heading-ids
     available: n
   - id: definition-lists

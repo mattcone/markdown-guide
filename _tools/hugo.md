@@ -46,7 +46,7 @@ syntax:
   - id: task-lists
     available: y
   - id: emoji-cp
-    available: u
+    available: y
   - id: emoji-sc
     available: y
   - id: auto-url-linking

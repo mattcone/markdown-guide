@@ -1,5 +1,5 @@
 ---
-title: Visual Studio Code
+title: VSCode
 category: documents
 description: "A cross-platform, open-source, extensible source code editor"
 icon: vscode.png
@@ -38,24 +38,24 @@ syntax:
     available: y
   - id: footnotes
     available: p
-    notes: "In code editor only. Comprehensive support requires the Markdown Preview Enhanced extension."
+    notes: "In code editor only. Comprehensive support requires the [Markdown Preview Enhanced extension](https://github.com/shd101wyy/vscode-markdown-preview-enhanced)."
   - id: heading-ids
     available: p
-    notes: "Does not support custom IDs. Comprehensive support requires the Markdown Preview Enhanced extension."
+    notes: "Does not support custom IDs. Comprehensive support requires the [Markdown Preview Enhanced extension](https://github.com/shd101wyy/vscode-markdown-preview-enhanced)."
   - id: definition-lists
     available: p
-    notes: "Requires the Markdown Preview Enhanced extension."
+    notes: "Requires the [Markdown Preview Enhanced extension](https://github.com/shd101wyy/vscode-markdown-preview-enhanced)."
   - id: strikethrough
     available: p
     notes: "Two tildes (`~~word~~`) only."
   - id: task-lists
     available: p
-    notes: "One of the many readily available extensions can add this feature, e.g. Markdown Preview Enhanced."
+    notes: "One of the many readily available extensions can add this feature, e.g. [Markdown Preview Enhanced](https://github.com/shd101wyy/vscode-markdown-preview-enhanced)."
   - id: emoji-cp
     available: y
   - id: emoji-sc
     available: p
-    notes: "Requires the Markdown Preview Enhanced extension."
+    notes: "Requires the [Markdown Preview Enhanced extension](https://github.com/shd101wyy/vscode-markdown-preview-enhanced)."
   - id: auto-url-linking
     available: y
   - id: disabling-auto-url

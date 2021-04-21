@@ -173,6 +173,44 @@ To create an unordered list, add dashes (`-`), asterisks (`*`), or plus signs (`
   </tbody>
 </table>
 
+#### Starting Unordered List Items With Numbers
+
+If you need to start an unordered list item with a number followed by a period, you can use a backslash (`\`) to [escape](#escaping-characters) the period.
+
+<table class="table table-bordered">
+  <thead class="thead-light">
+    <tr>
+      <th>Markdown</th>
+      <th>HTML</th>
+      <th>Rendered Output</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        <code class="highlighter-rouge">
+          - 1968\. A great year!<br/>
+          - I think 1969 was second best.
+        </code>
+      </td>
+      <td>
+        <code class="highlighter-rouge">
+          &lt;ul&gt;<br>
+            &lt;li&gt;1968. A great year!&lt;/li&gt;<br/>
+            &lt;li&gt;I think 1969 was second best.&lt;/li&gt;<br/>
+          &lt;/ul&gt;
+        </code>
+      </td>
+      <td>
+        <ul>
+          <li>1968. A great year!</li>
+          <li>I think 1969 was second best.</li>
+        </ul>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
 #### Unordered List Best Practices
 
 Markdown applications don’t agree on how to handle different delimiters in the same list. For compatibility, don't mix and match delimiters in the same list — pick one and stick with it.

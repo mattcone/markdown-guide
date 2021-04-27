@@ -1,7 +1,7 @@
 ---
 title: Simpleen
 category: "translations"
-description: "Simpleen is a Markdown translation web app and API service."
+description: "Simpleen is a Markdown translation tool you can use via web app or API."
 icon: simpleen.png
 website: https://simpleen.io
 syntax:
@@ -18,11 +18,9 @@ syntax:
   - id: blockquotes
     available: y
   - id: ordered-lists
-    available: p
-    notes: "Sublists are not supported."
+    available: y
   - id: unordered-lists
-    available: p
-    notes: "Sublists are not supported."
+    available: y
   - id: code
     available: y
     notes: "Code examples are not getting translated on purpose."
@@ -30,48 +28,47 @@ syntax:
     available: y
   - id: links
     available: p
-    notes: "Additional title is not supported."
+    notes: "Additional title are not translated"
   - id: images
     available: p
-    notes: "Additional title and alt-text are not supported."
+    notes: "Title and alt-text are not translated"
   - id: tables
     available: y
   - id: fenced-code-blocks
     available: y
+    notes: "Code examples are not getting translated on purpose."
   - id: syntax-highlighting
-    available: p
-    notes: "Not translated."
+    available: y
   - id: footnotes
-    available: n
+    available: p
+    notes: "Footnotes with fn-1 instead of ^1"
   - id: heading-ids
-    available: n
+    available: y
   - id: definition-lists
     available: n
   - id: strikethrough
     available: y
   - id: task-lists
-    available: n
+    available: y
   - id: emoji-cp
     available: y
   - id: emoji-sc
-    available: p
-    notes: "In translation result as emoji-cp."
+    available: y
   - id: auto-url-linking
     available: n
   - id: disabling-auto-url
     available: n
   - id: html
-    available: p
-    notes: "Will be converted to Markdown in the final result."
+    available: y
 see-also:
-  - name: Simpleen Markdown Translation Example
-    link: https://simpleen.io/translate-markdown
+  - name: Simpleen Markdown Translation Blogpost
+    link: https://simpleen.io/blog/translate-markdown-files
 ---
 
-[Simpleen](https://simpleen.io) is a Markdown translation web app and API service. You create an account on the Simpleen website (free during beta), set up a translator (source/target language, format Markdown) and copy/paste your Markdown files into the In-App Translator. Use a custom glossary to further improve your translation results.
+[Simpleen](https://simpleen.io) is a localization tool to translate Markdown files that you can use directly via web app or API. You simply sign up on the Simpleen website, choose a pre-configured Markdown translator (or create a new one) and copy your Markdown files into the Online Translator. You get instant results that you can download. Translated segments are stored for future editing and access.
 
-Currently the Github Flavored Markdown Spec (GFM) is supported. More features as well as other flavors are planned (depending on user input).
+It supports CommonMark and GitHub Flavored Markdown (GFM) as well as your individual styles.
 
-<img src="/assets/images/tools/simpleen.png" class="img-fluid" style="width: 100%;" alt="Simpleen Markdown application">
+<img src="/assets/images/tools/simpleen.png" class="img-fluid" style="width: 100%;" alt="Simpleen Markdown translation tool">
 
 {% include tool-syntax-table.html %}

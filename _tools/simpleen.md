@@ -28,7 +28,7 @@ syntax:
     available: y
   - id: links
     available: p
-    notes: "Additional title are not translated"
+    notes: "Additional title is not translated"
   - id: images
     available: p
     notes: "Title and alt-text are not translated"

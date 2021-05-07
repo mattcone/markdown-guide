@@ -54,7 +54,7 @@ syntax:
   - id: disabling-auto-url
     available: y
   - id: html
-    available: n
+    available: y
 see-also:
   - name: Boostnote Markdown cheatsheet
     link: https://github.com/TobseF/boostnote-markdown-cheatsheet

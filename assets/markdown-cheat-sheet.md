@@ -48,11 +48,11 @@ These are the elements outlined in John Gruber’s original design document. All
 
 ### Link
 
-[title](https://www.example.com)
+[Markdown Guide](https://www.markdownguide.org)
 
 ### Image
 
-![alt text](image.jpg)
+![alt text](https://www.markdownguide.org/assets/images/tux.png)
 
 ## Extended Syntax
 

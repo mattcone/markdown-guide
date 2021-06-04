@@ -2,7 +2,7 @@
 layout: default
 title: Getting Started
 description: An overview of Markdown, how it works, and what you can do with it.
-last_modified_at: 2021-04-25
+last_modified_at: 2021-07-04
 ---
 
 {% include_relative _getting-started/what-is-markdown.md %}

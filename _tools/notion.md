@@ -29,7 +29,7 @@ syntax:
     available: y
   - id: links
     available: p
-    notes: "Copying and pasting Markdown-formatted links works, but you can't type them in Notion's editor. Use the `/link` slash command instead."
+    notes: "Copying and pasting Markdown-formatted links works, but you can't type them in Notion's editor. Use the `/link` slash command instead (only works for internal links to other pages in Notion)."
   - id: images
     available: p
     notes: "Copying and pasting Markdown-formatted images works, but you can't use that format in Notion's editor. Use the `/images` slash command instead."

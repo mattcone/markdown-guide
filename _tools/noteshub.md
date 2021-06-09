@@ -1,7 +1,7 @@
 ---
 title: NotesHub
 category: "notes"
-description: "Fully cross-platform, vendor-agnostic, markdown based note-taking app."
+description: "A fully cross-platform and vendor-agnostic Markdown note taking app."
 icon: noteshub.png
 website: https://noteshub.app
 syntax:
@@ -57,13 +57,13 @@ syntax:
     available: y
 ---
 
-[NotesHub](https://noteshub.app) is fully cross-platform, vendor-agnostic, markdown based note-taking app.
+[NotesHub](https://noteshub.app) is a fully cross-platform and vendor-agnostic Markdown note taking app.
 
-With NotesHub your notes truly belong to you and not tight to any particular vendor. All of your data is stored in Git repositories, so you can clone them and manage outside the app.
+With NotesHub, your notes truly belong to you and not any particular vendor. All of your data is stored in Git repositories, so you can clone them and manage outside the app.
 
-Use power of Markdown to format your notes, create tables, lists, images, etc. Markdown will help to keep your notes in the same style regardless if you copied text from the internet or wrote from scratch, so no more different font-faces, font sizes, colors.
+You can use Markdown to format your notes and create tables, lists, images, and more. Markdown will keep your notes in the same style regardless of whether you copied text from the internet or wrote it from scratch.
 
-Get the native app-like experience with modern progressive web application with no compromise. It means that you can use the application literally on any device. You can install it, use offline or just as website. In any case the application UI will adopt to your screen size that you can enjoy it and be productive.
+NotesHub is a progressive web application you can use on any device. You can install it or use it as website.
 
 <img src="/assets/images/tools/noteshub.png" class="img-fluid" alt="NotesHub" style="width: 100%;">
 

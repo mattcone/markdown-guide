@@ -9,11 +9,11 @@ The short answer is that you need a *Markdown application* capable of processing
 Markdown applications use something called a *Markdown processor* (also commonly referred to as a "parser" or an "implementation") to take the Markdown-formatted text and output it to HTML format. At that point, your document can be viewed in a web browser or combined with a style sheet and printed. You can see a visual representation of this process below.
 
 <div class="alert alert-info">
-  <i class="fas fa-info-circle"></i> <strong>Note:</strong> The Markdown application and processor are two separate components. For the sake of brevity, I've combined them into one element ("Markdown App") in the figure below.
+  <i class="fas fa-info-circle"></i> <strong>Note:</strong> The Markdown application and processor are two separate components. For the sake of brevity, I've combined them into one element ("Markdown app") in the figure below.
 </div>
 
-<div style="text-align:center; margin:30px 0">
-  <img src="/assets/images/process.png" class="img-fluid" alt="The Markdown Process">
+<div style="text-align:center; margin:20px 0">
+  <img src="/assets/images/markdown-flowchart.png" class="img-fluid" alt="The Markdown Process">
 </div>
 
 To summarize, this is a four-part process:

@@ -5,8 +5,8 @@ syntax-summary: "![alt text](image.jpg)"
 description: "To add an image, add an exclamation mark (`!`), followed by alt text in brackets, and the path or URL to the image asset in parentheses. You can optionally add a title after the URL in the parentheses."
 examples:
   - markdown: |
-      ![Philadelphia's Magic Gardens. This place was so cool!](/assets/images/philly-magic-gardens.jpg "Philadelphia's Magic Gardens")
-    html: <img src=\"/assets/images/san-juan-mountains.jpg\" class=\"img-responsive\" alt=\"Philadelphia's Magic Gardens. This place was so cool!\" title=\"Philadelphia's Magic Gardens\">
+      ![The San Juan Mountains are beautiful!](/assets/images/san-juan-mountains.jpg "San Juan Mountains")
+    html: <img src=\"/assets/images/san-juan-mountains.jpg\" class=\"img-responsive\" alt=\"The San Juan Mountains are beautiful!\" title=\"San Juan Mountains\">
 additional-examples:
   - name: "Linking Images"
     description: "To add a link to an image, enclose the Markdown for the image in brackets, and then add the link in parentheses."

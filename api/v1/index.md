@@ -55,7 +55,7 @@ The cheat sheet endpoint provides an overview of the most popular basic and exte
 
 <script src="https://gist.github.com/mattcone/ec8057127a0ff2e0b45d2cde14355b2a.js"></script>
 
-<h1 class="page-header">Changelog</h1>
+## Changelog
 
 Here's a list of all the changes we've made to the Markdown Guide API.
 

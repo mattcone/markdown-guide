@@ -26,7 +26,7 @@ The rendered output looks like this:
 <img srcset="{{ "/assets/images/san-juan-mountains.jpg" | imgix_url: auto: 'format', fit: 'clip', w: 825 }} 1x,
              {{ "/assets/images/san-juan-mountains.jpg" | imgix_url: auto: 'format', fit: 'clip', q: 40, w: 825, dpr: 2 }} 2x,
              {{ "/assets/images/san-juan-mountains.jpg" | imgix_url: auto: 'format', fit: 'clip', q: 20, w: 825, dpr: 3 }} 3x"
-     src="{{ "/assets/images/san-juan-mountains.jpg" | imgix_url }}" class="img-fluid" alt="The San Juan Mountains are beautiful!" title="San Juan Mountains">
+     src="{{ "/assets/images/san-juan-mountains.jpg" | imgix_url }}" class="img-fluid" alt="The San Juan Mountains are beautiful!" title="San Juan Mountains" sizes="100vw">
 
 ### Linking Images
 
@@ -42,5 +42,5 @@ The rendered output looks like this:
   <img srcset="{{ "/assets/images/shiprock.jpg" | imgix_url: auto: 'format', fit: 'clip', w: 825 }} 1x,
                {{ "/assets/images/shiprock.jpg" | imgix_url: auto: 'format', fit: 'clip', q: 40, w: 825, dpr: 2 }} 2x,
                {{ "/assets/images/shiprock.jpg" | imgix_url: auto: 'format', fit: 'clip', q: 20, w: 825, dpr: 3 }} 3x"
-      src="{{ "/assets/images/shiprock.jpg" | imgix_url }}" class="img-fluid" alt="An old rock in the desert" title="Shiprock, New Mexico by Beau Rogers">
+      src="{{ "/assets/images/shiprock.jpg" | imgix_url }}" class="img-fluid" alt="An old rock in the desert" title="Shiprock, New Mexico by Beau Rogers" sizes="100vw">
 </a>

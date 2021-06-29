@@ -25,7 +25,7 @@ The rendered output looks like this:
 
 <img srcset="{{ "/assets/images/san-juan-mountains.jpg" | imgix_url: auto: 'format', fit: 'clip', w: 480 }} 480w,
              {{ "/assets/images/san-juan-mountains.jpg" | imgix_url: auto: 'format', fit: 'clip', q: 40, w: 1080 }} 1080w"
-     src="{{ "/assets/images/san-juan-mountains.jpg" | imgix_url }}" class="img-fluid" alt="The San Juan Mountains are beautiful!" title="San Juan Mountains" sizes="100vw">
+     src="{{ "/assets/images/san-juan-mountains.jpg" | imgix_url }}" class="img-fluid" alt="The San Juan Mountains are beautiful!" title="San Juan Mountains" sizes="100vw" loading="lazy">
 
 ### Linking Images
 
@@ -38,8 +38,7 @@ To add a link to an image, enclose the Markdown for the image in brackets, and t
 The rendered output looks like this:
 
 <a href="https://www.flickr.com/photos/beaurogers/31833779864/in/photolist-Qv3rFw-34mt9F-a9Cmfy-5Ha3Zi-9msKdv-o3hgjr-hWpUte-4WMsJ1-KUQ8N-deshUb-vssBD-6CQci6-8AFCiD-zsJWT-nNfsgB-dPDwZJ-bn9JGn-5HtSXY-6CUhAL-a4UTXB-ugPum-KUPSo-fBLNm-6CUmpy-4WMsc9-8a7D3T-83KJev-6CQ2bK-nNusHJ-a78rQH-nw3NvT-7aq2qf-8wwBso-3nNceh-ugSKP-4mh4kh-bbeeqH-a7biME-q3PtTf-brFpgb-cg38zw-bXMZc-nJPELD-f58Lmo-bXMYG-bz8AAi-bxNtNT-bXMYi-bXMY6-bXMYv" class="no-underline">
-  <img srcset="{{ "/assets/images/shiprock.jpg" | imgix_url: auto: 'format', fit: 'clip', w: 825 }} 1x,
-               {{ "/assets/images/shiprock.jpg" | imgix_url: auto: 'format', fit: 'clip', q: 40, w: 825, dpr: 2 }} 2x,
-               {{ "/assets/images/shiprock.jpg" | imgix_url: auto: 'format', fit: 'clip', q: 20, w: 825, dpr: 3 }} 3x"
-      src="{{ "/assets/images/shiprock.jpg" | imgix_url }}" class="img-fluid" alt="An old rock in the desert" title="Shiprock, New Mexico by Beau Rogers" sizes="100vw">
+  <img srcset="{{ "/assets/images/shiprock.jpg" | imgix_url: auto: 'format', fit: 'clip', w: 480 }} 480w,
+               {{ "/assets/images/shiprock.jpg" | imgix_url: auto: 'format', fit: 'clip', q: 40, w: 1080 }} 1080w"
+      src="{{ "/assets/images/shiprock.jpg" | imgix_url }}" class="img-fluid" alt="An old rock in the desert" title="Shiprock, New Mexico by Beau Rogers" sizes="100vw" loading="lazy">
 </a>

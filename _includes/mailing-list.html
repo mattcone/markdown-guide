@@ -1,7 +1,11 @@
 <div class="card bg-light mb-3" style="max-width: 100%; margin-top: 50px;">
   <div class="row no-gutters">
     <div class="col-md-3">
-      <a href="/book/"><img src="/assets/images/book-cover.jpg" class="card-img" alt="Markdown Guide book cover"></a>
+      <a href="/book/">
+        <img srcset="{{ "/assets/images/book-cover.jpg" | imgix_url: auto: 'format', fit: 'clip', w: 480 }} 480w,
+                     {{ "/assets/images/book-cover.jpg" | imgix_url: auto: 'format', fit: 'clip', q: 40, w: 1080 }} 1080w"
+                     src="{{ "/assets/images/book-cover.jpg" | imgix_url }}" class="img-fluid" alt="Markdown Guide book cover" sizes="100vw" loading="lazy">
+      </a>
     </div>
     <div class="col-md-9">
       <div class="card-body" style="padding-left: 6%;">

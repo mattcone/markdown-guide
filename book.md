@@ -23,7 +23,13 @@ description: "Learn Markdown in 60 pages. The Markdown Guide book includes every
 
     <p class="lead" style="padding-top:0px;"><em>The Markdown Guide</em> is also available on <a href="https://leanpub.com/themarkdownguide">Leanpub</a> and <a href="https://amzn.to/31FMLMA">Amazon</a>.</p>
   </div>
-  <div class="col-sm-5"><a href="https://gum.co/markdownguide?wanted=true"><img src="/assets/images/book-cover.jpg" class="img-fluid float-center" style="width: 95%" alt="The Markdown Guide book cover"></a></div>
+  <div class="col-sm-5">
+    <a href="https://gum.co/markdownguide?wanted=true">
+      <img srcset="{{ "/assets/images/book-cover.jpg" | imgix_url: auto: 'format', fit: 'clip', w: 480 }} 480w,
+              {{ "/assets/images/book-cover.jpg" | imgix_url: auto: 'format', fit: 'clip', q: 40, w: 1080 }} 1080w"
+              src="{{ "/assets/images/book-cover.jpg" | imgix_url }}" class="img-fluid float-center" style="width: 95%" alt="The Markdown Guide book cover" sizes="100vw">
+    </a>
+  </div>
 </div>
 
 <div class="col d-flex justify-content-center" style="padding-top: 30px;">
@@ -66,10 +72,18 @@ description: "Learn Markdown in 60 pages. The Markdown Guide book includes every
 <div class="container" style="padding-bottom:20px;">
   <div class="row">
     <div class="col-sm text-center">
-      <a href="/assets/markdown-guide-sample.pdf"><img src="/assets/images/book-page-1.png" class="img-fluid border rounded" style="width: 90%" alt="The Markdown Guide book page one"></a>
+      <a href="/assets/markdown-guide-sample.pdf">
+        <img srcset="{{ "/assets/images/book-page-1.png" | imgix_url: auto: 'format', fit: 'clip', w: 480 }} 480w,
+                     {{ "/assets/images/book-page-1.png" | imgix_url: auto: 'format', fit: 'clip', q: 40, w: 1080 }} 1080w"
+                     src="{{ "/assets/images/book-page-1.png" | imgix_url }}" class="img-fluid border rounded" style="width: 90%" alt="The Markdown Guide book page one" sizes="100vw" loading="lazy">
+      </a>
     </div>
     <div class="col-sm text-center">
-      <a href="/assets/markdown-guide-sample.pdf"><img src="/assets/images/book-page-2.png" class="img-fluid border rounded" style="width: 90%" alt="The Markdown Guide book page two"></a>
+      <a href="/assets/markdown-guide-sample.pdf">
+        <img srcset="{{ "/assets/images/book-page-2.png" | imgix_url: auto: 'format', fit: 'clip', w: 480 }} 480w,
+                     {{ "/assets/images/book-page-2.png" | imgix_url: auto: 'format', fit: 'clip', q: 40, w: 1080 }} 1080w"
+                     src="{{ "/assets/images/book-page-2.png" | imgix_url }}" class="img-fluid border rounded" style="width: 90%" alt="The Markdown Guide book page two" sizes="100vw" loading="lazy">
+      </a>
     </div>
   </div>
 </div>
@@ -118,7 +132,9 @@ description: "Learn Markdown in 60 pages. The Markdown Guide book includes every
       <p class="lead">Matt Cone is a technical writer at <a href="https://www.fastly.com">Fastly</a>. He has experience creating documentation for organizations like Linode and the U.S. Department of Health and Human Services. Matt's first book, <em><a href="https://www.amazon.com/Master-Your-Mac-Simple-Customize/dp/1593274068/">Master Your Mac</a></em>, was published by No Starch Press. To get in touch with Matt, visit <a href="https://www.mattcone.com">https://www.mattcone.com</a>.</p>
     </div>
     <div class="col-sm-6 text-center">
-      <img src="/assets/images/mattcone.jpg" class="img-fluid border rounded" style="width: 90%" alt="Matt Cone">
+      <img srcset="{{ "/assets/images/mattcone.jpg" | imgix_url: auto: 'format', fit: 'clip', w: 480 }} 480w,
+                   {{ "/assets/images/mattcone.jpg" | imgix_url: auto: 'format', fit: 'clip', q: 40, w: 1080 }} 1080w"
+                   src="{{ "/assets/images/mattcone.jpg" | imgix_url }}" class="img-fluid border rounded" style="width: 90%" alt="Matt Cone" sizes="100vw" loading="lazy">
     </div>
   </div>
 </div>

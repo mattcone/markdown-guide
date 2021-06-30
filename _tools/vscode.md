@@ -1,5 +1,5 @@
 ---
-title: VSCode
+title: VS Code
 category: documents
 description: "A cross-platform, open-source, extensible source code editor"
 icon: vscode.png

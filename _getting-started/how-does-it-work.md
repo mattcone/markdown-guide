@@ -15,7 +15,7 @@ Markdown applications use something called a *Markdown processor* (also commonly
 <div style="text-align:center; margin:20px 0">
   <img srcset="{{ "/assets/images/markdown-flowchart.png" | imgix_url: auto: 'format', fit: 'clip', w: 480 }} 480w,
                {{ "/assets/images/markdown-flowchart.png" | imgix_url: auto: 'format', fit: 'clip', q: 40, w: 1080 }} 1080w"
-               src="{{ "/assets/images/markdown-flowchart.png" | imgix_url }}" class="img-fluid" alt="The Markdown Process"  sizes="100vw" loading="lazy">
+               src="{{ "/assets/images/markdown-flowchart.png" | imgix_url }}" class="img-fluid" alt="The Markdown Process" sizes="100vw" loading="lazy">
 </div>
 
 To summarize, this is a four-part process:

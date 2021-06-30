@@ -6,6 +6,6 @@ You don't even need to download anything. There are several online Markdown edit
 
 <img srcset="{{ "/assets/images/dillinger.png" | imgix_url: auto: 'format', fit: 'clip', w: 480 }} 480w,
              {{ "/assets/images/dillinger.png" | imgix_url: auto: 'format', fit: 'clip', q: 40, w: 1080 }} 1080w"
-             src="{{ "/assets/images/dillinger.png" | imgix_url }}" class="img-fluid" alt="Dillinger Markdown editor" class="img-fluid" sizes="100vw">
+             src="{{ "/assets/images/dillinger.png" | imgix_url }}" class="img-fluid" alt="Dillinger Markdown editor" loading="lazy" sizes="100vw">
 
 You'll probably want to keep the Dillinger website open as you read through this guide. That way you can try the syntax as you learn about it. After you've become familiar with Markdown, you may want to use a Markdown application that can be installed on your desktop computer or mobile device.

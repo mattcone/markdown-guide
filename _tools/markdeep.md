@@ -71,6 +71,6 @@ Using Markdeep is a three-part process:
 2. Rename the Markdown file to add the `.md.html` extension (i.e., `myfile.md.html`).
 3. Open the file in a web browser to see the rendered output.
 
-This tool has a lot of features beyond what's described here. For instance, you can choose from a variety of templates to customize the look of your page. Markdeep also supports diagrams, LaTeX typesetting for equations, and much more. Check out the excellent [documentation](https://casual-effects.com/markdeep) for the full details.
+This tool has a lot of features beyond what's described here. For example, you can choose from a variety of templates to customize the look of your page. Markdeep also supports diagrams, LaTeX typesetting for equations, and much more. Check out the excellent [documentation](https://casual-effects.com/markdeep) for the full details.
 
 {% include tool-syntax-table.html %}

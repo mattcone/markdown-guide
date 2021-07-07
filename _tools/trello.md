@@ -68,7 +68,3 @@ Trello has excellent support for basic Markdown syntax. You can use Markdown in 
 <img src="/assets/images/tools/trello.jpeg" class="img-fluid" style="width: 100%;" alt="Trello board with Markdown.">
 
 {% include tool-syntax-table.html %}
-
-### See Also
-
-- [How To Format Your Text in Trello](https://help.trello.com/article/821-using-markdown-in-trello)

@@ -25,9 +25,7 @@ description: "Learn Markdown in 60 pages. The Markdown Guide book includes every
   </div>
   <div class="col-sm-5">
     <a href="https://gum.co/markdownguide?wanted=true">
-      <img srcset="{{ "/assets/images/book-cover.jpg" | imgix_url: auto: 'format', fit: 'clip', w: 480 }} 480w,
-              {{ "/assets/images/book-cover.jpg" | imgix_url: auto: 'format', fit: 'clip', q: 40, w: 1080 }} 1080w"
-              src="{{ "/assets/images/book-cover.jpg" | imgix_url }}" class="img-fluid float-center" style="width: 95%" alt="The Markdown Guide book cover" sizes="100vw">
+      {% include image.html file="/assets/images/book-cover.jpg" alt="Markdown Guide book cover" class="img-fluid float-center" width="95" %}
     </a>
   </div>
 </div>
@@ -73,16 +71,12 @@ description: "Learn Markdown in 60 pages. The Markdown Guide book includes every
   <div class="row">
     <div class="col-sm text-center">
       <a href="/assets/markdown-guide-sample.pdf">
-        <img srcset="{{ "/assets/images/book-page-1.png" | imgix_url: auto: 'format', fit: 'clip', w: 480 }} 480w,
-                     {{ "/assets/images/book-page-1.png" | imgix_url: auto: 'format', fit: 'clip', q: 40, w: 1080 }} 1080w"
-                     src="{{ "/assets/images/book-page-1.png" | imgix_url }}" class="img-fluid border rounded" style="width: 90%" alt="The Markdown Guide book page one" sizes="100vw" loading="lazy">
+        {% include image.html file="/assets/images/book-page-1.png" alt="The Markdown Guide book page one" class="img-fluid border rounded" width="90" %}
       </a>
     </div>
     <div class="col-sm text-center">
       <a href="/assets/markdown-guide-sample.pdf">
-        <img srcset="{{ "/assets/images/book-page-2.png" | imgix_url: auto: 'format', fit: 'clip', w: 480 }} 480w,
-                     {{ "/assets/images/book-page-2.png" | imgix_url: auto: 'format', fit: 'clip', q: 40, w: 1080 }} 1080w"
-                     src="{{ "/assets/images/book-page-2.png" | imgix_url }}" class="img-fluid border rounded" style="width: 90%" alt="The Markdown Guide book page two" sizes="100vw" loading="lazy">
+        {% include image.html file="/assets/images/book-page-2.png" alt="The Markdown Guide book page two" class="img-fluid border rounded" width="90" %}
       </a>
     </div>
   </div>
@@ -132,9 +126,7 @@ description: "Learn Markdown in 60 pages. The Markdown Guide book includes every
       <p class="lead">Matt Cone is a technical writer at <a href="https://www.fastly.com">Fastly</a>. He has experience creating documentation for organizations like Linode and the U.S. Department of Health and Human Services. Matt's first book, <em><a href="https://www.amazon.com/Master-Your-Mac-Simple-Customize/dp/1593274068/">Master Your Mac</a></em>, was published by No Starch Press. To get in touch with Matt, visit <a href="https://www.mattcone.com">https://www.mattcone.com</a>.</p>
     </div>
     <div class="col-sm-6 text-center">
-      <img srcset="{{ "/assets/images/mattcone.jpg" | imgix_url: auto: 'format', fit: 'clip', w: 480 }} 480w,
-                   {{ "/assets/images/mattcone.jpg" | imgix_url: auto: 'format', fit: 'clip', q: 40, w: 1080 }} 1080w"
-                   src="{{ "/assets/images/mattcone.jpg" | imgix_url }}" class="img-fluid border rounded" style="width: 90%" alt="Matt Cone" sizes="100vw" loading="lazy">
+      {% include image.html file="/assets/images/mattcone.jpg" alt="Matt Cone" class="img-fluid border rounded" width="90" %}
     </div>
   </div>
 </div>

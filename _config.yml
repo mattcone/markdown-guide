@@ -8,7 +8,6 @@ comments: false
 plugins:
   - jekyll-last-modified-at
   - jekyll-sitemap
-  - jekyll/imgix
 
 collections:
   basic-syntax:
@@ -45,6 +44,3 @@ kramdown:
   toc_levels:     1..3
 
 exclude: ["vendor", "Gemfile", "Gemfile.lock", "README.md", "LICENSE.txt", "Rakefile", "netlify.toml"]
-
-imgix:
-  source: mdg.imgix.net 

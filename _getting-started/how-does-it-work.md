@@ -12,11 +12,7 @@ Markdown applications use something called a *Markdown processor* (also commonly
   <i class="fas fa-info-circle"></i> <strong>Note:</strong> The Markdown application and processor are two separate components. For the sake of brevity, I've combined them into one element ("Markdown app") in the figure below.
 </div>
 
-<div style="text-align:center; margin:20px 0">
-  <img srcset="{{ "/assets/images/markdown-flowchart.png" | imgix_url: auto: 'format', fit: 'clip', w: 480 }} 480w,
-               {{ "/assets/images/markdown-flowchart.png" | imgix_url: auto: 'format', fit: 'clip', q: 40, w: 1080 }} 1080w"
-               src="{{ "/assets/images/markdown-flowchart.png" | imgix_url }}" class="img-fluid" alt="The Markdown Process" sizes="100vw" loading="lazy">
-</div>
+{% include image.html file="/assets/images/markdown-flowchart.png" alt="The Markdown Process" %}
 
 To summarize, this is a four-part process:
 

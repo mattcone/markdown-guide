@@ -2,9 +2,7 @@
   <div class="row no-gutters">
     <div class="col-md-3">
       <a href="/book/">
-        <img srcset="{{ "/assets/images/book-cover.jpg" | imgix_url: auto: 'format', fit: 'clip', w: 480 }} 480w,
-                     {{ "/assets/images/book-cover.jpg" | imgix_url: auto: 'format', fit: 'clip', q: 40, w: 1080 }} 1080w"
-                     src="{{ "/assets/images/book-cover.jpg" | imgix_url }}" class="img-fluid" alt="Markdown Guide book cover" sizes="100vw" loading="lazy">
+        {% include image.html file="/assets/images/book-cover.jpg" alt="Markdown Guide book cover" %}
       </a>
     </div>
     <div class="col-md-9">

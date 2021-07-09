@@ -1,0 +1,7 @@
+{% if site.url == "https://www.markdownguide.org" and jekyll.environment == "production" %}
+<img srcset="https://mdg.imgix.net{{ include.file }}?auto=format&fit=clip&w=480 480w,
+             https://mdg.imgix.net{{ include.file }}?auto=format&fit=clip&q=40&w=1080 1080w"
+             src="https://mdg.imgix.net{{ include.file }}" {% if include.class %}class="{{ include.class }}"{% else %}class="img-fluid"{% endif %} {% if include.width %}width="{{ include.width }}%"{% endif %} {% if include.title %}title="{{ include.title }}"{% endif %} alt="{{ include.alt }}" loading="lazy" sizes="100vw">
+{% else %}
+<img src="{{ include.file }}" {% if include.class %}class="{{ include.class }}"{% else %}class="img-fluid"{% endif %} {% if include.width %}width="{{ include.width }}%"{% endif %} {% if include.title %}title="{{ include.title }}"{% endif %} alt="{{ include.alt }}" loading="lazy" sizes="100vw">
+{% endif %}

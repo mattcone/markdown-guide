@@ -71,7 +71,7 @@ With Markdown, [Reddit](https://www.reddit.com) text formatting is a breeze. All
 
 By default, Reddit disables Markdown support for new posts and comments. You can switch from the rich text editor to Markdown by clicking the **Switch to markdown** link, as shown below.
 
-<img src="/assets/images/tools/reddit.png" class="img-fluid" alt="Switching to Markdown on Reddit.com" style="width:80%;">
+{% include image.html file="/assets/images/tools/reddit.png" alt="Switching to Markdown on Reddit.com" width="80" %}
 
 To permanently save this setting, you can enable the **Default to Markdown** setting in **User Settings** > **Feed Settings**. Enabling that setting will automatically enable Markdown for new posts or comments.
 

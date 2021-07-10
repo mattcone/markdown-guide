@@ -66,6 +66,6 @@ see-also:
 
 Docusaurus uses the [remarkable](https://github.com/jonschlinkert/remarkable) Markdown processor.
 
-<img src="/assets/images/tools/Docusaurus.png" class="img-fluid" alt="Example of Docusaurus website">
+{% include image.html file="/assets/images/tools/Docusaurus.png" alt="Example of Docusaurus website" %}
 
 {% include tool-syntax-table.html %}

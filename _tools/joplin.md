@@ -66,7 +66,7 @@ see-also:
 
 [Joplin](https://joplinapp.org) is a free and open-source note taking application that works on every platform. Joplin's user interface isn't as polished as some of its competitors — it feels more geeky, if that makes any sense — but the application is a favorite among privacy advocates and is recommended by [privacytools.io](https://www.privacytools.io/software/notebooks/). Joplin stores notes on your local file system, provides end-to-end encryption, and allows you to synchronize files across devices by storing them on a service like Dropbox or Nextcloud.
 
-<img src="/assets/images/tools/joplin.png" class="img-fluid" style="width: 90%;" alt="Joplin Markdown application">
+{% include image.html file="/assets/images/tools/joplin.png" alt="Joplin Markdown application" width="90" %}
 
 {% include tool-syntax-table.html %}
 

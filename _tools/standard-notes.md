@@ -64,7 +64,7 @@ see-also:
 
 [Standard Notes](https://standardnotes.org) is an elegant, open-source note taking application with an excellent feature set. Markdown support is not provided by default, but by paying for the optional [subscription](https://standardnotes.org/extensions), you can enable one of several Markdown extensions available to subscribers. I used the [Advanced Markdown extension](https://standardnotes.org/extensions/advanced-markdown), which is what's documented below.
 
-<img src="/assets/images/tools/standard-notes.png" class="img-fluid" alt="Markdown in Standard Notes">
+{% include image.html file="/assets/images/tools/standard-notes.png" alt="Markdown in Standard Notes" %}
 
 Admittedly, the category for Markdown note taking applications is a crowded one. Standard Notes stands out by offering a great user experience, outstanding privacy and synchronization features, and a strong commitment to open source software. The application and the overall experience feels professional-grade. Standard Notes works on every platform.
 

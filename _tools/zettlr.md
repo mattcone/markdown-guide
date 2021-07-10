@@ -62,10 +62,8 @@ syntax:
 
 The application's stated goal is simple: "Enabling researchers of arts and humanities, e.g. those people without any knowledge of coding, to finally free themselves from software that costs hundreds of dollars and pave the way into an Open Source era. This would be only fitting, given the fact that especially in political science and sociology, cries for Open Access journals are on the rise. So here’s what Zettlr is all about: It wants to be serious competition for word processors."
 
-<img src="/assets/images/tools/zettlr_view.png" class="img-fluid" style="width:70%; margin-bottom:-10px" alt="Modako editor interface">
+{% include image.html file="/assets/images/tools/zettlr_view.png" alt="Zettlr editor interface" %}
 
-### Zettlr Markdown Support
-
-Zettlr provides support for the following Markdown elements. See the [Zettlr Documentation](https://docs.zettlr.com/en/) for the official documentation. Zettlr itself implements a mixture of different dialects. The editor itself highlights only GitHub Flavored Markdown plus some extra elements which extends Markdown syntax with Zettelkasten elements. You can also add LaTeX-commands.
+See the [Zettlr Documentation](https://docs.zettlr.com/en/) for the official documentation. Zettlr itself implements a mixture of different dialects. The editor itself highlights only GitHub Flavored Markdown plus some extra elements which extends Markdown syntax with Zettelkasten elements. You can also add LaTeX-commands.
 
 {% include tool-syntax-table.html %}

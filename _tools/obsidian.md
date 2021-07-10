@@ -65,7 +65,7 @@ see-also:
 
 [Obsidian](https://obsidian.md/) is a relatively new entrant in the increasingly crowded Markdown knowledge base and note-taking market. Obsidian's excellent Markdown support and its simple, straightforward design makes it a standout application in the category.
 
-<img src="/assets/images/tools/obsidian.png" class="img-fluid" style="width: 100%;" alt="Obsidian Markdown application">
+{% include image.html file="/assets/images/tools/obsidian.png" alt="Obsidian Markdown application" %}
 
 Obsidian sports virtually all of the standard fare common to the other applications in this category, but it ups the ante by including a number of other features for power users. There's a visually-striking graph view that's a kind of "mind map" of all your files stored in Obsidian, a "Markdown format importer" that can find and replace certain Markdown syntax elements in your files, and support for [math](https://publish.obsidian.md/help/How+to/Format+your+notes) and [diagram](https://publish.obsidian.md/help/How+to/Format+your+notes) syntax. That really just scratches the surface of Obsidian's capabilities. Obsidian is extensible, and there are dozens of free community plugins available within the application. 
 

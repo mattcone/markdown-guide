@@ -73,7 +73,7 @@ syntax:
 
 Unfortunately, using Ulysses to write in Markdown is an exercise in frustration. The application supports a subset of the Markdown syntax, but support for many syntax elements is notably absent. Even worse, support for some elements is provided using non-standard notation. Ulysses might not be your first choice if you're wanting to write exclusively in Markdown.
 
-<img src="/assets/images/tools/ulysses.png" class="img-fluid" alt="Ulysses application with a Markdown file">
+{% include image.html file="/assets/images/tools/ulysses.png" alt="Ulysses application with a Markdown file" %}
 
 {% include tool-syntax-table.html %}
 

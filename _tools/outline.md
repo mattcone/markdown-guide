@@ -67,11 +67,9 @@ see-also:
 
 Beyond Markdown, Outline supports a range of features such as structured organization of documents, search, read/write permissions, user groups, backlinking, public sharing, and more.
 
-<img src="/assets/images/tools/outline.png" class="img-fluid" style="width: 100%;" alt="Outline Screenshot">
+{% include image.html file="/assets/images/tools/outline.png" alt="Outline Screenshot" %}
 
 Outline is offered as a hosted service, and is also available for self hosting as a docker container. The [source code is 
 publicly available](https://github.com/outline/outline) on GitHub.
-
-
 
 {% include tool-syntax-table.html %}

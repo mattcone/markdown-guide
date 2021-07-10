@@ -68,7 +68,7 @@ see-also:
 
 Madoko can both be run locally as a command-line program or on Madoko.net to take advantage of storage and collaboration features. Madoko integrates seamlessly with Dropbox, Github, and OneDrive. It automatically synchronizes all changes in the cloud. This way, your document is always available from any device. The online editor can also edit files on the local disk, or run LaTeX locally, using the Madoko local program.
 
-<img src="/assets/images/tools/madoko-editor.png" class="img-fluid" style="width:70%; margin-bottom:-10px" alt="Madoko editor interface">
+{% include image.html file="/assets/images/tools/madoko-editor.png" alt="Madoko editor interface" width="90" %}
 
 Madoko implements extensions like Github Flavored Markdown, [pandoc](https://pandoc.org/), [Markdown Extra](https://michelf.ca/projects/php-markdown/extra/), and [multi-markdown](https://fletcherpenney.net/multimarkdown/), and it adds other useful features for writing academic and industrial documents.
 

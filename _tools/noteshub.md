@@ -65,6 +65,6 @@ You can use Markdown to format your notes and create tables, lists, images, and 
 
 NotesHub is a progressive web application you can use on any device. You can install it or use it as website.
 
-<img src="/assets/images/tools/noteshub.png" class="img-fluid" alt="NotesHub" style="width: 100%;">
+{% include image.html file="/assets/images/tools/noteshub.png" alt="NotesHub" %}
 
 {% include tool-syntax-table.html %}

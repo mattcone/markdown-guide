@@ -62,7 +62,7 @@ see-also:
 
 [HackMD](https://hackmd.io) is a real-time, multi-platform collaborative Markdown editor. You can use HackMD to write notes with other people on your computer, tablet, or phone. HackMD provides a variety of document templates and allows users to push documents to GitHub. You can import and export documents from Dropbox, Google Drive, and GitHub gists.
 
-<img src="/assets/images/tools/hackmd.png" class="img-fluid" style="width:100%" alt="The HackMD Markdown interface">
+{% include image.html file="/assets/images/tools/hackmd.png" alt="The HackMD Markdown interface" %}
 
 HackMD supports CommonMark and other markup syntax, such as:
 

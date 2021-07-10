@@ -67,6 +67,6 @@ see-also:
 
 One of the best parts of Inkdrop is that it's extensible. A variety of plugins allow you to add flowcharts, sequence diagrams, and (my personal favorite) [admonitions](https://github.com/libeanim/inkdrop-admonition). And, on a note somewhat unrelated to the application itself, you might be interested in learning that Inkdrop's developer is a [prolific blogger](https://blog.inkdrop.info/) who takes [security seriously](https://docs.inkdrop.app/security).
 
-<img src="/assets/images/tools/inkdrop.png" class="img-fluid" style="width: 100%;" alt="Notable Markdown application">
+{% include image.html file="/assets/images/tools/inkdrop.png" alt="Inkdrop Markdown application" %}
 
 {% include tool-syntax-table.html %}

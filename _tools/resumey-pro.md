@@ -60,7 +60,7 @@ syntax:
 
 [Resumey.Pro](https://resumey.pro) is a Markdown-based resume builder. Write the resume content in Markdown, try out various designs like Instagram filters, and then download as a PDF. The content editor supports `/` (slash) commands to quickly apply Markdown syntax. The resume designs also supports customizing accent color, font size, and spacing.
 
-<img src="/assets/images/tools/resumey-pro.png" class="img-fluid" style="width: 100%;" alt="Resumey.Pro Screenshot">
+{% include image.html file="/assets/images/tools/resumey-pro.png" alt="Resumey.Pro Screenshot" %}
 
 {% include tool-syntax-table.html %}
 

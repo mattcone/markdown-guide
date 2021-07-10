@@ -65,7 +65,7 @@ see-also:
 
 [Squarespace](https://www.squarespace.com) is a popular subscription service for building websites. The service features a drag-and-drop interface that lets you build websites right in your web browser. One of the components available for webpages is a *Markdown block* — a content area that supports Markdown. You'll see the option when you click the Add Block icon, as shown below.
 
-<img src="/assets/images/tools/squarespace.png" class="img-fluid" style="width: 60%;" alt="Squarespace Markdown block.">
+{% include image.html file="/assets/images/tools/squarespace.png" alt="Squarespace Markdown block" width="60" %}
 
 Squarespace supports most basic Markdown syntax elements, but support for a number of extended syntax elements is lacking. One disadvantage is that the editor for the Markdown block is a tiny box and the text is displayed in a minuscule (and non-adjustable) font size. You're probably better off copying and pasting the text in from another application.
 

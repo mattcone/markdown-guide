@@ -78,7 +78,7 @@ see-also:
 
 It does not support WYSIWIG editing. While Visual Studio Code does not come with out-of-the-box ability to export Markdown to any other formats, it can copy Markdown code with syntax coloring intact.
 
-<img src="/assets/images/tools/vscode.png" class="img-fluid" alt="Visual Studio Code" />
+{% include image.html file="/assets/images/tools/vscode.png" alt="Visual Studio Code" %}
 
 Markdown extensions available in the Visual Studio marketplace extend it with the following features:
 
@@ -91,6 +91,6 @@ Markdown extensions available in the Visual Studio marketplace extend it with th
 * Style-compliance kits for different services (e.g. "Docs Authoring Pack" for Microsoft Docs)
 * Spelling check (e.g. "Code Spell Checker")
 
-<img src="/assets/images/tools/vscode-extended.png" class="img-fluid" alt="Visual Studio Code, with Markdown Preview Enhanced, Markdownlint, and One Dark Pro" />
+{% include image.html file="/assets/images/tools/vscode-extended.png" alt="Visual Studio Code, with Markdown Preview Enhanced, Markdownlint, and One Dark Pro" %}
 
 {% include tool-syntax-table.html %}

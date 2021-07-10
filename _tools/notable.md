@@ -64,7 +64,7 @@ see-also:
 
 [Notable](https://notable.app) is a bare-bones note taking application with excellent Markdown support. Free for desktop use, Notable is designed for people who like to see Markdown-formatted text while they're typing. There's no live editor here. It's just you and raw text. You can click the Edit button to switch between the editor and preview screen — a handy feature when you're reading through your notes.
 
-<img src="/assets/images/tools/notable.png" class="img-fluid" style="width: 90%;" alt="Notable Markdown application">
+{% include image.html file="/assets/images/tools/notable.png" alt="Notable Markdown application" width="90" %}
 
 One of Notable's best features, if you can call it that, is the lack of features. There's no need to create an account, and there's no synchronization feature. Some might see that as a limitation, but it does eliminate the possibility of your files being compromised on a third-party server.
 

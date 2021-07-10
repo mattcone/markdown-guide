@@ -59,6 +59,6 @@ syntax:
 
 [Imdone](https://imdone.io) is a simple and powerful kanban board for people who work with Markdown and code. Markdown blocks in your notes, docs, and code are represented as cards on your kanban boards. You can add and edit cards using the built-in card editor or your favorite text editor, making it convenient to update your tasks while you're working on a Markdown document or code.
 
-<img src="/assets/images/tools/imdone.png" class="img-fluid" style="width: 90%;" alt="Imdone kanban application">
+{% include image.html file="/assets/images/tools/imdone.png" alt="Imdone kanban application" width="90" %}
 
 {% include tool-syntax-table.html %}

@@ -73,7 +73,7 @@ Export options are limited, but the *Publish to Web* feature allows you to share
 
 To enable Markdown support in Simplenote, create a note, click the Info icon, and then select **Markdown Formatted**.
 
-<img src="/assets/images/tools/simplenote-markdown.png" class="img-fluid" alt="Enabling Markdown support in Simplenote" style="width:30%;">
+{% include image.html file="/assets/images/tools/simplenote-markdown.png" alt="Enabling Markdown support in Simplenote" width="30" %}
 
 The currently selected note and any new notes you create in the future will have this setting enabled automatically.
 

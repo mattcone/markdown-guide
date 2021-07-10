@@ -67,7 +67,7 @@ see-also:
 
 [Ghost](https://ghost.org/) is a relatively new content management system (CMS) for blogging that competes with older, established CMS products like WordPress and Drupal. Ghost is an open source project renowned for its speed, simplicity, and ease of use. Markdown support is standard and available out-of-the-box.
 
-<img src="/assets/images/tools/ghost.png" class="img-fluid" alt="Ghost blog editor">
+{% include image.html file="/assets/images/tools/ghost.png" alt="Ghost blog editor" %}
 
 There are a couple minor compatibility issues noted below but, generally speaking, Ghost has solid Markdown support. The live editor is fairly intuitive and seems like a good choice for bloggers. Copying and pasting Markdown-formatted text into the editor works the way you'd expect it to.
 

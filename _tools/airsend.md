@@ -64,6 +64,6 @@ see-also:
 
 [AirSend](https://www.airsend.io/) is a collaboration application that's great for keeping track of notes, formatting documents, and publishing status reports. This application allows users to see their notes and status reports in Markdown-formatted text. While typing your notes, other users can see the live preview on their screens. AirSend is available for macOS, iOS, Android, Windows, and Linux.
 
-<img src="/assets/images/tools/airsend.png" class="img-fluid" alt="Editing Wiki using Markdown in AirSend">
+{% include image.html file="/assets/images/tools/airsend.png" alt="Editing Wiki using Markdown in AirSend" %}
 
 {% include tool-syntax-table.html %}

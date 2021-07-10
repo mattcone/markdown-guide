@@ -70,7 +70,7 @@ Dillinger provides excellent Markdown support. Unfortunately, the export options
 
 The application uses the [markdown-it](https://github.com/markdown-it/markdown-it) Markdown processor.
 
-<img src="/assets/images/dillinger.png" class="img-fluid" alt="Dillinger Markdown editor">
+{% include image.html file="/assets/images/dillinger.png" alt="Dillinger Markdown editor" %}
 
 {% include tool-syntax-table.html %}
 

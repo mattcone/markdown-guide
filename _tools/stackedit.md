@@ -64,7 +64,7 @@ see-also:
 
 [StackEdit](https://stackedit.io) is a powerful online Markdown editor. Like [Dillinger](/tools/dillinger/), it loads right in your web browser, so there's no need to download and install an application on your computer. StackEdit has a wide variety of features and configurable options for power users, making it in many ways a better all-around option than comparable desktop applications.
 
-<img src="/assets/images/tools/stackedit.png" class="img-fluid" alt="StackEdit Markdown editor">
+{% include image.html file="/assets/images/tools/stackedit.png" alt="StackEdit Markdown editor" %}
 
 StackEdit's Markdown support is excellent. Features include the ability to sync and save files to third-party services, output to various file formats using custom templates, and configure metadata properties for files. (Note that you must subscribe to StackEdit to output to some of the file formats, like PDF.) LaTeX and UML diagrams are also supported. You can apparently use StackEdit without an internet connection.
 

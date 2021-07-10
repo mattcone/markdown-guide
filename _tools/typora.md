@@ -73,7 +73,7 @@ Typora stands out by offering a variety of settings without sacrificing the simp
 
 See the Typora [Markdown reference](https://support.typora.io/Markdown-Reference/) for the official documentation. The Typora documentation indicates that the application generally uses [GitHub Flavored Markdown (GFM)](https://github.github.com/gfm/).
 
-<img src="/assets/images/tools/typora-editor.png" class="img-fluid" style="width:70%; margin-bottom:-10px" alt="Typora editor interface">
+{% include image.html file="/assets/images/tools/typora-editor.png" alt="Typora editor interface" width="70" %}
 
 {% include tool-syntax-table.html %}
 

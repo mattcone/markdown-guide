@@ -59,7 +59,6 @@ syntax:
 
 [Znote](https://znote.lagrede.fr) is a free application designed to help you write organized Markdown documents. You can quickly edit your texts, notes, and files using the simplistic left-side widget organizer for smoothly navigating different files. The dark mode and code highlighter features are designed for developers. Available for macOS, Windows and Linux.
 
-
-<img src="/assets/images/tools/znote.png" class="img-fluid" style="width: 90%;" alt="Znote Markdown application">
+{% include image.html file="/assets/images/tools/znote.png" alt="Znote Markdown application" %}
 
 {% include tool-syntax-table.html %}

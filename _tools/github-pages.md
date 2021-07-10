@@ -68,7 +68,7 @@ see-also:
 
 GitHub Pages uses the [Jekyll](/tools/jekyll/) static site generator to create your website, and the Markdown support is excellent. You can pick one of GitHub's pre-made themes for your website, use a [Jekyll theme](http://jekyllthemes.org/), or use your own custom CSS. Shown below is a sample webpage using one of GitHub's pre-made themes.
 
-<img src="/assets/images/tools/github-pages.png" class="img-fluid" style="width:90%;" alt="Example of GitHub Pages websites">
+{% include image.html file="/assets/images/tools/github-pages.png" alt="Example of GitHub Pages websites" width="90" %}
 
 Confusingly, GitHub Pages renders Markdown differently than GitHub does. GitHub uses its own Markdown processor; GitHub Pages uses [jekyll-commonmark](https://github.com/github/jekyll-commonmark-ghpages). This means your `README.md` file will look different on GitHub's website than on your GitHub Pages website. For example, emoji are rendered on GitHub's website, but not on websites generated using GitHub Pages.
 

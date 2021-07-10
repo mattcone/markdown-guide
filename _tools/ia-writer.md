@@ -67,7 +67,7 @@ see-also:
 
 One of the hallmarks of the application is *focus mode*. When enabled, that feature keeps the sentence you're currently working on horizontally centered, as shown in the screenshot below. It feels a little like using a typewriter.
 
-<img src="/assets/images/tools/ia-writer.png" class="img-fluid" alt="iA Writer in focus mode">
+{% include image.html file="/assets/images/tools/ia-writer.png" alt="iA Writer in focus mode" %}
 
 There are a couple of quirks you should be aware of. iA Writer doesn't save new files with the Markdown extension (`.md`) by default. If you plan to exclusively create Markdown files using iA Writer, you should change the default extension to `.md` in **Preferences** > **Files**.
 

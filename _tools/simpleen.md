@@ -69,6 +69,6 @@ see-also:
 
 It supports CommonMark and GitHub Flavored Markdown (GFM) as well as your individual styles.
 
-<img src="/assets/images/tools/simpleen.png" class="img-fluid" style="width: 100%;" alt="Simpleen Markdown translation tool">
+{% include image.html file="/assets/images/tools/simpleen.png" alt="Simpleen Markdown translation tool" %}
 
 {% include tool-syntax-table.html %}

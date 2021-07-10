@@ -66,7 +66,7 @@ see-also:
 
 The application uses the [Python-Markdown](https://python-markdown.github.io/) Markdown processor. You can enable additional [extensions](https://www.mkdocs.org/user-guide/configuration/#markdown_extensions).
 
-<img src="/assets/images/tools/mkdocs.png" class="img-fluid" style="width: 70%;" alt="A newly deployed MkDocs site.">
+{% include image.html file="/assets/images/tools/mkdocs.png" alt="A newly deployed MkDocs site." width="70" %}
 
 {% include tool-syntax-table.html %}
 

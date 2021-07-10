@@ -91,6 +91,6 @@ Markdown extensions available in the Visual Studio marketplace extend it with th
 * Style-compliance kits for different services (e.g. "Docs Authoring Pack" for Microsoft Docs)
 * Spelling check (e.g. "Code Spell Checker")
 
-{% include image.html file="/assets/images/tools/vscode-extended.png" alt="Visual Studio Code, with Markdown Preview Enhanced, Markdownlint, and One Dark Pro" %}
+{% include image.html file="/assets/images/tools/vscode-extended.png" alt="Visual Studio Code, with Markdown Preview Enhanced, Markdownlint, and One Dark Pro" lazy="yes" %}
 
 {% include tool-syntax-table.html %}

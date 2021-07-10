@@ -71,7 +71,7 @@ see-also:
 
 MacDown sports two panes — you type on the left and preview the formatted text on the right. Basic export options for HTML and PDF file format are provided. You can enable and disable support for many syntax elements, a nice feature for people who simply don't want or need all of the bells and whistles.
 
-{% include image.html file="/assets/images/tools/joplin.png" alt="The MacDown application with open Markdown file." %}
+{% include image.html file="/assets/images/tools/macdown.png" alt="The MacDown application with open Markdown file." %}
 
 {% include tool-syntax-table.html %}
 

@@ -12,7 +12,7 @@ Markdown applications use something called a *Markdown processor* (also commonly
   <i class="fas fa-info-circle"></i> <strong>Note:</strong> The Markdown application and processor are two separate components. For the sake of brevity, I've combined them into one element ("Markdown app") in the figure below.
 </div>
 
-{% include image.html file="/assets/images/markdown-flowchart.png" alt="The Markdown Process" %}
+{% include image.html file="/assets/images/markdown-flowchart.png" alt="The Markdown Process" lazy="yes" %}
 
 To summarize, this is a four-part process:
 

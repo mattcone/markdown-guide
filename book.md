@@ -71,12 +71,12 @@ description: "Learn Markdown in 60 pages. The Markdown Guide book includes every
   <div class="row">
     <div class="col-sm text-center">
       <a href="/assets/markdown-guide-sample.pdf">
-        {% include image.html file="/assets/images/book-page-1.png" alt="The Markdown Guide book page one" class="img-fluid border rounded" width="90" %}
+        {% include image.html file="/assets/images/book-page-1.png" alt="The Markdown Guide book page one" class="img-fluid border rounded" width="90" lazy="yes" %}
       </a>
     </div>
     <div class="col-sm text-center">
       <a href="/assets/markdown-guide-sample.pdf">
-        {% include image.html file="/assets/images/book-page-2.png" alt="The Markdown Guide book page two" class="img-fluid border rounded" width="90" %}
+        {% include image.html file="/assets/images/book-page-2.png" alt="The Markdown Guide book page two" class="img-fluid border rounded" width="90" lazy="yes" %}
       </a>
     </div>
   </div>
@@ -126,7 +126,7 @@ description: "Learn Markdown in 60 pages. The Markdown Guide book includes every
       <p class="lead">Matt Cone is a technical writer at <a href="https://www.fastly.com">Fastly</a>. He has experience creating documentation for organizations like Linode and the U.S. Department of Health and Human Services. Matt's first book, <em><a href="https://www.amazon.com/Master-Your-Mac-Simple-Customize/dp/1593274068/">Master Your Mac</a></em>, was published by No Starch Press. To get in touch with Matt, visit <a href="https://www.mattcone.com">https://www.mattcone.com</a>.</p>
     </div>
     <div class="col-sm-6 text-center">
-      {% include image.html file="/assets/images/mattcone.jpg" alt="Matt Cone" class="img-fluid border rounded" width="90" %}
+      {% include image.html file="/assets/images/mattcone.jpg" alt="Matt Cone" class="img-fluid border rounded" width="90" lazy="yes" %}
     </div>
   </div>
 </div>

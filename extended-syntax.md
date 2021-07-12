@@ -2,7 +2,7 @@
 layout: default
 title: Extended Syntax
 description: Advanced features that build on the basic Markdown syntax.
-last_modified_at: 2020-02-22
+last_modified_at: 2021-07-11
 ---
 
 {% include syntax.html type="extended" syntax-id="overview" %}

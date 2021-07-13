@@ -63,7 +63,7 @@ see-also:
     link: https://publish.obsidian.md/help/How+to/Format+your+notes
 ---
 
-[Obsidian](https://obsidian.md/) is a relatively new entrant in the increasingly crowded Markdown knowledge base and note-taking market. Obsidian's excellent Markdown support and its simple, straightforward design makes it a standout application in the category.
+[Obsidian](https://obsidian.md/) is a relatively new entrant in the increasingly crowded Markdown knowledge base and note-taking market. Obsidian's excellent Markdown support and its simple, straightforward design makes it a standout application in the category. [Desktop](https://obsidian.md/download) and [mobile](https://obsidian.md/mobile) applications are available.
 
 {% include image.html file="/assets/images/tools/obsidian.png" alt="Obsidian Markdown application" %}
 

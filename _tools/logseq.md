@@ -1,7 +1,7 @@
 ---
-title: LogSeq
+title: Logseq
 category: "notes"
-description: "Logseq is a local-only, non-linear, outliner notebook for organizing and sharing your personal knowledge base."
+description: "Logseq is an open-source note taking application that supports Markdown and Orgmode syntax."
 icon: logseq.png
 website: https://logseq.com
 syntax:
@@ -9,10 +9,10 @@ syntax:
     available: y
   - id: paragraphs
     available: y
-    notes: "Every paragraph starts with a hyphen character (-)"
+    notes: "Every paragraph starts with a hyphen character (`-`)"
   - id: line-breaks
     available: y
-    notes: "Can be achieved by CR character (\\r)"
+    notes: "Use CR character (`\\r`)"
   - id: bold
     available: y
   - id: italic
@@ -39,7 +39,7 @@ syntax:
     available: y
   - id: footnotes
     available: n
-    notes: "Still no, but it's on their roadmap."
+    notes: "Not yet supported, but it's on the roadmap"
   - id: heading-ids
     available: n
   - id: definition-lists
@@ -48,7 +48,7 @@ syntax:
     available: y
   - id: task-lists
     available: n
-    notes: "Logseq has predefined commands for achieve it: TODO/DOING/DONE or LATER/NOW"
+    notes: "Logseq has predefined commands for this: TODO/DOING/DONE or LATER/NOW"
   - id: emoji-cp
     available: n
   - id: emoji-sc
@@ -64,9 +64,9 @@ see-also:
     link: https://logseq.github.io/#/page/markdown
 ---
 
-[Logseq](https://logseq.com) is an open-source note-taking application supporting Markdown or Orgmode syntax. As it puts privacy to first priority, everything is stored locally on your machine where the desktop app or the web application can have access from. No mobile app, but there is an option to use git as note storage and link the repository with Logseq. 
+[Logseq](https://logseq.com) is an open-source note taking application that supports Markdown and Orgmode syntax. As it prioritizes  privacy, everything is stored locally on your machine for the desktop and web applications. There's not currently a mobile app, but there is an option to use git for note storage and link the repository with Logseq. 
 
-It provides a very promising feature-set: back-links, note-graphs (inspired by Roam Research), automated card creation (for learning), templates and many more.
+Logseq provides a very promising feature set: back links, note graphs (inspired by Roam Research), automated card creation (for learning), templates, and much more.
 
 {% include image.html file="/assets/images/tools/logseq.png" alt="Logseq application" %}
 

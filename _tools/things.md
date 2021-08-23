@@ -25,11 +25,13 @@ syntax:
   - id: code
     available: y
   - id: horizontal-rules
-    available: n
+    available: p
+    notes: "The syntax is supported, but the horizontal rules themselves aren't rendered in the application."
   - id: links
     available: y
   - id: images
-    available: n
+    available: p
+    notes: "The syntax is supported, but the images themselves aren't rendered in the application."
   - id: tables
     available: n
   - id: fenced-code-blocks

@@ -58,10 +58,10 @@ To create an unordered list, add dashes (`-`), asterisks (`*`), or plus signs (`
       <td>
         <code class="highlighter-rouge">
           &lt;ul&gt;<br>
-            &lt;li&gt;First item&lt;/li&gt;<br/>
-            &lt;li&gt;Second item&lt;/li&gt;<br/>
-            &lt;li&gt;Third item&lt;/li&gt;<br/>
-            &lt;li&gt;Fourth item&lt;/li&gt;<br/>
+            &nbsp;&nbsp;&lt;li&gt;First item&lt;/li&gt;<br/>
+            &nbsp;&nbsp;&lt;li&gt;Second item&lt;/li&gt;<br/>
+            &nbsp;&nbsp;&lt;li&gt;Third item&lt;/li&gt;<br/>
+            &nbsp;&nbsp;&lt;li&gt;Fourth item&lt;/li&gt;<br/>
           &lt;/ul&gt;
         </code>
       </td>
@@ -86,10 +86,10 @@ To create an unordered list, add dashes (`-`), asterisks (`*`), or plus signs (`
       <td>
         <code class="highlighter-rouge">
           &lt;ul&gt;<br>
-            &lt;li&gt;First item&lt;/li&gt;<br/>
-            &lt;li&gt;Second item&lt;/li&gt;<br/>
-            &lt;li&gt;Third item&lt;/li&gt;<br/>
-            &lt;li&gt;Fourth item&lt;/li&gt;<br/>
+            &nbsp;&nbsp;&lt;li&gt;First item&lt;/li&gt;<br/>
+            &nbsp;&nbsp;&lt;li&gt;Second item&lt;/li&gt;<br/>
+            &nbsp;&nbsp;&lt;li&gt;Third item&lt;/li&gt;<br/>
+            &nbsp;&nbsp;&lt;li&gt;Fourth item&lt;/li&gt;<br/>
           &lt;/ul&gt;
         </code>
       </td>
@@ -114,10 +114,10 @@ To create an unordered list, add dashes (`-`), asterisks (`*`), or plus signs (`
       <td>
         <code class="highlighter-rouge">
           &lt;ul&gt;<br>
-            &lt;li&gt;First item&lt;/li&gt;<br/>
-            &lt;li&gt;Second item&lt;/li&gt;<br/>
-            &lt;li&gt;Third item&lt;/li&gt;<br/>
-            &lt;li&gt;Fourth item&lt;/li&gt;<br/>
+            &nbsp;&nbsp;&lt;li&gt;First item&lt;/li&gt;<br/>
+            &nbsp;&nbsp;&lt;li&gt;Second item&lt;/li&gt;<br/>
+            &nbsp;&nbsp;&lt;li&gt;Third item&lt;/li&gt;<br/>
+            &nbsp;&nbsp;&lt;li&gt;Fourth item&lt;/li&gt;<br/>
           &lt;/ul&gt;
         </code>
       </td>
@@ -144,15 +144,15 @@ To create an unordered list, add dashes (`-`), asterisks (`*`), or plus signs (`
       <td>
         <code class="highlighter-rouge">
           &lt;ul&gt;<br/>
-            &lt;li&gt;First item&lt;/li&gt;<br/>
-            &lt;li&gt;Second item&lt;/li&gt;<br/>
-            &lt;li&gt;Third item<br/>
-              &lt;ul&gt;<br/>
-                &lt;li&gt;Indented item&lt;/li&gt;<br/>
-                &lt;li&gt;Indented item&lt;/li&gt;<br/>
-              &lt;/ul&gt;<br/>
-            &lt;/li&gt;<br/>
-            &lt;li&gt;Fourth item&lt;/li&gt;<br/>
+            &nbsp;&nbsp;&lt;li&gt;First item&lt;/li&gt;<br/>
+            &nbsp;&nbsp;&lt;li&gt;Second item&lt;/li&gt;<br/>
+            &nbsp;&nbsp;&lt;li&gt;Third item<br/>
+              &nbsp;&nbsp;&nbsp;&nbsp;&lt;ul&gt;<br/>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;Indented item&lt;/li&gt;<br/>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;Indented item&lt;/li&gt;<br/>
+              &nbsp;&nbsp;&nbsp;&nbsp;&lt;/ul&gt;<br/>
+            &nbsp;&nbsp;&lt;/li&gt;<br/>
+            &nbsp;&nbsp;&lt;li&gt;Fourth item&lt;/li&gt;<br/>
           &lt;/ul&gt;
         </code>
       </td>
@@ -196,8 +196,8 @@ If you need to start an unordered list item with a number followed by a period, 
       <td>
         <code class="highlighter-rouge">
           &lt;ul&gt;<br>
-            &lt;li&gt;1968. A great year!&lt;/li&gt;<br/>
-            &lt;li&gt;I think 1969 was second best.&lt;/li&gt;<br/>
+            &nbsp;&nbsp;&lt;li&gt;1968. A great year!&lt;/li&gt;<br/>
+            &nbsp;&nbsp;&lt;li&gt;I think 1969 was second best.&lt;/li&gt;<br/>
           &lt;/ul&gt;
         </code>
       </td>

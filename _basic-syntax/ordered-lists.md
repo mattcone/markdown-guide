@@ -58,10 +58,10 @@ To create an ordered list, add line items with numbers followed by periods. The 
     <td>
       <code class="highlighter-rouge">
         &lt;ol&gt;<br>
-          &lt;li&gt;First item&lt;/li&gt;<br/>
-          &lt;li&gt;Second item&lt;/li&gt;<br/>
-          &lt;li&gt;Third item&lt;/li&gt;<br/>
-          &lt;li&gt;Fourth item&lt;/li&gt;<br/>
+          &nbsp;&nbsp;&lt;li&gt;First item&lt;/li&gt;<br/>
+          &nbsp;&nbsp;&lt;li&gt;Second item&lt;/li&gt;<br/>
+          &nbsp;&nbsp;&lt;li&gt;Third item&lt;/li&gt;<br/>
+          &nbsp;&nbsp;&lt;li&gt;Fourth item&lt;/li&gt;<br/>
         &lt;/ol&gt;
       </code>
     </td>
@@ -86,10 +86,10 @@ To create an ordered list, add line items with numbers followed by periods. The 
       <td>
         <code class="highlighter-rouge">
           &lt;ol&gt;<br>
-            &lt;li&gt;First item&lt;/li&gt;<br/>
-            &lt;li&gt;Second item&lt;/li&gt;<br/>
-            &lt;li&gt;Third item&lt;/li&gt;<br/>
-            &lt;li&gt;Fourth item&lt;/li&gt;<br/>
+            &nbsp;&nbsp;&lt;li&gt;First item&lt;/li&gt;<br/>
+            &nbsp;&nbsp;&lt;li&gt;Second item&lt;/li&gt;<br/>
+            &nbsp;&nbsp;&lt;li&gt;Third item&lt;/li&gt;<br/>
+            &nbsp;&nbsp;&lt;li&gt;Fourth item&lt;/li&gt;<br/>
           &lt;/ol&gt;
         </code>
       </td>
@@ -114,10 +114,10 @@ To create an ordered list, add line items with numbers followed by periods. The 
       <td>
         <code class="highlighter-rouge">
           &lt;ol&gt;<br>
-            &lt;li&gt;First item&lt;/li&gt;<br/>
-            &lt;li&gt;Second item&lt;/li&gt;<br/>
-            &lt;li&gt;Third item&lt;/li&gt;<br/>
-            &lt;li&gt;Fourth item&lt;/li&gt;<br/>
+            &nbsp;&nbsp;&lt;li&gt;First item&lt;/li&gt;<br/>
+            &nbsp;&nbsp;&lt;li&gt;Second item&lt;/li&gt;<br/>
+            &nbsp;&nbsp;&lt;li&gt;Third item&lt;/li&gt;<br/>
+            &nbsp;&nbsp;&lt;li&gt;Fourth item&lt;/li&gt;<br/>
           &lt;/ol&gt;
         </code>
       </td>
@@ -144,15 +144,15 @@ To create an ordered list, add line items with numbers followed by periods. The 
       <td>
         <code class="highlighter-rouge">
           &lt;ol&gt;<br>
-            &lt;li&gt;First item&lt;/li&gt;<br/>
-            &lt;li&gt;Second item&lt;/li&gt;<br/>
-            &lt;li&gt;Third item<br/>
-              &lt;ol&gt;<br>
-                &lt;li&gt;Indented item&lt;/li&gt;<br/>
-                &lt;li&gt;Indented item&lt;/li&gt;<br/>
-              &lt;/ol&gt;<br/>
-            &lt;/li&gt;<br/>
-            &lt;li&gt;Fourth item&lt;/li&gt;<br/>
+            &nbsp;&nbsp;&lt;li&gt;First item&lt;/li&gt;<br/>
+            &nbsp;&nbsp;&lt;li&gt;Second item&lt;/li&gt;<br/>
+            &nbsp;&nbsp;&lt;li&gt;Third item<br/>
+              &nbsp;&nbsp;&nbsp;&nbsp;&lt;ol&gt;<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;Indented item&lt;/li&gt;<br/>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;Indented item&lt;/li&gt;<br/>
+              &nbsp;&nbsp;&nbsp;&nbsp;&lt;/ol&gt;<br/>
+            &nbsp;&nbsp;&lt;/li&gt;<br/>
+            &nbsp;&nbsp;&lt;li&gt;Fourth item&lt;/li&gt;<br/>
           &lt;/ol&gt;
         </code>
       </td>

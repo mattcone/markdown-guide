@@ -4,6 +4,7 @@ category: "notes"
 description: "Dendron is a Markdown note-taking tool built on top of VS Code."
 icon: dendron.png
 website: https://www.dendron.so/
+notes: Retested this on 12/25/2021. The documentation on the wiki says it supports footnotes and abbreviations, but I don't see those rendered in the output.
 syntax:
   - id: headings
     available: y

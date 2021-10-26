@@ -38,15 +38,15 @@ syntax:
   - id: syntax-highlighting
     available: y
   - id: footnotes
-    available: n
+    available: y
   - id: heading-ids
-    available: n
+    available: y
   - id: definition-lists
     available: n
   - id: strikethrough
     available: y
   - id: task-lists
-    available: n
+    available: y
   - id: emoji-cp
     available: y
   - id: emoji-sc

@@ -1,7 +1,7 @@
 ---
 title: Discord
 category: "collaboration"
-description: "Discord is a popular, free messaging and team collaboration application."
+description: "Discord is a popular free messaging and team collaboration application."
 icon: discord.png
 website: https://discord.com/
 syntax:

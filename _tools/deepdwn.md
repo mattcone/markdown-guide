@@ -39,7 +39,7 @@ syntax:
     available: y
   - id: heading-ids
     available: p
-    notes: Heading ids are automatically generated. Can link to headings via autocomplete.
+    notes: Heading IDs are automatically generated and link to headings via autocomplete.
   - id: definition-lists
     available: y
   - id: strikethrough
@@ -69,8 +69,8 @@ Deepdwn has a number of editing features, like document outline, distraction-fre
 Deepdwn also supports some additional block elements:
 
 * Mermaid diagrams
-* AsciiMath, Katex and mhchem for math and chemistry rendering
-* Sheet music, guitar tabs and songbooks
+* AsciiMath, Katex, and mhchem for math and chemistry rendering
+* Sheet music, guitar tabs, and songbooks
 
 {% include tool-syntax-table.html %}
 

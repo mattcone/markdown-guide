@@ -1,7 +1,7 @@
 ---
 title: Deepdwn
 category: notes
-description: "Deepdwn is a markdown editing suite for Windows, Mac, and Linux"
+description: "Deepdwn is a Markdown editing suite for Windows, Mac, and Linux."
 icon: deepdwn.png
 website: https://www.deepdwn.com
 syntax:
@@ -58,7 +58,7 @@ syntax:
     available: y
 ---
 
-[Deepdwn](https://billiam.itch.io/deepdwn) is an offline-only, feature-rich markdown editor for Windows, Mac, and Linux.
+[Deepdwn](https://billiam.itch.io/deepdwn) is an offline-only, feature-rich Markdown editor for Windows, Mac, and Linux.
 
 {% include image.html file="/assets/images/tools/deepdwn.png" alt="Deepdwn application window with panels for filters, file list, document outline and editor." %}
 

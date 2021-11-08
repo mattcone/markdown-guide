@@ -70,6 +70,6 @@ Dawin provides excellent Markdown support. have export options to HTML & md file
 
 The application uses the [markdown-it](https://github.com/markdown-it/markdown-it) Markdown processor & [simplemde-rtl](https://github.com/imAbdelhadi/simplemde-rtl).
 
-{% include image.html file="/assets/images/dawin.png" alt="Dawin Markdown editor" %}
+{% include image.html file="/assets/images/dawin.png" alt="Dawin RTL Markdown editor" %}
 
 {% include tool-syntax-table.html %}

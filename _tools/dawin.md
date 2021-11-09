@@ -1,7 +1,7 @@
 ---
 title: Dawin (محرر دوّن)
 category: "online editor"
-description: "Dawin is a web-based Markdown editor designed for using anywhere."
+description: "Dawin is a web-based RTL Markdown editor designed for using anywhere."
 icon: dawin.png
 website: https://dawin.io
 syntax:

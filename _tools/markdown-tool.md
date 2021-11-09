@@ -1,5 +1,5 @@
 ---
-title: Markdown Articles Tool
+title: Markdown Tool
 category: "documents"
 description: "A free command line utility designed to help you manage online Markdown documents."
 icon: generic.png

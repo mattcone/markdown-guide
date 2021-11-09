@@ -1,8 +1,8 @@
 ---
 title: Markdown Articles Tool
 category: "documents"
-description: "Parse markdown document, download images and replace URL's with local paths, tool can convert to PDF and HTML."
-icon: markdown-tool.png
+description: "A free command line utility designed to help you manage online Markdown documents."
+icon: generic.png
 website: https://github.com/artiomn/markdown_articles_tool
 syntax:
   - id: headings
@@ -57,7 +57,7 @@ syntax:
     available: n
 ---
 
-[Markdown Articles Tool](https://github.com/artiomn/markdown_articles_tool) is a free application designed to help you manage online Markdown documents, i.e. articles. You can download text with images, using deduplication, if you want, and convert to the different formats. Available for macOS, Windows and Linux. Tool is written in Python and if you want to use separate functions, you can just import package.
+[Markdown Articles Tool](https://github.com/artiomn/markdown_articles_tool) is a free command line utility designed to help you manage online Markdown documents (e.g., articles). You can download text with images using deduplication and convert to the different formats. The Markdown Articles Tool is available for macOS, Windows, and Linux. It's written in Python — if you want to use separate functions, you can just import the package.
 
 {% include image.html file="/assets/images/tools/markdown-tool.png" alt="Markdown Articles Tool" %}
 

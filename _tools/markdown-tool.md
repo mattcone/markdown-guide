@@ -54,7 +54,7 @@ syntax:
   - id: disabling-auto-url
     available: y
   - id: html
-    available: n
+    available: y
 ---
 
 [Markdown Articles Tool](https://github.com/artiomn/markdown_articles_tool) is a free command line utility designed to help you manage online Markdown documents (e.g., articles). You can download text with images using deduplication and convert to the different formats. The Markdown Articles Tool is available for macOS, Windows, and Linux. It's written in Python — if you want to use separate functions, you can just import the package.

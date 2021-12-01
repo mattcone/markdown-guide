@@ -50,6 +50,8 @@ syntax:
     available: y
   - id: emoji-sc
     available: y
+  - id: highlight
+    available: y
   - id: auto-url-linking
     available: y
   - id: disabling-auto-url
@@ -90,11 +92,6 @@ As an added bonus, Dendron provides support for several obscure elements.
       <code>The HTML specification is maintained by the W3C.</code></td>
       <td>The <abbr title="Hyper Text Markup Language">HTML</abbr> specification
 is maintained by the W3C.</td>
-    </tr>
-    <tr>
-      <td>Highlight</td>
-      <td><code>==word or phrase==</code></td>
-      <td><mark>word or phrase</mark></td>
     </tr>
     <tr>
       <td>Subscript</td>

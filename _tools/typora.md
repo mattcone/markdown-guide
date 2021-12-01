@@ -55,6 +55,8 @@ syntax:
     available: y
   - id: emoji-sc
     available: y
+  - id: highlight
+    available: y
   - id: auto-url-linking
     available: y
   - id: disabling-auto-url
@@ -92,11 +94,6 @@ Most of these elements are disabled by default. To enable them, open the Prefere
     </tr>
   </thead>
   <tbody>
-    <tr>
-      <td>Highlight</td>
-      <td><code>==word or phrase==</code></td>
-      <td><mark>word or phrase</mark></td>
-    </tr>
     <tr>
       <td>Subscript</td>
       <td><code>H~2~O</code></td>

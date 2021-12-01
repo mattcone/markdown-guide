@@ -60,6 +60,9 @@ syntax:
     available: y
   - id: emoji-sc
     available: n
+  - id: highlight
+    available: y
+    notes: "Use two colons instead of equal signs (e.g., `::word or phrase::`)."
   - id: auto-url-linking
     available: n
   - id: disabling-auto-url
@@ -76,24 +79,3 @@ Unfortunately, using Ulysses to write in Markdown is an exercise in frustration.
 {% include image.html file="/assets/images/tools/ulysses.png" alt="Ulysses application with a Markdown file" %}
 
 {% include tool-syntax-table.html %}
-
-### Support for Additional Syntax Elements
-
-As an added bonus, Ulysses provides support for several obscure elements.
-
-<table class="table table-bordered" style="font-size: 14px">
-  <thead class="thead-light">
-    <tr>
-      <th>Element</th>
-      <th>Markdown</th>
-      <th>Rendered Output</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Highlight</td>
-      <td><code>::word or phrase::</code></td>
-      <td><mark>word or phrase</mark></td>
-    </tr>
-  </tbody>
-</table>

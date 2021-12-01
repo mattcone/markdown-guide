@@ -52,6 +52,8 @@ syntax:
     available: y
   - id: emoji-sc
     available: y
+  - id: highlight
+    available: n
   - id: auto-url-linking
     available: y
   - id: disabling-auto-url
@@ -60,7 +62,7 @@ syntax:
     available: y
 see-also:
   - name: Wiki.js Markdown
-    link: https://docs.requarks.io/en/rendering
+    link: https://docs.requarks.io/en/editors/markdown
   - name: Wiki.js GitHub repository
     link: https://github.com/Requarks/wiki
 ---

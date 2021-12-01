@@ -49,6 +49,8 @@ syntax:
     available: y
   - id: emoji-sc
     available: y
+  - id: highlight
+    available: n
   - id: auto-url-linking
     available: y
   - id: disabling-auto-url

@@ -89,6 +89,10 @@ emoji-sc:
   name: Emoji (shortcodes)
   link: /extended-syntax/#using-emoji-shortcodes
 
+highlight:
+  name: Highlight
+  link: /extended-syntax/#highlight
+
 auto-url-linking:
   name: Automatic URL Linking
   link: /extended-syntax/#automatic-url-linking

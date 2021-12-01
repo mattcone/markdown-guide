@@ -53,6 +53,8 @@ syntax:
     available: y
   - id: emoji-sc
     available: n
+  - id: highlight
+    available: y
   - id: auto-url-linking
     available: n
   - id: disabling-auto-url
@@ -68,24 +70,3 @@ syntax:
 Carrd supports a limited subset of basic Markdown syntax for text. Carrd's Markdown support is fairly limited, but it works for this particular use case. The supported syntax elements are mostly limited to text formatting — bold, italic, and lists. 
 
 {% include tool-syntax-table.html %}
-
-### Support for Additional Syntax Elements
-
-As an added bonus, Carrd provides support for several obscure elements.
-
-<table class="table table-bordered" style="font-size: 14px">
-  <thead class="thead-light">
-    <tr>
-      <th>Element</th>
-      <th>Markdown</th>
-      <th>Rendered Output</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Highlight</td>
-      <td><code>==word or phrase==</code></td>
-      <td><mark>word or phrase</mark></td>
-    </tr>
-  </tbody>
-</table>

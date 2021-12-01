@@ -55,6 +55,9 @@ syntax:
     available: y
   - id: emoji-sc
     available: y
+  - id: highlight
+    available: y
+    notes: "Use two colons instead of equal signs (e.g., `::word or phrase::`)."
   - id: auto-url-linking
     available: y
   - id: disabling-auto-url
@@ -98,11 +101,6 @@ As an added bonus, Bear provides support for several obscure elements.
     </tr>
   </thead>
   <tbody>
-    <tr>
-      <td>Highlight</td>
-      <td><code>::word or phrase::</code></td>
-      <td><mark>word or phrase</mark></td>
-    </tr>
     <tr>
       <td>Underline</td>
       <td><code>~word or phrase~</code></td>

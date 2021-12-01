@@ -51,6 +51,8 @@ syntax:
     available: y
   - id: emoji-sc
     available: n
+  - id: highlight
+    available: y
   - id: auto-url-linking
     available: y
   - id: disabling-auto-url
@@ -72,24 +74,3 @@ Obsidian sports virtually all of the standard fare common to the other applicati
 Two other features are worth mentioning. Obsidian provides a simple way to publish notes to the internet, and it stores all of your files in plaintext Markdown files containing only the text you enter.
 
 {% include tool-syntax-table.html %}
-
-### Support for Additional Syntax Elements
-
-As an added bonus, Obsidian provides support for several obscure elements.
-
-<table class="table table-bordered" style="font-size: 14px">
-  <thead class="thead-light">
-    <tr>
-      <th>Element</th>
-      <th>Markdown</th>
-      <th>Rendered Output</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Highlight</td>
-      <td><code>==word or phrase==</code></td>
-      <td><mark>word or phrase</mark></td>
-    </tr>
-  </tbody>
-</table>

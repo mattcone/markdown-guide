@@ -53,6 +53,8 @@ syntax:
     available: y
   - id: emoji-sc
     available: n
+  - id: highlight
+    available: y
   - id: auto-url-linking
     available: y
   - id: disabling-auto-url
@@ -66,24 +68,3 @@ syntax:
 {% include image.html file="/assets/images/tools/collected-notes.png" alt="Collected Notes Markdown application" width="90" %}
 
 {% include tool-syntax-table.html %}
-
-### Support for Additional Syntax Elements
-
-As an added bonus, Collected Notes provides support for several obscure elements.
-
-<table class="table table-bordered" style="font-size: 14px">
-  <thead class="thead-light">
-    <tr>
-      <th>Element</th>
-      <th>Markdown</th>
-      <th>Rendered Output</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Highlight</td>
-      <td><code>==word or phrase==</code></td>
-      <td><mark>word or phrase</mark></td>
-    </tr>
-  </tbody>
-</table>

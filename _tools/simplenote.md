@@ -52,6 +52,8 @@ syntax:
     available: y
   - id: emoji-sc
     available: n
+  - id: highlight
+    available: y
   - id: auto-url-linking
     available: y
   - id: disabling-auto-url
@@ -92,11 +94,6 @@ As an added bonus, Simplenote provides support for several obscure elements.
     </tr>
   </thead>
   <tbody>
-    <tr>
-      <td>Highlight</td>
-      <td><code>==word or phrase==</code></td>
-      <td><mark>word or phrase</mark></td>
-    </tr>
     <tr>
       <td>Superscript</td>
       <td><code>The greatest thing you'll ever learn is just to ^reddit and be ^(reddited here) in return.</code></td>

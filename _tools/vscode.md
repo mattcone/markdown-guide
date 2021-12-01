@@ -56,6 +56,8 @@ syntax:
   - id: emoji-sc
     available: p
     notes: "Requires the [Markdown Preview Enhanced extension](https://github.com/shd101wyy/vscode-markdown-preview-enhanced)."
+  - id: highlight
+    available: n
   - id: auto-url-linking
     available: y
   - id: disabling-auto-url

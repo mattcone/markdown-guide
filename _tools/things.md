@@ -52,6 +52,9 @@ syntax:
     available: y
   - id: emoji-sc
     available: n
+  - id: highlight
+    available: y
+    notes: "Use two colons instead of equal signs (e.g., `::word or phrase::`)."
   - id: auto-url-linking
     available: y
   - id: disabling-auto-url
@@ -72,24 +75,3 @@ Things doesn't support all Markdown syntax elements, but the elements it does su
 Things maps Markdown formatting to keyboard shortcuts so you don't have to actually type the characters required to add Markdown formatting. For example, you don't have to type `**` to make your word bold (although you can). Instead, you can just press Command-B and Things will wrap your word in double asterisks. 
 
 {% include tool-syntax-table.html %}
-
-### Support for Additional Syntax Elements
-
-As an added bonus, Things provides support for several obscure elements.
-
-<table class="table table-bordered" style="font-size: 14px">
-  <thead class="thead-light">
-    <tr>
-      <th>Element</th>
-      <th>Markdown</th>
-      <th>Rendered Output</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Highlight</td>
-      <td><code>::word or phrase::</code></td>
-      <td><mark>word or phrase</mark></td>
-    </tr>
-  </tbody>
-</table>

@@ -145,6 +145,12 @@ These elements extend the basic syntax by adding additional features. Not all Ma
         That is so funny! :joy:
       </code></td>
     </tr>
+    <tr>
+      <td><a href="/extended-syntax/#highlight">Highlight</a></td>
+      <td><code>
+        I need to highlight these ==very important words==.
+      </code></td>
+    </tr>
   </tbody>
 </table>
 

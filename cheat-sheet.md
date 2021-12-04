@@ -2,7 +2,7 @@
 layout: default
 title: Markdown Cheat Sheet
 description: A quick reference to the Markdown syntax.
-last_modified_at: 2020-07-31
+last_modified_at: 2021-12-03
 ---
 
 ## Overview
@@ -137,6 +137,12 @@ These elements extend the basic syntax by adding additional features. Not all Ma
         - [x] Write the press release<br>
         - [ ] Update the website<br>
         - [ ] Contact the media
+      </code></td>
+    </tr>
+    <tr>
+      <td><a href="/extended-syntax/#emoji">Emoji</a><br>(see also <a href="/extended-syntax/#copying-and-pasting-emoji">Copying and Pasting Emoji</a>)</td>
+      <td><code>
+        That is so funny! :joy:
       </code></td>
     </tr>
   </tbody>

@@ -54,6 +54,8 @@ syntax:
     available: y
   - id: subscript
     available: y
+  - id: superscript
+    available: y
   - id: auto-url-linking
     available: y
   - id: disabling-auto-url
@@ -102,11 +104,6 @@ is maintained by the W3C.</td>
       <td>Center</td>
       <td><code>-&gt;This text has been centered&lt;-</code></td>
       <td><center>This text has been centered</center></td>
-    </tr>
-    <tr>
-      <td>Superscript</td>
-      <td><code>X^2^</code></td>
-      <td>X<sup>2</sup></td>
     </tr>
   </tbody>
 </table>

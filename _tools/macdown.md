@@ -57,8 +57,12 @@ syntax:
     available: n
   - id: highlight
     available: y
+    notes: "Disabled by default. Enable in **Preferences** > **Markdown**."
   - id: subscript
     available: n
+  - id: superscript
+    available: y
+    notes: "Disabled by default. Enable in **Preferences** > **Markdown**."
   - id: auto-url-linking
     available: y
     notes: "Disabled by default. Enable in **Preferences** > **Markdown**."
@@ -92,11 +96,6 @@ As an added bonus, MacDown provides support for several obscure elements. These 
     </tr>
   </thead>
   <tbody>
-    <tr>
-      <td>Superscript</td>
-      <td><code>X^2</code></td>
-      <td>X<sup>2</sup></td>
-    </tr>
     <tr>
       <td>Underline</td>
       <td><code>_word or phrase_</code></td>

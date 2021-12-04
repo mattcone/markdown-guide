@@ -97,6 +97,10 @@ subscript:
   name: Subscript
   link: /extended-syntax/#subscript
 
+superscript:
+  name: Superscript
+  link: /extended-syntax/#superscript
+
 auto-url-linking:
   name: Automatic URL Linking
   link: /extended-syntax/#automatic-url-linking

@@ -57,6 +57,8 @@ syntax:
     available: y
   - id: subscript
     available: n
+  - id: superscript
+    available: n
   - id: auto-url-linking
     available: n
   - id: disabling-auto-url

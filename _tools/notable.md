@@ -55,6 +55,8 @@ syntax:
     available: n
   - id: subscript
     available: y
+  - id: superscript
+    available: y
   - id: auto-url-linking
     available: y
   - id: disabling-auto-url
@@ -77,24 +79,3 @@ But without a doubt, Notable's best feature is that it doesn't manipulate your M
 The application uses the [markdown-it](https://github.com/markdown-it/markdown-it) Markdown processor.
 
 {% include tool-syntax-table.html %}
-
-### Support for Additional Syntax Elements
-
-As an added bonus, Notable provides support for several obscure elements.
-
-<table class="table table-bordered" style="font-size: 14px">
-  <thead class="thead-light">
-    <tr>
-      <th>Element</th>
-      <th>Markdown</th>
-      <th>Rendered Output</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Superscript</td>
-      <td><code>X^2^</code></td>
-      <td>X<sup>2</sup></td>
-    </tr>
-  </tbody>
-</table>

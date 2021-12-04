@@ -58,6 +58,8 @@ syntax:
     available: n
   - id: subscript
     available: n
+  - id: superscript
+    available: y
   - id: auto-url-linking
     available: y
   - id: disabling-auto-url
@@ -98,11 +100,6 @@ As an added bonus, Reddit provides support for several obscure elements.
       <td>Spoilers</td>
       <td><code>This text will be hidden: >!spoilers!<</code></td>
       <td></td>
-    </tr>
-    <tr>
-      <td>Superscript</td>
-      <td><code>The greatest thing you'll ever learn is just to ^reddit and be ^(reddited here) in return.</code></td>
-      <td>The greatest thing you'll ever learn is just to <sup>reddit</sup> and be <sup>reddited here</sup> in return.</td>
     </tr>
   </tbody>
 </table>

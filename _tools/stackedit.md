@@ -55,6 +55,8 @@ syntax:
     available: y
   - id: subscript
     available: y
+  - id: superscript
+    available: y
   - id: auto-url-linking
     available: y
   - id: disabling-auto-url
@@ -95,11 +97,6 @@ As an added bonus, StackEdit provides support for several obscure elements.
       <code>The HTML specification is maintained by the W3C.</code></td>
       <td>The <abbr title="Hyper Text Markup Language">HTML</abbr> specification
 is maintained by the W3C.</td>
-    </tr>
-    <tr>
-      <td>Superscript</td>
-      <td><code>X^2^</code></td>
-      <td>X<sup>2</sup></td>
     </tr>
   </tbody>
 </table>

@@ -61,6 +61,9 @@ syntax:
   - id: subscript
     available: y
     notes: "To use this feature, open the Preferences and enable the setting under **Markdown** > **Syntax Support**."
+  - id: superscript
+    available: y
+    notes: "To use this feature, open the Preferences and enable the setting under **Markdown** > **Syntax Support**."
   - id: auto-url-linking
     available: y
   - id: disabling-auto-url
@@ -82,29 +85,6 @@ See the Typora [Markdown reference](https://support.typora.io/Markdown-Reference
 {% include image.html file="/assets/images/tools/typora-editor.png" alt="Typora editor interface" width="70" %}
 
 {% include tool-syntax-table.html %}
-
-### Support for Additional Syntax Elements
-
-As an added bonus, Typora provides support for several obscure elements, including diagrams and inline math.
-
-Most of these elements are disabled by default. To enable them, open the Preferences window and modify the settings under **Markdown** > **Syntax Support**. See the Typora [Markdown reference](https://support.typora.io/Markdown-Reference/) for additional information.
-
-<table class="table table-bordered" style="font-size: 14px">
-  <thead class="thead-light">
-    <tr>
-      <th>Element</th>
-      <th>Markdown</th>
-      <th>Rendered Output</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Superscript</td>
-      <td><code>X^2^</code></td>
-      <td><code>X<sup>2</sup></code></td>
-    </tr>
-  </tbody>
-</table>
 
 ### Themes
 

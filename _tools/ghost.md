@@ -1,7 +1,7 @@
 ---
 title: Ghost
 category: "websites"
-description: "Ghost is an open source CMS renowned for its speed, simplicity, and ease of use."
+description: "Ghost is an open source CMS known for its speed, simplicity, and ease of use."
 icon: ghost.png
 website: https://ghost.org/
 syntax:
@@ -58,6 +58,8 @@ syntax:
     available: n
   - id: subscript
     available: y
+  - id: superscript
+    available: y
   - id: auto-url-linking
     available: y
   - id: disabling-auto-url
@@ -76,24 +78,3 @@ see-also:
 There are a couple minor compatibility issues noted below but, generally speaking, Ghost has solid Markdown support. The live editor is fairly intuitive and seems like a good choice for bloggers. Copying and pasting Markdown-formatted text into the editor works the way you'd expect it to.
 
 {% include tool-syntax-table.html %}
-
-### Support for Additional Syntax Elements
-
-As an added bonus, Ghost provides support for several obscure elements.
-
-<table class="table table-bordered" style="font-size: 14px">
-  <thead class="thead-light">
-    <tr>
-      <th>Element</th>
-      <th>Markdown</th>
-      <th>Rendered Output</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Superscript</td>
-      <td><code>X^super^</code></td>
-      <td>X<sup>super</sup></td>
-    </tr>
-  </tbody>
-</table>

@@ -1,7 +1,7 @@
 ---
 title: GitHub Pages
 category: "websites"
-description: "GitHub Pages is a free service that turns Markdown files into a website."
+description: "GitHub Pages is a service that turns Markdown files into a website."
 icon: github-pages.png
 website: https://pages.github.com
 syntax:
@@ -54,6 +54,8 @@ syntax:
   - id: highlight
     available: n
   - id: subscript
+    available: n
+  - id: superscript
     available: n
   - id: auto-url-linking
     available: y

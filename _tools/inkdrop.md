@@ -54,6 +54,8 @@ syntax:
     notes: "Disabled by default. Download and install the [emoji plugin](https://github.com/inkdropapp/inkdrop-markdown-emoji) to enable."
   - id: highlight
     available: n
+  - id: subscript
+    available: n
   - id: auto-url-linking
     available: y
   - id: disabling-auto-url

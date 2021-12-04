@@ -58,6 +58,8 @@ syntax:
   - id: highlight
     available: y
     notes: "Use two colons instead of equal signs (e.g., `::word or phrase::`)."
+  - id: subscript
+    available: n
   - id: auto-url-linking
     available: y
   - id: disabling-auto-url

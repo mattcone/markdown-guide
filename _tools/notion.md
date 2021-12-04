@@ -60,6 +60,8 @@ syntax:
     notes: "The second colon isn't needed. Type `:` followed by the name of the emoji e.g. `:fire`"
   - id: highlight
     available: n
+  - id: subscript
+    available: n
   - id: auto-url-linking
     available: y
   - id: disabling-auto-url

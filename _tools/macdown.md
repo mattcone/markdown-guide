@@ -57,6 +57,8 @@ syntax:
     available: n
   - id: highlight
     available: y
+  - id: subscript
+    available: n
   - id: auto-url-linking
     available: y
     notes: "Disabled by default. Enable in **Preferences** > **Markdown**."

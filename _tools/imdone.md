@@ -1,7 +1,7 @@
 ---
 title: Imdone
 category: "kanban"
-description: "Imdone is a markdown based kanban board, that lives in your notes, docs, and code."
+description: "Imdone is a Markdown-based kanban board that lives in your notes, docs, and code."
 icon: imdone.png
 website: https://imdone.io
 syntax:
@@ -50,6 +50,8 @@ syntax:
   - id: emoji-sc
     available: y
   - id: highlight
+    available: n
+  - id: subscript
     available: n
   - id: auto-url-linking
     available: n

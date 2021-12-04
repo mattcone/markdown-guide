@@ -54,6 +54,8 @@ syntax:
     notes: "Not supported by default, but you can use the [jemoji](https://github.com/jekyll/jemoji) plugin to enable support."
   - id: highlight
     available: n
+  - id: subscript
+    available: n
   - id: auto-url-linking
     available: y
   - id: disabling-auto-url

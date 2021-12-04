@@ -56,6 +56,8 @@ syntax:
     available: u
   - id: highlight
     available: n
+  - id: subscript
+    available: y
   - id: auto-url-linking
     available: y
   - id: disabling-auto-url
@@ -88,11 +90,6 @@ As an added bonus, Ghost provides support for several obscure elements.
     </tr>
   </thead>
   <tbody>
-    <tr>
-      <td>Subscript</td>
-      <td><code>H~2~O</code></td>
-      <td>H<sub>2</sub>O</td>
-    </tr>
     <tr>
       <td>Superscript</td>
       <td><code>X^super^</code></td>

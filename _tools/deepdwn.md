@@ -52,6 +52,8 @@ syntax:
     available: n
   - id: highlight
     available: y
+  - id: subscript
+    available: y
   - id: auto-url-linking
     available: y
   - id: disabling-auto-url
@@ -100,11 +102,6 @@ is maintained by the W3C.</td>
       <td>Center</td>
       <td><code>-&gt;This text has been centered&lt;-</code></td>
       <td><center>This text has been centered</center></td>
-    </tr>
-    <tr>
-      <td>Subscript</td>
-      <td><code>H~2~O</code></td>
-      <td>H<sub>2</sub>O</td>
     </tr>
     <tr>
       <td>Superscript</td>

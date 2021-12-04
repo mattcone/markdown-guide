@@ -53,6 +53,8 @@ syntax:
     available: n
   - id: highlight
     available: n
+  - id: subscript
+    available: n
   - id: auto-url-linking
     available: y
   - id: disabling-auto-url

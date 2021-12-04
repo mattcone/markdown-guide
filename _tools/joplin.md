@@ -55,6 +55,8 @@ syntax:
     notes: "Not enabled by default, but can be enabled in **Preferences** > **Plugins**."
   - id: highlight
     available: y
+  - id: subscript
+    available: y
   - id: auto-url-linking
     available: y
   - id: disabling-auto-url
@@ -100,11 +102,6 @@ is maintained by the W3C.</td>
       <td>Insert</td>
       <td><code>++This text has been inserted++</code></td>
       <td><ins>This text has been inserted</ins></td>
-    </tr>
-    <tr>
-      <td>Subscript</td>
-      <td><code>H~2~O</code></td>
-      <td>H<sub>2</sub>O</td>
     </tr>
     <tr>
       <td>Superscript</td>

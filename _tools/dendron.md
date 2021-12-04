@@ -52,6 +52,8 @@ syntax:
     available: y
   - id: highlight
     available: y
+  - id: subscript
+    available: y
   - id: auto-url-linking
     available: y
   - id: disabling-auto-url
@@ -92,11 +94,6 @@ As an added bonus, Dendron provides support for several obscure elements.
       <code>The HTML specification is maintained by the W3C.</code></td>
       <td>The <abbr title="Hyper Text Markup Language">HTML</abbr> specification
 is maintained by the W3C.</td>
-    </tr>
-    <tr>
-      <td>Subscript</td>
-      <td><code>H~2~O</code></td>
-      <td>H<sub>2</sub>O</td>
     </tr>
     <tr>
       <td>Superscript</td>

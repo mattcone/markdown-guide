@@ -93,6 +93,10 @@ highlight:
   name: Highlight
   link: /extended-syntax/#highlight
 
+subscript:
+  name: Subscript
+  link: /extended-syntax/#subscript
+
 auto-url-linking:
   name: Automatic URL Linking
   link: /extended-syntax/#automatic-url-linking

@@ -57,6 +57,10 @@ syntax:
     available: y
   - id: highlight
     available: y
+    notes: "To use this feature, open the Preferences and enable the setting under **Markdown** > **Syntax Support**."
+  - id: subscript
+    available: y
+    notes: "To use this feature, open the Preferences and enable the setting under **Markdown** > **Syntax Support**."
   - id: auto-url-linking
     available: y
   - id: disabling-auto-url
@@ -94,11 +98,6 @@ Most of these elements are disabled by default. To enable them, open the Prefere
     </tr>
   </thead>
   <tbody>
-    <tr>
-      <td>Subscript</td>
-      <td><code>H~2~O</code></td>
-      <td>H<sub>2</sub>O</td>
-    </tr>
     <tr>
       <td>Superscript</td>
       <td><code>X^2^</code></td>

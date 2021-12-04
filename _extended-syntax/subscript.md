@@ -17,7 +17,7 @@ H<sub>2</sub>O
 
 The rendered output looks like this:
 
-H<sub>2</sub>O.
+H<sub>2</sub>O
 
 <div class="alert alert-success">
   <i class="fas fa-lightbulb"></i> <strong>Tip:</strong> Be sure to test this feature in your Markdown application before using it. Some Markdown applications use one tilde symbol before and after words not for subscript, but for <a href="/extended-syntax/#strikethrough">strikethrough</a>. 

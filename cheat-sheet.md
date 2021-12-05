@@ -2,7 +2,7 @@
 layout: default
 title: Markdown Cheat Sheet
 description: A quick reference to the Markdown syntax.
-last_modified_at: 2021-12-03
+last_modified_at: 2021-12-05
 ---
 
 ## Overview
@@ -149,6 +149,18 @@ These elements extend the basic syntax by adding additional features. Not all Ma
       <td><a href="/extended-syntax/#highlight">Highlight</a></td>
       <td><code>
         I need to highlight these ==very important words==.
+      </code></td>
+    </tr>
+    <tr>
+      <td><a href="/extended-syntax/#subscript">Subscript</a></td>
+      <td><code>
+        H~2~O
+      </code></td>
+    </tr>
+    <tr>
+      <td><a href="/extended-syntax/#superscript">Superscript</a></td>
+      <td><code>
+        X^2^
       </code></td>
     </tr>
   </tbody>

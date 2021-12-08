@@ -1,7 +1,7 @@
 ---
 title: Line Breaks
 syntax-id: line-breaks
-description: "To create a line break (`<br>`), end a line with two or more spaces, and then type return."
+description: "To create a line break or new line (`<br>`), end a line with two or more spaces, and then type return."
 examples:
   - markdown: |
       This is the first line.  
@@ -9,7 +9,7 @@ examples:
     html: "<p>This is the first line.  <br>And this is the second line.</p>"
 ---
 
-To create a line break (`<br>`), end a line with two or more spaces, and then type return.
+To create a line break or new line (`<br>`), end a line with two or more spaces, and then type return.
 
 <table class="table table-bordered">
   <thead class="thead-light">

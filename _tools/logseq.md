@@ -34,7 +34,7 @@ syntax:
   - id: tables
     available: y
   - id: fenced-code-blocks
-    available: n
+    available: y
   - id: syntax-highlighting
     available: y
   - id: footnotes
@@ -50,11 +50,11 @@ syntax:
     available: n
     notes: "Logseq has predefined commands for this: TODO/DOING/DONE or LATER/NOW"
   - id: emoji-cp
-    available: n
+    available: y
   - id: emoji-sc
     available: n
   - id: highlight
-    available: n
+    available: y
   - id: subscript
     available: n
   - id: superscript
@@ -64,7 +64,8 @@ syntax:
   - id: disabling-auto-url
     available: n
   - id: html
-    available: n
+    available: y
+    notes: "Requires XHTML tags: tags must be closed or self-closing (e.g. `<p/>`)"
 see-also:
   - name: Logseq Markdown Cheatsheet
     link: https://logseq.github.io/#/page/markdown

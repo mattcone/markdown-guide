@@ -99,7 +99,7 @@ As an added bonus, MacDown provides support for several obscure elements. These 
     <tr>
       <td>Underline</td>
       <td><code>_word or phrase_</code></td>
-      <td><u>word or phrase</u></td>
+      <td><ins>word or phrase</ins></td>
     </tr>
   </tbody>
 </table>

@@ -101,7 +101,7 @@ As an added bonus, Marked 2 provides support for several obscure elements when u
     <tr>
       <td>Underline</td>
       <td><code>_word or phrase_</code></td>
-      <td><u>word or phrase</u></td>
+      <td><ins>word or phrase</ins></td>
     </tr>
   </tbody>
 </table>

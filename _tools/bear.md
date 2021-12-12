@@ -108,7 +108,7 @@ As an added bonus, Bear provides support for several obscure elements.
     <tr>
       <td>Underline</td>
       <td><code>~word or phrase~</code></td>
-      <td><u>word or phrase</u></td>
+      <td><ins>word or phrase</ins></td>
     </tr>
   </tbody>
 </table>

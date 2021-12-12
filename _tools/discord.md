@@ -96,7 +96,7 @@ As an added bonus, Discord provides support for several obscure elements.
     <tr>
       <td>Underline</td>
       <td><code>__This text will be underlined.__</code></td>
-      <td><u>This text will be underlined.</u></td>
+      <td><ins>This text will be underlined.</ins></td>
     </tr>
   </tbody>
 </table>

@@ -101,7 +101,7 @@ As an added bonus, Simplenote provides support for several obscure elements.
     <tr>
       <td>Underline</td>
       <td><code>_word or phrase_</code></td>
-      <td><u>word or phrase</u></td>
+      <td><ins>word or phrase</ins></td>
     </tr>
   </tbody>
 </table>

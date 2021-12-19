@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Hacks
-description: Workarounds for elements not officially supported by Markdown.
+description: Workarounds for things not officially supported by Markdown.
 last_modified_at: 2021-12-28
 ---
 
 ## Overview
 
-The majority of people using Markdown will find that the [basic](/basic-syntax/) and [extended syntax](/extended-syntax/) elements cover their needs. But chances are that if you use Markdown long enough, you'll inevitably discover that it doesn't support something you need. This page provides some tips and tricks for working around Markdown's limitations.
+The majority of people using Markdown will find that the [basic](/basic-syntax/) and [extended syntax](/extended-syntax/) elements cover their needs. But chances are that if you use Markdown long enough, you'll inevitably discover that it doesn't support something you need. This page provides tips and tricks for working around Markdown's limitations.
 
 <div class="alert alert-success">
-  <i class="fas fa-lightbulb"></i> <strong>Tip:</strong> These hacks aren't guaranteed to work in your Markdown application. If you need to use these elements frequently, you might want to consider writing using something other than Markdown. 
+  <i class="fas fa-lightbulb"></i> <strong>Tip:</strong> These hacks aren't guaranteed to work in your Markdown application. If you need to use these things frequently, you might want to consider writing using something other than Markdown. 
 </div>
 
 ## Underline

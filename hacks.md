@@ -2,7 +2,7 @@
 layout: default
 title: Hacks
 description: Workarounds for things not officially supported by Markdown.
-last_modified_at: 2021-12-19
+last_modified_at: 2021-12-20
 ---
 
 ## Overview
@@ -15,13 +15,13 @@ The majority of people using Markdown will find that the [basic](/basic-syntax/)
 
 ## Underline
 
-Underlined text is not something you typically see in web writing, probably because underlined text is nearly synonymous with links. However, if you're writing a paper or a report, you may need the ability to underline words and phrases. Markdown doesn't natively support underlining text, but if your Markdown processor supports [HTML](/basic-syntax/#html), you can use the `<ins>` HTML tag to underline text in your document.
+Underlined text is not something you typically see in web writing, probably because underlined text is nearly synonymous with links. However, if you're writing a paper or a report, you may need the ability to underline words and phrases. A couple applications like [Bear](/tools/bear/) and [Simplenote](/tools/simplenote/) provide support for underlining text, but Markdown doesn't natively support underlining. If your Markdown processor supports [HTML](/basic-syntax/#html), you can use the `<ins>` HTML tag to underline text in your document.
 
 ```html
 Some of these words <ins>will be underlined</ins>.
 ```
 
-The rendered output will look like this:
+The rendered output looks like this:
 
 Some of these words <ins>will be underlined</ins>.
 
@@ -37,7 +37,7 @@ Another option, if your Markdown processor supports [HTML](/basic-syntax/#html),
 &nbsp;&nbsp;&nbsp;&nbsp;This is the first sentence of my indented paragraph.
 ```
 
-The rendered output will look like this:
+The rendered output looks like this:
 
 &nbsp;&nbsp;&nbsp;&nbsp;This is the first sentence of my indented paragraph.
 
@@ -59,7 +59,7 @@ The `<center>` HTML tag is technically supported but officially <a href="https:/
 <p style="text-align:center">Center this text</p>
 ```
 
-If this is supported by your Markdown application, the output should look like this:
+If this is supported by your Markdown application, the output looks like this:
 
 <p style="text-align:center">Center this text</p>
 
@@ -81,7 +81,32 @@ The `<font>` HTML tag is technically supported but officially <a href="https://d
 <p style="color:blue">Make this text blue.</p>
 ```
 
-If this is supported by your Markdown application, the output should look like this:
+If this is supported by your Markdown application, the output looks like this:
 
 <p style="color:blue">Make this text blue.</p>
 
+## Comments
+
+Some people need the ability to write sentences in their Markdown files that *will not* appear in the rendered output. These comments are essentially hidden text. The text is viewable by the author of the document, but it's not printed on the webpage or PDF. Markdown doesn't natively support comments, but several enterprising individuals have devised solutions. 
+
+To add a comment, place text inside brackets followed by a colon, a space, and a pound sign (e.g., `[comment]: #`). You should put blank lines before and after a comment.
+
+```text
+Here's a paragraph that will be visible.
+
+[This is a comment that will be hidden.]: # 
+
+And here's another paragraph that's visible.
+```
+
+The rendered output looks like this:
+
+Here's a paragraph that will be visible.
+
+[This is a comment that will be hidden.]: # 
+
+And here's another paragraph that's visible.
+
+<div class="alert alert-success">
+  <i class="fas fa-lightbulb"></i> <strong>Tip:</strong> This tip comes from <a href="https://stackoverflow.com/questions/4823468/comments-in-markdown" rel="nofollow">Stack Overflow</a>. It's been peer-reviewed and used by thousands of people!
+</div>

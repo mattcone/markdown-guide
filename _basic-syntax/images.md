@@ -25,6 +25,10 @@ The rendered output looks like this:
 
 {% include image.html file="/assets/images/san-juan-mountains.jpg" alt="The San Juan Mountains are beautiful!" title="San Juan Mountains" lazy="yes" %}
 
+<div class="alert alert-info">
+  <i class="fas fa-info-circle"></i> <strong>Note:</strong> To resize an image, see the section on <a href="/hacks/#image-size">image size</a>.
+</div>
+
 ### Linking Images
 
 To add a link to an image, enclose the Markdown for the image in brackets, and then add the link in parentheses.

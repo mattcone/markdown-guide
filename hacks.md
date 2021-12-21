@@ -2,7 +2,7 @@
 layout: default
 title: Hacks
 description: Workarounds for things not officially supported by Markdown.
-last_modified_at: 2021-12-20
+last_modified_at: 2021-12-21
 ---
 
 ## Overview
@@ -110,3 +110,13 @@ And here's another paragraph that's visible.
 <div class="alert alert-success">
   <i class="fas fa-lightbulb"></i> <strong>Tip:</strong> This tip comes from <a href="https://stackoverflow.com/questions/4823468/comments-in-markdown" rel="nofollow">Stack Overflow</a>. It's been peer-reviewed and used by thousands of people!
 </div>
+
+## Image Size
+
+The Markdown syntax for [images](/basic-syntax/#images-1) doesn't allow you to specify the width and height of images. If you need to resize an image and your Markdown processor supports [HTML](/basic-syntax/#html), you can use the `img` HTML tag with the `width` and `height` attributes to set the dimensions of an image in pixels.
+
+```html
+<img src="image.png" width="200" height="100">
+```
+
+The rendered output will contain the image resized to the dimensions you specified. 

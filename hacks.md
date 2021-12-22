@@ -2,7 +2,7 @@
 layout: default
 title: Hacks
 description: Workarounds for things not officially supported by Markdown.
-last_modified_at: 2021-12-21
+last_modified_at: 2021-12-22
 ---
 
 ## Overview
@@ -120,3 +120,15 @@ The Markdown syntax for [images](/basic-syntax/#images-1) doesn't allow you to s
 ```
 
 The rendered output will contain the image resized to the dimensions you specified. 
+
+## Link Targets
+
+Some people like creating links that open in new tabs or windows. The Markdown syntax for [links](/basic-syntax/#links) doesn't allow you to specify the `target` attribute, but if your Markdown processor supports [HTML](/basic-syntax/#html), you can use HTML to create these type of links.
+
+```html
+<a href="https://www.markdownguide.org" target="_blank">Learn Markdown!</a>
+```
+
+The rendered output looks like this:
+
+<a href="https://www.markdownguide.org" target="_blank">Learn Markdown!</a>

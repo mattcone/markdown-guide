@@ -18,7 +18,7 @@ The HTML looks like this:
 
 ### Linking to Heading IDs
 
-You can link to headings with custom IDs in the file by creating a [standard link](/basic-syntax/#links) with a number sign (`#`) followed by the custom heading ID.
+You can link to headings with custom IDs in the file by creating a [standard link](/basic-syntax/#links) with a number sign (`#`) followed by the custom heading ID. These are commonly referred to as *anchor links*.
 
 <table class="table table-bordered">
   <thead class="thead-light">

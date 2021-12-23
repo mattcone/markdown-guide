@@ -2,7 +2,7 @@
 layout: default
 title: Hacks
 description: Workarounds for things not officially supported by Markdown.
-last_modified_at: 2021-12-22
+last_modified_at: 2021-12-23
 ---
 
 ## Overview
@@ -132,3 +132,25 @@ Some people like creating links that open in new tabs or windows. The Markdown s
 The rendered output looks like this:
 
 <a href="https://www.markdownguide.org" target="_blank">Learn Markdown!</a>
+
+## Table of Contents
+
+Some Markdown applications like [Markdeep](/tools/markdeep/) can automatically generate a table of contents (also referred to as a *toc*) from your [headings](/basic-syntax/#headings), but this isn't a feature provided by all Markdown applications. However, if your Markdown application supports [heading IDs](/extended-syntax/#heading-ids), you can create a table of contents for your Markdown file using a [list](/basic-syntax/#lists-1) and some [links](/basic-syntax/#links).
+
+```html
+#### Table of Contents
+
+- [Underline](#underline)
+- [Indent](#indent)
+- [Center](#center)
+- [Color](#color)
+```
+
+The rendered output looks like this:
+
+<h4 class="no-anchor" data-toc-skip>Table of Contents</h4>
+
+- [Underline](#underline)
+- [Indent](#indent)
+- [Center](#center)
+- [Color](#color)

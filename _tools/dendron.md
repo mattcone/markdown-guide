@@ -64,12 +64,14 @@ syntax:
     available: y
 see-also:
   - name: Rich formatting
-    link: https://wiki.dendron.so/notes/8DCgctK-RMD4EeHjC5_hI.html
+    link: https://wiki.dendron.so/notes/8DCgctK-RMD4EeHjC5_hI/
   - name: Dendron Markdown
-    link: https://wiki.dendron.so/notes/69746008-2fa0-4036-b443-b15076a3d6bf.html
+    link: https://wiki.dendron.so/notes/ba97866b-889f-4ac6-86e7-bb2d97f6e376/
+  - name: Self-hosted publishing using Netlify
+    link: https://wiki.dendron.so/notes/yetuum6o9wZi6eVJQBbQb/
 ---
 
-[Dendron](https://www.dendron.so) is an open source Markdown note-taking tool built on top of [VS Code](/tools/vscode/). If you already have VS Code installed on your computer, you can install the [Dendron](https://marketplace.visualstudio.com/items?itemName=dendron.dendron), [Dendron Markdown Preview Enhanced](https://marketplace.visualstudio.com/items?itemName=dendron.dendron-markdown-preview-enhanced), and [Dendron Markdown Shortcuts](https://marketplace.visualstudio.com/items?itemName=dendron.dendron-markdown-shortcuts) extensions to get started. The Dendron extensions are free to use. [Paid options](https://accounts.dendron.so/account/subscribe) are available for those who need publishing and priority support options.
+[Dendron](https://www.dendron.so) is an open source Markdown note-taking tool built on top of [VS Code](/tools/vscode/). If you already have VS Code installed on your computer, you can install the [Dendron](https://link.dendron.so/vscode) extension to get started. The Dendron extensions is free to use. [Paid options](https://accounts.dendron.so/account/subscribe) are available for those who need hosted publishing and priority support options.
 
 Dendron is clearly intended for a developer audience. The tool requires prerequisite knowledge of VS Code, and most people will likely need to spend some time reading the [documentation](https://wiki.dendron.so/), exploring the features, and mastering the keyboard shortcuts. The biggest selling point for Dendron users might be that the tool is in VS Code. Similar tools like [Obsidian](/tools/obsidian/) are in separate, standalone applications — they may have fewer features, but they also have a lower barrier to entry.
 

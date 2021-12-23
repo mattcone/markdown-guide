@@ -71,7 +71,7 @@ see-also:
     link: https://wiki.dendron.so/notes/yetuum6o9wZi6eVJQBbQb/
 ---
 
-[Dendron](https://www.dendron.so) is an open source Markdown note-taking tool built on top of [VS Code](/tools/vscode/). If you already have VS Code installed on your computer, you can install the [Dendron](https://link.dendron.so/vscode) extension to get started. The Dendron extension is free to use. [Paid options](https://accounts.dendron.so/account/subscribe) are available for those who need hosted publishing and priority support options.
+[Dendron](https://www.dendron.so) is an open source Markdown note-taking tool built on top of [VS Code](/tools/vscode/). If you already have VS Code installed on your computer, you can install the [Dendron extension](https://link.dendron.so/vscode) to get started. The Dendron extension is free to use. [Paid options](https://accounts.dendron.so/account/subscribe) are available for those who need hosted publishing and priority support options.
 
 Dendron is clearly intended for a developer audience. The tool requires prerequisite knowledge of VS Code, and most people will likely need to spend some time reading the [documentation](https://wiki.dendron.so/), exploring the features, and mastering the keyboard shortcuts. The biggest selling point for Dendron users might be that the tool is in VS Code. Similar tools like [Obsidian](/tools/obsidian/) are in separate, standalone applications — they may have fewer features, but they also have a lower barrier to entry.
 

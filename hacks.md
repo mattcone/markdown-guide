@@ -157,9 +157,9 @@ The rendered output looks like this:
 
 ## Videos
 
-It's not possible to embed a video in a Markdown file, but with a little effort, you can come close by adding an [image](/basic-syntax/#images-1) and a link to the video. 
+If your Markdown application supports [HTML](/basic-syntax/#html), you should be able to embed a video in your Markdown file by copying and pasting the HTML code provided by a video website like YouTube or Vimeo. If your Markdown application doesn't support HTML, you can't embed a video, but you can come close by adding an [image](/basic-syntax/#images-1) and a link to the video. You could do this with practically any video on any video service. 
 
-You could do this with any practically any video on any video service. Since YouTube makes this easy, we'll use them as an example. Take this video, for instance: `https://www.youtube.com/watch?v=8q2IjQOzVpE`. The last part of the URL (`8q2IjQOzVpE`) is the ID of the video. We can take that ID and put it in the following template:
+Since YouTube makes this easy, we'll use them as an example. Take this video, for instance: `https://www.youtube.com/watch?v=8q2IjQOzVpE`. The last part of the URL (`8q2IjQOzVpE`) is the ID of the video. We can take that ID and put it in the following template:
 
 ```test
 [![Image alt text](https://img.youtube.com/vi/YOUTUBE-ID/0.jpg)](https://www.youtube.com/watch?v=YOUTUBE-ID)
@@ -173,4 +173,4 @@ YouTube automatically generates an image for every video (`https://img.youtube.c
 
 The rendered output looks like this:
 
-[![MxPx — Can't Keep Waiting](https://img.youtube.com/vi/8q2IjQOzVpE/0.jpg)](https://www.youtube.com/watch?v=8q2IjQOzVpE)
+<a href="https://www.youtube.com/watch?v=8q2IjQOzVpE" rel="nofollow"><img src="https://img.youtube.com/vi/8q2IjQOzVpE/0.jpg"></a>

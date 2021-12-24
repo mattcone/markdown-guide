@@ -2,7 +2,7 @@
 layout: default
 title: Hacks
 description: Workarounds for things not officially supported by Markdown.
-last_modified_at: 2021-12-23
+last_modified_at: 2021-12-24
 ---
 
 ## Overview
@@ -154,3 +154,23 @@ The rendered output looks like this:
 - [Indent](#indent)
 - [Center](#center)
 - [Color](#color)
+
+## Videos
+
+It's not possible to embed a video in a Markdown file, but with a little effort, you can come close by adding an [image](/basic-syntax/#images-1) and a link to the video. 
+
+You could do this with any practically any video on any video service. Since YouTube makes this easy, we'll use them as an example. Take this video, for instance: `https://www.youtube.com/watch?v=8q2IjQOzVpE`. The last part of the URL (`8q2IjQOzVpE`) is the ID of the video. We can take that ID and put it in the following template:
+
+```test
+[![Image alt text](https://img.youtube.com/vi/YOUTUBE-ID/0.jpg)](https://www.youtube.com/watch?v=YOUTUBE-ID)
+```
+
+YouTube automatically generates an image for every video (`https://img.youtube.com/vi/YOUTUBE-ID/0.jpg`), so we can use that and [link the image](/basic-syntax/#linking-images) to the video on YouTube. After we replace the image alt text and add the ID of the video, our example looks like this:
+
+```test
+[![MxPx — Can't Keep Waiting](https://img.youtube.com/vi/8q2IjQOzVpE/0.jpg)](https://www.youtube.com/watch?v=8q2IjQOzVpE)
+```
+
+The rendered output looks like this:
+
+[![MxPx — Can't Keep Waiting](https://img.youtube.com/vi/8q2IjQOzVpE/0.jpg)](https://www.youtube.com/watch?v=8q2IjQOzVpE)

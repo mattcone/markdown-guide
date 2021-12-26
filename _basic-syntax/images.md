@@ -26,7 +26,7 @@ The rendered output looks like this:
 {% include image.html file="/assets/images/san-juan-mountains.jpg" alt="The San Juan Mountains are beautiful!" title="San Juan Mountains" lazy="yes" %}
 
 <div class="alert alert-info">
-  <i class="fas fa-info-circle"></i> <strong>Note:</strong> To resize an image, see the section on <a href="/hacks/#image-size">image size</a>.
+  <i class="fas fa-info-circle"></i> <strong>Note:</strong> To resize an image, see the section on <a href="/hacks/#image-size">image size</a>. To add a caption, see the section on <a href="/hacks/#image-captions">image captions</a>.
 </div>
 
 ### Linking Images

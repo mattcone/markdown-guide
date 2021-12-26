@@ -2,7 +2,7 @@
 layout: default
 title: Hacks
 description: Workarounds for things not officially supported by Markdown.
-last_modified_at: 2021-12-24
+last_modified_at: 2021-12-26
 ---
 
 ## Overview
@@ -120,6 +120,41 @@ The Markdown syntax for [images](/basic-syntax/#images-1) doesn't allow you to s
 ```
 
 The rendered output will contain the image resized to the dimensions you specified. 
+
+## Image Captions
+
+Markdown doesn't natively support image captions, but there are two possible workarounds. If your Markdown application supports [HTML](/basic-syntax/#html), you can use the `figure` and `figcaption` HTML tags to add a caption for your image.
+
+```html
+<figure>
+    <img src="/assets/images/albuquerque.jpg"
+         alt="Albuquerque, New Mexico">
+    <figcaption>A single track trail outside of Albuquerque, New Mexico.</figcaption>
+</figure>
+```
+
+The rendered output looks like this:
+
+<figure>
+    {% include image.html file="/assets/images/albuquerque.jpg" alt="Albuquerque, New Mexico" lazy="yes" %}
+    <figcaption>A single track trail outside of Albuquerque, New Mexico.</figcaption>
+</figure>
+
+<div class="alert alert-success">
+  <i class="fas fa-lightbulb"></i> <strong>Tip:</strong> If your Markdown application supports CSS, you can use CSS to style the appearance of the caption.
+</div>
+
+If your Markdown application doesn't support HTML, you could try placing the caption directly below the image and using [emphasis](/basic-syntax/#emphasis).
+
+```text
+![Albuquerque, New Mexico](/assets/images/albuquerque.jpg)
+*A single track trail outside of Albuquerque, New Mexico.*
+```
+
+The rendered output looks like this:
+
+{% include image.html file="/assets/images/albuquerque.jpg" alt="Albuquerque, New Mexico" lazy="yes" %}
+*A single track trail outside of Albuquerque, New Mexico.*
 
 ## Link Targets
 

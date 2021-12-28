@@ -140,7 +140,7 @@ and the HTML for the link would be:
 
 ### Link Best Practices
 
-Markdown applications don't agree on how to handle spaces in the middle of a URL. For compatibility, try to URL encode any spaces with `%20`.
+Markdown applications don't agree on how to handle spaces in the middle of a URL. For compatibility, try to URL encode any spaces with `%20`. Alternatively, if your Markdown application [supports HTML](#html), you could use the `a` HTML tag. 
 
 <table class="table table-bordered">
   <thead class="thead-light">
@@ -153,7 +153,9 @@ Markdown applications don't agree on how to handle spaces in the middle of a URL
     <tr>
       <td>
         <code class="highlighter-rouge">
-        [link](https://www.example.com/my%20great%20page)
+        [link](https://www.example.com/my%20great%20page)<br><br>
+
+        &lt;a href="https://www.example.com/my great page"&gt;link&lt;/a&gt;
         </code>
       </td>
       <td>

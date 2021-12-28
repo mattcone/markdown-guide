@@ -2,7 +2,7 @@
 layout: default
 title: Hacks
 description: Workarounds for things not officially supported by Markdown.
-last_modified_at: 2021-12-26
+last_modified_at: 2021-12-28
 ---
 
 ## Overview
@@ -25,7 +25,7 @@ The rendered output looks like this:
 
 Some of these words <ins>will be underlined</ins>.
 
-## Indent
+## Indent (Tab)
 
 Tabs and whitespace have a special meaning in Markdown. You can use trailing whitespace to create [line breaks](/basic-syntax/#line-breaks), and you can use tabs to create [code blocks](/basic-syntax/#code-blocks). But what if you need to indent a paragraph in a paper the old-fashioned way, using the tab key? Markdown doesn't provide an easy way of doing that. 
 

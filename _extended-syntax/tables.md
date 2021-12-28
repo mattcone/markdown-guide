@@ -90,7 +90,39 @@ The rendered output looks like this:
 
 You can format the text within tables. For example, you can add [links](/basic-syntax/#links), [code](/basic-syntax/#code-1) (words or phrases in backticks (`` ` ``) only, not [code blocks](/basic-syntax/#code-blocks)), and [emphasis](/basic-syntax/#emphasis).
 
-You can't add headings, blockquotes, lists, horizontal rules, images, or HTML tags.
+You can't add headings, blockquotes, lists, horizontal rules, images, or most HTML tags.
+
+### Line Breaks Within Table Cells
+
+You can separate paragraphs within a table cell by using one or more `br` HTML tags. 
+
+```
+| Syntax      | Description |
+| ----------- | ----------- |
+| Header      | Title |
+| Paragraph   | First paragragh. <br><br> Second paragraph. |
+```
+
+The rendered output looks like this:
+
+<table class="table table-bordered">
+  <thead>
+    <tr>
+      <th>Syntax</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Header</td>
+      <td>Title</td>
+    </tr>
+    <tr>
+      <td>Paragraph</td>
+      <td>First paragragh. <br><br> Second paragraph.</td>
+    </tr>
+  </tbody>
+</table>
 
 ### Escaping Pipe Characters in Tables
 

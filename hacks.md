@@ -2,7 +2,7 @@
 layout: default
 title: Hacks
 description: Workarounds for things not officially supported by Markdown.
-last_modified_at: 2021-12-28
+last_modified_at: 2021-12-29
 ---
 
 ## Overview
@@ -167,6 +167,74 @@ Some people like creating links that open in new tabs or windows. The Markdown s
 The rendered output looks like this:
 
 <a href="https://www.markdownguide.org" target="_blank">Learn Markdown!</a>
+
+## Table Formatting
+
+Markdown tables are notoriously finicky. You can't use many Markdown syntax elements to format the text. But there are workarounds for at least two common table issues: Line breaks and lists.
+
+### Line Breaks Within Table Cells
+
+You can separate paragraphs within a table cell by using one or more `br` HTML tags. 
+
+```
+| Syntax      | Description |
+| ----------- | ----------- |
+| Header      | Title |
+| Paragraph   | First paragragh. <br><br> Second paragraph. |
+```
+
+The rendered output looks like this:
+
+<table class="table table-bordered">
+  <thead>
+    <tr>
+      <th>Syntax</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Header</td>
+      <td>Title</td>
+    </tr>
+    <tr>
+      <td>Paragraph</td>
+      <td>First paragragh. <br><br> Second paragraph.</td>
+    </tr>
+  </tbody>
+</table>
+
+### Lists Within Table Cells
+
+You can add a list within a table cell by using HTML tags. 
+
+```
+| Syntax      | Description |
+| ----------- | ----------- |
+| Header      | Title |
+| List        | Here's a list! <ul><li>Item one.</li><li>Item two.</li></ul> |
+```
+
+The rendered output looks like this:
+
+<table class="table table-bordered">
+  <thead>
+    <tr>
+      <th>Syntax</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Header</td>
+      <td>Title</td>
+    </tr>
+    <tr>
+      <td>List</td>
+      <td>Here's a list! <ul><li>Item one.</li><li>Item two.</li></ul></td>
+    </tr>
+  </tbody>
+</table>
 
 ## Table of Contents
 

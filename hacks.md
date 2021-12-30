@@ -2,7 +2,7 @@
 layout: default
 title: Hacks
 description: Workarounds for things not officially supported by Markdown.
-last_modified_at: 2021-12-29
+last_modified_at: 2021-12-30
 ---
 
 ## Overview
@@ -87,7 +87,7 @@ If this is supported by your Markdown application, the output looks like this:
 
 ## Comments
 
-Some people need the ability to write sentences in their Markdown files that *will not* appear in the rendered output. These comments are essentially hidden text. The text is viewable by the author of the document, but it's not printed on the webpage or PDF. Markdown doesn't natively support comments, but several enterprising individuals have devised solutions. 
+Some people need the ability to write sentences in their Markdown files that *will not* appear in the rendered output. These comments are essentially hidden text. The text is viewable by the author of the document, but it's not printed on the webpage or PDF. Markdown doesn't natively support comments, but several enterprising individuals have devised a solution. 
 
 To add a comment, place text inside brackets followed by a colon, a space, and a pound sign (e.g., `[comment]: #`). You should put blank lines before and after a comment.
 
@@ -167,6 +167,25 @@ Some people like creating links that open in new tabs or windows. The Markdown s
 The rendered output looks like this:
 
 <a href="https://www.markdownguide.org" target="_blank">Learn Markdown!</a>
+
+## Symbols
+
+Markdown doesn't natively support symbols, but if your Markdown application supports [HTML](/basic-syntax/#html), you can use the HTML entity for whatever symbol you want to use. For example, if you want to display the copyright sign (&copy;), just copy and paste the HTML entity (`&copy;`) into your Markdown document.
+
+Here's a partial list of HTML entities for symbols:
+
+- Copyright (&copy;) — `&copy;`
+- Registered trademark (&reg;) — `&reg;`
+- Trademark (&trade;) — `&trade;`
+- Euro (&euro;) — `&euro;`
+- Left arrow (&larr;) — `&larr;`
+- Up arrow (&uarr;) — `&uarr;`
+- Right arrow (&rarr;) — `&rarr;`
+- Down arrow (&darr;) — `&darr;`
+- Degree (&#176;) — `&#176;`
+- Pi (&#960;) — `&#960;`
+
+For a complete list of available HTML entities, refer to Wikipedia's page on [HTML entities](https://en.wikipedia.org/wiki/List_of_XML_and_HTML_character_entity_references). 
 
 ## Table Formatting
 

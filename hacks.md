@@ -170,7 +170,9 @@ The rendered output looks like this:
 
 ## Symbols
 
-Markdown doesn't natively support symbols, but if your Markdown application supports [HTML](/basic-syntax/#html), you can use the HTML entity for whatever symbol you want to use. For example, if you want to display the copyright sign (&copy;), just copy and paste the HTML entity (`&copy;`) into your Markdown document.
+Markdown doesn't provide special syntax for symbols. However, in most cases, you can copy and paste whatever symbol you want to use into your Markdown document. For example, if you need to display Pi (π), just find the symbol on a webpage and copy and paste it into your document. The symbol should appear as expected in the rendered output.
+
+Alternatively, if your Markdown application supports [HTML](/basic-syntax/#html), you can use the HTML entity for whatever symbol you want to use. For example, if you want to display the copyright sign (&copy;), you can copy and paste the HTML entity (`&copy;`) into your Markdown document.
 
 Here's a partial list of HTML entities for symbols:
 

@@ -113,7 +113,7 @@ And here's another paragraph that's visible.
 
 ## Admonitions
 
-Admonitions are frequently used in documentation to call attention to warnings, notes, and tips. Markdown doesn't provide a special syntax for admonitions, and most Markdown applications don't provide support for admonitions (one exception is [MkDocs](/tools/mkdocs/)). 
+Admonitions are frequently used in documentation to call attention to warnings, notes, and tips. Markdown doesn't provide special syntax for admonitions, and most Markdown applications don't provide support for admonitions (one exception is [MkDocs](/tools/mkdocs/)). 
 
 However, if you need to add admonitions, you might be able to use [blockquotes](/basic-syntax/#blockquotes-1) with [emoji](/extended-syntax/#emoji) and [emphasis](/basic-syntax/#emphasis) to create something that looks similar to the admonitions you see on other websites.
 

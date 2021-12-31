@@ -2,7 +2,7 @@
 layout: default
 title: Hacks
 description: Workarounds for things not officially supported by Markdown.
-last_modified_at: 2021-12-30
+last_modified_at: 2021-12-31
 ---
 
 ## Overview
@@ -111,6 +111,28 @@ And here's another paragraph that's visible.
   <i class="fas fa-lightbulb"></i> <strong>Tip:</strong> This tip comes from <a href="https://stackoverflow.com/questions/4823468/comments-in-markdown" rel="nofollow">Stack Overflow</a>. It's been peer-reviewed and used by thousands of people!
 </div>
 
+## Admonitions
+
+Admonitions are frequently used in documentation to call attention to warnings, notes, and tips. Markdown doesn't provide a special syntax for admonitions, and most Markdown applications don't provide support for admonitions (one exception is [MkDocs](/tools/mkdocs/)). 
+
+However, if you need to add admonitions, you might be able to use [blockquotes](/basic-syntax/#blockquotes-1) with [emoji](/extended-syntax/#emoji) and [emphasis](/basic-syntax/#emphasis) to create something that looks similar to the admonitions you see on other websites.
+
+```text
+> :warning: **Warning:** Do not push the big red button.
+
+> :memo: **Note:** Sunrises are beautiful.
+
+> :bulb: **Tip:** Remember to appreciate the little things in life.
+```
+
+The rendered output looks like this:
+
+> ⚠️ **Warning:** Do not push the big red button.
+
+> 📝 **Note:** Sunrises are beautiful.
+
+> 💡 **Tip:** Remember to appreciate the little things in life.
+
 ## Image Size
 
 The Markdown syntax for [images](/basic-syntax/#images-1) doesn't allow you to specify the width and height of images. If you need to resize an image and your Markdown processor supports [HTML](/basic-syntax/#html), you can use the `img` HTML tag with the `width` and `height` attributes to set the dimensions of an image in pixels.
@@ -172,7 +194,7 @@ The rendered output looks like this:
 
 Markdown doesn't provide special syntax for symbols. However, in most cases, you can copy and paste whatever symbol you want to use into your Markdown document. For example, if you need to display Pi (π), just find the symbol on a webpage and copy and paste it into your document. The symbol should appear as expected in the rendered output.
 
-Alternatively, if your Markdown application supports [HTML](/basic-syntax/#html), you can use the HTML entity for whatever symbol you want to use. For example, if you want to display the copyright sign (&copy;), you can copy and paste the HTML entity (`&copy;`) into your Markdown document.
+Alternatively, if your Markdown application supports [HTML](/basic-syntax/#html), you can use the HTML entity for whatever symbol you want to use. For example, if you want to display the copyright sign (&copy;), you can copy and paste the HTML entity for copyright (`&copy;`) into your Markdown document.
 
 Here's a partial list of HTML entities for symbols:
 

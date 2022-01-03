@@ -47,6 +47,10 @@ To create paragraphs, use a blank line to separate one or more lines of text.
 
 Unless the [paragraph is in a list](/basic-syntax/#paragraphs), don't indent paragraphs with spaces or tabs.
 
+<div class="alert alert-info">
+  <i class="fas fa-info-circle"></i> <strong>Note:</strong> If you need to indent paragraphs in the output, see the section on how to <a href="/hacks/#indent-tab">indent (tab)</a>.
+</div>
+
 <table class="table table-bordered">
   <thead class="thead-light">
     <tr>

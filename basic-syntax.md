@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Basic Syntax
-description: The Markdown elements outlined in John Gruber's design document.
+description: The Markdown elements outlined in the original design document.
 last_modified_at: 2022-01-02
 ---
 

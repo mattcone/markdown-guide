@@ -7,7 +7,7 @@ Not all Markdown applications support extended syntax elements. You'll need to c
 
 ### Lightweight Markup Languages
 
-There are several lightweight markup languages that are *supersets* of Markdown. They include Gruber's basic syntax and build upon it by adding additional elements like tables, code blocks, syntax highlighting, URL auto-linking, and footnotes. Many of the most popular Markdown applications use one of the following lightweight markup languages:
+There are several lightweight markup languages that are *supersets* of Markdown. They include basic syntax and build upon it by adding additional elements like tables, code blocks, syntax highlighting, URL auto-linking, and footnotes. Many of the most popular Markdown applications use one of the following lightweight markup languages:
 
 - [CommonMark](https://commonmark.org)
 - [GitHub Flavored Markdown (GFM)](https://github.github.com/gfm/)

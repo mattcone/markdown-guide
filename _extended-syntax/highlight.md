@@ -9,12 +9,12 @@ This isn't common, but some Markdown processors allow you to highlight text. The
 I need to highlight these ==very important words==.
 ```
 
-The HTML looks like this:
+The rendered output looks like this:
+
+I need to highlight these <mark>very important words</mark>.
+
+Alternatively, if your Markdown application supports [HTML](/basic-syntax/#html), you can use the `mark` HTML tag.
 
 ```html
 I need to highlight these <mark>very important words</mark>.
 ```
-
-The rendered output looks like this:
-
-I need to highlight these <mark>very important words</mark>.

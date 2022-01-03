@@ -2,7 +2,7 @@
 layout: default
 title: Hacks
 description: Workarounds for things not officially supported by Markdown.
-last_modified_at: 2021-12-31
+last_modified_at: 2022-01-02
 ---
 
 ## Overview
@@ -15,7 +15,7 @@ The majority of people using Markdown will find that the [basic](/basic-syntax/)
 
 ## Underline
 
-Underlined text is not something you typically see in web writing, probably because underlined text is nearly synonymous with links. However, if you're writing a paper or a report, you may need the ability to underline words and phrases. A couple applications like [Bear](/tools/bear/) and [Simplenote](/tools/simplenote/) provide support for underlining text, but Markdown doesn't natively support underlining. If your Markdown processor supports [HTML](/basic-syntax/#html), you can use the `<ins>` HTML tag to underline text in your document.
+Underlined text is not something you typically see in web writing, probably because underlined text is nearly synonymous with links. However, if you're writing a paper or a report, you may need the ability to underline words and phrases. A couple of applications like [Bear](/tools/bear/) and [Simplenote](/tools/simplenote/) provide support for underlining text, but Markdown doesn't natively support underlining. If your Markdown processor supports [HTML](/basic-syntax/#html), you can use the `<ins>` HTML tag to underline text in your document.
 
 ```html
 Some of these words <ins>will be underlined</ins>.

@@ -4,6 +4,7 @@ title: The Markdown Guide Book
 description: "Learn Markdown in 60 pages. The Markdown Guide book includes everything you need to get started and master Markdown syntax."
 ---
 
+<script src="https://gumroad.com/js/gumroad.js"></script>
 <div class="row" style="padding-top: 15px; padding-bottom: 30px">
   <div class="col-sm-7">
     <h1 class="no-anchor" style="margin-top: 15px;">The Markdown Guide</h1>
@@ -16,7 +17,8 @@ description: "Learn Markdown in 60 pages. The Markdown Guide book includes every
 
     <div class="row" style="padding-top:10px; margin-bottom:55px">
       <div class="col-sm-12">
-        <a class="btn btn-success btn-lg" style="margin-right: 20px; margin-top: 5px" href="https://gum.co/markdownguide?wanted=true">Buy now for $5</a>
+        <a class="btn btn-success btn-lg" style="margin-right: 20px; margin-top: 5px" href="https://mattcone.gumroad.com/l/markdownguide">Buy now for $5</a>
+        
         <a class="btn btn-outline-secondary btn-lg" style="margin-top: 5px" href="/assets/markdown-guide-sample.pdf">Read free sample</a>
       </div>
     </div>
@@ -24,7 +26,7 @@ description: "Learn Markdown in 60 pages. The Markdown Guide book includes every
     <p class="lead" style="padding-top:0px;"><em>The Markdown Guide</em> is also available on <a href="https://leanpub.com/themarkdownguide">Leanpub</a> and <a href="https://amzn.to/31FMLMA">Amazon</a>.</p>
   </div>
   <div class="col-sm-5">
-    <a href="https://gum.co/markdownguide?wanted=true">
+    <a href="https://mattcone.gumroad.com/l/markdownguide">
       {% include image.html file="/assets/images/book-cover.jpg" alt="Markdown Guide book cover" class="img-fluid float-center" width="95" %}
     </a>
   </div>
@@ -117,7 +119,7 @@ description: "Learn Markdown in 60 pages. The Markdown Guide book includes every
 <h2 class="no-anchor text-center">100% satisfaction guaranteed.</h2>
 <p class="lead text-center" style="padding-bottom:10px;">If you're not completely satisfied with <em>The Markdown Guide</em>, I'll refund your money, no questions asked.</p>
 
-<center><a class="btn btn-success btn-lg" style="margin-right:20px; margin-top:5px;" href="https://gum.co/markdownguide?wanted=true">Buy now for $5</a></center>
+<center><a class="btn btn-success btn-lg" style="margin-right:20px; margin-top:5px;" href="https://mattcone.gumroad.com/l/markdownguide">Buy now for $5</a></center>
 
 <div class="container" style="padding-top:80px;">
   <div class="row">

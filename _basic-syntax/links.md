@@ -33,7 +33,7 @@ My favorite search engine is [Duck Duck Go](https://duckduckgo.com).
 
 ### Adding Titles
 
-You can optionally add a title for a link. This will appear as a tooltip when the user hovers over the link. To add a title, enclose it in parentheses after the URL.
+You can optionally add a title for a link. This will appear as a tooltip when the user hovers over the link. To add a title, enclose it in quotation marks after the URL.
 
 ```
 My favorite search engine is [Duck Duck Go](https://duckduckgo.com "The best search engine for privacy").

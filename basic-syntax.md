@@ -2,7 +2,7 @@
 layout: default
 title: Basic Syntax
 description: The Markdown elements outlined in the original design document.
-last_modified_at: 2022-01-02
+last_modified_at: 2022-01-19
 ---
 
 {% include syntax.html type="basic" syntax-id="overview" %}

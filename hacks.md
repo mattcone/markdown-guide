@@ -2,7 +2,7 @@
 layout: default
 title: Hacks
 description: Workarounds for things not officially supported by Markdown.
-last_modified_at: 2022-01-02
+last_modified_at: 2022-01-22
 ---
 
 ## Overview
@@ -65,7 +65,7 @@ If this is supported by your Markdown application, the output looks like this:
 
 ## Color
 
-Markdown doesn't allow you to change the color of text, but if your Markdown processor supports [HTML](/basic-syntax/#html), you can use the `<font>` HTML tag. The `color` attribute allows you to specify the color using a color's name or the hexadecimal `#RRGGBB` code.
+Markdown doesn't allow you to change the color of text, but if your Markdown processor supports [HTML](/basic-syntax/#html), you can use the `<font>` HTML tag. The `color` attribute allows you to specify the font color using a color's name or the hexadecimal `#RRGGBB` code.
 
 ```html
 <font color="red">This text is red!</font>

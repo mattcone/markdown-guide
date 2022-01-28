@@ -314,9 +314,9 @@ Since YouTube makes this easy, we'll use them as an example. Take this video, fo
 YouTube automatically generates an image for every video (`https://img.youtube.com/vi/YOUTUBE-ID/0.jpg`), so we can use that and [link the image](/basic-syntax/#linking-images) to the video on YouTube. After we replace the image alt text and add the ID of the video, our example looks like this:
 
 ```test
-[![MxPx — Can't Keep Waiting](https://img.youtube.com/vi/8q2IjQOzVpE/0.jpg)](https://www.youtube.com/watch?v=8q2IjQOzVpE)
+[![Less Than Jake — Scott Farcas Takes It On The Chin](https://img.youtube.com/vi/PYCxct2e0zI/0.jpg)](https://www.youtube.com/watch?v=PYCxct2e0zI)
 ```
 
 The rendered output looks like this:
 
-<a href="https://www.youtube.com/watch?v=8q2IjQOzVpE" rel="nofollow"><img src="https://img.youtube.com/vi/8q2IjQOzVpE/0.jpg"></a>
+<a href="https://www.youtube.com/watch?v=PYCxct2e0zI" rel="nofollow"><img src="https://img.youtube.com/vi/PYCxct2e0zI/0.jpg"></a>

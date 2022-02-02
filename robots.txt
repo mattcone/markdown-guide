@@ -1,0 +1,4 @@
+User-agent: *
+Sitemap: https://www.markdownguide.org/sitemap.xml
+Disallow: /assets/markdown-cheat-sheet.md
+Disallow: /assets/markdown-guide-sample.pdf

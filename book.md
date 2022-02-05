@@ -92,8 +92,13 @@ description: "Learn Markdown in 60 pages. The Markdown Guide book includes every
 </blockquote>
 
 <blockquote class="blockquote">
+  <p class="mb-0">If you're looking for an in-depth guide for more Markdown tips and tricks, I highly recommend the unofficial but authoritative <em>Markdown Guide</em>.</p>
+  <footer class="blockquote-footer" style="padding-bottom:20px;">Justin Duke, Engineering Manager at <a href="https://stripe.com/" rel="nofollow">Stripe</a> and Founder of <a href="https://buttondown.email/">Buttondown</a></footer>
+</blockquote>
+
+<blockquote class="blockquote">
   <p class="mb-0"><em>The Markdown Guide</em> is awesome. I keep it open in a browser tab for reference while working on my guides.</p>
-  <footer class="blockquote-footer" style="padding-bottom:20px;">Rob Reeder, Documentation Specialist, <a href="https://cert.org">Software Engineering Institute, CMU</a></footer>
+  <footer class="blockquote-footer" style="padding-bottom:20px;">Rob Reeder, Documentation Specialist, <a href="https://cert.org" rel="nofollow">Software Engineering Institute, CMU</a></footer>
 </blockquote>
 
 <blockquote class="blockquote">

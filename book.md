@@ -84,7 +84,23 @@ description: "Learn Markdown in 60 pages. The Markdown Guide book includes every
   </div>
 </div>
 
-<h2 class="no-anchor text-center" style="padding-top:70px; padding-bottom:10px;">What readers are saying.</h2>
+<h2 class="no-anchor text-center" style="padding-top: 70px; padding-bottom:20px;">Thousands of satisfied readers.</h2>
+<div class="container">
+  <div class="row">
+    <div class="col-sm text-center">
+      <a href="https://mattcone.gumroad.com/l/markdownguide"><p style="font-size:30px"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></p></a>
+      <p class="lead" style="margin-top:-10px">5 stars on <a href="https://mattcone.gumroad.com/l/markdownguide">Gumroad</a></p>
+    </div>
+    <div class="col-sm text-center">
+      <a href="https://amzn.to/31FMLMA"><p style="font-size:30px"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></p></a>
+      <p class="lead" style="margin-top:-10px">4 stars on <a href="https://amzn.to/31FMLMA">Amazon</a></p>
+    </div>
+    <div class="col-sm text-center">
+      <a href="https://www.goodreads.com/book/show/41831817-the-markdown-guide"><p style="font-size:30px"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></p></a>
+      <p class="lead" style="margin-top:-10px">4 stars on <a href="https://www.goodreads.com/book/show/41831817-the-markdown-guide">Goodreads</a></p>
+    </div>
+  </div>
+</div>
 
 <blockquote class="blockquote">
   <p class="mb-0"><em>The Markdown Guide</em> is hands-down the best Markdown reference.</p>

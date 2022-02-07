@@ -118,13 +118,13 @@ description: "Learn Markdown in 60 pages. The Markdown Guide book includes every
 </blockquote>
 
 <blockquote class="blockquote">
-  <p class="mb-0">A terrific reference—straightforward and well organized, briskly paced, and featuring a spot-on instructive tone that conveys friendly engagement.</p>
-  <footer class="blockquote-footer" style="padding-bottom:20px;">David Buck, Technical Writer</footer>
+  <p class="mb-0">If you’re working with Markdown, then do yourself a favour and check out <em>The Markdown Guide</em>... It’s excellent.</p>
+  <footer class="blockquote-footer" style="padding-bottom:20px;">Matthew Setter, via <a href="https://twitter.com/settermjd/status/1126099562345705472">Twitter</a></footer>
 </blockquote>
 
 <blockquote class="blockquote">
-  <p class="mb-0">Well done! This is an incredibly valuable and well-done resource. It does a great job of educating without becoming too overwhelming or too narrowly focused on one application of Markdown.</p>
-  <footer class="blockquote-footer" style="padding-bottom:20px;">nxprefect, via <a href="https://www.reddit.com/r/Markdown/comments/8gi8yb/i_created_an_open_source_markdown_guide/dycxpvb/">Reddit</a></footer>
+  <p class="mb-0">A terrific reference—straightforward and well organized, briskly paced, and featuring a spot-on instructive tone that conveys friendly engagement.</p>
+  <footer class="blockquote-footer" style="padding-bottom:20px;">David Buck, Technical Writer</footer>
 </blockquote>
 
 <blockquote class="blockquote">
@@ -133,13 +133,13 @@ description: "Learn Markdown in 60 pages. The Markdown Guide book includes every
 </blockquote>
 
 <blockquote class="blockquote">
-  <p class="mb-0">If you’re working with Markdown, then do yourself a favour and check out <em>The Markdown Guide</em>... It’s excellent.</p>
-  <footer class="blockquote-footer" style="padding-bottom:20px;">Matthew Setter, via <a href="https://twitter.com/settermjd/status/1126099562345705472">Twitter</a></footer>
+  <p class="mb-0">I've found this very simple guide to Markdown syntax very useful in a pinch.</p>
+  <footer class="blockquote-footer" style="padding-bottom:20px;">Morgan Thompson, via <a href="https://twitter.com/datamorgan/status/1109518506125451264">Twitter</a></footer>
 </blockquote>
 
 <blockquote class="blockquote" style="margin-bottom:60px;">
-  <p class="mb-0">I've found this very simple guide to Markdown syntax very useful in a pinch.</p>
-  <footer class="blockquote-footer" style="padding-bottom:20px;">Morgan Thompson, via <a href="https://twitter.com/datamorgan/status/1109518506125451264">Twitter</a></footer>
+  <p class="mb-0">Well done! This is an incredibly valuable and well-done resource. It does a great job of educating without becoming too overwhelming or too narrowly focused on one application of Markdown.</p>
+  <footer class="blockquote-footer" style="padding-bottom:20px;">nxprefect, via <a href="https://www.reddit.com/r/Markdown/comments/8gi8yb/i_created_an_open_source_markdown_guide/dycxpvb/">Reddit</a></footer>
 </blockquote>
 
 <h2 class="no-anchor text-center">100% satisfaction guaranteed.</h2>

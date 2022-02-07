@@ -84,7 +84,7 @@ description: "Learn Markdown in 60 pages. The Markdown Guide book includes every
   </div>
 </div>
 
-<h2 class="no-anchor text-center" style="padding-top: 70px; padding-bottom:20px;">Thousands of satisfied readers.</h2>
+<h2 class="no-anchor text-center" style="padding-top: 70px; padding-bottom:20px;">Trusted by thousands of readers.</h2>
 <div class="container">
   <div class="row">
     <div class="col-sm text-center">

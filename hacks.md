@@ -2,7 +2,7 @@
 layout: default
 title: Hacks
 description: Workarounds for things not officially supported by Markdown.
-last_modified_at: 2022-01-22
+last_modified_at: 2022-02-13
 ---
 
 ## Overview
@@ -10,7 +10,7 @@ last_modified_at: 2022-01-22
 The majority of people using Markdown will find that the [basic](/basic-syntax/) and [extended syntax](/extended-syntax/) elements cover their needs. But chances are that if you use Markdown long enough, you'll inevitably discover that it doesn't support something you need. This page provides tips and tricks for working around Markdown's limitations.
 
 <div class="alert alert-success">
-  <i class="fas fa-lightbulb"></i> <strong>Tip:</strong> These hacks aren't guaranteed to work in your Markdown application. If you need to use these things frequently, you might want to consider writing using something other than Markdown. 
+  <i class="fas fa-lightbulb"></i> <strong>Tip:</strong> These hacks aren't guaranteed to work in your Markdown application. If you need to use these hacks frequently, you should consider writing using something other than Markdown. 
 </div>
 
 ## Underline
@@ -217,7 +217,7 @@ Markdown tables are notoriously finicky. You can't use many Markdown syntax elem
 
 ### Line Breaks Within Table Cells
 
-You can separate paragraphs within a table cell by using one or more `br` HTML tags. 
+You can separate paragraphs within a table cell by using one or more `<br>` HTML tags. 
 
 ```
 | Syntax      | Description |

@@ -31,11 +31,6 @@ to = "/book/"
 from = "/tools/modako/"
 to = "/tools/madoko/"
 
-[[redirects]]
-  from = "/js/hawkeye.js"
-  to = "https://hawk.forklabs.com/js/plausible.js"
-  status = 200
-
 [[headers]]
   for = "/*"
 

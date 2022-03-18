@@ -4,7 +4,6 @@ title: The Markdown Guide Book
 description: "Learn Markdown in 60 pages. The Markdown Guide book includes everything you need to get started and master Markdown syntax."
 ---
 
-<script src="https://gumroad.com/js/gumroad.js"></script>
 <div class="row" style="padding-top: 15px; padding-bottom: 30px">
   <div class="col-sm-7">
     <h1 class="no-anchor" style="margin-top: 15px;">The Markdown Guide</h1>

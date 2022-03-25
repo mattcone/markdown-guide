@@ -112,7 +112,6 @@ These elements extend the basic syntax by adding additional features. Not all Ma
       <td><a href="/extended-syntax/#footnotes">Footnote</a></td>
       <td><code>
         Here's a sentence with a footnote. [^1]<br><br>
-
         [^1]: This is the footnote.
       </code></td>
     </tr>

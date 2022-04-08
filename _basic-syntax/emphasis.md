@@ -25,31 +25,35 @@ To emphasize text with bold and italics at the same time, add three asterisks or
   <tbody>
     <tr>
       <td><code class="highlighter-rouge">This text is ***really important***.</code></td>
-      <td><code class="highlighter-rouge">This text is &lt;strong&gt;&lt;em&gt;really important&lt;/em&gt;&lt;/strong&gt;.</code></td>
-      <td>This text is <strong><em>really important</em></strong>.</td>
+      <td><code class="highlighter-rouge">This text is &lt;em&gt;&lt;strong&gt;really important&lt;/strong&gt;&lt;/em&gt;.</code></td>
+      <td>This text is <em><strong>really important</strong></em>.</td>
     </tr>
     <tr>
       <td><code class="highlighter-rouge">This text is ___really important___.</code></td>
-      <td><code class="highlighter-rouge">This text is &lt;strong&gt;&lt;em&gt;really important&lt;/em&gt;&lt;/strong&gt;.</code></td>
-      <td>This text is <strong><em>really important</em></strong>.</td>
+      <td><code class="highlighter-rouge">This text is &lt;em&gt;&lt;strong&gt;really important&lt;/strong&gt;&lt;/em&gt;.</code></td>
+      <td>This text is <em><strong>really important</strong></em>.</td>
     </tr>
     <tr>
       <td><code class="highlighter-rouge">This text is __*really important*__.</code></td>
-      <td><code class="highlighter-rouge">This text is &lt;strong&gt;&lt;em&gt;really important&lt;/em&gt;&lt;/strong&gt;.</code></td>
-      <td>This text is <strong><em>really important</em></strong>.</td>
+      <td><code class="highlighter-rouge">This text is &lt;em&gt;&lt;strong&gt;really important&lt;/strong&gt;&lt;/em&gt;.</code></td>
+      <td>This text is <em><strong>really important</strong></em>.</td>
     </tr>
     <tr>
       <td><code class="highlighter-rouge">This text is **_really important_**.</code></td>
-      <td><code class="highlighter-rouge">This text is &lt;strong&gt;&lt;em&gt;really important&lt;/em&gt;&lt;/strong&gt;.</code></td>
-      <td>This text is <strong><em>really important</em></strong>.</td>
+      <td><code class="highlighter-rouge">This text is &lt;em&gt;&lt;strong&gt;really important&lt;/strong&gt;&lt;/em&gt;.</code></td>
+      <td>This text is <em><strong>really important</strong></em>.</td>
     </tr>
     <tr>
       <td><code class="highlighter-rouge">This is really***very***important text.</code></td>
-      <td><code class="highlighter-rouge">This is really&lt;strong&gt;&lt;em&gt;very&lt;/em&gt;&lt;/strong&gt;important text.</code></td>
-      <td>This is really<strong><em>very</em></strong>important text.</td>
+      <td><code class="highlighter-rouge">This is really&lt;em&gt;&lt;strong&gt;very&lt;/strong&gt;&lt;/em&gt;important text.</code></td>
+      <td>This is really<em><strong>very</strong></em>important text.</td>
     </tr>
   </tbody>
 </table>
+
+<div class="alert alert-info">
+  <i class="fas fa-info-circle"></i> <strong>Note:</strong> The order of the <code>em</code> and <code>strong</code> tags might be reversed depending on the Markdown processor you're using.
+</div>
 
 #### Bold and Italic Best Practices
 

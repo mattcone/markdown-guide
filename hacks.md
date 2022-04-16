@@ -2,7 +2,7 @@
 layout: default
 title: Hacks
 description: Workarounds for things not officially supported by Markdown.
-last_modified_at: 2022-02-13
+last_modified_at: 2022-04-15
 ---
 
 ## Overview
@@ -27,7 +27,7 @@ Some of these words <ins>will be underlined</ins>.
 
 ## Indent (Tab)
 
-Tabs and whitespace have a special meaning in Markdown. You can use trailing whitespace to create [line breaks](/basic-syntax/#line-breaks), and you can use tabs to create [code blocks](/basic-syntax/#code-blocks). But what if you need to indent a paragraph in a paper the old-fashioned way, using the tab key? Markdown doesn't provide an easy way of doing that. 
+Tabs and whitespace have a special meaning in Markdown. You can use trailing whitespace to create [line breaks](/basic-syntax/#line-breaks), and you can use tabs to create [code blocks](/basic-syntax/#code-blocks). But what if you need to indent a paragraph the old-fashioned way, using the tab key? Markdown doesn't provide an easy way of doing that. 
 
 Your best bet might be to use a Markdown editor that supports indentation. This is common in applications that are more oriented towards desktop publishing. For example, [iA Writer](/tools/ia-writer/) allows you to customize indentation settings for the editor in the application preferences. It also provides template customization options so that you can make the rendered document look the way you expect it to, indentation and all.
 
@@ -213,7 +213,7 @@ For a complete list of available HTML entities, refer to Wikipedia's page on [HT
 
 ## Table Formatting
 
-Markdown tables are notoriously finicky. You can't use many Markdown syntax elements to format the text. But there are workarounds for at least two common table issues: Line breaks and lists.
+Markdown [tables](/extended-syntax/#tables) are notoriously finicky. You can't use many Markdown syntax elements to format the text in table cells. But there are workarounds for at least two common table issues: Line breaks and lists.
 
 ### Line Breaks Within Table Cells
 
@@ -223,7 +223,7 @@ You can separate paragraphs within a table cell by using one or more `<br>` HTML
 | Syntax      | Description |
 | ----------- | ----------- |
 | Header      | Title |
-| Paragraph   | First paragragh. <br><br> Second paragraph. |
+| Paragraph   | First paragraph. <br><br> Second paragraph. |
 ```
 
 The rendered output looks like this:
@@ -242,7 +242,7 @@ The rendered output looks like this:
     </tr>
     <tr>
       <td>Paragraph</td>
-      <td>First paragragh. <br><br> Second paragraph.</td>
+      <td>First paragraph. <br><br> Second paragraph.</td>
     </tr>
   </tbody>
 </table>

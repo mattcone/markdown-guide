@@ -66,7 +66,7 @@ see-also:
     link: https://github.com/TobseF/boostnote-markdown-cheatsheet
 ---
 
-[Boostnote](https://boostnote.io) bills itself as a note taking application for developers, but anyone in need of a Markdown application for notes would be happy with this application. Markdown support is excellent. The application's interface is polished and intuitive, and open source clients are freely available for macOS, Windows, and Linux operating systems. Boostnote allows you create folders, tag notes, and export Markdown files to HTML and PDF file format.
+[Boostnote](https://boostnote.io) bills itself as a note taking application for developers, but anyone in need of a Markdown application for notes would be happy with this application. Markdown support is excellent. The application's interface is polished and intuitive, and open source clients are available for macOS, Windows, and Linux operating systems. Boostnote allows you create folders, tag notes, and export Markdown files to HTML and PDF file format.
 
 {% include image.html file="/assets/images/tools/boostnote.png" alt="Boostnote Markdown application" width="90" %}
 

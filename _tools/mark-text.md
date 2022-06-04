@@ -3,7 +3,7 @@ title: Mark Text
 category: documents
 description: "Mark Text is a popular free and open-source editor designed for Markdown."
 icon: mark-text.png
-website: https://marktext.app
+website: https://github.com/marktext/marktext
 syntax:
   - id: headings
     available: y
@@ -69,7 +69,7 @@ see-also:
     link: https://github.com/marktext/marktext
 ---
 
-[Mark Text](https://marktext.app) is a popular free and open-source document editor designed exclusively for writing in Markdown. Like [Typora](/tools/typora/), Mark Text has a polished interface and a live editor that hides the Markdown formatting after you type it. The PDF and HTML export options are handy, as is the feature that allows you to copy text out of the editor as Markdown, HTML, or plaintext.
+[Mark Text](https://github.com/marktext/marktext) is a popular free and open-source document editor designed exclusively for writing in Markdown. Like [Typora](/tools/typora/), Mark Text has a polished interface and a live editor that hides the Markdown formatting after you type it. The PDF and HTML export options are handy, as is the feature that allows you to copy text out of the editor as Markdown, HTML, or plaintext.
 
 There are some minor annoyances. In several instances (noted below in the table), the appearance of the text in the application didn't match the rendered output of the exported HTML and PDF. And as with [Notion](/tools/notion/), it can be difficult to edit Markdown-formatted text after the live editor has converted it.
 

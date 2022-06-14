@@ -74,7 +74,7 @@ Along with extended Markdown support, Supernotes supports LaTeX equations and [a
 
 One of the biggest benefits of Supernotes is the community. The  co-founders are very active on the [Community Forum](https://community.supernotes.app), where users suggest new feature ideas, report bugs and share workflows. The co-founders also run [free Onboarding sessions](https://supernotes.app/welcome) to help new users get started with Supernotes. 
 
-[All of the Supernotes features](https://supernotes.app/features/) come included on the free Starter plan. On the Starter plan you start with 40 cards, but you can refer friends or upgrade to the Unlimited plan for more feature. Supernotes is a small independent startup, built by a team of two, and the subscription goes towards supporting them and the development of the platform.
+[All of the Supernotes features](https://supernotes.app/features/) come included on the free Starter plan. On the Starter plan you start with 40 cards, but you can refer friends or upgrade to the Unlimited plan for more features. Supernotes is a small independent startup, built by a team of two, and the subscription goes towards supporting them and the development of the platform.
 
 {% include image.html file="/assets/images/tools/supernotes.png" alt="Supernotes Markdown application" width="90" %}
 

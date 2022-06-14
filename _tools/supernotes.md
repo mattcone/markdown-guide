@@ -1,7 +1,7 @@
 ---
 title: Supernotes
 category: "notes"
-description: "Supernotes is a fast cross-platform notes app using markdown notecards."
+description: "Supernotes is a fast cross-platform notes app using Markdown notecards."
 icon: supernotes.png
 website: https://supernotes.app
 syntax:
@@ -61,20 +61,20 @@ syntax:
     available: y
   - id: html
     available: p
-    notes: "Some tags, such as `<script>` are not supported"
+    notes: "Some tags, such as `<script>`, are not supported."
     
 see-also:
   - name: Supernotes documentation
     link: https://docs.supernotes.app/
 ---
 
-[Supernotes](https://supernotes.app) is a fast note-taking app available on Mac, Windows, Linux, Android, iOS and the Web. The app encourages you to break down your information into short-form notecards. This helps you to connect your knowledge together in a more flexible way – each and every notecard is taggable, nestable, linkable and shareable. You can view your cards in a handleful of different ways; as a List, as a grid in Broadsheet view or as nodes in the Graph view. 
+[Supernotes](https://supernotes.app) is a fast note-taking app available on Mac, Windows, Linux, Android, iOS, and the web. The app encourages you to break down your information into short-form notecards. This helps you to connect your knowledge together in a more flexible way – each notecard is taggable, nestable, linkable, and shareable. You can view your cards in a handful of different ways: as a List, as a grid in Broadsheet view, or as nodes in the Graph view. 
 
-Along with extended Markdown support, Supernotes supports LaTeX equations and [advanced editing features](https://docs.supernotes.app/en/articles/6048775-advanced-editing-techniques) such as multiple cursor support and an assortment of handy keybindings. Supernotes is a web-first application, with an emphasis on fast syncing between devices and effortless sharing between users. On Supernotes your data is always encrypted in transit (forced SSL) and encrypted at rest (AES-256).
+Along with extended Markdown support, Supernotes supports LaTeX equations and [advanced editing features](https://docs.supernotes.app/en/articles/6048775-advanced-editing-techniques) such as multiple cursor support and an assortment of handy keybindings. Supernotes is a web-first application, with an emphasis on fast syncing between devices and effortless sharing between users. On Supernotes your data is always encrypted in transit (forced TLS) and encrypted at rest (AES-256).
 
 One of the biggest benefits of Supernotes is the community. The  co-founders are very active on the [Community Forum](https://community.supernotes.app), where users suggest new feature ideas, report bugs and share workflows. The co-founders also run [free Onboarding sessions](https://supernotes.app/welcome) to help new users get started with Supernotes. 
 
-[All of the Supernotes features](https://supernotes.app/features/) come included on the free Starter plan. On the Starter Plan you start with 40 cards, but you can refer friends or upgrade to the Unlimited plan for more. Supernotes is a small independent startup, built by a team of two, and the subscription goes towards supporting them and the development of the platform.
+[All of the Supernotes features](https://supernotes.app/features/) come included on the free Starter plan. On the Starter plan you start with 40 cards, but you can refer friends or upgrade to the Unlimited plan for more feature. Supernotes is a small independent startup, built by a team of two, and the subscription goes towards supporting them and the development of the platform.
 
 {% include image.html file="/assets/images/tools/supernotes.png" alt="Supernotes Markdown application" width="90" %}
 

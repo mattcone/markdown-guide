@@ -1,7 +1,7 @@
 ---
 title: BatNoter
 category: "notes"
-description: "BatNoter is an open source, markdown based, self-hosted, web application for taking notes"
+description: "BatNoter is an open source, self-hosted web application for taking notes in Markdown."
 icon: batnoter.png
 website: https://batnoter.com
 syntax:
@@ -60,17 +60,17 @@ see-also:
     link: https://github.com/batnoter/batnoter
 ---
 
-[BatNoter](https://batnoter.com) is an open source web application for taking notes using markdown editor. It stores the notes inside user's git repository.
+[BatNoter](https://batnoter.com) is an open source web application for taking notes in Markdown. It stores the notes inside user's git repository, and it provides a nice user interface for creating, editing, organizing, and exploring notes.
 
-It provides a nice user interface for creating, editing, organizing and exploring notes.
+By using Markdown, users can format the notes the way they want. You can add elements like tables, links, headings, and code blocks with a single click, and you can quickly check the rendered note with the preview and live preview feature. The tree view explorer available in the left sidebar allows you to explore the notes from a specific directory.
 
-With the use of markdown, users can format the notes the way they want. Adding tables, links, headings, code blocks... etc can be done with a single click on the respective tools available with markdown editor. Preview and live preview feature is available in the markdown editor to quickly check the markdown rendered note.
-
-The tree view explorer available in the left sidebar allows quickly exploring the notes from a specific directory. On hover, action buttons are shown to the user for adding/deleting/editing the note.
-
-<img src="/assets/images/tools/batnoter.png" class="img-fluid" alt="BatNoter" style="width: 50%;">
+{% include image.html file="/assets/images/tools/batnoter.png" alt="BatNoter Markdown application" width="90" %}
 
 {% include tool-syntax-table.html %}
+
+### Support for Additional Syntax Elements
+
+As an added bonus, BatNoter provides support for several obscure elements.
 
 <table class="table table-bordered" style="font-size: 14px">
   <thead class="thead-light">

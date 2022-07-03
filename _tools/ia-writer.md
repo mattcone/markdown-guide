@@ -40,7 +40,7 @@ syntax:
     available: y
   - id: heading-ids
     available: p
-    notes: "Automatically generated. There's no way to set custom heading IDs."
+    notes: "Automatically generated. Use `[custom-id]` for custom heading IDs."
   - id: definition-lists
     available: y
   - id: strikethrough
@@ -52,7 +52,7 @@ syntax:
   - id: emoji-sc
     available: n
   - id: highlight
-    available: n
+    available: y
   - id: subscript
     available: y
   - id: superscript

@@ -68,7 +68,7 @@ see-also:
     link: https://github.com/standardnotes/app
 ---
 
-[Standard Notes](https://standardnotes.com) is an elegant, open-source note taking application with an excellent feature set. Markdown support is not provided by default, but by paying for the optional [subscription](https://standardnotes.com/plans), you can enable one of several Markdown extensions available to subscribers. I used the Markdown, which is what's documented below.
+[Standard Notes](https://standardnotes.com) is an elegant, open-source note taking application with an excellent feature set. Markdown support is not provided by default, but by paying for the optional [subscription](https://standardnotes.com/plans), you can enable one of several Markdown extensions available to subscribers.
 
 {% include image.html file="/assets/images/tools/standard-notes.png" alt="Markdown in Standard Notes" %}
 

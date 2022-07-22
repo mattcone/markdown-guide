@@ -4,6 +4,7 @@ desc "build and test website"
 task :test do
   sh "bundle exec jekyll build"
   options = {
+    :checks => ['Links'],
     :check_internal_hash => false,
     :enforce_https => false,
     :only_4xx => true,

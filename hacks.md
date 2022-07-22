@@ -319,4 +319,4 @@ YouTube automatically generates an image for every video (`https://img.youtube.c
 
 The rendered output looks like this:
 
-<a href="https://www.youtube.com/watch?v=PYCxct2e0zI" rel="nofollow"><img src="https://img.youtube.com/vi/PYCxct2e0zI/0.jpg"></a>
+<a href="https://www.youtube.com/watch?v=PYCxct2e0zI" rel="nofollow"><img src="https://img.youtube.com/vi/PYCxct2e0zI/0.jpg" alt="Less Than Jake — Scott Farcas Takes It On The Chin"></a>

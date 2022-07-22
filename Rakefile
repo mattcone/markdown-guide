@@ -3,12 +3,11 @@ require 'html-proofer'
 desc "build and test website"
 task :test do
   sh "bundle exec jekyll build"
-  HTMLProofer.check_directory("./_site", {
-    :assume_extension => true,
-    :check_favicon => true,
-    :external_only => true,
+  options = {
+    :check_internal_hash => false,
+    :enforce_https => false,
     :only_4xx => true,
-    :url_ignore => ['https://ghost.org/',
+    :ignore_urls => ['https://ghost.org/',
                     'https://ghost.org/faq/using-the-editor/#using-markdown',
                     'https://get.todoist.help/hc/en-us/articles/205195102',
                     'https://twitter.com/settermjd/status/1126099562345705472',
@@ -17,6 +16,9 @@ task :test do
     :url_swap => { %r{https://www.markdownguide.org} => '' },
     :typhoeus => {
       :ssl_verifypeer => false,
-      :ssl_verifyhost => 0},
-    verbose => true}).run
+      :ssl_verifyhost => 0,
+    },
+    :verbose => true,
+  }
+  HTMLProofer.check_directory("./_site", options).run
 end

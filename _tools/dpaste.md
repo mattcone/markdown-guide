@@ -56,9 +56,7 @@ syntax:
   - id: superscript
     available: n
   - id: auto-url-linking
-    available: y
-  - id: disabling-auto-url
-    available: y
+    available: n
   - id: html
     available: y
 ---
@@ -71,5 +69,5 @@ syntax:
 
 ## Using the Markdown preview
 
-1. Create an item in Markdown syntax on dpaste.com, e.g. https://dpaste.com/EV8PPTVTA
-2. When viewing the item, click the "Preview" button above the content to see a rendered preview, e.g. https://dpaste.com/EV8PPTVTA-preview
+1. Create an item in Markdown syntax on dpaste.com, e.g. https://dpaste.com/DJYAN964N
+2. When viewing the item, click the "Preview" button above the content to see a rendered preview, e.g. https://dpaste.com/DJYAN964N-preview

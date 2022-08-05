@@ -63,11 +63,11 @@ syntax:
 
 [dpaste.com](https://www.dpaste.com.org) is a programmer pastebin with a Markdown previewing feature.
 
-[Python-Markdown](https://python-markdown.github.io/) is used for Markdown rendering.
+It uses [Python-Markdown](https://python-markdown.github.io/) for Markdown rendering.
 
 {% include tool-syntax-table.html %}
 
 ## Using the Markdown preview
 
-1. Create an item in Markdown syntax on dpaste.com, e.g. https://dpaste.com/DJYAN964N
-2. When viewing the item, click the "Preview" button above the content to see a rendered preview, e.g. https://dpaste.com/DJYAN964N-preview
+1. Create an item in Markdown syntax, e.g. <https://dpaste.com/DJYAN964N>
+2. When viewing the item, click the "Preview" button above the content to see the rendered version, e.g. <https://dpaste.com/DJYAN964N-preview>

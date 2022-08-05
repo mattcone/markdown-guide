@@ -1,7 +1,7 @@
 ---
 title: dpaste.com
 category: "websites"
-description: "dpaste.com is a programmer pastebin with a MarkDown previewing feature"
+description: "dpaste.com is a programmer pastebin with a MarkDown previewing feature."
 icon: dpaste.png
 website: https://www.dpaste.com
 syntax:

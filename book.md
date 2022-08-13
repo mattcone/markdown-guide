@@ -10,7 +10,7 @@ description: "Learn Markdown in 60 pages. The Markdown Guide book includes every
     <p class="lead" style="font-size:24px; color:#808080; padding-bottom:15px;">By Matt Cone</p>
     <p class="lead" style="padding-bottom: 5px;">Learn Markdown in 60 pages. <em>The Markdown Guide</em> book includes everything you need to get started and master Markdown syntax.</p>
 
-    <p class="lead">✔️ &nbsp; Professional quality PDF, MOBI, and EPUB files (DRM-free)</p>
+    <p class="lead">✔️ &nbsp; Professional quality PDF and EPUB files (DRM-free)</p>
     <p class="lead">✔️ &nbsp; Unlimited free lifetime updates</p>
     <p class="lead">✔️ &nbsp; 100% satisfaction guaranteed</p>
 

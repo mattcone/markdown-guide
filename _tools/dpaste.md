@@ -3,7 +3,7 @@ title: dpaste.com
 category: "websites"
 description: "dpaste.com is a programmer pastebin with a Markdown previewing feature."
 icon: dpaste.png
-website: https://www.dpaste.com
+website: https://dpaste.com
 syntax:
   - id: headings
     available: y
@@ -61,7 +61,7 @@ syntax:
     available: y
 ---
 
-[dpaste.com](https://www.dpaste.com.org) is a programmer pastebin. Use it to share pieces of code in chat rooms, forums, and the like, without pastebombing the conversation. Your code gets a short URL like <https://dpaste.com/ABCD23456>. dpaste supports over 500 syntaxes, including Markdown.
+[dpaste.com](https://dpaste.com) is a programmer pastebin. Use it to share pieces of code in chat rooms, forums, and the like, without pastebombing the conversation. Your code gets a short URL like <https://dpaste.com/ABCD23456>. dpaste supports over 500 syntaxes, including Markdown.
 
 Markdown items can be previewed, and the preview has a bookmarkable URL. ([Python-Markdown](https://python-markdown.github.io/) is used for Markdown rendering.)
 

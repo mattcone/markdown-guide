@@ -46,9 +46,9 @@ syntax:
   - id: task-lists
     available: n
   - id: emoji-cp
-    available: u
+    available: y
   - id: emoji-sc
-    available: u
+    available: n
   - id: highlight
     available: n
   - id: subscript
@@ -61,13 +61,13 @@ syntax:
     available: y
 ---
 
-[dpaste.com](https://dpaste.com) is a programmer pastebin. Use it to share pieces of code in chat rooms, forums, and the like, without pastebombing the conversation. Your code gets a short URL like <https://dpaste.com/ABCD23456>. dpaste supports over 500 syntaxes, including Markdown.
+[dpaste.com](https://dpaste.com) is a programmer pastebin. Use it to share pieces of code in chat rooms, forums, and the like, without pastebombing the conversation. Your code gets a short URL like `https://dpaste.com/ABCD23456`. dpaste supports over 500 syntaxes, including Markdown.
 
-Markdown items can be previewed, and the preview has a bookmarkable URL. ([Python-Markdown](https://python-markdown.github.io/) is used for Markdown rendering.)
+Markdown items can be previewed, and the preview has a bookmarkable URL. [Python-Markdown](https://python-markdown.github.io/) is used for Markdown rendering.
 
 ## Using the Markdown preview
 
-1. Create an item in Markdown syntax, e.g. <https://dpaste.com/DJYAN964N>
-2. When viewing the item, click the "Preview" button above the content to see the rendered version, e.g. <https://dpaste.com/DJYAN964N-preview>
+1. Create an item in Markdown syntax (e.g., <https://dpaste.com/DJYAN964N>).
+2. When viewing the item, click the "Preview" button above the content to see the rendered version (e.g., <https://dpaste.com/DJYAN964N-preview>).
 
 {% include tool-syntax-table.html %}

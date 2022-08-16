@@ -1,7 +1,7 @@
 ---
-title: Mark Text
+title: MarkText
 category: documents
-description: "Mark Text is a popular free and open-source editor designed for Markdown."
+description: "MarkText is a popular free and open-source editor designed for Markdown."
 icon: mark-text.png
 website: https://github.com/marktext/marktext
 syntax:
@@ -11,7 +11,7 @@ syntax:
     available: y
   - id: line-breaks
     available: y
-    notes: "There's a discrepancy between the Mark Text editor and the rendered output when you press the Return key once — that *does not* create a line break in the exported HTML and PDF. You must use trailing whitespace or a trailing backslash (`\\`)."
+    notes: "There's a discrepancy between the MarkText editor and the rendered output when you press the Return key once — that *does not* create a line break in the exported HTML and PDF. You must use trailing whitespace or a trailing backslash (`\\`)."
   - id: bold
     available: y
   - id: italic
@@ -28,7 +28,7 @@ syntax:
     available: y
   - id: links
     available: y
-    notes: "For some reason, [angle brackets](/basic-syntax/#urls-and-email-addresses) for URLs and email addresses are rendered literally in the Mark Text editor. It's a minor issue since the links are rendered correctly in the exported HTML and PDF."
+    notes: "For some reason, [angle brackets](/basic-syntax/#urls-and-email-addresses) for URLs and email addresses are rendered literally in the MarkText editor. It's a minor issue since the links are rendered correctly in the exported HTML and PDF."
   - id: images
     available: y
   - id: tables
@@ -45,7 +45,7 @@ syntax:
     available: n
   - id: strikethrough
     available: y
-    notes: "You can use two tildes (`~~word~~`) or one tilde (`~word~`) — both work in the exported HTML and PDF even though the Mark Text editor only renders strikethrough with two tildes."
+    notes: "You can use two tildes (`~~word~~`) or one tilde (`~word~`) — both work in the exported HTML and PDF even though the MarkText editor only renders strikethrough with two tildes."
   - id: task-lists
     available: y
   - id: emoji-cp
@@ -65,11 +65,11 @@ syntax:
   - id: html
     available: y
 see-also:
-  - name: Mark Test GitHub repository
+  - name: MarkText GitHub repository
     link: https://github.com/marktext/marktext
 ---
 
-[Mark Text](https://github.com/marktext/marktext) is a popular free and open-source document editor designed exclusively for writing in Markdown. Like [Typora](/tools/typora/), Mark Text has a polished interface and a live editor that hides the Markdown formatting after you type it. The PDF and HTML export options are handy, as is the feature that allows you to copy text out of the editor as Markdown, HTML, or plaintext.
+[MarkText](https://github.com/marktext/marktext) is a popular free and open-source document editor designed exclusively for writing in Markdown. Like [Typora](/tools/typora/), MarkText has a polished interface and a live editor that hides the Markdown formatting after you type it. The PDF and HTML export options are handy, as is the feature that allows you to copy text out of the editor as Markdown, HTML, or plaintext.
 
 There are some minor annoyances. In several instances (noted below in the table), the appearance of the text in the application didn't match the rendered output of the exported HTML and PDF. And as with [Notion](/tools/notion/), it can be difficult to edit Markdown-formatted text after the live editor has converted it.
 

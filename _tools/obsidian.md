@@ -73,7 +73,7 @@ see-also:
 
 {% include image.html file="/assets/images/tools/obsidian.png" alt="Obsidian Markdown application" %}
 
-Obsidian sports virtually all of the standard fare common to the other applications in this category, but it ups the ante by including a number of other features for power users. There's a visually-striking graph view that's a kind of "mind map" of all your files stored in Obsidian, a "Markdown format importer" that can find and replace certain Markdown syntax elements in your files, and support for [math](https://publish.obsidian.md/help/How+to/Format+your+notes) and [diagram](https://publish.obsidian.md/help/How+to/Format+your+notes) syntax. That really just scratches the surface of Obsidian's capabilities. Obsidian is extensible, and there are dozens of free community plugins available within the application. 
+Obsidian sports virtually all of the standard fare common to the other applications in this category, but it ups the ante by including a number of other features for power users. There's a visually-striking graph view that's a kind of "mind map" of all your files stored in Obsidian, a "Markdown format importer" that can find and replace certain Markdown syntax elements in your files, and support for [math](https://publish.obsidian.md/help/How+to/Format+your+notes) and [diagram](https://publish.obsidian.md/help/How+to/Format+your+notes) syntax. That really just scratches the surface of Obsidian's capabilities. Obsidian is extensible, and there are hundreds of free community plugins available within the application. 
 
 Two other features are worth mentioning. Obsidian provides a simple way to publish notes to the internet, and it stores all of your files in plaintext Markdown files containing only the text you enter.
 

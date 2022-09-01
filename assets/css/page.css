@@ -163,3 +163,103 @@ blockquote {
 code {
   color: #212529;
 }
+
+#carbonads * {
+	margin: initial;
+	padding: initial;
+}
+
+#carbonads {
+	display: flex;
+	max-width: 130px;
+	overflow: hidden;
+	border-radius: 4px;
+	box-shadow: 0 0 1px hsla(0, 0%, 0%, 0.15);
+	font-size: 12px;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI',
+		Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue',
+		Helvetica, Arial, sans-serif;
+}
+
+#carbonads a {
+	background-image: none;
+	color: #111;
+	text-decoration: none;
+}
+
+#carbonads a:hover {
+	color: #111;
+}
+
+#carbonads .carbon-img {
+	display: block;
+	max-width: 130px;
+	line-height: 1;
+}
+
+#carbonads .carbon-img img {
+	display: block;
+	width: 130px;
+	height: 100px;
+	margin: 0 auto;
+}
+
+#carbonads .carbon-text {
+	display: block;
+	padding: 8px 10px;
+	background-color: hsl(0, 0%, 98%);
+	line-height: 1.35;
+	text-align: left;
+}
+
+#carbonads .carbon-poweredby {
+	display: block;
+	padding: 10px;
+	background: repeating-linear-gradient(
+			-45deg,
+			transparent,
+			transparent 5px,
+			hsla(0, 0%, 0%, 0.025) 5px,
+			hsla(0, 0%, 0%, 0.025) 10px
+		)
+		hsla(203, 11%, 95%, 0.4);
+	background-color: hsl(0, 0%, 98%);
+	font-weight: 600;
+	font-size: 8px;
+	line-height: 0;
+	letter-spacing: 0.5px;
+	text-transform: uppercase;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 759px) {
+	#carbonads {
+		position: relative;
+		max-width: 330px;
+		margin: 20px 0;
+		float: none;
+	}
+
+	#carbonads .carbon-wrap {
+		display: flex;
+		flex-direction: row;
+	}
+
+	#carbonads .carbon-img {
+		margin: 0;
+	}
+
+	#carbonads .carbon-text {
+		padding: 10px 10px 0 10px;
+
+		font-size: 12px;
+	}
+
+	#carbonads .carbon-poweredby {
+		position: absolute;
+		right: 0;
+		bottom: 0;
+		border-radius: 0;
+		border-top-left-radius: 3px;
+		text-align: center;
+	}
+}

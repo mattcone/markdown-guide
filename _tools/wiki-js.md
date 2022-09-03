@@ -28,7 +28,7 @@ syntax:
     available: y
   - id: links
     available: y
-    notes: "You can link to other notes in Dendron by using the `[[Link name|filename]]` syntax."
+    notes: "You can link to other notes by using the `[[Link name|filename]]` syntax."
   - id: images
     available: y
   - id: tables

@@ -72,15 +72,15 @@ Notenik has a few distinguishing features in the increasingly crowded field of n
 + It has a very traditional Mac user interface
 + It is free and open-source
 + Notes are stored in plain text files
-+ Notes can be stored in multiple Collections (aka folders)
++ Notes can be stored in multiple collections (aka folders)
 + Collections/folders can be stored anywhere the user likes
-+ Notenik support multiple fields per Note, and many different field types
-+ The body of a Note is always formatted using Markdown, but other fields (say a teaser, for example) can also be formatted using Markdown
-+ Notenik supports filtering, sorting and merging of Notes to create static websites
-+ Support is provided for importing, exporting and sharing  Notes using a wide variety of formats
++ Notenik supports multiple fields per note, and many different field types
++ The body of a note is always formatted using Markdown, but other fields (a teaser, for example) can also be formatted using Markdown
++ Notenik supports filtering, sorting, and merging of notes to create static websites
++ Support is provided for importing, exporting, and sharing notes using a wide variety of formats
 + Supports both MultiMarkdown metadata as well as YAML frontmatter 
 
-The Collection window shows two tabs on the left, and another two on the right. On the left, the user can switch between a sorted List of all Notes in the Collection, and an outline of all Notes,  organized by Tags. On the right, the user can switch between an Edit view and a Display view. 
+The Collection window shows two tabs on the left, and another two on the right. On the left, the user can switch between a sorted list of all notes in the collection, and an outline of all notes, organized by tags. On the right, the user can switch between an edit view and a display view. 
 
 All Notenik documentation is stored in the Notenik Knowledge Base, which is itself a Notenik Collection, and is always accessible from within Notenik (as well as from the [web](https://notenik.app/knowledge-base/EPUB/html/notenik-knowledge-base.html)).
 

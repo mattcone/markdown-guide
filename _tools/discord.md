@@ -29,7 +29,8 @@ syntax:
   - id: horizontal-rules
     available: n
   - id: links
-    available: n
+    available: p
+    notes: "Links are supported in embeds (in fields where Markdown works). Links are also supported in webhook messages and Slash commands."
   - id: images
     available: n
   - id: tables

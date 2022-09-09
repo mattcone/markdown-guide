@@ -61,7 +61,6 @@ syntax:
     available: n
   - id: html
     available: y
-    
 ---
 
 Notenik is a free and open-source Mac app for taking and organizing notes using Markdown. It can be downloaded from the [Mac App Store](https://apps.apple.com/us/app/notenik/id1465997984). 

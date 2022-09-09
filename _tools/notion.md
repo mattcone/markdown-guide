@@ -71,8 +71,8 @@ syntax:
   - id: html
     available: n
 see-also:
-  - name: Learn the shortcuts
-    link: https://www.notion.so/66e28cec810548c3a4061513126766b0
+  - name: Notion keyboard shortcuts
+    link: https://www.notion.so/help/keyboard-shortcuts
 ---
 
 [Notion](https://www.notion.so) is an innovative application that bills itself as an all-in-one knowledge management solution for individuals and teams. You could think of it as a note-taking app or a wiki, but those descriptions don't really do it justice. You really have to try it to get a sense of what it's capable of. Some organizations use Notion for project management and task tracking, among other things. The application can even function as a database of sorts.

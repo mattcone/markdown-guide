@@ -68,6 +68,8 @@ syntax:
 see-also:
   - name: Discord Markdown Text 101
     link: https://support.discord.com/hc/en-us/articles/210298617-Markdown-Text-101-Chat-Formatting-Bold-Italic-Underline-
+  - name: Discord Message Formatting Reference
+    link: https://discord.com/developers/docs/reference#message-formatting
 ---
 
 [Discord](https://discord.com/) is one of the most popular messaging and collaboration applications available. Popular among gamers and teenagers, Discord provides a snappy and well-designed interface that works well for communicating with friends. Similar to [Slack](/tools/slack/), Discord provides limited Markdown support which is comparable to other applications in this category.
@@ -76,28 +78,68 @@ see-also:
 
 {% include tool-syntax-table.html %}
 
-### Support for Additional Syntax Elements
+### Extensions
 
-As an added bonus, Discord provides support for several obscure elements.
+Discord also adds the following extensions:
+
+- underline: `__underline__`
+- spoiler: `||hidden text||`
+- mention: `<@USER_ID>`
+- channel: `<#CHANNEL_ID>`
+- role: `<@&ROLE_ID>`
+- slash command: `</NAME:COMMAND_ID>`
+- custom emoji: `<:EMOJI_NAME:EMOJI_ID>`
+- animated custom emoji: `<a:EMOJI_NAME:EMOJI_ID>`
+- unix time: `<t:UNIX_TIMESTAMP>`
+- unix time styled: `<t:UNIX_TIMESTAMP:STYLE>`
+
+Unix time stamp is one of:
 
 <table class="table table-bordered" style="font-size: 14px">
   <thead class="thead-light">
     <tr>
-      <th>Element</th>
-      <th>Markdown</th>
-      <th>Rendered Output</th>
+      <th>Style</th>
+      <th>Example Output</th>
+      <th>Description</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>Spoilers</td>
-      <td><code>This text will be hidden: ||spoilers||</code></td>
-      <td></td>
+      <td>t</td>
+      <td>16:20</td>
+      <td>Short Time</td>
     </tr>
     <tr>
-      <td>Underline</td>
-      <td><code>__This text will be underlined.__</code></td>
-      <td><ins>This text will be underlined.</ins></td>
+      <td>T</td>
+      <td>16:20:30</td>
+      <td>Long Time</td>
+    </tr>
+    <tr>
+      <td>d</td>
+      <td>20/04/2021</td>
+      <td>Short Date</td>
+    </tr>
+    <tr>
+      <td>D</td>
+      <td>20 April 2021</td>
+      <td>Long Date</td>
+    </tr>
+    <tr>
+      <td>f </td>
+      <td>20 April 2021 16:20</td>
+      <td>Short Date/Time</td>
+    </tr>
+    <tr>
+      <td>F</td>
+      <td>Tuesday, 20 April 2021 16:20</td>
+      <td>Long Date/Time</td>
+    </tr>
+    <tr>
+      <td>R</td>
+      <td>2 months ago</td>
+      <td>Relative Time</td>
     </tr>
   </tbody>
 </table>
+
+`f` is the default style, i.e. `<t:TIMESTAMP>` is a shortcut for `<t:TIMESTAMP:f>`

@@ -12,7 +12,7 @@ website: https://slack.com
 
 Slack's message interface is the one people use most. Support for some [basic syntax](/basic-syntax/) is provided, although support for many elements is notably absent.
 
-In November 2019, Slack introduced a new WYSIWYG interface, as shown below. This feature is enabled for all users by default. The most obvious change is the addition of formatting buttons in the interface controls, but there's also a live editor that hides the Markdown formatting after you type it. You don't have to use the interface controls to format your text — you can still use the Markdown syntax elements  described in the next section.
+In November 2019, Slack introduced a new WYSIWYG interface, as shown below. This feature is enabled for all users by default. The most obvious change is the addition of formatting buttons in the interface controls, but there's also a live editor that hides the Markdown formatting after you type it. You don't have to use the interface controls to format your text — you can still use the Markdown syntax elements described in the next section.
 
 {% include image.html file="/assets/images/tools/slack-messages.png" alt="Slack markdown in the message interface" width="70" %}
 
@@ -69,13 +69,13 @@ The Slack message interface provides support for the following the Markdown elem
     </tr>
     <tr>
       <td><a href="/basic-syntax#ordered-lists">Ordered Lists</a></td>
-      <td class="table-danger">No</td>
-      <td></td>
+      <td class="table-danger">Partial</td>
+      <td>Standard Markdown syntax is *only* supported if WYSIWIG editor is disabled.</td>
     </tr>
     <tr>
       <td><a href="/basic-syntax#unordered-lists">Unordered Lists</a></td>
-      <td class="table-danger">No</td>
-      <td></td>
+      <td class="table-danger">Partial</td>
+      <td>Standard Markdown syntax is *only* supported if WYSIWIG editor is disabled. Only supports dash and asterisk for unordered list.</td>
     </tr>
     <tr>
       <td><a href="/basic-syntax#code">Code</a></td>
@@ -89,8 +89,8 @@ The Slack message interface provides support for the following the Markdown elem
     </tr>
     <tr>
       <td><a href="/basic-syntax/#links">Links</a></td>
-      <td class="table-danger">No</td>
-      <td></td>
+      <td class="table-danger">Partial</td>
+      <td>Standard Markdown syntax is *only* supported if WYSIWIG editor is disabled.</td>
     </tr>
     <tr>
       <td><a href="/basic-syntax/#images-1">Images</a></td>
@@ -135,7 +135,7 @@ The Slack message interface provides support for the following the Markdown elem
     <tr>
       <td><a href="/extended-syntax/#task-lists">Task Lists</a></td>
       <td class="table-danger">No</td>
-      <td></td>
+      <td>Is interpreted as an unordered list</td>
     </tr>
     <tr>
       <td><a href="/extended-syntax/#copying-and-pasting-emoji">Emoji (copy and paste)</a></td>
@@ -169,7 +169,7 @@ The Slack message interface provides support for the following the Markdown elem
     </tr>
     <tr>
       <td><a href="/extended-syntax/#disabling-automatic-url-linking">Disabling Automatic URL Linking</a></td>
-      <td class="table-danger">No</td>
+      <td class="table-danger">Yes</td>
       <td></td>
     </tr>
     <tr>

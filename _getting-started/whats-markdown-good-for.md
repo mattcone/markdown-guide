@@ -28,7 +28,7 @@ Here are some Markdown document authoring applications I recommend:
 
 - **Mac:** [MacDown](/tools/macdown/), [iA Writer](/tools/ia-writer/), or [Marked 2](/tools/marked-2/)
 - **iOS / Android:** [iA Writer](/tools/ia-writer/)
-- **Windows:** [ghostwriter](https://wereturtle.github.io/ghostwriter/) or [Markdown Monster](https://markdownmonster.west-wind.com/)
+- **Windows:** [ghostwriter](https://kde.github.io/ghostwriter/) or [Markdown Monster](https://markdownmonster.west-wind.com/)
 - **Linux:** [ReText](https://github.com/retext-project/retext) or [ghostwriter](https://wereturtle.github.io/ghostwriter/)
 - **Web:** [Dillinger](/tools/dillinger/) or [StackEdit](/tools/stackedit/)
 

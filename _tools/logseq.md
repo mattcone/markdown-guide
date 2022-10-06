@@ -20,7 +20,7 @@ syntax:
   - id: blockquotes
     available: y
   - id: ordered-lists
-    available: n
+    available: y
   - id: unordered-lists
     available: y 
   - id: code

@@ -67,8 +67,8 @@ syntax:
     available: y
     notes: "Requires XHTML tags: tags must be closed or self-closing (e.g. `<p/>`)"
 see-also:
-  - name: Logseq Markdown Cheatsheet
-    link: https://logseq.github.io/#/page/markdown
+  - name: Logseq documentation
+    link: https://docs.logseq.com/
 ---
 
 [Logseq](https://logseq.com) is an open-source note taking application that supports Markdown and Orgmode syntax. As it prioritizes  privacy, everything is stored locally on your machine for the desktop and web applications. There's not currently a mobile app, but there is an option to use git for note storage and link the repository with Logseq. 

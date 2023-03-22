@@ -3,7 +3,7 @@ title: MART
 category: "documents"
 description: "Simple QT GUI for the Markdown Tool."
 icon: mart.png
-website: https://github.com/artiomn/mart%2Fgui
+website: https://github.com/artiomn/mart_gui
 syntax:
   - id: headings
     available: y
@@ -66,8 +66,8 @@ see-also:
     link: https://github.com/artiomn/markdown_articles_tool
 ---
 
-[Markdown ARticles Tool GUI](https://github.com/artiomn/mart-gui) is Qt GUI for the [Markdown Articles Tool](https://github.com/artiomn/markdown_articles_tool). You can download text with images using deduplication and convert to the different formats. The Markdown ARticles Tool GUI is available for macOS, Windows, and Linux.
+[Markdown ARticles Tool GUI](https://github.com/artiomn/mart_gui) is Qt GUI for the [Markdown Articles Tool](https://github.com/artiomn/markdown_articles_tool). You can download text with images using deduplication and convert to the different formats. The Markdown ARticles Tool GUI is available for macOS, Windows, and Linux.
 
-{% include image.html file="/assets/images/tools/mart.png" alt="Markdown Articles Tool" %}
+{% include image.html file="/assets/images/tools/mart.png" alt="Markdown Articles Tool QT GUI" %}
 
 {% include tool-syntax-table.html %}

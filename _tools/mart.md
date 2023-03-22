@@ -3,7 +3,7 @@ title: MART
 category: "documents"
 description: "Simple QT GUI for the Markdown Tool."
 icon: mart.png
-website: https://github.com/artiomn/mart-gui
+website: https://github.com/artiomn/mart%2Fgui
 syntax:
   - id: headings
     available: y

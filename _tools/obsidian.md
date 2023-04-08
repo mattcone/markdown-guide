@@ -65,7 +65,7 @@ syntax:
     available: y
   - id: html
     available: p
-    notes: "Some HTML is [sanitized](https://publish.obsidian.md/help/Advanced+topics/HTML+sanitization) for security purposes."
+    notes: "Some HTML is [sanitized](https://publish.obsidian.md/help/Advanced+topics/HTML+sanitization) for security purposes. Markdown inside HTML is frequently left un-parsed."
 see-also:
   - name: Format your notes
     link: https://publish.obsidian.md/help/How+to/Format+your+notes

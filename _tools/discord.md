@@ -6,7 +6,7 @@ icon: discord.png
 website: https://discord.com/
 syntax:
   - id: headings
-    available: n
+    available: y
   - id: paragraphs
     available: n
   - id: line-breaks
@@ -23,14 +23,13 @@ syntax:
   - id: ordered-lists
     available: n
   - id: unordered-lists
-    available: n
+    available: y
   - id: code
     available: y
   - id: horizontal-rules
     available: n
   - id: links
-    available: p
-    notes: "Links are supported in embeds (in fields where Markdown works). Links are also supported in webhook messages and Slash commands."
+    available: y
   - id: images
     available: n
   - id: tables

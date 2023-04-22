@@ -131,11 +131,6 @@ description: "Learn Markdown in 60 pages. The Markdown Guide book includes every
   <footer class="blockquote-footer" style="padding-bottom:20px;">Mohamad Kalaaji, via <a href="https://www.goodreads.com/review/show/3419254608">Goodreads</a></footer>
 </blockquote>
 
-<blockquote class="blockquote">
-  <p class="mb-0">I've found this very simple guide to Markdown syntax very useful in a pinch.</p>
-  <footer class="blockquote-footer" style="padding-bottom:20px;">Morgan Thompson, via <a href="https://twitter.com/datamorgan/status/1109518506125451264">Twitter</a></footer>
-</blockquote>
-
 <blockquote class="blockquote" style="margin-bottom:60px;">
   <p class="mb-0">Well done! This is an incredibly valuable and well-done resource. It does a great job of educating without becoming too overwhelming or too narrowly focused on one application of Markdown.</p>
   <footer class="blockquote-footer" style="padding-bottom:20px;">nxprefect, via <a href="https://www.reddit.com/r/Markdown/comments/8gi8yb/i_created_an_open_source_markdown_guide/dycxpvb/">Reddit</a></footer>

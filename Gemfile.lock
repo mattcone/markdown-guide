@@ -23,7 +23,7 @@ GEM
       yell (~> 2.0)
       zeitwerk (~> 2.5)
     http_parser.rb (0.8.0)
-    i18n (1.12.0)
+    i18n (1.13.0)
       concurrent-ruby (~> 1.0)
     jekyll (4.2.2)
       addressable (~> 2.4)
@@ -58,7 +58,7 @@ GEM
       rb-fsevent (~> 0.10, >= 0.10.3)
       rb-inotify (~> 0.9, >= 0.9.10)
     mercenary (0.4.0)
-    mini_portile2 (2.8.1)
+    mini_portile2 (2.8.2)
     nokogiri (1.14.3)
       mini_portile2 (~> 2.8.0)
       racc (~> 1.4)
@@ -85,7 +85,7 @@ GEM
     unicode-display_width (1.8.0)
     webrick (1.8.1)
     yell (2.2.2)
-    zeitwerk (2.6.7)
+    zeitwerk (2.6.8)
 
 PLATFORMS
   ruby

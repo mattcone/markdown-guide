@@ -21,7 +21,7 @@ syntax:
     available: y
     notes: "You can use `>>>` to create a multi-line blockquote. All text from the `>>>` to the end of the message will be included in the quote."
   - id: ordered-lists
-    available: n
+    available: y
   - id: unordered-lists
     available: y
   - id: code

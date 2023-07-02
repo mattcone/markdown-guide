@@ -29,7 +29,8 @@ syntax:
   - id: horizontal-rules
     available: n
   - id: links
-    available: y
+    available: n
+    notes: "Not currently supported. See this [GitHub issue](https://github.com/discord/discord-api-docs/issues/6088) for more information."
   - id: images
     available: n
   - id: tables

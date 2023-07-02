@@ -39,18 +39,17 @@ syntax:
   - id: footnotes
     available: y
   - id: heading-ids
-    available: p
-    notes: "Automatically generated. There's no way to set custom heading IDs."
+    available: y
   - id: definition-lists
     available: n
   - id: strikethrough
     available: y
   - id: task-lists
-    available: n
+    available: y
   - id: emoji-cp
-    available: u
+    available: y
   - id: emoji-sc
-    available: u
+    available: y
   - id: highlight
     available: n
   - id: subscript

@@ -44,7 +44,7 @@ syntax:
     available: n
   - id: heading-ids
     available: p
-    notes: "Automatically generated. There's no way to set custom heading IDs. You can copy a link to a heading by clicking the **H#** symbol next to the heading in the margin and selecting **Copy Link to Here**. See the [documentation](https://bear.app/faq/Tags%20&%20Linking/How%20to%20link%20notes%20together/) for more information."
+    notes: "Automatically generated. There's no way to set custom heading IDs. You can copy a link to a heading by clicking the **H#** symbol next to the heading in the margin and selecting **Copy Link to Here**. See the [documentation](https://bear.app/faq/how-to-link-notes-together/) for more information."
   - id: definition-lists
     available: n
   - id: strikethrough
@@ -70,8 +70,8 @@ syntax:
     available: p
     notes: "HTML is not rendered in Bear notes, but it is apparently rendered in the HTML output from exported notes."
 see-also:
-  - name: Bear Markdown compatibility mode
-    link: https://bear.app/faq/Markup%20:%20Markdown/Markdown%20compatibility%20mode/
+  - name: How to use Markdown in Bear
+    link: https://bear.app/faq/how-to-use-markdown-in-bear/
 ---
 
 [Bear](https://bear.app) is a macOS and iOS application designed for one thing: note taking. It's like [Evernote](https://evernote.com/), but without the bloat.

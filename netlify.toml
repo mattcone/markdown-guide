@@ -1,6 +1,6 @@
 [build]
   publish = "_site/"
-  command = "JEKYLL_ENV=production jekyll build"
+  command = "./deploy.sh"
 
 [build.processing]
   skip_processing = false

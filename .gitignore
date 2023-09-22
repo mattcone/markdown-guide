@@ -3,6 +3,7 @@ _site/
 .bundle/
 .git-metadata/
 .jekyll-cache/
+deploy.sh
 
 # =========================
 # Operating System Files

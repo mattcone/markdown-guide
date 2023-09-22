@@ -43,9 +43,14 @@
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 
   <script src="/assets/javascript/jquery-3.5.1.slim.min.js"></script>
+  {% if jekyll.environment == "production" %}
+  <script async src="/assets/javascript/bs.bundle.min.js"></script>
+  <script defer src="/assets/javascript/fa.bundle.min.js"></script>
+  {% else %}
   <script async src="/assets/javascript/bootstrap.bundle.min.js"></script>
   <script async src="/assets/javascript/bootstrap-toc.min.js"></script>
   <script defer src="/assets/javascript/solid.min.js"></script>
   <script defer src="/assets/javascript/fontawesome.min.js"></script>
+  {% endif %}
   <script async src="https://media.ethicalads.io/media/client/ethicalads.min.js"></script>
 </head>

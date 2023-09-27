@@ -14,10 +14,10 @@ We collect and use information in order to provide you the services of the Markd
 
 Here are all the ways in which we collect and use your information:
 
-- **Serving requests**: Our hosting partner [Netlify](https://www.netlify.com/) collects your IP address. This data is retained for no longer than 30 days.
+- **Serving requests**: Our hosting partner [Fastly](https://docs.fastly.com/en/guides/data-management) collects your IP address. This data is retained for no longer than 30 days.
 - **Analyzing web traffic**: We use a self-hosted instance of [Plausible](https://plausible.io/) to process the pages you request, as well as your IP address. Your IP address is used to estimate your geolocation and will not be stored.
 - **Serving ads**: Our partner [EthicalAds](https://www.ethicalads.io/) processes your IP address to estimate your geolocation in order to serve country specific ads.
-- **Contacting us**: When you [contact us](/contact/), you can provide your name and email address. If you do, they will be collected by [Netlify](https://www.netlify.com/) and sent to us by email, in order for us to reply to you.
+- **Contacting us**: When you [contact us](/contact/), you can provide your name and email address. If you do, they will be sent to us by email, in order for us to reply to you.
 
 ## Cookies
 
@@ -37,4 +37,4 @@ We may revise this policy from time to time. The changes will not be retroactive
 
 If you have any questions or feedback regarding this privacy policy, you may [contact us](/contact/).
 
-Last updated: 2022-03-19
+Last updated: 2023-09-24

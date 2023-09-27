@@ -3,7 +3,7 @@
 
 headings:
   name: Headings
-  link: /basic-syntax#headings
+  link: /basic-syntax/#headings
 
 paragraphs:
   name: Paragraphs
@@ -15,27 +15,27 @@ line-breaks:
 
 bold:
   name: Bold
-  link: /basic-syntax#bold
+  link: /basic-syntax/#bold
 
 italic:
   name: Italic
-  link: /basic-syntax#italic
+  link: /basic-syntax/#italic
 
 blockquotes:
   name: Blockquotes
-  link: /basic-syntax#blockquotes-1
+  link: /basic-syntax/#blockquotes-1
 
 ordered-lists:
   name: Ordered Lists
-  link: /basic-syntax#ordered-lists
+  link: /basic-syntax/#ordered-lists
 
 unordered-lists:
   name: Unordered Lists
-  link: /basic-syntax#unordered-lists
+  link: /basic-syntax/#unordered-lists
 
 code:
   name: Code
-  link: /basic-syntax#code
+  link: /basic-syntax/#code
 
 horizontal-rules:
   name: Horizontal Rules

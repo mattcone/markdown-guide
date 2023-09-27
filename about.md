@@ -18,7 +18,7 @@ Find a typo or inaccurate statement? Please [create an issue](https://github.com
 
 ## Contacting
 
-Use the [contact form](/contact) to send a message to the maintainer of *The Markdown Guide*.
+Use the [contact form](/contact/) to send a message to the maintainer of *The Markdown Guide*.
 
 ## Acknowledgements
 

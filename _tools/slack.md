@@ -38,7 +38,7 @@ The Slack message interface provides support for the following the Markdown elem
   </thead>
   <tbody>
     <tr>
-      <td><a href="/basic-syntax#headings">Headings</a></td>
+      <td><a href="/basic-syntax/#headings">Headings</a></td>
       <td class="table-danger">No</td>
       <td></td>
     </tr>
@@ -53,32 +53,32 @@ The Slack message interface provides support for the following the Markdown elem
       <td>The Markdown syntax is not supported, but you can press the Shift and Return keys to go to the next line.</td>
     </tr>
     <tr>
-      <td><a href="/basic-syntax#bold">Bold</a></td>
+      <td><a href="/basic-syntax/#bold">Bold</a></td>
       <td class="table-danger">No</td>
       <td>The Markdown syntax is not supported, but you can add bold styling with single asterisks, which is the standard Markdown syntax for italic. Very confusing!</td>
     </tr>
     <tr>
-      <td><a href="/basic-syntax#italic">Italic</a></td>
+      <td><a href="/basic-syntax/#italic">Italic</a></td>
       <td class="table-warning">Partial</td>
       <td>Only underscores are supported.</td>
     </tr>
     <tr>
-      <td><a href="/basic-syntax#blockquotes-1">Blockquotes</a></td>
+      <td><a href="/basic-syntax/#blockquotes-1">Blockquotes</a></td>
       <td class="table-success">Yes</td>
       <td></td>
     </tr>
     <tr>
-      <td><a href="/basic-syntax#ordered-lists">Ordered Lists</a></td>
+      <td><a href="/basic-syntax/#ordered-lists">Ordered Lists</a></td>
       <td class="table-danger">Partial</td>
       <td>Standard Markdown syntax is *only* supported if WYSIWIG editor is disabled.</td>
     </tr>
     <tr>
-      <td><a href="/basic-syntax#unordered-lists">Unordered Lists</a></td>
+      <td><a href="/basic-syntax/#unordered-lists">Unordered Lists</a></td>
       <td class="table-danger">Partial</td>
       <td>Standard Markdown syntax is *only* supported if WYSIWIG editor is disabled. Only supports dash and asterisk for unordered list.</td>
     </tr>
     <tr>
-      <td><a href="/basic-syntax#code">Code</a></td>
+      <td><a href="/basic-syntax/#code">Code</a></td>
       <td class="table-warning">Partial</td>
       <td><a href="/basic-syntax/#code-blocks">Code blocks</a> are not supported.</td>
     </tr>
@@ -206,7 +206,7 @@ The Slack post interface provides support for the following Markdown elements.
   </thead>
   <tbody>
     <tr>
-      <td><a href="/basic-syntax#headings">Headings</a></td>
+      <td><a href="/basic-syntax/#headings">Headings</a></td>
       <td class="table-warning">Partial</td>
       <td>Only heading levels one and two are supported. Only number signs are supported.</td>
     </tr>
@@ -221,32 +221,32 @@ The Slack post interface provides support for the following Markdown elements.
       <td></td>
     </tr>
     <tr>
-      <td><a href="/basic-syntax#bold">Bold</a></td>
+      <td><a href="/basic-syntax/#bold">Bold</a></td>
       <td class="table-danger">No</td>
       <td>The Markdown syntax is not supported, but you can add bold styling with single asterisks, which is the standard Markdown syntax for italic. Very confusing!</td>
     </tr>
     <tr>
-      <td><a href="/basic-syntax#italic">Italic</a></td>
+      <td><a href="/basic-syntax/#italic">Italic</a></td>
       <td class="table-warning">Partial</td>
       <td>Only underscores are supported.</td>
     </tr>
     <tr>
-      <td><a href="/basic-syntax#blockquotes-1">Blockquotes</a></td>
+      <td><a href="/basic-syntax/#blockquotes-1">Blockquotes</a></td>
       <td class="table-success">Yes</td>
       <td></td>
     </tr>
     <tr>
-      <td><a href="/basic-syntax#ordered-lists">Ordered Lists</a></td>
+      <td><a href="/basic-syntax/#ordered-lists">Ordered Lists</a></td>
       <td class="table-success">Yes</td>
       <td></td>
     </tr>
     <tr>
-      <td><a href="/basic-syntax#unordered-lists">Unordered Lists</a></td>
+      <td><a href="/basic-syntax/#unordered-lists">Unordered Lists</a></td>
       <td class="table-success">Yes</td>
       <td></td>
     </tr>
     <tr>
-      <td><a href="/basic-syntax#code">Code</a></td>
+      <td><a href="/basic-syntax/#code">Code</a></td>
       <td class="table-success">Yes</td>
       <td></td>
     </tr>

@@ -30,7 +30,7 @@ syntax:
     available: n
   - id: links
     available: p
-    notes: "The link styles for [URLs and email addresses](/basic-syntax#urls-and-email-addresses) and [reference-style links](/basic-syntax#reference-style-links) are not supported."
+    notes: "The link styles for [URLs and email addresses](/basic-syntax/#urls-and-email-addresses) and [reference-style links](/basic-syntax/#reference-style-links) are not supported."
   - id: images
     available: n
   - id: tables

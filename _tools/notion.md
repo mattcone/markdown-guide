@@ -17,8 +17,8 @@ syntax:
   - id: italic
     available: y
   - id: blockquotes
-    available: p
-    notes: "Nested blockquotes are not supported."
+    available: y
+    notes: "Notion uses `|` or `\"` to denote a blockquote, instead of the standard `>` (which creates a Toggle)."
   - id: ordered-lists
     available: y
   - id: unordered-lists
@@ -35,7 +35,7 @@ syntax:
     notes: "Copying and pasting Markdown-formatted images works, but you can't use that format in Notion's editor. Use the `/images` slash command instead."
   - id: tables
     available: p
-    notes: "Copying and pasting Markdown-formatted tables works, but you can't type them in Notion's editor. Use the `/table-inline` slash command instead."
+    notes: "Copying and pasting Markdown-formatted tables works, but you can't type them in Notion's editor. Use the `/table` slash command instead."
   - id: fenced-code-blocks
     available: y
   - id: syntax-highlighting
@@ -75,9 +75,9 @@ see-also:
     link: https://www.notion.so/help/keyboard-shortcuts
 ---
 
-[Notion](https://www.notion.so) is an innovative application that bills itself as an all-in-one knowledge management solution for individuals and teams. You could think of it as a note-taking app or a wiki, but those descriptions don't really do it justice. You really have to try it to get a sense of what it's capable of. Some organizations use Notion for project management and task tracking, among other things. The application can even function as a database of sorts.
+[Notion](https://www.notion.so) is an innovative application that bills itself as an all-in-one knowledge management solution for individuals and teams. You could think of it as a note-taking app or a wiki, but those descriptions don't really do it justice. You really have to try it to get a sense of what it's capable of - Notion does offer a free pricing tier for single users for this purpose. Some organizations use Notion for project management and task tracking, among other things. The application also supports "databases": collections of documents with additional properties similar to YAML headers, but defined from the application GUI.
 
-Notion has desktop and mobile apps available, as well as a web-based interface. You create an account for yourself and your organization — the accounts are used to sync everything with Notion's servers.
+Notion has desktop and mobile apps available, as well as a web-based interface. You create an account for yourself and your organization — the accounts are used to sync everything with Notion's servers. Documents are stored remotely, requiring an internet connection to access and update. Limited offline editing is available, but only for documents you have already opened recently.
 
 {% include image.html file="/assets/images/tools/notion.png" alt="Notion Markdown application" %}
 

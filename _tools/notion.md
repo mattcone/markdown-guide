@@ -18,7 +18,7 @@ syntax:
     available: y
   - id: blockquotes
     available: y
-    notes: "Notion uses `|` or `\"` to denote a blockquote, instead of the standard `>` (which creates a Toggle)."
+    notes: 'Notion uses `|` or `"` to denote a blockquote, instead of the standard `>` (which creates a Toggle).'
   - id: ordered-lists
     available: y
   - id: unordered-lists
@@ -32,7 +32,7 @@ syntax:
     notes: "Copying and pasting Markdown-formatted links works, but you can't type them in Notion's editor. Use the `/link` slash command instead (only works for internal links to other pages in Notion)."
   - id: images
     available: p
-    notes: "Copying and pasting Markdown-formatted images works, but you can't use that format in Notion's editor. Use the `/images` slash command instead."
+    notes: "Copying and pasting Markdown-formatted images works, but you can't use that format in Notion's editor. Use the `/images` slash command instead, or paste the image directly."
   - id: tables
     available: p
     notes: "Copying and pasting Markdown-formatted tables works, but you can't type them in Notion's editor. Use the `/table` slash command instead."
@@ -49,7 +49,7 @@ syntax:
     available: n
   - id: strikethrough
     available: p
-    notes: "Use only one tilde symbol before and after the phrase. Doesn't work when copying and pasting Markdown-formatted text into Notion."
+    notes: "Uses only one tilde symbol before and after the phrase when typing. Conversely, only works for pasted content with two tildes."
   - id: task-lists
     available: y
     notes: "Copying and pasting Markdown-formatted task lists works. You can generate todo boxes with `[]` or use the `/todo` slash command instead."
@@ -57,7 +57,7 @@ syntax:
     available: y
   - id: emoji-sc
     available: y
-    notes: "The second colon isn't needed. Type `:` followed by the name of the emoji e.g. `:fire`"
+    notes: "The second colon isn't needed. Type `:` followed by the name of the emoji e.g. `:fire`. Unavailable when copy-pasting into Notion."
   - id: highlight
     available: n
   - id: subscript
@@ -81,6 +81,6 @@ Notion has desktop and mobile apps available, as well as a web-based interface. 
 
 {% include image.html file="/assets/images/tools/notion.png" alt="Notion Markdown application" %}
 
-Notion's Markdown support is hit or miss. Copying and pasting Markdown-formatted text into Notion generally works the way you'd expect, but using Notion's live editor to write using Markdown doesn't always work. You can, for instance, use asterisks to make text bold, but trying to use brackets to create a link or pipes to create a table doesn't work — which is strange considering that those syntax elements *do* work when you copy and paste them in. It's also difficult to edit Markdown-formatted text that you've copied and pasted in Notion.
+Notion's Markdown support is hit or miss. Copying and pasting Markdown-formatted text into Notion generally works the way you'd expect, but using Notion's live editor to write using Markdown doesn't always work. You can, for instance, use asterisks to make text bold, but trying to use brackets to create a link or pipes to create a table doesn't work — which is strange considering that those syntax elements _do_ work when you copy and paste them in. It's also difficult to edit Markdown-formatted text that you've copied and pasted in Notion.
 
 {% include tool-syntax-table.html %}

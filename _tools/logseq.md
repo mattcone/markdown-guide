@@ -57,10 +57,10 @@ syntax:
     available: y
   - id: subscript
     available: n
-    notes: "use X_{sub}"
+    notes: "Use `X_{sub}`"
   - id: superscript
     available: n
-    notes: "X^{super}"
+    notes: "Use `X^{super}`"
   - id: auto-url-linking
     available: y
   - id: disabling-auto-url

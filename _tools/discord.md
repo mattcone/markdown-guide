@@ -19,7 +19,7 @@ syntax:
     available: y
   - id: blockquotes
     available: y
-    notes: "You can use `>>>` to create a multi-line blockquote. All text from the `>>>` to the end of the message will be included in the quote."
+    notes: "You can use `>` to create a multi-line blockquote. All text from the `>` to the end of the message will be included in the quote."
   - id: ordered-lists
     available: y
   - id: unordered-lists

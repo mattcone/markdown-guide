@@ -2,7 +2,7 @@ GEM
   remote: https://rubygems.org/
   specs:
     Ascii85 (1.1.0)
-    addressable (2.8.5)
+    addressable (2.8.6)
       public_suffix (>= 2.0.2, < 6.0)
     afm (0.2.2)
     async (2.6.5)
@@ -12,7 +12,7 @@ GEM
       timers (~> 4.1)
     colorator (1.1.0)
     concurrent-ruby (1.2.2)
-    console (1.23.2)
+    console (1.23.3)
       fiber-annotation
       fiber-local
     em-websocket (0.5.3)

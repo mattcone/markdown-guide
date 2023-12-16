@@ -180,14 +180,14 @@ Parentheses in the middle of a URL can also be problematic. For compatibility, t
     <tr>
       <td>
         <code class="highlighter-rouge">
-        [a novel](https://en.wikipedia.org/wiki/The_Milagro_Beanfield_War_%28novel%29)<br><br>
+        [a novel](https://en.wikipedia.org/wiki/<wbr>The_Milagro_Beanfield_War_%28novel%29)<br><br>
 
-        &lt;a href="https://en.wikipedia.org/wiki/The_Milagro_Beanfield_War_(novel)"&gt;a novel&lt;/a&gt;<br><br>
+        &lt;a href="https://en.wikipedia.org/wiki/<wbr>The_Milagro_Beanfield_War_(novel)"&gt;a novel&lt;/a&gt;<br><br>
         </code>
       </td>
       <td>
         <code class="highlighter-rouge">
-        [a novel](https://en.wikipedia.org/wiki/The_Milagro_Beanfield_War_(novel))
+        [a novel](https://en.wikipedia.org/wiki/<wbr>The_Milagro_Beanfield_War_(novel))
         </code>
       </td>
     </tr>

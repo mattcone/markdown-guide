@@ -2,7 +2,7 @@
 title: Writerside
 category: "websites"
 description: "Writerside is a new technical authoring and publishing environment from JetBrains."
-icon: 
+icon: writerside.png
 website: https://www.jetbrains.com/writerside/
 syntax:
   - id: headings
@@ -68,3 +68,4 @@ Created by JetBrains, Writerside is based on the IntelliJ platform.
 
 Writerside uses the [flexmark](https://github.com/vsch/flexmark-java) Markdown processor.
 
+{% include tool-syntax-table.html %}

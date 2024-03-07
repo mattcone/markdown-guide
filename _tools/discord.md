@@ -6,7 +6,7 @@ icon: discord.png
 website: https://discord.com/
 syntax:
   - id: headings
-    available: n
+    available: y
   - id: paragraphs
     available: n
   - id: line-breaks
@@ -21,16 +21,16 @@ syntax:
     available: y
     notes: "You can use `>>>` to create a multi-line blockquote. All text from the `>>>` to the end of the message will be included in the quote."
   - id: ordered-lists
-    available: n
+    available: y
   - id: unordered-lists
-    available: n
+    available: y
   - id: code
     available: y
   - id: horizontal-rules
     available: n
   - id: links
     available: p
-    notes: "Links are supported in embeds (in fields where Markdown works). Links are also supported in webhook messages and Slash commands."
+    notes: "Not fully supported. See this [GitHub issue](https://github.com/discord/discord-api-docs/issues/6450) for more information."
   - id: images
     available: n
   - id: tables

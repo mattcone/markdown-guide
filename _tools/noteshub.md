@@ -34,9 +34,9 @@ syntax:
   - id: fenced-code-blocks
     available: y
   - id: syntax-highlighting
-    available: n
+    available: y
   - id: footnotes
-    available: n
+    available: y
   - id: heading-ids
     available: n
   - id: definition-lists
@@ -50,11 +50,11 @@ syntax:
   - id: emoji-sc
     available: y
   - id: highlight
-    available: n
+    available: y
   - id: subscript
-    available: n
+    available: y
   - id: superscript
-    available: n
+    available: y
   - id: auto-url-linking
     available: y
   - id: disabling-auto-url
@@ -63,13 +63,9 @@ syntax:
     available: y
 ---
 
-[NotesHub](https://noteshub.app) is a fully cross-platform and vendor-agnostic Markdown note taking app.
+[NotesHub](https://noteshub.app) is a fully cross-platform, vendor-agnostic, Markdown-based note-taking app. With NotesHub your notes truly belong to you and are not tight to any particular vendor. All of your data is stored in Git repositories, so you can clone and manage it outside the app. In addition, you can use iCloud Drive to store and sync your notes across all of your Apple devices.
 
-With NotesHub, your notes truly belong to you and not any particular vendor. All of your data is stored in Git repositories, so you can clone them and manage outside the app.
-
-You can use Markdown to format your notes and create tables, lists, images, and more. Markdown will keep your notes in the same style regardless of whether you copied text from the internet or wrote it from scratch.
-
-NotesHub is a progressive web application you can use on any device. You can install it or use it as website.
+Use the power of Markdown to format your notes, and create tables, lists, images, diagrams, and more. Markdown will help keep your notes in the same style regardless of whether you copied text from the internet or wrote it from scratch. In addition to notes, you can create Kanban boards and use them as a tool to visualize your work and maximize your efficiency. This will help you to organize your time, focus on what matters, and achieve more.
 
 {% include image.html file="/assets/images/tools/noteshub.png" alt="NotesHub" %}
 

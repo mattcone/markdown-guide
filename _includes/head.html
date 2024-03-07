@@ -22,6 +22,13 @@
   <meta name="HandheldFriendly" content="True">
   <meta name="MobileOptimized" content="320">
 
+  {% if jekyll.environment == "production" %}
+  {% if page.title == 'Home' or page.title == '404 Not Found' %}
+  <link href="/assets/css/homebundle.css" rel="stylesheet">
+  {% else %}
+  <link href="/assets/css/pagebundle.css" rel="stylesheet">
+  {% endif %}
+  {% else %}
   <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
   <link rel="stylesheet" href="/assets/css/bootstrap-toc.min.css">
   <link rel="stylesheet" href="/assets/css/docsearch.min.css">
@@ -31,13 +38,19 @@
   {% else %}
   <link href="/assets/css/page.css" rel="stylesheet">
   {% endif %}
-
+  {% endif %}
+  
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 
   <script src="/assets/javascript/jquery-3.5.1.slim.min.js"></script>
+  {% if jekyll.environment == "production" %}
+  <script async src="/assets/javascript/bs.bundle.min.js"></script>
+  <script defer src="/assets/javascript/fa.bundle.min.js"></script>
+  {% else %}
   <script async src="/assets/javascript/bootstrap.bundle.min.js"></script>
   <script async src="/assets/javascript/bootstrap-toc.min.js"></script>
   <script defer src="/assets/javascript/solid.min.js"></script>
   <script defer src="/assets/javascript/fontawesome.min.js"></script>
+  {% endif %}
   <script async src="https://media.ethicalads.io/media/client/ethicalads.min.js"></script>
 </head>

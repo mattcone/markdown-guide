@@ -38,7 +38,7 @@ syntax:
   - id: syntax-highlighting
     available: y
   - id: footnotes
-    available: n
+    available: y
   - id: heading-ids
     available: n
   - id: definition-lists
@@ -53,11 +53,11 @@ syntax:
   - id: emoji-sc
     available: y
   - id: highlight
-    available: n
+    available: y
   - id: subscript
-    available: n
+    available: y
   - id: superscript
-    available: n
+    available: y
   - id: auto-url-linking
     available: y
   - id: disabling-auto-url

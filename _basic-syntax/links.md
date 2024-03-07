@@ -155,12 +155,39 @@ Markdown applications don't agree on how to handle spaces in the middle of a URL
         <code class="highlighter-rouge">
         [link](https://www.example.com/my%20great%20page)<br><br>
 
-        &lt;a href="https://www.example.com/my great page"&gt;link&lt;/a&gt;
+        &lt;a href="https://www.example.com/my great page"&gt;link&lt;/a&gt;<br><br>
         </code>
       </td>
       <td>
         <code class="highlighter-rouge">
-        [link](https://www.example.com/my great page)
+        [link](https://www.example.com/my great page)<br><br>
+        </code>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+Parentheses in the middle of a URL can also be problematic. For compatibility, try to URL encode the opening parenthesis (`(`) with `%28` and the closing parenthesis (`)`) with `%29`. Alternatively, if your Markdown application [supports HTML](#html), you could use the `a` HTML tag. 
+
+<table class="table table-bordered">
+  <thead class="thead-light">
+    <tr>
+      <th>✅&nbsp; Do this</th>
+      <th>❌&nbsp; Don't do this</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        <code class="highlighter-rouge">
+        [a novel](https://en.wikipedia.org/wiki/<wbr>The_Milagro_Beanfield_War_%28novel%29)<br><br>
+
+        &lt;a href="https://en.wikipedia.org/wiki/<wbr>The_Milagro_Beanfield_War_(novel)"&gt;a novel&lt;/a&gt;<br><br>
+        </code>
+      </td>
+      <td>
+        <code class="highlighter-rouge">
+        [a novel](https://en.wikipedia.org/wiki/<wbr>The_Milagro_Beanfield_War_(novel))
         </code>
       </td>
     </tr>

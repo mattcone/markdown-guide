@@ -65,7 +65,7 @@ syntax:
     available: y
 see-also:
   - name: Notable Markdown Cheatsheet
-    link: https://cheatsheet.md/notable.pdf
+    link: https://notable.app/static/pdfs/cheatsheet.pdf
 ---
 
 [Notable](https://notable.app) is a bare-bones note taking application with excellent Markdown support. Free for desktop use, Notable is designed for people who like to see Markdown-formatted text while they're typing. There's no live editor here. It's just you and raw text. You can click the Edit button to switch between the editor and preview screen — a handy feature when you're reading through your notes.

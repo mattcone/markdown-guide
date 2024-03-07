@@ -1,35 +1,6 @@
 [build]
   publish = "_site/"
-  command = "JEKYLL_ENV=production jekyll build"
-
-[build.processing]
-  skip_processing = false
-[build.processing.css]
-  bundle = true
-  minify = true
-[build.processing.js]
-  bundle = true
-  minify = true
-[build.processing.html]
-  pretty_urls = false
-[build.processing.images]
-  compress = true
-
-[[redirects]]
-from = "/assets/book/markdown-guide.pdf"
-to = "/book/"
-
-[[redirects]]
-from = "/assets/book/markdown-guide.epub"
-to = "/book/"
-
-[[redirects]]
-from = "/assets/book/markdown-guide.mobi"
-to = "/book/"
-
-[[redirects]]
-from = "/tools/modako/"
-to = "/tools/madoko/"
+  command = "jekyll build"
 
 [[headers]]
   for = "/*"

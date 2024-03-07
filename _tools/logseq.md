@@ -20,7 +20,7 @@ syntax:
   - id: blockquotes
     available: y
   - id: ordered-lists
-    available: n
+    available: y
   - id: unordered-lists
     available: y 
   - id: code
@@ -57,8 +57,10 @@ syntax:
     available: y
   - id: subscript
     available: n
+    notes: "Use `X_{sub}`"
   - id: superscript
     available: n
+    notes: "Use `X^{super}`"
   - id: auto-url-linking
     available: y
   - id: disabling-auto-url
@@ -67,13 +69,13 @@ syntax:
     available: y
     notes: "Requires XHTML tags: tags must be closed or self-closing (e.g. `<p/>`)"
 see-also:
-  - name: Logseq Markdown Cheatsheet
-    link: https://logseq.github.io/#/page/markdown
+  - name: Logseq documentation
+    link: https://docs.logseq.com/
 ---
 
-[Logseq](https://logseq.com) is an open-source note taking application that supports Markdown and Orgmode syntax. As it prioritizes  privacy, everything is stored locally on your machine for the desktop and web applications. There's not currently a mobile app, but there is an option to use git for note storage and link the repository with Logseq. 
+[Logseq](https://logseq.com) is an open-source note taking application that supports Markdown and Orgmode syntax. As it prioritizes privacy, everything is stored locally on your machine for the desktop and web applications. There are [mobile apps](https://logseq.com/downloads) available for iOS and Android devices.
 
-Logseq provides a very promising feature set: back links, note graphs (inspired by Roam Research), automated card creation (for learning), templates, and much more.
+Logseq provides a very promising feature set: Back links, note graphs (inspired by Roam Research), automated card creation (for learning), templates, and much more.
 
 {% include image.html file="/assets/images/tools/logseq.png" alt="Logseq application" %}
 

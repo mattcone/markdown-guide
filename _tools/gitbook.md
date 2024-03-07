@@ -63,10 +63,10 @@ syntax:
     available: n
 see-also:
   - name: GitBook Markdown documentation
-    link: https://docs.gitbook.com/editing-content/markdown
+    link: https://docs.gitbook.com/content-creation/editor/markdown
 ---
 
-[GitBook](https://www.gitbook.com) is a hosted solution for documentation websites and knowledge bases. In a nutshell, you sign in to GitBook's website and use their web-based editor to write your documentation. Or, if you'd rather maintain control over your content, you can keep it in a git repository that is [integrated with GitBook](https://docs.gitbook.com/integrations/git-sync). Either way, you can create different webpages and organize them in a logical order. When everything looks the way you want it, you can publish it on a custom domain.
+[GitBook](https://www.gitbook.com) is a hosted solution for documentation websites and knowledge bases. In a nutshell, you sign in to GitBook's website and use their web-based editor to write your documentation. Or, if you'd rather maintain control over your content, you can keep it in a git repository that is [integrated with GitBook](https://docs.gitbook.com/product-tour/git-sync). Either way, you can create different webpages and organize them in a logical order. When everything looks the way you want it, you can publish it on a custom domain.
 
 Like so many projects, GitBook started as an open source toolchain with a commercial offering, but eventually dropped the open source project in favor of a new proprietary and closed-source offering that's hosted exclusively on their website. The [open source toolchain is still available](https://github.com/GitbookIO/gitbook), but as that option is now unsupported, this article only documents the new hosted option.
 

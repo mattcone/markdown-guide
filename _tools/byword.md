@@ -63,11 +63,6 @@ syntax:
     available: y
   - id: html
     available: y
-see-also:
-  - name: Byword Markdown guide
-    link: https://bywordapp.com/markdown/guide.html
-  - name: Byword Markdown syntax
-    link: https://bywordapp.com/markdown/syntax.html
 ---
 
 [Byword](https://bywordapp.com) is no-frills Markdown editor for macOS and iOS. You type Markdown-formatted text, use a menu option to invoke the preview, and export to one of several available file formats including HTML, PDF, Microsoft Word, and LaTeX. You can publish to several blogging services, and the iCloud sync feature lets you author and access the files from all of your Apple devices. Byword isn't fancy by any means — some people might even be put off by the application's insubstantial look and feel — but it gets the job done.

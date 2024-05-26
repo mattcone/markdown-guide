@@ -3,7 +3,7 @@ title: Madoko
 category: documents
 description: "Madoko is an application for writing professional articles and more."
 icon: madoko.png
-website: https://www.madoko.net/
+website: https://github.com/koka-lang/madoko
 syntax:
   - id: headings
     available: y
@@ -32,7 +32,7 @@ syntax:
     notes: "Images can be dropped into the document to be automatically uploaded and linked to a sub-directory of the document's folder. Just watch the file size as images larger than about 1Mb are rejected by the Madoko server."
   - id: tables
     available: y
-    notes: "Madoko significantly extends the [table syntax](https://madoko.org/reference.html#sec-table) of basic Markdown."
+    notes: "Madoko significantly extends the table syntax of basic Markdown."
   - id: fenced-code-blocks
     available: y
   - id: syntax-highlighting
@@ -64,13 +64,10 @@ syntax:
     available: n
   - id: html
     available: p
-    notes: "See the [Madoko Reference](https://madoko.org/reference.html#sec-custom) for more information on custom blocks."
-see-also:
-  - name: Madoko Reference
-    link: https://madoko.org/reference.html
+    notes: "See the Madoko Reference for more information on custom blocks."
 ---
 
-[Madoko](https://www.madoko.net/) is a fast Markdown processor for writing professional articles, books, manuals, webpages and presentations, with a focus on simplicity and plain text readability. You can use Madoko to write complex documents in Markdown and get beautiful PDF and HTML output. Madoko is a Javascript Markdown processor written in Koka. It started out as a demo program for the new, strongly typed, Koka language and the name comes from "Markdown in Koka."
+[Madoko](https://github.com/koka-lang/madoko) is a fast Markdown processor for writing professional articles, books, manuals, webpages and presentations, with a focus on simplicity and plain text readability. You can use Madoko to write complex documents in Markdown and get beautiful PDF and HTML output. Madoko is a Javascript Markdown processor written in Koka. It started out as a demo program for the new, strongly typed, Koka language and the name comes from "Markdown in Koka."
 
 Madoko can both be run locally as a command-line program or on Madoko.net to take advantage of storage and collaboration features. Madoko integrates seamlessly with Dropbox, Github, and OneDrive. It automatically synchronizes all changes in the cloud. This way, your document is always available from any device. The online editor can also edit files on the local disk, or run LaTeX locally, using the Madoko local program.
 

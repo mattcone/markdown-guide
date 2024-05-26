@@ -70,7 +70,7 @@ see-also:
     link: https://joplinapp.org
 ---
 
-[Joplin](https://joplinapp.org) is a free and open-source note taking application that works on every platform. Joplin's user interface isn't as polished as some of its competitors — it feels more geeky, if that makes any sense — but the application is a favorite among privacy advocates and is recommended by [Privacy Guides](https://www.privacyguides.org/notebooks/). Joplin stores notes on your local file system, provides end-to-end encryption, and allows you to synchronize files across devices by storing them on a service like Dropbox or Nextcloud. Or, you can subscribe to [Joplin Cloud](https://joplinapp.org/plans/) for syncing. 
+[Joplin](https://joplinapp.org) is a free and open-source note taking application that works on every platform. Joplin's user interface isn't as polished as some of its competitors — it feels more geeky, if that makes any sense — but the application is a favorite among privacy advocates and is recommended by [Privacy Guides](https://www.privacyguides.org/en/notebooks/). Joplin stores notes on your local file system, provides end-to-end encryption, and allows you to synchronize files across devices by storing them on a service like Dropbox or Nextcloud. Or, you can subscribe to [Joplin Cloud](https://joplinapp.org/plans/) for syncing. 
 
 {% include image.html file="/assets/images/tools/joplin.png" alt="Joplin Markdown application" width="90" %}
 

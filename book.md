@@ -116,6 +116,11 @@ description: "Learn Markdown in 60 pages. The Markdown Guide book includes every
   <footer class="blockquote-footer" style="padding-bottom:20px;">Rob Reeder, Documentation Specialist, <a href="https://cert.org" rel="nofollow">Software Engineering Institute, CMU</a></footer>
 </blockquote>
 
+<blockquote class="blockquote" style="margin-bottom:60px;">
+  <p class="mb-0">The perfect book form teaching resource for Markdown — concise, mapping functionality, extensions, and best practices. Not a long read, but if you like documentation in book format (I do), this is the book for Markdown syntax.</p>
+  <footer class="blockquote-footer" style="padding-bottom:20px;">Federico Lucifredi, Author of <em>AWS System Administration: Best Practices for Sysadmins in the Amazon Cloud</em>, via <a href="https://www.goodreads.com/review/show/6668744902">Goodreads</a></footer>
+</blockquote>
+
 <blockquote class="blockquote">
   <p class="mb-0">If you’re working with Markdown, then do yourself a favour and check out <em>The Markdown Guide</em>... It’s excellent.</p>
   <footer class="blockquote-footer" style="padding-bottom:20px;">Matthew Setter, via <a href="https://twitter.com/settermjd/status/1126099562345705472">Twitter</a></footer>
@@ -129,11 +134,6 @@ description: "Learn Markdown in 60 pages. The Markdown Guide book includes every
 <blockquote class="blockquote">
   <p class="mb-0">This book provides the right amount of information to learn Markdown and I highly recommend it!</p>
   <footer class="blockquote-footer" style="padding-bottom:20px;">Mohamad Kalaaji, via <a href="https://www.goodreads.com/review/show/3419254608">Goodreads</a></footer>
-</blockquote>
-
-<blockquote class="blockquote" style="margin-bottom:60px;">
-  <p class="mb-0">Well done! This is an incredibly valuable and well-done resource. It does a great job of educating without becoming too overwhelming or too narrowly focused on one application of Markdown.</p>
-  <footer class="blockquote-footer" style="padding-bottom:20px;">nxprefect, via <a href="https://www.reddit.com/r/Markdown/comments/8gi8yb/i_created_an_open_source_markdown_guide/dycxpvb/">Reddit</a></footer>
 </blockquote>
 
 <h2 class="no-anchor text-center">100% satisfaction guaranteed.</h2>

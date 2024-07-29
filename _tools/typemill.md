@@ -65,11 +65,10 @@ syntax:
     available: p
     notes: "HTML is off by default for security reasons but you can use various html-tags with a plugin that utilizes the shortcode feature."
 ---
-
-[Typemill](https://typemill.net) is a lightweight content management system (CMS) for creating websites and ebooks in PDF- and ePub-format. Typemill is especially used by small and midsized companies to create documentations and manuals for software, physical products, and services.
+[Typemill](https://typemill.net) is a lightweight content management system (CMS) for creating websites and ebooks in PDF and ePub formats. Typemill is especially popular among small and mid-sized companies for creating documentation and manuals for software, physical products, and services.
 
 {% include image.html file="/assets/images/tools/typemill.gif" alt="Typemill markdown editor" %}
 
-Typemill is build with vue.js and php. It uses the wide spread parsedown library for markdown conversion.
+Typemill is built with Vue.js and PHP. It uses the widely adopted Parsedown library for Markdown conversion.
 
 {% include tool-syntax-table.html %}

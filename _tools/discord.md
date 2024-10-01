@@ -29,8 +29,7 @@ syntax:
   - id: horizontal-rules
     available: n
   - id: links
-    available: p
-    notes: "Not fully supported. See this [GitHub issue](https://github.com/discord/discord-api-docs/issues/6450) for more information."
+    available: y
   - id: images
     available: n
   - id: tables
@@ -98,6 +97,11 @@ As an added bonus, Discord provides support for several obscure elements.
       <td>Underline</td>
       <td><code>__This text will be underlined.__</code></td>
       <td><ins>This text will be underlined.</ins></td>
+    </tr>
+    <tr>
+      <td>Subtext</td>
+      <td><code>-# This line will be made smaller and greyed out.</code></td>
+      <td><small style="opacity: 0.6;">This line will be made smaller and greyed out.</small></td>
     </tr>
   </tbody>
 </table>

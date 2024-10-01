@@ -63,9 +63,6 @@ syntax:
   - id: html
     available: p
     notes: "Some HTML is sanitized."
-see-also:
-  - name: Using Markdown in Ghost
-    link: https://ghost.org/faq/using-the-editor/#using-markdown
 ---
 
 [Buttondown](https://buttondown.com) is an email platform, similar to the now-defunct [TinyLetter](https://buttondown.com/comparisons/tinyletter), that allows you to send emails to subscribers. It also has integrations with many other platforms to automatically publish or add subscribers, amongst other possibilities.

@@ -26,7 +26,7 @@ Use the [contact form](/contact/) to send a message to the maintainer of *The Ma
 
 ## License
 
-The content of this project itself is licensed under the [Creative Commons Attribution-ShareAlike 4.0 International license](https://creativecommons.org/licenses/by-sa/4.0/), and the underlying source code used to format and display that content is licensed under the [MIT license](https://github.com/mattcone/markdown-guide/blob/master/LICENSE.txt).
+The content of this project itself is licensed under the [Creative Commons Attribution-ShareAlike 4.0 International license](https://creativecommons.org/licenses/by-sa/4.0/), and the underlying source code used to format and display that content is licensed under the [MIT license](https://github.com/mattcone/markdown-guide/blob/master/LICENSE-CODE.txt).
 
 ## Affiliate Links
 

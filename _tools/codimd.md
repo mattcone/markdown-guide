@@ -62,8 +62,8 @@ syntax:
   - id: html
     available: y
 see-also:
-  - name: CodiMD features
-    link: https://codimd-app.herokuapp.com/features
+  - name: CodiMD documentation
+    link: https://hackmd.io/c/codimd-documentation/
 ---
 
 [CodiMD](https://github.com/hackmdio/codimd) is an open-source real-time collaborative Markdown editor. You can easily [deploy CodiMD with Docker following this tutorial](https://hackmd.io/s/codimd-docker-deployment). CodiMD supports CommonMark and other markup syntax, such as:

@@ -63,9 +63,6 @@ syntax:
     available: n
   - id: html
     available: n
-see-also:
-  - name: AirSend Markdown Cheatsheet
-    link: https://www.airsend.io/blog/index.php/2020/02/19/how-to-format-a-message-using-markdown-language/
 ---
 
 [AirSend](https://www.airsend.io/) is a collaboration application that's great for keeping track of notes, formatting documents, and publishing status reports. This application allows users to see their notes and status reports in Markdown-formatted text. While typing your notes, other users can see the live preview on their screens. AirSend is available for macOS, iOS, Android, Windows, and Linux.

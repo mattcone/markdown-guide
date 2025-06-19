@@ -18,7 +18,7 @@ task :test do
                     %r{https://dpaste.com/*},
                     %r{https://hedgedoc.org/*},
                     %r{https://docs.hedgedoc.org/*},
-                    %r{https://www.reddit.com/*}],
+                    %r{https://www.reddit.com/*},
                     %r{https://stackoverflow.com/*}],
     :url_swap => { %r{https://www.markdownguide.org} => '' },
     :typhoeus => {

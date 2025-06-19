@@ -3,7 +3,7 @@
 source 'https://rubygems.org'
 
 group :development do
-  gem 'jekyll', '~> 4.2.0'
+  gem 'jekyll', '~> 4.4.1'
   gem 'jekyll-sitemap'
   gem 'jekyll-last-modified-at'
 end

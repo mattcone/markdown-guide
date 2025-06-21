@@ -15,7 +15,7 @@ If you're looking for the simplest possible way to create a website with Markdow
 If you're familiar with HTML, CSS, and version control, check out [Jekyll](/tools/jekyll/), a popular static site generator that takes Markdown files and builds an HTML website. One advantage to this approach is that [GitHub Pages](/tools/github-pages/) provides free hosting for Jekyll-generated websites. If Jekyll isn't your cup of tea, just pick one of the [many other static site generators available](https://jamstack.org/generators/).
 
 <div class="alert alert-info">
-  <i class="fas fa-info-circle"></i> <strong>Note:</strong> I used Jekyll to create the <i>Markdown Guide</i>. You can view the source code on <a href="https://github.com/mattcone/markdown-guide">GitHub</a>.
+  <i class="fas fa-info-circle"></i> <strong>Note:</strong> Shameless plug! If you want to learn how to build static websites from scratch, check out <a href="https://www.staticguide.org/"><em>The Static Site Guide</em></a>, another book I wrote.
 </div>
 
 If you'd like to use a content management system (CMS) to power your website, take a look at [Ghost](/tools/ghost/). It's a free and open-source blogging platform with a nice Markdown editor. If you're a WordPress user, you'll be happy to know there's [Markdown support](https://wordpress.com/support/wordpress-editor/blocks/markdown-block/) for websites hosted on WordPress.com. Self-hosted WordPress sites can use the [Jetpack plugin](https://jetpack.com/support/jetpack-blocks/markdown/).

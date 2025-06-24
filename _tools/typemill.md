@@ -39,7 +39,7 @@ syntax:
   - id: footnotes
     available: y
   - id: heading-ids
-    available: yes
+    available: y
     notes: "Can be activated in the settings."
   - id: definition-lists
     available: y

@@ -66,9 +66,7 @@ see-also:
     link: https://teedoc.github.io/get_started/en/syntax/syntax_markdown.html
 ---
 
-[teedoc](https://teedoc.github.io) is an open-source static site generator that converts Markdown files and jupyter notebooks to a documentation website. teedoc is written in the Python programming language, easy to use and extend.
-
-teedoc especially suitable for multiple documentation sites or wiki, or knowledge bases.
+[teedoc](https://teedoc.github.io) is an open-source static site generator that converts Markdown files and jupyter notebooks to a documentation website. teedoc is written in the Python programming language, easy to use and extend. teedoc is especially suitable for multiple documentation sites, wikis, or knowledge bases.
 
 teedoc uses the [mistune](https://github.com/lepture/mistune) Markdown parser.
 
@@ -78,10 +76,12 @@ teedoc uses the [mistune](https://github.com/lepture/mistune) Markdown parser.
 
 ### Support for Additional Syntax Elements
 
-teedoc support many useful additional syntax like:
+teedoc supports many useful additional syntax like:
+
 * [mermaid](https://mermaid-js.github.io/mermaid/): A simple markdown-like script language for generating charts from text via javascript.
-* math: Support Latex and tex math syntax, and MathML tags.
-* tabset: A easy to use tabset syntax. For example: to show different code examples for different programming languages.
+* math: Supports Latex, tex math syntax, and MathML tags.
+* tabset: A easy to use tabset syntax. For example, it shows different code examples for different programming languages.
+
   ```markdown
     .. tabset::
         :id: tabset1
@@ -96,6 +96,7 @@ teedoc support many useful additional syntax like:
   ```
 
   will be rendered to:
+
   ```html
   <div class="tabset tabset-id-tabset1">
     <div class="tabset-title">Title(optional)</div>
@@ -115,7 +116,9 @@ teedoc support many useful additional syntax like:
     </div>
   </div>
   ```
-* details: A syntax to generate HTML5 details tag
+
+* details: A syntax to generate HTML5 details tag.
+
   ```markdown
     .. details::Title, click to expand
 
@@ -123,6 +126,7 @@ teedoc support many useful additional syntax like:
   ```
 
   will be rendered to:
+
   ```html
     <details>
       <summary>Title, click to expand</summary>
@@ -132,6 +136,5 @@ teedoc support many useful additional syntax like:
     </details>
   ```
 
-
-More syntax information visit [teedoc markdown syntax](https://teedoc.github.io/get_started/en/syntax/syntax_markdown.html)
+For more syntax information, visit [teedoc markdown syntax](https://teedoc.github.io/get_started/en/syntax/syntax_markdown.html).
 

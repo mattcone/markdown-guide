@@ -17,7 +17,7 @@ syntax:
     available: y
   - id: blockquotes
     available: y
-    notes: "By default, the blockquotes markup will turn into an admonition block called a tip. One can change the block type to note or warning. Read more here: https://www.jetbrains.com/help/writerside/admonition-blocks.html"
+    notes: "By default, the blockquotes markup will turn into an admonition block called a tip. One can change the block type to note or warning. Read more here: <https://www.jetbrains.com/help/writerside/admonition-blocks.html>."
   - id: ordered-lists
     available: y
   - id: unordered-lists

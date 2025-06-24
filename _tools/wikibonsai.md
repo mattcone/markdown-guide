@@ -70,9 +70,6 @@ syntax:
     available: y
   - id: html
     available: y
-see-also:
-  - name: 
-    link: 
 ---
 
 [WikiBonsai](https://github.com/wikibonsai/wikibonsai) is a collection of open source tools to bring digital gardening workflows to markdown.

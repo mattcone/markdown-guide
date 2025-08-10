@@ -80,7 +80,7 @@ You can use a backslash to escape the following characters.
     </tr>
     <tr>
       <td>|</td>
-      <td>pipe (see also <a href="/extended-syntax/#escaping-pipe-characters-in-tables">escaping pipe in tables</a>)</td>
+      <td>pipe (see also <a href="_extended-syntax/tables.md#escaping-pipe-characters-in-tables">escaping pipe in tables</a>)</td>
     </tr>
   </tbody>
 </table>

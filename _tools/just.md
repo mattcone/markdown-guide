@@ -27,7 +27,7 @@ syntax:
     notes: "Nested lists aren’t supported."
   - id: code
     available: y
-    notes: "To escape backticks (`) use backslash (\\). Double backticks (``) aren’t supported."
+    notes: "To escape backticks (&#96;) use backslash (&#92;). Double backticks (&#96;&#96;) aren’t supported."
   - id: horizontal-rules
     available: y
   - id: links
@@ -38,7 +38,7 @@ syntax:
     available: n
   - id: fenced-code-blocks
     available: y
-    notes: "Use triple backticks (```). Spaces/Tabs aren’t supported."
+    notes: "Use triple backticks (&#96;&#96;&#96;). Spaces/Tabs aren’t supported."
   - id: syntax-highlighting
     available: y
   - id: footnotes
@@ -67,7 +67,7 @@ syntax:
     available: y
   - id: disabling-auto-url
     available: y
-    notes: "You can also use backslash (\\) before protocol to disable Automatic URL Linking"
+    notes: "You can also use backslash (&#92;) before protocol to disable Automatic URL Linking"
   - id: html
     available: y
 see-also:

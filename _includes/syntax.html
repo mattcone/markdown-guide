@@ -6,7 +6,7 @@
 
 {% for syntax in syntaxes %}
 {% if include.type != "basic-sub" %}
-<h2>{{ syntax.title }}</h2>
+## {{ syntax.title }}
 {% elsif include.type == "basic-sub" %}
 ### {{ syntax.title }}
 {% endif %}

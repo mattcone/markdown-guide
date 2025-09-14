@@ -35,7 +35,7 @@ syntax:
   - id: images
     available: y
   - id: tables
-    available: n
+    available: y
   - id: fenced-code-blocks
     available: y
     notes: "Use triple backticks (&#96;&#96;&#96;). Spaces/Tabs aren’t supported."
@@ -47,7 +47,7 @@ syntax:
     available: p
     notes: "Automatically generated."
   - id: definition-lists
-    available: n
+    available: y
   - id: strikethrough
     available: y
   - id: task-lists

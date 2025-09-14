@@ -110,6 +110,11 @@ As an added bonus, Just an Ultimate Site Tool provides support for several obscu
       <td><code>-# This line will be made smaller and greyed out.</code></td>
       <td><small style="opacity: 0.5; font-size: 12px">This line will be made smaller and greyed out.</small></td>
     </tr>
+    <tr>
+      <td>Embed</td>
+      <td><code>{https://juststudio.is-a.dev/}</code></td>
+      <td></td>
+    </tr>
   </tbody>
 </table>
 

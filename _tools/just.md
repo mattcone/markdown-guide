@@ -55,8 +55,7 @@ syntax:
   - id: emoji-cp
     available: y
   - id: emoji-sc
-    available: n
-    notes: "Planned"
+    available: y
   - id: highlight
     available: y
   - id: subscript

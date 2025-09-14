@@ -113,7 +113,7 @@ As an added bonus, Just an Ultimate Site Tool provides support for several obscu
     <tr>
       <td>Embed</td>
       <td><code>{https://juststudio.is-a.dev/}</code></td>
-      <td></td>
+      <td>{% include image.html file="/assets/images/tools/just-el.png" alt="Element preview (Light theme)" width="300px" %} {% include image.html file="/assets/images/tools/just-ed.png" alt="Element preview (Dark theme)" width="300px" %}</td>
     </tr>
   </tbody>
 </table>

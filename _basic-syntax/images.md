@@ -5,8 +5,8 @@ syntax-summary: "![alt text](image.jpg)"
 description: "To add an image, add an exclamation mark (`!`), followed by alt text in brackets, and the path or URL to the image asset in parentheses. You can optionally add a title after the URL in the parentheses."
 examples:
   - markdown: |
-      ![The San Juan Mountains are beautiful!](/assets/images/san-juan-mountains.jpg "San Juan Mountains")
-    html: <img src=\"/assets/images/san-juan-mountains.jpg\" class=\"img-responsive\" alt=\"The San Juan Mountains are beautiful!\" title=\"San Juan Mountains\">
+      ![The San Juan Mountains are beautiful](/assets/images/san-juan-mountains.jpg "San Juan Mountains")
+    html: <img src=\"/assets/images/san-juan-mountains.jpg\" class=\"img-responsive\" alt=\"The San Juan Mountains are beautiful\" title=\"San Juan Mountains\">
 additional-examples:
   - name: "Linking Images"
     description: "To add a link to an image, enclose the Markdown for the image in brackets, and then add the link in parentheses."
@@ -18,12 +18,12 @@ additional-examples:
 To add an image, add an exclamation mark (`!`), followed by alt text in brackets, and the path or URL to the image asset in parentheses. You can optionally add a title in quotation marks after the path or URL.
 
 ```
-![The San Juan Mountains are beautiful!](/assets/images/san-juan-mountains.jpg "San Juan Mountains")
+![The San Juan Mountains are beautiful](/assets/images/san-juan-mountains.jpg "San Juan Mountains")
 ```
 
 The rendered output looks like this:
 
-{% include image.html file="/assets/images/san-juan-mountains.jpg" alt="The San Juan Mountains are beautiful!" title="San Juan Mountains" lazy="yes" %}
+{% include image.html file="/assets/images/san-juan-mountains.jpg" alt="The San Juan Mountains are beautiful" title="San Juan Mountains" lazy="yes" %}
 
 <div class="alert alert-info">
   <i class="fas fa-info-circle"></i> <strong>Note:</strong> To resize an image, see the section on <a href="/hacks/#image-size">image size</a>. To add a caption, see the section on <a href="/hacks/#image-captions">image captions</a>.

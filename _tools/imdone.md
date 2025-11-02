@@ -1,7 +1,7 @@
 ---
 title: Imdone
 category: "kanban"
-description: "Imdone is a Markdown-based kanban board that lives in your notes, docs, and code."
+description: "Developer-first task management tools with Markdown kanban boards and Jira sync."
 icon: imdone.png
 website: https://imdone.io
 syntax:
@@ -50,7 +50,7 @@ syntax:
   - id: emoji-sc
     available: y
   - id: highlight
-    available: n
+    available: y
   - id: subscript
     available: n
   - id: superscript
@@ -63,7 +63,7 @@ syntax:
     available: y
 ---
 
-[Imdone](https://imdone.io) is a simple and powerful kanban board for people who work with Markdown and code. Markdown blocks in your notes, docs, and code are represented as cards on your kanban boards. You can add and edit cards using the built-in card editor or your favorite text editor, making it convenient to update your tasks while you're working on a Markdown document or code.
+[Imdone](https://imdone.io) is a comprehensive suite of developer-first task management tools designed to work seamlessly with Markdown and code. The toolkit includes a powerful kanban board where Markdown blocks in your notes, docs, and code are represented as cards, a command-line interface (CLI) for syncing with Jira to keep your project management in sync, a VSCode extension for integrated task management within your development environment, and an Obsidian plugin for note-based task management. You can add and edit cards using the built-in card editor, your favorite text editor, or directly through Jira sync, making it convenient to update your tasks while you're working on a Markdown document or code.
 
 {% include image.html file="/assets/images/tools/imdone.png" alt="Imdone kanban application" width="90" %}
 

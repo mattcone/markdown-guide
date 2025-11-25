@@ -1,7 +1,32 @@
 {% if site.url == "https://www.markdownguide.org" and jekyll.environment == "production" %}
-<img srcset="https://mdg.imgix.net{{ include.file }}?auto=format&fit=clip&w=480 480w,
-             https://mdg.imgix.net{{ include.file }}?auto=format&fit=clip&q=40&w=1080 1080w"
-             src="https://mdg.imgix.net{{ include.file }}" {% if include.class %}class="{{ include.class }}"{% else %}class="img-fluid"{% endif %} {% if include.width %}width="{{ include.width }}%"{% endif %} {% if include.title %}title="{{ include.title }}"{% endif %} alt="{{ include.alt }}" {% if include.lazy %}loading="lazy"{% endif %} sizes="100vw">
+
+  {%- comment -%}
+    Normalize the file path so we only have the part
+    relative to assets/images, e.g.:
+
+      "/assets/images/book-cover.jpg" -> "book-cover.jpg"
+      "assets/images/book/cover.jpg"  -> "book/cover.jpg"
+  {%- endcomment -%}
+  {% assign rel = include.file
+       | remove_first: '/assets/images/'
+       | remove_first: 'assets/images/'
+       | remove_first: '/images/'
+       | remove_first: 'images/' %}
+
+  {% assign basename = rel | split: '.' | first %}
+  {% assign ext      = rel | split: '.' | last %}
+
+  {% assign css_class = include.class | default: 'img-fluid' %}
+
+<picture>
+  <source srcset="/assets/images/generated/assets/images/{{ basename }}-480.webp 480w,
+                  /assets/images/generated/assets/images/{{ basename }}-1080.webp 1080w"
+          type="image/webp"
+          sizes="100vw">
+  <img srcset="/assets/images/generated/assets/images/{{ basename }}-480.{{ ext }} 480w,
+               /assets/images/generated/assets/images/{{ basename }}-1080.{{ ext }} 1080w"
+               src="/assets/images/generated/assets/images/{{ basename }}-1080.{{ ext }}" class="{{ css_class }}" {% if include.width %}width="{{ include.width }}%"{% endif %} {% if include.title %}title="{{ include.title }}"{% endif %} alt="{{ include.alt }}" {% if include.lazy %}loading="lazy"{% endif %} sizes="100vw">
+</picture>
 {% else %}
 <img src="{{ include.file }}" {% if include.class %}class="{{ include.class }}"{% else %}class="img-fluid"{% endif %} {% if include.width %}width="{{ include.width }}%"{% endif %} {% if include.title %}title="{{ include.title }}"{% endif %} alt="{{ include.alt }}" {% if include.lazy %}loading="lazy"{% endif %} sizes="100vw">
 {% endif %}

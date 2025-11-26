@@ -71,7 +71,7 @@ see-also:
 
 [Discord](https://discord.com/) is one of the most popular messaging and collaboration applications available. Popular among gamers and teenagers, Discord provides a snappy and well-designed interface that works well for communicating with friends. Similar to [Slack](/tools/slack/), Discord provides limited Markdown support which is comparable to other applications in this category.
 
-{% include image.html file="/assets/images/tools/Discord.png" alt="Example of Discord Markdown" %}
+{% include image.html file="/assets/images/tools/discord.png" alt="Example of Discord Markdown" %}
 
 {% include tool-syntax-table.html %}
 

@@ -15,10 +15,10 @@ task :test do
                     'https://twitter.com/settermjd/status/1126099562345705472',
                     'https://twitter.com/datamorgan/status/1109518506125451264',
                     'https://support.discord.com/hc/en-us/articles/210298617-Markdown-Text-101-Chat-Formatting-Bold-Italic-Underline-',
-                    %r{https://dpaste.com/*},
                     %r{https://hedgedoc.org/*},
                     %r{https://docs.hedgedoc.org/*},
                     %r{https://www.reddit.com/*},
+                    %r{https://medium.com*},
                     %r{https://stackoverflow.com/*}],
     :url_swap => { %r{https://www.markdownguide.org} => '' },
     :typhoeus => {

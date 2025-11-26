@@ -103,7 +103,7 @@ description: "Learn Markdown in 60 pages. The Markdown Guide book includes every
 
 <blockquote class="blockquote">
   <p class="mb-0"><em>The Markdown Guide</em> is hands-down the best Markdown reference.</p>
-  <footer class="blockquote-footer" style="padding-bottom:20px;">Michael Hartl, Founder of <a href="https://www.learnenough.com/">Learn Enough</a> and author of the <a href="https://www.railstutorial.org/">Ruby on Rails Tutorial</a></footer>
+  <footer class="blockquote-footer" style="padding-bottom:20px;">Michael Hartl, Founder of <a href="https://www.learnenough.com/" rel="nofollow">Learn Enough</a> and author of the <a href="https://www.railstutorial.org/" rel="nofollow">Ruby on Rails Tutorial</a></footer>
 </blockquote>
 
 <blockquote class="blockquote">
@@ -116,7 +116,7 @@ description: "Learn Markdown in 60 pages. The Markdown Guide book includes every
   <footer class="blockquote-footer" style="padding-bottom:20px;">Rob Reeder, Documentation Specialist, <a href="https://cert.org" rel="nofollow">Software Engineering Institute, CMU</a></footer>
 </blockquote>
 
-<blockquote class="blockquote" style="margin-bottom:60px;">
+<blockquote class="blockquote" style="margin-bottom:20px;">
   <p class="mb-0">The perfect book form teaching resource for Markdown — concise, mapping functionality, extensions, and best practices. Not a long read, but if you like documentation in book format (I do), this is the book for Markdown syntax.</p>
   <footer class="blockquote-footer" style="padding-bottom:20px;">Federico Lucifredi, Author of <em>AWS System Administration: Best Practices for Sysadmins in the Amazon Cloud</em>, via <a href="https://www.goodreads.com/review/show/6668744902">Goodreads</a></footer>
 </blockquote>

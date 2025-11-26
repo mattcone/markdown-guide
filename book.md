@@ -122,11 +122,6 @@ description: "Learn Markdown in 60 pages. The Markdown Guide book includes every
 </blockquote>
 
 <blockquote class="blockquote">
-  <p class="mb-0">If you’re working with Markdown, then do yourself a favour and check out <em>The Markdown Guide</em>... It’s excellent.</p>
-  <footer class="blockquote-footer" style="padding-bottom:20px;">Matthew Setter, via <a href="https://twitter.com/settermjd/status/1126099562345705472">Twitter</a></footer>
-</blockquote>
-
-<blockquote class="blockquote">
   <p class="mb-0">A terrific reference—straightforward and well organized, briskly paced, and featuring a spot-on instructive tone that conveys friendly engagement.</p>
   <footer class="blockquote-footer" style="padding-bottom:20px;">David Buck, Technical Writer</footer>
 </blockquote>

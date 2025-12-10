@@ -10,6 +10,84 @@ h1, h2, h3, h4, h5, h6 {
   font-size: .9rem;
 }
 
+.jotbird-banner {
+  display: block;
+  color: #0b1f35;
+  background: linear-gradient(120deg, #f5f9ff 0%, #e6f3ff 50%, #f8fdff 100%);
+  border-bottom: 1px solid #d6e9f6;
+  box-shadow: 0 6px 18px rgba(0, 49, 79, 0.08);
+  text-decoration: none;
+  transition: transform 120ms ease, box-shadow 160ms ease, background 160ms ease;
+  opacity: 0.93;
+  position: relative;
+}
+
+.jotbird-banner:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 10px 24px rgba(0, 49, 79, 0.12);
+  color: #0b1f35;
+  opacity: 1;
+}
+
+.jotbird-banner__inner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  padding: 10px 16px;
+}
+
+.jotbird-banner__logo {
+  height: 26px;
+  width: auto;
+}
+
+.jotbird-banner__text {
+  font-weight: 600;
+  font-size: 0.98rem;
+  letter-spacing: 0.01em;
+}
+
+.jotbird-banner__close {
+  position: absolute;
+  right: 14px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 30px;
+  height: 30px;
+  border: 0;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.85);
+  color: #0b1f35;
+  font-size: 18px;
+  line-height: 1;
+  cursor: pointer;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+}
+
+.jotbird-banner__close:hover,
+.jotbird-banner__close:focus {
+  background: #ffffff;
+  outline: none;
+}
+
+@media (max-width: 576px) {
+  .jotbird-banner__inner {
+    flex-direction: column;
+    gap: 8px;
+    text-align: center;
+  }
+  .jotbird-banner__text {
+    font-size: 0.95rem;
+    line-height: 1.4;
+  }
+  .jotbird-banner__close {
+    right: 10px;
+    top: 10px;
+    transform: none;
+  }
+}
+
 .jumbotron h1 {
   font-weight: 300;
   font-size: 3.2rem;

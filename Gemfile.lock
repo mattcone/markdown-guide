@@ -2,10 +2,10 @@ GEM
   remote: https://rubygems.org/
   specs:
     Ascii85 (2.0.1)
-    addressable (2.8.8)
+    addressable (2.8.9)
       public_suffix (>= 2.0.2, < 8.0)
     afm (1.0.0)
-    async (2.36.0)
+    async (2.37.0)
       console (~> 1.29)
       fiber-annotation
       io-event (~> 1.11)
@@ -34,9 +34,9 @@ GEM
       fiber-storage
     fiber-storage (1.0.1)
     forwardable-extended (2.6.0)
-    google-protobuf (4.33.5)
+    google-protobuf (4.34.0)
       bigdecimal
-      rake (>= 13)
+      rake (~> 13.3)
     hashery (2.1.2)
     html-proofer (5.2.0)
       addressable (~> 2.3)
@@ -79,7 +79,7 @@ GEM
       jekyll (>= 3.7, < 5.0)
     jekyll-watch (2.2.1)
       listen (~> 3.0)
-    json (2.18.1)
+    json (2.19.1)
     kramdown (2.5.2)
       rexml (>= 3.4.4)
     kramdown-parser-gfm (1.1.0)
@@ -104,7 +104,7 @@ GEM
       hashery (~> 2.0)
       ruby-rc4
       ttfunk
-    public_suffix (7.0.2)
+    public_suffix (7.0.5)
     racc (1.8.1)
     rainbow (3.1.1)
     rake (13.3.1)
@@ -115,7 +115,7 @@ GEM
     rouge (4.7.0)
     ruby-rc4 (0.1.5)
     safe_yaml (1.0.5)
-    sass-embedded (1.97.3)
+    sass-embedded (1.98.0)
       google-protobuf (~> 4.31)
       rake (>= 13)
     terminal-table (3.0.2)
@@ -123,8 +123,8 @@ GEM
     traces (0.18.2)
     ttfunk (1.8.0)
       bigdecimal (~> 3.1)
-    typhoeus (1.4.1)
-      ethon (>= 0.9.0)
+    typhoeus (1.6.0)
+      ethon (>= 0.18.0)
     unicode-display_width (2.6.0)
     webrick (1.9.2)
     yell (2.2.2)

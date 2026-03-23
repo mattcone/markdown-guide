@@ -46,9 +46,9 @@ syntax:
   - id: task-lists
     available: n
   - id: emoji-cp
-    available: u
+    available: y
   - id: emoji-sc
-    available: u
+    available: n
   - id: highlight
     available: n
   - id: subscript

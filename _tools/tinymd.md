@@ -68,6 +68,8 @@ syntax:
 
 The toolkit includes converters (Markdown to PDF, HTML, DOCX, EPUB, and back), a distraction-free editor with live preview, a diff tool for comparing documents, a merge tool for resolving conflicts, a table generator, a formatter, and a prompt reader for AI workflows.
 
+{% include image.html file="/assets/images/tools/tinymd.png" alt="tinyMD Markdown toolkit" %}
+
 tinyMD uses [unified](https://unifiedjs.com/) with [remark](https://github.com/remarkjs/remark) and [rehype](https://github.com/rehypejs/rehype) for Markdown processing, supporting GitHub Flavored Markdown (GFM) including tables, task lists, and strikethrough.
 
 {% include tool-syntax-table.html %}

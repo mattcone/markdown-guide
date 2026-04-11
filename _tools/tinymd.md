@@ -1,7 +1,7 @@
 ---
 title: tinyMD
 category: "online editor"
-description: "tinyMD is a free, browser-based Markdown toolkit with 25+ tools including converters, an editor, diff, merge, and more. Everything runs client-side — no uploads, no accounts."
+description: "tinyMD is a free, browser-based Markdown toolkit with 25+ tools."
 icon: tinymd.png
 website: https://tinymd.io
 syntax:

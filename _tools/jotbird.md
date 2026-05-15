@@ -1,6 +1,6 @@
 ---
 title: JotBird
-category: "online editor"
+category: "Markdown publishing"
 description: "JotBird is the beautifully simple online Markdown editor."
 icon: jotbird.png
 website: https://www.jotbird.com
@@ -38,7 +38,7 @@ syntax:
   - id: footnotes
     available: y
   - id: heading-ids
-    available: n
+    available: y
   - id: definition-lists
     available: y
   - id: strikethrough
@@ -60,15 +60,18 @@ syntax:
   - id: disabling-auto-url
     available: y
   - id: html
-    available: n
+    available: y
 ---
 
 *Full disclosure: JotBird was created by the author of The Markdown Guide.*
 
-JotBird is a clean, privacy-focused live Markdown editor that runs entirely in your web browser. Unlike feature-heavy editors, JotBird is designed for simplicity: you type Markdown on the left and see a real-time rendered preview on the right, with no account creation, no cookies, and no tracking. The editor automatically saves your draft locally in your browser, so there’s nothing to install and nothing stored on a server unless you choose to publish a document. The interface is minimal, fast, and approachable, making it an easy option for both beginners and experienced Markdown users who want a distraction-free writing environment.
+JotBird is the fastest way to publish Markdown as a web page. You write Markdown in your browser — with a live preview as you type — and publish it to a shareable URL in one click. No setup, no static-site generator, no hosting to configure. If you've ever written something in Markdown and then wondered how to actually get it online, that's the gap JotBird fills.
 
-{% include image.html file="/assets/images/jotbird.png" alt="The JotBird Markdown editor" %}
+It's also a genuinely good editor to write in: distraction-free, fast, with your draft saved locally so there's nothing to install. But the editor is the means, not the end. The point is that what you write becomes a real page other people can read.
 
-JotBird supports a wide range of Markdown features, including GitHub-style tables, task lists, strikethrough, emoji shortcodes, footnotes, and syntax highlighting in fenced code blocks. Images can be pasted directly into the editor and are uploaded automatically when you publish. Published documents receive a unique, shareable URL and expire after 30 days. The tool is intentionally lightweight and doesn’t include file management, plugin systems, or export templates, which keeps it easy to use but may limit power users who need more advanced workflows. Still, for quick notes, writing drafts, documentation snippets, and sharing Markdown-formatted content online, JotBird offers an elegant and privacy-friendly solution.
+{% include image.html file="/assets/images/tools/jotbird.png" alt="The JotBird Markdown editor" %}
+
+JotBird supports a wide range of Markdown features, including GitHub-style tables, task lists, strikethrough, emoji shortcodes, footnotes, and syntax highlighting in fenced code blocks. Images can be pasted directly into the editor and upload automatically when you publish.
+Publishing is free. Anonymous documents stay live for 30 days; a Pro account ($29/year) makes links permanent and adds custom URLs and themes.
 
 {% include tool-syntax-table.html %}

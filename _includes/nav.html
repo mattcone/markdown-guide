@@ -1,7 +1,7 @@
 <a id="jotbird-banner" class="jotbird-banner" href="https://www.jotbird.com" target="_blank" rel="noopener noreferrer">
   <div class="container jotbird-banner__inner">
     <img src="https://assets.jotbird.com/logo-black-white(2).svg" alt="JotBird" class="jotbird-banner__logo">
-    <span class="jotbird-banner__text">Introducing JotBird —  instantly publish Markdown as a shareable web page. ✨</span>
+    <span class="jotbird-banner__text">Publish your Markdown as a web page in one click with JotBird →</span>
     <button class="jotbird-banner__close" type="button" aria-label="Dismiss announcement">×</button>
   </div>
 </a>
@@ -11,7 +11,7 @@
     var banner = document.getElementById('jotbird-banner');
     if (!banner || !window.localStorage) return;
 
-    if (localStorage.getItem('hideJotbirdBanner') === '1') {
+    if (localStorage.getItem('hideJotbirdBanner2') === '1') {
       banner.style.display = 'none';
       return;
     }
@@ -23,7 +23,7 @@
       event.preventDefault();
       event.stopPropagation();
       banner.style.display = 'none';
-      localStorage.setItem('hideJotbirdBanner', '1');
+      localStorage.setItem('hideJotbirdBanner2', '1');
     });
   });
 </script>

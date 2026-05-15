@@ -241,3 +241,46 @@ blockquote {
 code {
   color: #212529;
 }
+
+.jotbird-cta {
+  display: flex;
+  gap: 1rem;
+  align-items: flex-start;
+  margin: 2.5rem 0;
+  padding: 1.25rem 1.5rem;
+  background: #fdf9e8;
+  border: 1px solid #ebe3c2;
+  border-radius: 6px;
+}
+
+.jotbird-cta__icon img {
+  display: block;
+  width: 48px;
+  height: auto;
+}
+
+.jotbird-cta__body {
+  flex: 1;
+}
+
+.jotbird-cta__lead {
+  margin: 0 0 0.5rem 0;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.jotbird-cta__action {
+  margin: 0;
+  font-weight: 600;
+}
+
+.jotbird-cta__action a {
+  text-decoration: none;
+}
+
+@media (max-width: 480px) {
+  .jotbird-cta {
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+}

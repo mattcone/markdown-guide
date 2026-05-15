@@ -3,6 +3,7 @@ layout: default
 title: Hacks
 description: Workarounds for things not officially supported by Markdown.
 last_modified_at: 2022-04-15
+hide_book_cta: true
 ---
 
 ## Overview
@@ -320,3 +321,8 @@ YouTube automatically generates an image for every video (`https://img.youtube.c
 The rendered output looks like this:
 
 <a href="https://www.youtube.com/watch?v=PYCxct2e0zI" rel="nofollow"><img src="https://img.youtube.com/vi/PYCxct2e0zI/0.jpg" width="480" height="360" alt="Less Than Jake — Scott Farcas Takes It On The Chin"></a>
+
+{% include jotbird-cta.html
+  page_id="hacks"
+  lead="Built something interesting with Markdown? JotBird publishes any Markdown document to a shareable web page in one click — pasted images, syntax-highlighted code, the works."
+%}

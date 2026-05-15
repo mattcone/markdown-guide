@@ -3,6 +3,7 @@ layout: default
 title: Markdown Cheat Sheet
 description: A quick reference to the Markdown syntax.
 last_modified_at: 2021-12-05
+hide_book_cta: true
 ---
 
 ## Overview
@@ -168,3 +169,8 @@ These elements extend the basic syntax by adding additional features. Not all Ma
 ## Downloads
 
 You can <a href="/assets/markdown-cheat-sheet.md" download="markdown-cheat-sheet.md">download this cheat sheet as a Markdown file</a> for use in your Markdown application.
+
+{% include jotbird-cta.html
+  page_id="cheat-sheet"
+  lead="Got a Markdown doc you want to send someone? Paste it into JotBird and get a shareable web page in seconds. No account needed to try it."
+%}

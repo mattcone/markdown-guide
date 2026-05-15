@@ -3,6 +3,7 @@ layout: default
 title: Extended Syntax
 description: Advanced features that build on the basic Markdown syntax.
 last_modified_at: 2022-01-03
+hide_book_cta: true
 ---
 
 {% include syntax.html type="extended" syntax-id="overview" %}
@@ -32,3 +33,8 @@ last_modified_at: 2022-01-03
 {% include syntax.html type="extended" syntax-id="superscript" %}
 
 {% include syntax.html type="extended" syntax-id="automatic-url-linking" %}
+
+{% include jotbird-cta.html
+  page_id="extended-syntax"
+  lead="Got a Markdown doc with a table you want to share? JotBird renders tables, footnotes, code blocks — all of it — and publishes the result to a clean URL in one click."
+%}

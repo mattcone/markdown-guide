@@ -1,7 +1,7 @@
 ---
 title: Hash Markup
 category: "documents"
-description: "Hash Markup is a free, cross-platform Markdown editor with WYSIWYG and raw modes."
+description: "Hash Markup is a free, open-source Markdown editor for Mac/Win with both WYSIWYG and raw modes."
 icon: hash-markup.png
 website: https://hash-markup.davidsoden.com
 syntax:

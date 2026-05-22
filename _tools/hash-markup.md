@@ -37,11 +37,12 @@ syntax:
     available: y
     notes: "Powered by the Prism library with support for dozens of languages out of the box."
   - id: footnotes
-    available: n
+    available: y
   - id: heading-ids
-    available: n
+    available: y
+    notes: "Auto-generated from the heading text (e.g. `## My Section` -> `id=\"my-section\"`) in exported HTML and PDF."
   - id: definition-lists
-    available: n
+    available: y
   - id: strikethrough
     available: y
   - id: task-lists
@@ -49,17 +50,21 @@ syntax:
   - id: emoji-cp
     available: y
   - id: emoji-sc
-    available: n
+    available: y
+    notes: "Type `:smile:` to render as the emoji glyph; the source stays portable."
   - id: highlight
-    available: n
+    available: y
   - id: subscript
-    available: n
+    available: y
+    notes: "Toolbar inserts `<sub>` tags. Pandoc-style `~text~` is also rendered for back-compat."
   - id: superscript
-    available: n
+    available: y
+    notes: "Toolbar inserts `<sup>` tags. Pandoc-style `^text^` is also rendered for back-compat."
   - id: auto-url-linking
     available: y
   - id: disabling-auto-url
-    available: n
+    available: y
+    notes: "Wrap the URL in backticks to keep it as plain text without auto-linking."
   - id: html
     available: p
     notes: "Raw HTML is allowed when **View** > **Sanitize HTML (safe mode)** is disabled. With it enabled (the default), HTML is stripped from rendered output."
@@ -72,7 +77,7 @@ see-also:
 
 The editor offers both a true WYSIWYG mode with a full formatting toolbar and a raw Markdown mode with syntax highlighting; toggling between the two takes a single keyboard shortcut (`Cmd/Ctrl + /`). Other niceties: folder-workspace sidebar, tabs, native PDF export, light/dark/auto theming, zoom (`Cmd/Ctrl + scroll`), and in-app auto-updates that download silently and relaunch when ready.
 
-The editor core is Toast UI Editor. Code blocks get Prism syntax highlighting out of the box. Three optional renderers — inline color text, chart graphics from ` ```chart ` blocks, and PlantUML diagrams from ` ```uml ` blocks — unlock when you flip **View** > **Sanitize HTML (safe mode)** off.
+The editor is built on Milkdown (ProseMirror) for the WYSIWYG view and CodeMirror 6 for the raw markdown view. Code blocks get Prism syntax highlighting out of the box. Raw HTML pass-through is opt-in via **View** > **Sanitize HTML (safe mode)**.
 
 {% include image.html file="/assets/images/tools/hash-markup.png" alt="Hash Markup logo" %}
 

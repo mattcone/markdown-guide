@@ -4,7 +4,7 @@ syntax-id: lists
 api: "no"
 ---
 
-You can organize items into ordered and unordered lists.
+You can organize items into ordered and unordered lists. Indent items with four spaces.
 
 {% include syntax.html type="basic-sub" syntax-id="ordered-lists" %}
 

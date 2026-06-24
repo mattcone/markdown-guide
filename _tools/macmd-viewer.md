@@ -1,7 +1,7 @@
 ---
 title: MacMD Viewer
 category: "documents"
-description: "MacMD Viewer is a native macOS Markdown viewer with Mermaid diagram support, QuickLook extension, and syntax highlighting."
+description: "MacMD Viewer is a native macOS app for reading Markdown files, with a Quick Look extension, Mermaid diagrams, and live reload."
 icon: macmd-viewer.png
 website: https://macmdviewer.com
 syntax:
@@ -35,12 +35,11 @@ syntax:
     available: y
   - id: syntax-highlighting
     available: y
-    notes: "Supports 190+ languages via highlight.js."
   - id: footnotes
     available: n
   - id: heading-ids
-    available: y
-    notes: "Automatically generated from heading text."
+    available: p
+    notes: "Automatically generated from heading text. There's no way to set custom heading IDs."
   - id: definition-lists
     available: n
   - id: strikethrough
@@ -65,10 +64,10 @@ syntax:
     available: y
 ---
 
-[MacMD Viewer](https://macmdviewer.com) is a native macOS application for viewing Markdown files. Built with SwiftUI, it provides a fast, focused reading experience without the overhead of an editor. MacMD Viewer is designed for people who write Markdown in their editor of choice and want a dedicated, reliable way to preview the rendered output.
+[MacMD Viewer](https://macmdviewer.com) is a native macOS application for reading Markdown files. Built with SwiftUI, it renders Markdown as a read-only document and pairs with whatever editor you use to write it.
 
-MacMD Viewer includes a QuickLook extension, so you can preview Markdown files directly in Finder by pressing the spacebar. It also ships with built-in Mermaid diagram rendering, making it a good fit for technical documentation that includes flowcharts, sequence diagrams, and other visualizations. Syntax highlighting covers 190+ programming languages via highlight.js.
+It includes a Quick Look extension, so you can preview a Markdown file from Finder by pressing the spacebar. It renders Mermaid diagrams, highlights fenced code blocks, and watches the open file so the preview reloads when you save. A sidebar lists the document's headings and tracks your position as you scroll.
 
-The application features a table of contents sidebar that highlights the active heading as you scroll, file watching for live updates when the source file changes, and a clean, distraction-free interface. MacMD Viewer is available as a one-time purchase for $19.99.
+MacMD Viewer is available as a one-time purchase.
 
 {% include tool-syntax-table.html %}

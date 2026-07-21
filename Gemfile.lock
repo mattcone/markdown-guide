@@ -15,7 +15,7 @@ GEM
     benchmark (0.5.0)
     bigdecimal (3.3.1)
     colorator (1.1.0)
-    concurrent-ruby (1.3.6)
+    concurrent-ruby (1.3.8)
     console (1.34.3)
       fiber-annotation
       fiber-local (~> 1.1)
@@ -34,7 +34,7 @@ GEM
       fiber-storage
     fiber-storage (1.0.1)
     forwardable-extended (2.6.0)
-    google-protobuf (4.34.1)
+    google-protobuf (4.35.1)
       bigdecimal
       rake (~> 13.3)
     hashery (2.1.2)
@@ -49,7 +49,7 @@ GEM
       yell (~> 2.0)
       zeitwerk (~> 2.5)
     http_parser.rb (0.8.1)
-    i18n (1.14.8)
+    i18n (1.15.2)
       concurrent-ruby (~> 1.0)
     io-event (1.11.2)
     jekyll (4.4.1)
@@ -79,7 +79,7 @@ GEM
       jekyll (>= 3.7, < 5.0)
     jekyll-watch (2.2.1)
       listen (~> 3.0)
-    json (2.19.5)
+    json (2.21.1)
     kramdown (2.5.2)
       rexml (>= 3.4.4)
     kramdown-parser-gfm (1.1.0)
@@ -93,7 +93,7 @@ GEM
     mercenary (0.4.0)
     metrics (0.15.0)
     mini_portile2 (2.8.9)
-    nokogiri (1.19.3)
+    nokogiri (1.19.4)
       mini_portile2 (~> 2.8.2)
       racc (~> 1.4)
     pathutil (0.16.2)
@@ -115,7 +115,7 @@ GEM
     rouge (4.7.0)
     ruby-rc4 (0.1.5)
     safe_yaml (1.0.5)
-    sass-embedded (1.99.0)
+    sass-embedded (1.101.0)
       google-protobuf (~> 4.31)
       rake (>= 13)
     terminal-table (3.0.2)
@@ -128,7 +128,7 @@ GEM
     unicode-display_width (2.6.0)
     webrick (1.9.2)
     yell (2.2.2)
-    zeitwerk (2.8.0)
+    zeitwerk (2.8.2)
 
 PLATFORMS
   ruby

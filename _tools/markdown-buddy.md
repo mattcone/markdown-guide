@@ -4,15 +4,14 @@ category: "documents"
 description: "Markdown Buddy is a native Markdown editor for macOS that adds rendered previews to Finder and Xcode."
 icon: markdown-buddy.png
 website: https://markdownbuddy.inawa.app
-notes: Tested with version 2.2.3 on macOS 14.
+notes: Tested with version 2.2.4 on macOS 14.
 syntax:
   - id: headings
     available: y
   - id: paragraphs
     available: y
   - id: line-breaks
-    available: n
-    notes: "Trailing spaces do not produce a line break. The lines are joined into one paragraph."
+    available: y
   - id: bold
     available: y
   - id: italic
@@ -22,8 +21,7 @@ syntax:
   - id: ordered-lists
     available: y
   - id: unordered-lists
-    available: p
-    notes: "Nested lists are flattened to a single level in the preview."
+    available: y
   - id: code
     available: y
   - id: horizontal-rules
@@ -41,8 +39,7 @@ syntax:
   - id: footnotes
     available: n
   - id: heading-ids
-    available: n
-    notes: "IDs are generated automatically from the heading text, but the {#custom-id} syntax is not recognized and is rendered literally."
+    available: y
   - id: definition-lists
     available: n
   - id: strikethrough
@@ -72,7 +69,7 @@ syntax:
 
 The application offers four view modes, including an editable preview. Opening a folder as a workspace lists every Markdown file in a tree, with search across all of them and a graph view of the links between documents that flags broken ones. Mermaid diagrams and KaTeX math are supported, and syntax highlighting in fenced code blocks is provided by an embedded copy of highlight.js.
 
-Markdown support is deliberately narrow. The renderer is a hand-written parser rather than a CommonMark implementation, so several common elements are missing: footnotes, definition lists, automatic URL linking, and hard line breaks from trailing spaces. Inline HTML is escaped rather than rendered, which is a consequence of the app being sandboxed for the Mac App Store. Nested lists display correctly in the editor but are flattened in the preview.
+Markdown support is narrower than a full CommonMark implementation, as the renderer is a hand-written parser. Footnotes, definition lists, emoji shortcodes and automatic URL linking are not supported. Inline HTML is escaped rather than rendered, which is a consequence of the app being sandboxed for the Mac App Store.
 
 {% include image.html file="/assets/images/tools/markdown-buddy.png" alt="The Markdown Buddy application showing an editor and preview side by side." %}
 

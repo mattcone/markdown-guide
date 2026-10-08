@@ -1,7 +1,7 @@
 ---
 title: MacMD Viewer
 category: "documents"
-description: "MacMD Viewer is a native macOS app for reading Markdown files, with a Quick Look extension, Mermaid diagrams, and live reload."
+description: "MacMD Viewer lets you read Markdown files on your Mac, including in Finder's Quick Look."
 icon: macmd-viewer.png
 website: https://macmdviewer.com
 syntax:
@@ -57,7 +57,7 @@ syntax:
   - id: superscript
     available: n
   - id: auto-url-linking
-    available: y
+    available: n
   - id: disabling-auto-url
     available: n
   - id: html

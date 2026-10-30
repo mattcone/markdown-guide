@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" role="img" aria-labelledby="title desc">
+  <title id="title">Inkiva · 墨映</title>
+  <desc id="desc">Inkiva logo, design 04: two ink panels open around a clear central shape.</desc>
+  <defs>
+    <linearGradient id="inkiva-ink" x1="196" y1="512" x2="512" y2="512" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#111419" />
+      <stop offset="1" stop-color="#454A53" />
+    </linearGradient>
+    <linearGradient id="inkiva-blue" x1="512" y1="430" x2="830" y2="650" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#6A98FF" />
+      <stop offset="1" stop-color="#2859D5" />
+    </linearGradient>
+  </defs>
+
+  <rect x="32" y="32" width="960" height="960" rx="214" fill="#FFFFFF" stroke="#D9DDE5" stroke-width="3" />
+
+  <path
+    fill="url(#inkiva-ink)"
+    d="M218 250
+       C204 250 194 261 194 276
+       L194 748
+       C194 765 208 776 222 769
+       L512 638
+       L512 386
+       L222 250 Z"
+  />
+
+  <path
+    fill="url(#inkiva-blue)"
+    d="M806 250
+       C820 250 830 261 830 276
+       L830 748
+       C830 765 816 776 802 769
+       L512 638
+       L512 386
+       L802 250 Z"
+  />
+
+  <path
+    fill="#FFFFFF"
+    d="M512 386
+       C477 397 456 424 456 459
+       L456 565
+       C456 600 477 627 512 638
+       C547 627 568 600 568 565
+       L568 459
+       C568 424 547 397 512 386 Z"
+  />
+</svg>

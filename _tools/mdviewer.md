@@ -1,7 +1,7 @@
 ---
 title: MDViewer
 category: documents
-description: "MDViewer is a native macOS Markdown viewer with inline editing, Git history, Mermaid diagrams, and syntax highlighting."
+description: "MDViewer is a native macOS app for reading Markdown files, with Quick Look previews, Mermaid diagrams, and optional editing."
 icon: mdviewer.png
 website: https://getmd.ma
 syntax:
@@ -35,7 +35,7 @@ syntax:
     available: y
   - id: syntax-highlighting
     available: y
-    notes: "Supports [over 180 programming languages](https://getmd.ma/guides/syntax-highlighting-in-markdown)."
+    notes: "Supports over 180 programming languages."
   - id: footnotes
     available: y
   - id: heading-ids
@@ -68,22 +68,13 @@ see-also:
     link: https://getmd.ma/guides/
 ---
 
-MDViewer is a fast, native macOS application for reading and editing Markdown files. Built with SwiftUI — not Electron — it opens instantly from Finder and works as your default `.md` app.
+[MDViewer](https://getmd.ma) is a native macOS app for reading Markdown files. It is built with SwiftUI, opens `.md` files from Finder or the terminal, and shows the rendered document first rather than a split editor and preview. It can be set as the default app for Markdown files.
 
-### Features
+{% include image.html file="/assets/images/tools/mdviewer.png" alt="A Markdown file with a table and a task list open in MDViewer, with the table of contents in the sidebar" %}
 
-- **Inline editing** — edit Markdown in place and save with ⌘S, no separate editor needed.
-- **Git history and diffs** — browse file history and see color-coded changes without leaving the app.
-- **Mermaid diagrams** — renders flowcharts, sequence diagrams, ER diagrams, and Gantt charts as interactive SVGs.
-- **KaTeX math** — renders LaTeX math formulas inline and in display blocks.
-- **Smart table of contents** — auto-generated sidebar navigation from headings.
-- **QuickLook** — preview `.md`, `.json`, and `.mermaid` files with Space in Finder.
-- **JSON viewer** — collapsible tree view for JSON files.
-- **Tabbed interface** — open multiple files in one window.
-- **Dark mode** — full support, follows system preference.
-- **PDF export** — convert Markdown to styled PDF documents.
+MDViewer supports GitHub Flavored Markdown, including tables, task lists, strikethrough, and footnotes. It renders Mermaid diagrams and KaTeX math, highlights code blocks in over 180 languages, and builds a table of contents from the document's headings. Files open in tabs, and a Quick Look extension previews `.md`, `.json`, and Mermaid files in Finder when you press Space.
 
-MDViewer requires macOS 13 Ventura or later and runs natively on both Apple Silicon and Intel Macs. It is free during early access.
+MDViewer Lite is free for personal use. MDViewer Pro is a one-time $9.99 purchase that adds editing in the rendered view, a Git history browser with diffs, and PDF export. MDViewer requires macOS 13 or later and runs natively on Apple Silicon and Intel Macs.
 
 {% include tool-syntax-table.html %}
 

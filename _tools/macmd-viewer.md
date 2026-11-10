@@ -64,14 +64,12 @@ syntax:
     available: y
 ---
 
-[MacMD Viewer](https://macmdviewer.com) is a native macOS application for reading Markdown files. Built with SwiftUI, it renders Markdown as a read-only document and pairs with whatever editor you already use to write it. Like [Marked 2](/tools/marked-2/), it deliberately leaves editing to other applications; the difference is where the rendering happens.
+[MacMD Viewer](https://macmdviewer.com) is a proprietary Mac application for reading (not editing) Markdown files. Like [Marked 2](/tools/marked-2/), it leaves the writing to whatever editor you already use.
 
-The Quick Look extension is the part most people notice first. Select a `.md` file in Finder, press the spacebar, and the document renders in place without launching the application at all. That matters when a folder fills up with generated files — READMEs, plans, notes produced by an AI assistant — and you need to know which one is worth opening before you open anything.
+It includes a Quick Look extension: select a Markdown file in Finder, press the spacebar, and the file is rendered without opening the application.
 
 {% include image.html file="/assets/images/tools/macmd-viewer.png" alt="A Markdown file rendered in Finder's Quick Look preview by MacMD Viewer." %}
 
-Inside the application, MacMD Viewer renders Mermaid diagrams, highlights fenced code blocks, and watches the open file so the preview reloads whenever it changes on disk. A sidebar lists the document's headings and tracks your position as you scroll. Twelve document themes ship with the app, and the Quick Look preview uses the same theme as the main window.
-
-MacMD Viewer is available as a one-time purchase. It is signed with a Developer ID and notarized by Apple.
+In the application window, MacMD Viewer renders Mermaid diagrams, highlights fenced code blocks, lists the document's headings in a sidebar, and reloads the file when it changes on disk.
 
 {% include tool-syntax-table.html %}

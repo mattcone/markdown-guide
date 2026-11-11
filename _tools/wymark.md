@@ -1,7 +1,7 @@
 ---
 title: Wymark
 category: documents
-description: "Wymark is a free WYSIWYG Markdown editor for macOS with comments and track changes."
+description: "Wymark is a free WYSIWYG Markdown editor with comments and track changes."
 icon: wymark.png
 website: https://wymark.app
 syntax:
@@ -73,10 +73,26 @@ see-also:
     link: https://wymark.app/docs
 ---
 
-[Wymark](https://wymark.app) is a free WYSIWYG Markdown editor for macOS, with comments and track changes. It shows what changed in a document since a saved version or a git commit, and you can accept, reject and comment on each change. The files stay plain Markdown on your disk. Comments are stored as HTML comments, and an edit in the formatted view changes only the part you edited.
+[Wymark](https://wymark.app) is a WYSIWYG Markdown editor that follows [GitHub's Markdown](https://wymark.app/docs/reference/markdown), including alerts, math and Mermaid diagrams. [Reveal mode](https://wymark.app/docs/reference/editor#reveal-at-the-caret-or-pure) shows Markdown formatting characters where you are editing, and Pure mode never shows them. A [source view](https://wymark.app/docs/reference/editor#two-views) shows the raw file, on its own or side by side. Other features include [Focus and Typewriter](https://wymark.app/docs/reference/editor#zoom-focus-and-typewriter) modes and [Excalidraw drawings](https://wymark.app/docs/reference/drawings).
+
+Wymark also has the comments and track changes of a word processor. It suits anyone who reviews changes to a Markdown document, whether they came from a colleague's commit, an earlier draft or an AI agent. Wymark is a desktop application, and the `.md` file is what you sync and share.
 
 {% include image.html file="/assets/images/tools/wymark.png" alt="Wymark editor interface" %}
 
-Wymark follows GitHub's Markdown, including footnotes, alerts, math and Mermaid diagrams. A source view shows the raw Markdown, on its own or side by side with the formatted view. Documents can be exported to Word, with comments and tracked changes, and to PDF.
-
 {% include tool-syntax-table.html %}
+
+### Review
+
+There is no track-changes mode to turn on. Every change since you last accepted shows as a diff, with accept and reject on each change, and your own edits are coloured apart from changes made by other apps. The document can also be compared against a saved version or, in a `git` repository, a commit. See the [review documentation](https://wymark.app/docs/concepts/review).
+
+### Comments
+
+Comments and their replies are saved in the Markdown file itself, as HTML comments, so GitHub and other renderers hide them. See the [comments documentation](https://wymark.app/docs/concepts/comments).
+
+### Export
+
+A document can be exported to Word with its comment threads as Word comments and your changes as tracked changes. For another Wymark user, a [history bundle](https://wymark.app/docs/reference/history-bundles) (`.mdh`) carries the document together with its saved versions. See the [export documentation](https://wymark.app/docs/guide/exporting).
+
+### The `wymark` command
+
+The `wymark` command, and the MCP server built into it, let an AI agent read what Wymark shows you about a document (its changes, versions and comment threads). It only reads, and the agent edits the file as usual. See the [command reference](https://wymark.app/docs/reference/wymark-command).

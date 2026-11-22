@@ -64,9 +64,9 @@ syntax:
     available: y
 ---
 
-[mdPretty](https://mdpretty.com) is a free web application that converts Markdown into PDF documents with a print-ready layout. You can paste Markdown or open one or more `.md` files, and a paginated preview shows how each page will look before you save it. There's no need to create an account, and the files are processed in your web browser instead of being uploaded to a server.
+[mdPretty](https://mdpretty.com) is a free web application that converts Markdown into PDF documents with a print-ready layout. You can paste Markdown or open one or more `.md` files, and a paginated preview shows how each page will look before you download it. There's no need to create an account. The preview is rendered in your web browser; when you download, the document is sent to mdPretty's server to create the PDF and is deleted right away.
 
-mdPretty focuses on page layout: tables and code blocks break cleanly across pages, headings aren't left alone at the bottom of a page, and you can add a cover page and a table of contents. Emoji can be printed in color or replaced with monochrome icons, and you can choose US Letter or A4 paper. The PDF is created with your web browser's print dialog (Save as PDF), so the results are best in Chrome or Edge.
+mdPretty focuses on page layout: tables and code blocks break cleanly across pages, headings aren't left alone at the bottom of a page, and you can add a cover page and a table of contents. Emoji can be printed in color or replaced with monochrome icons, and you can choose US Letter or A4 paper. The downloaded PDF includes bookmarks and an exact table of contents. You can download 3 clean PDFs a day for free; after that, each page carries a small "Made with mdPretty" line.
 
 mdPretty uses the [markdown-it](https://github.com/markdown-it/markdown-it) Markdown processor.
 
